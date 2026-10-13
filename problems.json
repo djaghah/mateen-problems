@@ -1,0 +1,82 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-10-13",
+  "chapters": [
+    {
+      "id": "s3-1",
+      "code": "III · 3.1",
+      "title": "Probleme rezolvabile cu sisteme de ecuații",
+      "color": "#6366f1",
+      "unlocked": true,
+      "types": [
+        {
+          "id": "apartamente",
+          "icon": "🏢",
+          "title": "Apartamente cu 3 și 5 camere",
+          "subtitle": "Sisteme de ecuații · substituție / reducere",
+          "problems": [
+            {
+              "id": "apt-01",
+              "title": "Problema 1",
+              "statement": "Într-un bloc sunt apartamente cu 3 camere și apartamente cu 5 camere. În total blocul are 18 apartamente și 70 de camere. Câte apartamente de fiecare fel sunt?",
+              "inputs": [
+                { "key": "x", "label": "Apartamente cu 3 camere", "unit": "ap.", "answer": 10 },
+                { "key": "y", "label": "Apartamente cu 5 camere", "unit": "ap.", "answer": 8 }
+              ],
+              "hints": [
+                "Notează cu x numărul apartamentelor cu 3 camere și cu y numărul celor cu 5 camere.",
+                "Scrie prima ecuație din numărul total de apartamente:  x + y = 18.",
+                "Scrie a doua ecuație din numărul total de camere:  3·x + 5·y = 70."
+              ],
+              "solution": [
+                "Notăm: x = nr. apartamentelor cu 3 camere, y = nr. apartamentelor cu 5 camere.",
+                "Total apartamente:  x + y = 18",
+                "Total camere:  3·x + 5·y = 70",
+                "Din prima ecuație:  x = 18 − y.",
+                "Înlocuim în a doua:  3·(18 − y) + 5·y = 70.",
+                "54 − 3y + 5y = 70  ⟹  54 + 2y = 70.",
+                "2y = 16  ⟹  y = 8.",
+                "x = 18 − 8 = 10.",
+                "Verificare:  10 + 8 = 18 ✓  și  3·10 + 5·8 = 30 + 40 = 70 ✓.",
+                "Răspuns: 10 apartamente cu 3 camere și 8 apartamente cu 5 camere."
+              ]
+            },
+            {
+              "id": "apt-02",
+              "title": "Problema 2",
+              "statement": "Într-un bloc sunt apartamente cu 3 camere și apartamente cu 5 camere. Sunt cu 4 mai multe apartamente cu 3 camere decât apartamente cu 5 camere, iar în total blocul are 60 de camere. Câte apartamente de fiecare fel sunt?",
+              "inputs": [
+                { "key": "x", "label": "Apartamente cu 3 camere", "unit": "ap.", "answer": 10 },
+                { "key": "y", "label": "Apartamente cu 5 camere", "unit": "ap.", "answer": 6 }
+              ],
+              "hints": [
+                "Notează cu y numărul apartamentelor cu 5 camere; atunci cele cu 3 camere sunt y + 4.",
+                "Numărul total de camere dă ecuația:  3·(y + 4) + 5·y = 60.",
+                "Rezolvă ecuația de gradul I în y, apoi află x."
+              ],
+              "solution": [
+                "Notăm: y = nr. apartamentelor cu 5 camere, x = nr. celor cu 3 camere.",
+                "Relația dintre ele:  x = y + 4.",
+                "Total camere:  3·x + 5·y = 60.",
+                "Înlocuim x:  3·(y + 4) + 5·y = 60.",
+                "3y + 12 + 5y = 60  ⟹  8y + 12 = 60.",
+                "8y = 48  ⟹  y = 6.",
+                "x = 6 + 4 = 10.",
+                "Verificare:  3·10 + 5·6 = 30 + 30 = 60 ✓  și  10 − 6 = 4 ✓.",
+                "Răspuns: 10 apartamente cu 3 camere și 6 apartamente cu 5 camere."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s3-2", "code": "III · 3.2", "title": "Probleme de mișcare",
+      "color": "#0ea5e9", "unlocked": false, "types": []
+    },
+    {
+      "id": "s3-3", "code": "III · 3.3", "title": "Probleme cu procente",
+      "color": "#10b981", "unlocked": false, "types": []
+    }
+  ]
+}
