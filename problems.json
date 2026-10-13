@@ -35,7 +35,11 @@
               "solution": ["3² = 9, apoi 2·9 = 18.", "18 − 4 = 14.", "Răspuns corect: a) 14."] },
             { "id": "s1o-6", "kind": "mc", "statement": "Rezultatul calculului 10 − [2 + 3·(4 − 2)] este egal cu:", "options": ["2", "6", "8", "14"], "answer": 0,
               "hints": ["Rezolvă întâi paranteza rotundă, apoi cea pătrată."],
-              "solution": ["(4 − 2) = 2, apoi 3·2 = 6.", "[2 + 6] = 8.", "10 − 8 = 2. Răspuns corect: a) 2."] }
+              "solution": ["(4 − 2) = 2, apoi 3·2 = 6.", "[2 + 6] = 8.", "10 − 8 = 2. Răspuns corect: a) 2."] },
+            { "id": "s1o-7", "kind": "mc", "statement": "Rezultatul calculului 15 − 3·4 este egal cu:", "options": ["48", "12", "3", "27"], "answer": 2, "hints": ["Întâi înmulțirea, apoi scăderea."], "solution": ["3·4 = 12.", "15 − 12 = 3.", "Răspuns corect: c) 3."] },
+            { "id": "s1o-8", "kind": "mc", "statement": "Rezultatul calculului 8 + 12 : 4 este egal cu:", "options": ["5", "11", "20", "6"], "answer": 1, "hints": ["Împărțirea se face înaintea adunării."], "solution": ["12 : 4 = 3.", "8 + 3 = 11.", "Răspuns corect: b) 11."] },
+            { "id": "s1o-9", "kind": "mc", "statement": "Rezultatul calculului (5 + 3)² − 60 este egal cu:", "options": ["124", "28", "4", "16"], "answer": 2, "hints": ["Întâi paranteza, apoi ridicarea la putere."], "solution": ["(5 + 3)² = 8² = 64.", "64 − 60 = 4.", "Răspuns corect: c) 4."] },
+            { "id": "s1o-10", "kind": "mc", "statement": "Rezultatul calculului 2·5² − 3·4 este egal cu:", "options": ["88", "36", "188", "38"], "answer": 3, "hints": ["Întâi puterea, apoi înmulțirile."], "solution": ["2·25 = 50 și 3·4 = 12.", "50 − 12 = 38.", "Răspuns corect: d) 38."] }
           ]
         },
         {
@@ -63,7 +67,11 @@
               "solution": ["15% din 200 = 200·15/100 = 30.", "200 + 30 = 230 lei.", "Răspuns corect: b) 230 lei."] },
             { "id": "s1p-5", "kind": "mc", "statement": "Numărul 30 reprezintă din 150 un procent de:", "options": ["20%", "30%", "15%", "50%"], "answer": 0,
               "hints": ["Procent = (parte/întreg)·100."],
-              "solution": ["30/150 = 1/5 = 0,2.", "0,2 · 100 = 20%.", "Răspuns corect: a) 20%."] }
+              "solution": ["30/150 = 1/5 = 0,2.", "0,2 · 100 = 20%.", "Răspuns corect: a) 20%."] },
+            { "id": "s1p-6", "kind": "mc", "statement": "20% din 150 este egal cu:", "options": ["15", "30", "20", "50"], "answer": 1, "hints": ["Calculează 150 · 20/100."], "solution": ["150 · 20/100 = 30.", "Răspuns corect: b) 30."] },
+            { "id": "s1p-7", "kind": "mc", "statement": "75% din 40 este egal cu:", "options": ["15", "25", "30", "10"], "answer": 2, "hints": ["75% înseamnă trei sferturi."], "solution": ["40 · 75/100 = 40 · 3/4 = 30.", "Răspuns corect: c) 30."] },
+            { "id": "s1p-8", "kind": "mc", "statement": "Un produs costă 80 lei și se ieftinește cu 25%. Noul preț este:", "options": ["20 lei", "55 lei", "60 lei", "100 lei"], "answer": 2, "hints": ["Scade 25% din 80."], "solution": ["25% din 80 = 20 lei.", "80 − 20 = 60 lei.", "Răspuns corect: c) 60 lei."] },
+            { "id": "s1p-9", "kind": "mc", "statement": "Numărul 45 reprezintă din 180 un procent de:", "options": ["45%", "20%", "25%", "40%"], "answer": 2, "hints": ["Procent = (45/180)·100."], "solution": ["45/180 = 1/4 = 0,25.", "0,25 · 100 = 25%.", "Răspuns corect: c) 25%."] }
           ]
         },
         {
@@ -94,7 +102,11 @@
               "solution": ["3 − 8 = −5.", "|−5| = 5.", "Răspuns corect: a) 5."] },
             { "id": "s1r-6", "kind": "mc", "statement": "Opusul numărului 1/3 este egal cu:", "options": ["1/3", "−1/3", "3", "−3"], "answer": 1,
               "hints": ["Opusul schimbă doar semnul, nu inversează fracția."],
-              "solution": ["Opusul lui 1/3 este −1/3.", "Răspuns corect: b) −1/3."] }
+              "solution": ["Opusul lui 1/3 este −1/3.", "Răspuns corect: b) −1/3."] },
+            { "id": "s1r-7", "kind": "mc", "statement": "Opusul numărului 0 este egal cu:", "options": ["1", "0", "−1", "nedefinit"], "answer": 1, "hints": ["Un număr plus opusul său dă 0."], "solution": ["Opusul lui 0 este 0 (0 + 0 = 0).", "Răspuns corect: b) 0."] },
+            { "id": "s1r-8", "kind": "mc", "statement": "Valoarea expresiei |12| − |−5| este egală cu:", "options": ["17", "7", "−7", "60"], "answer": 1, "hints": ["|12| = 12 și |−5| = 5."], "solution": ["|12| − |−5| = 12 − 5 = 7.", "Răspuns corect: b) 7."] },
+            { "id": "s1r-9", "kind": "mc", "statement": "Care dintre următoarele numere este rațional?", "options": ["√2", "√9", "√3", "√5"], "answer": 1, "hints": ["Caută radicalul care dă un număr întreg."], "solution": ["√9 = 3, care este rațional (ceilalți radicali sunt iraționali).", "Răspuns corect: b) √9."] },
+            { "id": "s1r-10", "kind": "mc", "statement": "Valoarea expresiei |−3| + (−3) este egală cu:", "options": ["6", "3", "0", "−6"], "answer": 2, "hints": ["|−3| = 3."], "solution": ["3 + (−3) = 0.", "Răspuns corect: c) 0."] }
           ]
         },
         {
@@ -125,7 +137,11 @@
               "solution": ["3 : 4 = 0,75.", "Răspuns corect: b) 0,75."] },
             { "id": "s1f-6", "kind": "mc", "statement": "Fracția periodică 0,(6) este egală cu:", "options": ["6/10", "2/3", "3/2", "6"], "answer": 1,
               "hints": ["0,(6) = 6/9, apoi simplifică."],
-              "solution": ["0,(6) = 6/9 = 2/3.", "Răspuns corect: b) 2/3."] }
+              "solution": ["0,(6) = 6/9 = 2/3.", "Răspuns corect: b) 2/3."] },
+            { "id": "s1f-7", "kind": "mc", "statement": "Fracția 7/10 scrisă ca fracție zecimală este:", "options": ["7", "0,7", "0,07", "1,7"], "answer": 1, "hints": ["Împarte 7 la 10."], "solution": ["7 : 10 = 0,7.", "Răspuns corect: b) 0,7."] },
+            { "id": "s1f-8", "kind": "mc", "statement": "Fracția zecimală 0,25 scrisă ca fracție ordinară (simplificată) este:", "options": ["1/25", "1/4", "25", "2/5"], "answer": 1, "hints": ["0,25 = 25/100."], "solution": ["0,25 = 25/100 = 1/4.", "Răspuns corect: b) 1/4."] },
+            { "id": "s1f-9", "kind": "mc", "statement": "Fracția zecimală 1,5 scrisă ca fracție ordinară (simplificată) este:", "options": ["1/5", "15", "3/2", "5/3"], "answer": 2, "hints": ["1,5 = 15/10."], "solution": ["1,5 = 15/10 = 3/2.", "Răspuns corect: c) 3/2."] },
+            { "id": "s1f-10", "kind": "mc", "statement": "Fracția periodică 0,(1) este egală cu:", "options": ["1/10", "1", "1/9", "9"], "answer": 2, "hints": ["0,(a) = a/9."], "solution": ["0,(1) = 1/9.", "Răspuns corect: c) 1/9."] }
           ]
         },
         {
@@ -152,7 +168,11 @@
               "solution": ["10·x = 5·4 = 20.", "x = 20 : 10 = 2.", "Răspuns corect: a) 2."] },
             { "id": "s1pr-5", "kind": "mc", "statement": "Soluția ecuației 3x − 6 = 0 este:", "options": ["2", "6", "−2", "3"], "answer": 0,
               "hints": ["Adună 6, apoi împarte la 3."],
-              "solution": ["3x = 6.", "x = 6 : 3 = 2.", "Răspuns corect: a) 2."] }
+              "solution": ["3x = 6.", "x = 6 : 3 = 2.", "Răspuns corect: a) 2."] },
+            { "id": "s1pr-6", "kind": "mc", "statement": "Valoarea lui x din proporția x/3 = 8/12 este:", "options": ["32", "2", "4", "6"], "answer": 1, "hints": ["12·x = 3·8."], "solution": ["12x = 24.", "x = 24 : 12 = 2.", "Răspuns corect: b) 2."] },
+            { "id": "s1pr-7", "kind": "mc", "statement": "Soluția ecuației 4x = 20 este:", "options": ["16", "80", "5", "4"], "answer": 2, "hints": ["Împarte ambele părți la 4."], "solution": ["x = 20 : 4 = 5.", "Răspuns corect: c) 5."] },
+            { "id": "s1pr-8", "kind": "mc", "statement": "Soluția ecuației x − 7 = 2 este:", "options": ["5", "14", "−5", "9"], "answer": 3, "hints": ["Adună 7 în ambele părți."], "solution": ["x = 2 + 7 = 9.", "Răspuns corect: d) 9."] },
+            { "id": "s1pr-9", "kind": "mc", "statement": "Valoarea lui x din proporția 6/x = 2/5 este:", "options": ["12", "15", "3", "30"], "answer": 1, "hints": ["2·x = 6·5."], "solution": ["2x = 30.", "x = 30 : 2 = 15.", "Răspuns corect: b) 15."] }
           ]
         },
         {
@@ -180,7 +200,11 @@
               "solution": ["Minimul este 500 (martie).", "Deci afirmația este adevărată.", "Răspuns corect: a) adevărată."] },
             { "id": "s1d-5", "kind": "mc", "statement": "Totalul mașinilor vândute (1000 + 2000 + 500 + 2500) este egal cu:", "options": ["6000", "5000", "4500", "7000"], "answer": 0,
               "hints": ["Adună cele patru valori."],
-              "solution": ["1000 + 2000 + 500 + 2500 = 6000.", "Răspuns corect: a) 6000."] }
+              "solution": ["1000 + 2000 + 500 + 2500 = 6000.", "Răspuns corect: a) 6000."] },
+            { "id": "s1d-6", "kind": "mc", "statement": "Media aritmetică a numerelor 10, 20, 30 și 40 este egală cu:", "options": ["100", "25", "30", "20"], "answer": 1, "hints": ["Suma împărțită la 4."], "solution": ["(10 + 20 + 30 + 40) : 4 = 100 : 4 = 25.", "Răspuns corect: b) 25."] },
+            { "id": "s1d-7", "kind": "mc", "statement": "Mediana mulțimii {3, 7, 11, 15, 20} este egală cu:", "options": ["7", "15", "11", "56"], "answer": 2, "hints": ["Valoarea din mijloc după ordonare (a treia din cinci)."], "solution": ["Numerele sunt ordonate; valoarea din mijloc este 11.", "Răspuns corect: c) 11."] },
+            { "id": "s1d-8", "kind": "mc", "statement": "Media aritmetică a numerelor 5 și 9 este egală cu:", "options": ["14", "4", "7", "2"], "answer": 2, "hints": ["(5 + 9) : 2."], "solution": ["(5 + 9) : 2 = 14 : 2 = 7.", "Răspuns corect: c) 7."] },
+            { "id": "s1d-9", "kind": "mc", "statement": "Cel mai mare dintre numerele 12, 8, 15 și 9 este:", "options": ["8", "15", "44", "12"], "answer": 1, "hints": ["Compară valorile și alege maximul."], "solution": ["Cel mai mare este 15.", "Răspuns corect: b) 15."] }
           ]
         }
       ]
