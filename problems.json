@@ -201,15 +201,134 @@
             "Dacă punctele sunt coliniare în ordinea A, B, C, atunci AC = AB + BC."
           ],
           "problems": [
-            { "id": "s2s-1", "kind": "mc", "statement": "Punctele A, B, C, D sunt coliniare în această ordine, cu AB = 1 cm, AD = 6 cm, iar C este mijlocul lui AD. Lungimea segmentului BC este:", "options": ["5 cm", "3 cm", "2 cm", "1 cm"], "answer": 2,
+            { "id": "s2s-1", "kind": "mc", "figure": "<svg viewBox='0 0 240 44'><line x1='20' y1='28' x2='220' y2='28' stroke='currentColor' stroke-width='1.6'/><circle cx='20' cy='28' r='2.6' fill='currentColor'/><circle cx='53' cy='28' r='2.6' fill='currentColor'/><circle cx='120' cy='28' r='2.6' fill='currentColor'/><circle cx='220' cy='28' r='2.6' fill='currentColor'/><text x='15' y='18' font-size='12' fill='currentColor'>A</text><text x='48' y='18' font-size='12' fill='currentColor'>B</text><text x='115' y='18' font-size='12' fill='currentColor'>C</text><text x='215' y='18' font-size='12' fill='currentColor'>D</text></svg>", "statement": "Punctele A, B, C, D sunt coliniare în această ordine, cu AB = 1 cm, AD = 6 cm, iar C este mijlocul lui AD. Lungimea segmentului BC este:", "options": ["5 cm", "3 cm", "2 cm", "1 cm"], "answer": 2,
               "hints": ["C mijlocul lui AD ⟹ AC = AD/2.", "BC = AC − AB."],
               "solution": ["AC = AD : 2 = 6 : 2 = 3 cm.", "BC = AC − AB = 3 − 1 = 2 cm.", "Răspuns corect: c) 2 cm."] },
-            { "id": "s2s-2", "kind": "mc", "statement": "M este mijlocul segmentului AB, cu AB = 10 cm. Lungimea segmentului AM este:", "options": ["5 cm", "10 cm", "20 cm", "2,5 cm"], "answer": 0,
+            { "id": "s2s-2", "kind": "mc", "figure": "<svg viewBox='0 0 240 44'><line x1='20' y1='28' x2='220' y2='28' stroke='currentColor' stroke-width='1.6'/><circle cx='20' cy='28' r='2.6' fill='currentColor'/><circle cx='120' cy='28' r='2.6' fill='currentColor'/><circle cx='220' cy='28' r='2.6' fill='currentColor'/><text x='15' y='18' font-size='12' fill='currentColor'>A</text><text x='114' y='18' font-size='12' fill='currentColor'>M</text><text x='215' y='18' font-size='12' fill='currentColor'>B</text></svg>", "statement": "M este mijlocul segmentului AB, cu AB = 10 cm. Lungimea segmentului AM este:", "options": ["5 cm", "10 cm", "20 cm", "2,5 cm"], "answer": 0,
               "hints": ["AM = AB/2."],
               "solution": ["AM = 10 : 2 = 5 cm.", "Răspuns corect: a) 5 cm."] },
-            { "id": "s2s-3", "kind": "mc", "statement": "Punctele A, B, C sunt coliniare în această ordine, cu AB = 4 cm și BC = 7 cm. Lungimea segmentului AC este:", "options": ["11 cm", "3 cm", "28 cm", "7 cm"], "answer": 0,
+            { "id": "s2s-3", "kind": "mc", "figure": "<svg viewBox='0 0 240 44'><line x1='20' y1='28' x2='220' y2='28' stroke='currentColor' stroke-width='1.6'/><circle cx='20' cy='28' r='2.6' fill='currentColor'/><circle cx='93' cy='28' r='2.6' fill='currentColor'/><circle cx='220' cy='28' r='2.6' fill='currentColor'/><text x='15' y='18' font-size='12' fill='currentColor'>A</text><text x='88' y='18' font-size='12' fill='currentColor'>B</text><text x='215' y='18' font-size='12' fill='currentColor'>C</text></svg>", "statement": "Punctele A, B, C sunt coliniare în această ordine, cu AB = 4 cm și BC = 7 cm. Lungimea segmentului AC este:", "options": ["11 cm", "3 cm", "28 cm", "7 cm"], "answer": 0,
               "hints": ["AC = AB + BC."],
               "solution": ["AC = 4 + 7 = 11 cm.", "Răspuns corect: a) 11 cm."] }
+          ]
+        },
+        {
+          "id": "s2-unghiuri",
+          "icon": "angle",
+          "title": "Unghiuri și drepte paralele",
+          "subtitle": "Suplement, complement, corespondente, opuse la vârf",
+          "theory": [
+            "Unghiuri suplementare: suma lor este 180°. Unghiuri complementare: suma lor este 90°.",
+            "La două drepte paralele tăiate de o secantă, unghiurile corespondente sunt egale, la fel cele alterne interne.",
+            "Unghiurile opuse la vârf (formate de două drepte care se intersectează) sunt egale."
+          ],
+          "problems": [
+            { "id": "s2u-1", "kind": "mc", "figure": "<svg viewBox='0 0 220 92'><line x1='15' y1='72' x2='205' y2='72' stroke='currentColor' stroke-width='1.6'/><line x1='110' y1='72' x2='150' y2='16' stroke='currentColor' stroke-width='1.6'/><circle cx='110' cy='72' r='2.6' fill='currentColor'/><text x='55' y='60' font-size='11' fill='currentColor'>110°</text><text x='150' y='62' font-size='11' fill='currentColor'>?</text></svg>", "statement": "Două unghiuri sunt suplementare. Dacă unul are măsura de 110°, atunci celălalt are măsura de:", "options": ["70°", "80°", "90°", "110°"], "answer": 0,
+              "hints": ["Suma a două unghiuri suplementare este 180°."],
+              "solution": ["180° − 110° = 70°.", "Răspuns corect: a) 70°."] },
+            { "id": "s2u-2", "kind": "mc", "figure": "<svg viewBox='0 0 220 120'><line x1='10' y1='40' x2='210' y2='40' stroke='currentColor' stroke-width='1.6'/><line x1='10' y1='90' x2='210' y2='90' stroke='currentColor' stroke-width='1.6'/><line x1='55' y1='15' x2='165' y2='115' stroke='currentColor' stroke-width='1.6'/><text x='95' y='33' font-size='11' fill='currentColor'>65°</text></svg>", "statement": "Două drepte paralele sunt tăiate de o secantă. Un unghi format are 65°. Unghiul corespondent lui are măsura de:", "options": ["115°", "65°", "25°", "130°"], "answer": 1,
+              "hints": ["Unghiurile corespondente la drepte paralele sunt egale."],
+              "solution": ["Unghiurile corespondente sunt egale, deci 65°.", "Răspuns corect: b) 65°."] },
+            { "id": "s2u-3", "kind": "mc", "figure": "<svg viewBox='0 0 180 120'><line x1='20' y1='25' x2='160' y2='95' stroke='currentColor' stroke-width='1.6'/><line x1='20' y1='95' x2='160' y2='25' stroke='currentColor' stroke-width='1.6'/><text x='75' y='48' font-size='11' fill='currentColor'>50°</text></svg>", "statement": "Două drepte se intersectează. Unul dintre unghiurile formate are 50°. Unghiul opus lui la vârf are măsura de:", "options": ["50°", "130°", "40°", "100°"], "answer": 0,
+              "hints": ["Unghiurile opuse la vârf sunt egale."],
+              "solution": ["Unghiurile opuse la vârf sunt egale, deci 50°.", "Răspuns corect: a) 50°."] },
+            { "id": "s2u-4", "kind": "mc", "figure": "<svg viewBox='0 0 130 110'><line x1='15' y1='95' x2='120' y2='95' stroke='currentColor' stroke-width='1.6'/><line x1='15' y1='95' x2='15' y2='12' stroke='currentColor' stroke-width='1.6'/><line x1='15' y1='95' x2='95' y2='40' stroke='currentColor' stroke-width='1.6'/><rect x='15' y='83' width='12' height='12' fill='none' stroke='currentColor' stroke-width='1'/><text x='55' y='72' font-size='11' fill='currentColor'>30°</text></svg>", "statement": "Un unghi are măsura de 30°. Complementul său are măsura de:", "options": ["60°", "70°", "150°", "330°"], "answer": 0,
+              "hints": ["Două unghiuri complementare au suma 90°."],
+              "solution": ["90° − 30° = 60°.", "Răspuns corect: a) 60°."] }
+          ]
+        },
+        {
+          "id": "s2-triunghi",
+          "icon": "triangle",
+          "title": "Triunghi: unghiuri, mediane, arii",
+          "subtitle": "Suma unghiurilor, centru de greutate, arie",
+          "theory": [
+            "Suma măsurilor unghiurilor unui triunghi este 180°.",
+            "Centrul de greutate G împarte fiecare mediană în raportul 2:1 dinspre vârf (AG = 2/3·AD, GD = 1/3·AD).",
+            "Aria unui triunghi = (bază · înălțime) : 2."
+          ],
+          "problems": [
+            { "id": "s2t-1", "kind": "mc", "figure": "<svg viewBox='0 0 200 130'><polygon points='100,15 25,115 175,115' fill='none' stroke='currentColor' stroke-width='1.6'/><text x='30' y='110' font-size='11' fill='currentColor'>50°</text><text x='148' y='110' font-size='11' fill='currentColor'>60°</text><text x='94' y='13' font-size='11' fill='currentColor'>?</text></svg>", "statement": "Într-un triunghi, două unghiuri au măsurile de 50° și 60°. Măsura celui de-al treilea unghi este:", "options": ["70°", "80°", "110°", "90°"], "answer": 0,
+              "hints": ["Suma unghiurilor unui triunghi este 180°."],
+              "solution": ["180° − (50° + 60°) = 180° − 110° = 70°.", "Răspuns corect: a) 70°."] },
+            { "id": "s2t-2", "kind": "mc", "figure": "<svg viewBox='0 0 200 140'><polygon points='100,15 25,120 175,120' fill='none' stroke='currentColor' stroke-width='1.6'/><line x1='100' y1='15' x2='100' y2='120' stroke='currentColor' stroke-width='1.2'/><circle cx='100' cy='120' r='2.6' fill='currentColor'/><circle cx='100' cy='85' r='3.2' fill='currentColor'/><text x='94' y='13' font-size='11' fill='currentColor'>A</text><text x='16' y='120' font-size='11' fill='currentColor'>B</text><text x='178' y='120' font-size='11' fill='currentColor'>C</text><text x='104' y='134' font-size='11' fill='currentColor'>D</text><text x='106' y='88' font-size='11' fill='currentColor'>G</text></svg>", "statement": "În triunghiul ABC, AD este mediană și G este centrul de greutate. Dacă AD = 12 cm, atunci AG este:", "options": ["8 cm", "4 cm", "6 cm", "24 cm"], "answer": 0,
+              "hints": ["AG = 2/3 din mediană."],
+              "solution": ["AG = 2/3 · 12 = 8 cm.", "Răspuns corect: a) 8 cm."] },
+            { "id": "s2t-3", "kind": "mc", "figure": "<svg viewBox='0 0 200 132'><polygon points='70,20 25,115 175,115' fill='none' stroke='currentColor' stroke-width='1.6'/><line x1='70' y1='20' x2='70' y2='115' stroke='currentColor' stroke-width='1' stroke-dasharray='3 3'/><rect x='70' y='103' width='12' height='12' fill='none' stroke='currentColor' stroke-width='1'/><text x='90' y='128' font-size='11' fill='currentColor'>bază = 10</text><text x='74' y='70' font-size='10' fill='currentColor'>h = 6</text></svg>", "statement": "Un triunghi are baza de 10 cm și înălțimea corespunzătoare de 6 cm. Aria triunghiului este:", "options": ["30 cm²", "60 cm²", "16 cm²", "15 cm²"], "answer": 0,
+              "hints": ["Aria = (bază · înălțime) : 2."],
+              "solution": ["Aria = (10 · 6) : 2 = 60 : 2 = 30 cm².", "Răspuns corect: a) 30 cm²."] },
+            { "id": "s2t-4", "kind": "mc", "figure": "<svg viewBox='0 0 200 140'><polygon points='100,15 25,120 175,120' fill='none' stroke='currentColor' stroke-width='1.6'/><polygon points='100,85 100,120 175,120' fill='currentColor' fill-opacity='0.18' stroke='currentColor' stroke-width='1'/><line x1='100' y1='15' x2='100' y2='120' stroke='currentColor' stroke-width='1'/><circle cx='100' cy='120' r='2.6' fill='currentColor'/><circle cx='100' cy='85' r='3.2' fill='currentColor'/><text x='94' y='13' font-size='11' fill='currentColor'>A</text><text x='16' y='120' font-size='11' fill='currentColor'>B</text><text x='178' y='120' font-size='11' fill='currentColor'>C</text><text x='103' y='134' font-size='11' fill='currentColor'>D</text><text x='104' y='83' font-size='11' fill='currentColor'>G</text></svg>", "statement": "În triunghiul ABC, D este mijlocul lui BC și G este centrul de greutate. Dacă aria triunghiului DGC este 15 cm², atunci aria triunghiului ABC este:", "options": ["30 cm²", "45 cm²", "60 cm²", "90 cm²"], "answer": 3,
+              "hints": ["Aria DGC = 1/6 din aria ABC."],
+              "solution": ["[DGC] = 1/3 · [ADC], iar [ADC] = 1/2 · [ABC], deci [DGC] = 1/6 · [ABC].", "[ABC] = 6 · 15 = 90 cm².", "Răspuns corect: d) 90 cm²."] }
+          ]
+        },
+        {
+          "id": "s2-paralelogram",
+          "icon": "parallelogram",
+          "title": "Paralelogram: perimetru și arie",
+          "subtitle": "Laturi opuse egale, perimetru, arie",
+          "theory": [
+            "Într-un paralelogram, laturile opuse sunt egale.",
+            "Perimetrul = 2·(a + b), unde a și b sunt lungimile a două laturi alăturate.",
+            "Aria = bază · înălțimea corespunzătoare acelei baze."
+          ],
+          "problems": [
+            { "id": "s2g-1", "kind": "mc", "figure": "<svg viewBox='0 0 200 112'><polygon points='30,90 140,90 170,30 60,30' fill='none' stroke='currentColor' stroke-width='1.6'/><text x='78' y='104' font-size='11' fill='currentColor'>6 cm</text><text x='158' y='66' font-size='11' fill='currentColor'>4 cm</text></svg>", "statement": "Un paralelogram are laturile alăturate de 6 cm și 4 cm. Perimetrul său este:", "options": ["20 cm", "24 cm", "10 cm", "48 cm"], "answer": 0,
+              "hints": ["Perimetrul = 2·(a + b)."],
+              "solution": ["P = 2·(6 + 4) = 2·10 = 20 cm.", "Răspuns corect: a) 20 cm."] },
+            { "id": "s2g-2", "kind": "mc", "figure": "<svg viewBox='0 0 200 112'><polygon points='30,90 150,90 180,30 60,30' fill='none' stroke='currentColor' stroke-width='1.6'/><line x1='60' y1='30' x2='60' y2='90' stroke='currentColor' stroke-width='1' stroke-dasharray='3 3'/><rect x='60' y='78' width='12' height='12' fill='none' stroke='currentColor' stroke-width='1'/><text x='92' y='104' font-size='11' fill='currentColor'>bază = 8</text><text x='64' y='64' font-size='10' fill='currentColor'>h = 5</text></svg>", "statement": "Un paralelogram are baza de 8 cm și înălțimea corespunzătoare de 5 cm. Aria sa este:", "options": ["40 cm²", "13 cm²", "26 cm²", "20 cm²"], "answer": 0,
+              "hints": ["Aria = bază · înălțime."],
+              "solution": ["Aria = 8 · 5 = 40 cm².", "Răspuns corect: a) 40 cm²."] },
+            { "id": "s2g-3", "kind": "mc", "figure": "<svg viewBox='0 0 200 112'><polygon points='30,90 140,90 170,30 60,30' fill='none' stroke='currentColor' stroke-width='1.6'/><text x='20' y='104' font-size='11' fill='currentColor'>A</text><text x='136' y='104' font-size='11' fill='currentColor'>B</text><text x='172' y='26' font-size='11' fill='currentColor'>C</text><text x='48' y='26' font-size='11' fill='currentColor'>D</text><text x='78' y='104' font-size='10' fill='currentColor'>10 cm</text></svg>", "statement": "În paralelogramul ABCD, latura AB = 10 cm. Atunci latura CD are lungimea:", "options": ["10 cm", "5 cm", "20 cm", "8 cm"], "answer": 0,
+              "hints": ["Laturile opuse ale unui paralelogram sunt egale."],
+              "solution": ["CD = AB = 10 cm (laturi opuse).", "Răspuns corect: a) 10 cm."] }
+          ]
+        },
+        {
+          "id": "s2-cerc",
+          "icon": "circle",
+          "title": "Cerc: unghiuri și rază",
+          "subtitle": "Unghi la centru, unghi înscris, diametru",
+          "theory": [
+            "Unghiul înscris care subîntinde același arc are jumătate din măsura unghiului la centru.",
+            "Un unghi înscris care subîntinde diametrul (semicercul) are 90°.",
+            "Raza = diametru : 2."
+          ],
+          "problems": [
+            { "id": "s2c-1", "kind": "mc", "figure": "<svg viewBox='0 0 170 170'><circle cx='85' cy='85' r='62' fill='none' stroke='currentColor' stroke-width='1.6'/><circle cx='85' cy='85' r='2.6' fill='currentColor'/><line x1='85' y1='85' x2='40' y2='45' stroke='currentColor' stroke-width='1.3'/><line x1='85' y1='85' x2='135' y2='55' stroke='currentColor' stroke-width='1.3'/><text x='88' y='98' font-size='11' fill='currentColor'>O</text><text x='70' y='60' font-size='10' fill='currentColor'>80°</text></svg>", "statement": "Un unghi la centru are măsura de 80°. Unghiul înscris care subîntinde același arc are măsura de:", "options": ["40°", "80°", "160°", "20°"], "answer": 0,
+              "hints": ["Unghiul înscris = jumătate din unghiul la centru."],
+              "solution": ["80° : 2 = 40°.", "Răspuns corect: a) 40°."] },
+            { "id": "s2c-2", "kind": "mc", "figure": "<svg viewBox='0 0 190 132'><path d='M20 100 A 75 75 0 0 1 170 100' fill='none' stroke='currentColor' stroke-width='1.6'/><line x1='20' y1='100' x2='170' y2='100' stroke='currentColor' stroke-width='1.6'/><line x1='20' y1='100' x2='95' y2='25' stroke='currentColor' stroke-width='1.3'/><line x1='170' y1='100' x2='95' y2='25' stroke='currentColor' stroke-width='1.3'/><text x='12' y='114' font-size='11' fill='currentColor'>A</text><text x='165' y='114' font-size='11' fill='currentColor'>C</text><text x='90' y='20' font-size='11' fill='currentColor'>B</text></svg>", "statement": "Punctul B este pe cerc, iar AC este diametru. Unghiul înscris ABC (subîntins de diametru) are măsura de:", "options": ["90°", "45°", "180°", "60°"], "answer": 0,
+              "hints": ["Unghiul înscris care subîntinde diametrul este drept."],
+              "solution": ["Unghiul înscris subîntins de diametru are 90°.", "Răspuns corect: a) 90°."] },
+            { "id": "s2c-3", "kind": "mc", "figure": "<svg viewBox='0 0 170 170'><circle cx='85' cy='85' r='62' fill='none' stroke='currentColor' stroke-width='1.6'/><circle cx='85' cy='85' r='2.6' fill='currentColor'/><line x1='85' y1='85' x2='147' y2='85' stroke='currentColor' stroke-width='1.3'/><text x='80' y='100' font-size='11' fill='currentColor'>O</text><text x='108' y='80' font-size='10' fill='currentColor'>r</text></svg>", "statement": "Diametrul unui cerc are 14 cm. Raza cercului este:", "options": ["7 cm", "28 cm", "14 cm", "21 cm"], "answer": 0,
+              "hints": ["Raza = diametru : 2."],
+              "solution": ["r = 14 : 2 = 7 cm.", "Răspuns corect: a) 7 cm."] }
+          ]
+        },
+        {
+          "id": "s2-corpuri",
+          "icon": "cube",
+          "title": "Corpuri geometrice: volume",
+          "subtitle": "Cub, paralelipiped, piramidă, prismă",
+          "theory": [
+            "Volumul cubului = l³ (l = muchia). Volumul paralelipipedului dreptunghic = L · l · h.",
+            "Volumul piramidei = (aria bazei · înălțimea) : 3.",
+            "Volumul prismei drepte = aria bazei · înălțimea."
+          ],
+          "problems": [
+            { "id": "s2v-1", "kind": "mc", "figure": "<svg viewBox='0 0 150 140'><rect x='30' y='45' width='70' height='70' fill='none' stroke='currentColor' stroke-width='1.6'/><rect x='55' y='22' width='70' height='70' fill='none' stroke='currentColor' stroke-width='1.3'/><line x1='30' y1='45' x2='55' y2='22' stroke='currentColor' stroke-width='1.3'/><line x1='100' y1='45' x2='125' y2='22' stroke='currentColor' stroke-width='1.3'/><line x1='30' y1='115' x2='55' y2='92' stroke='currentColor' stroke-width='1.3'/><line x1='100' y1='115' x2='125' y2='92' stroke='currentColor' stroke-width='1.3'/><text x='60' y='88' font-size='10' fill='currentColor'>l=3</text></svg>", "statement": "Un cub are muchia de 3 cm. Volumul său este:", "options": ["27 cm³", "9 cm³", "6 cm³", "18 cm³"], "answer": 0,
+              "hints": ["Volumul cubului = l · l · l."],
+              "solution": ["V = 3³ = 3 · 3 · 3 = 27 cm³.", "Răspuns corect: a) 27 cm³."] },
+            { "id": "s2v-2", "kind": "mc", "figure": "<svg viewBox='0 0 170 150'><polygon points='35,115 115,115 140,95 60,95' fill='none' stroke='currentColor' stroke-width='1.3'/><line x1='35' y1='115' x2='88' y2='20' stroke='currentColor' stroke-width='1.3'/><line x1='115' y1='115' x2='88' y2='20' stroke='currentColor' stroke-width='1.3'/><line x1='140' y1='95' x2='88' y2='20' stroke='currentColor' stroke-width='1.3'/><line x1='60' y1='95' x2='88' y2='20' stroke='currentColor' stroke-width='1' stroke-dasharray='3 3'/><text x='83' y='16' font-size='11' fill='currentColor'>V</text></svg>", "statement": "O piramidă patrulateră regulată are baza un pătrat cu latura de 4 cm și înălțimea de 6 cm. Volumul piramidei este:", "options": ["32 cm³", "96 cm³", "48 cm³", "64 cm³"], "answer": 0,
+              "hints": ["Aria bazei = 4² = 16 cm². V = (aria bazei · h) : 3."],
+              "solution": ["Aria bazei = 4 · 4 = 16 cm².", "V = (16 · 6) : 3 = 96 : 3 = 32 cm³.", "Răspuns corect: a) 32 cm³."] },
+            { "id": "s2v-3", "kind": "mc", "figure": "<svg viewBox='0 0 170 140'><rect x='30' y='55' width='90' height='60' fill='none' stroke='currentColor' stroke-width='1.6'/><rect x='55' y='30' width='90' height='60' fill='none' stroke='currentColor' stroke-width='1.3'/><line x1='30' y1='55' x2='55' y2='30' stroke='currentColor' stroke-width='1.3'/><line x1='120' y1='55' x2='145' y2='30' stroke='currentColor' stroke-width='1.3'/><line x1='30' y1='115' x2='55' y2='90' stroke='currentColor' stroke-width='1.3'/><line x1='120' y1='115' x2='145' y2='90' stroke='currentColor' stroke-width='1.3'/></svg>", "statement": "Un paralelipiped dreptunghic are dimensiunile de 2 cm, 3 cm și 4 cm. Volumul său este:", "options": ["24 cm³", "9 cm³", "12 cm³", "48 cm³"], "answer": 0,
+              "hints": ["V = L · l · h."],
+              "solution": ["V = 2 · 3 · 4 = 24 cm³.", "Răspuns corect: a) 24 cm³."] },
+            { "id": "s2v-4", "kind": "mc", "figure": "<svg viewBox='0 0 180 140'><polygon points='30,110 90,110 60,55' fill='none' stroke='currentColor' stroke-width='1.5'/><polygon points='70,90 130,90 100,35' fill='none' stroke='currentColor' stroke-width='1.2'/><line x1='30' y1='110' x2='70' y2='90' stroke='currentColor' stroke-width='1.2'/><line x1='90' y1='110' x2='130' y2='90' stroke='currentColor' stroke-width='1.2'/><line x1='60' y1='55' x2='100' y2='35' stroke='currentColor' stroke-width='1.2'/></svg>", "statement": "O prismă dreaptă are aria bazei de 10 cm² și înălțimea de 5 cm. Volumul său este:", "options": ["50 cm³", "15 cm³", "25 cm³", "100 cm³"], "answer": 0,
+              "hints": ["Volumul prismei = aria bazei · înălțime."],
+              "solution": ["V = 10 · 5 = 50 cm³.", "Răspuns corect: a) 50 cm³."] }
           ]
         }
       ]
