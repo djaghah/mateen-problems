@@ -362,6 +362,89 @@
               "hints": ["Prețul: P = 18n + 30 și P = 24n − 12.", "Egalează cele două expresii."],
               "solution": ["18n + 30 = 24n − 12.", "42 = 6n ⟹ n = 7 copii.", "P = 18·7 + 30 = 156 lei.", "Răspuns: 7 copii, mingea costă 156 lei."] }
           ]
+        },
+        {
+          "id": "s3-expresii",
+          "icon": "equals",
+          "title": "Expresii algebrice",
+          "subtitle": "Formule de calcul prescurtat",
+          "theory": [
+            "(a + b)² = a² + 2ab + b²;  (a − b)² = a² − 2ab + b².",
+            "a² − b² = (a − b)(a + b) — diferență de pătrate.",
+            "Recunoști formula potrivită și o aplici pentru a calcula rapid."
+          ],
+          "problems": [
+            { "id": "s3e-1", "kind": "input", "statement": "Calculează valoarea expresiei E = (x − 3)(x + 3) pentru x = 5.", "inputs": [{ "key": "e", "label": "E", "unit": "", "answer": 16 }], "hints": ["(x − 3)(x + 3) = x² − 9."], "solution": ["E = x² − 9 = 5² − 9 = 25 − 9 = 16.", "Răspuns: 16."] },
+            { "id": "s3e-2", "kind": "input", "statement": "Calculează valoarea expresiei (a + 2)² − a² pentru a = 10.", "inputs": [{ "key": "e", "label": "Rezultatul", "unit": "", "answer": 44 }], "hints": ["(a + 2)² − a² = 4a + 4."], "solution": ["(a + 2)² − a² = a² + 4a + 4 − a² = 4a + 4.", "= 4·10 + 4 = 44.", "Răspuns: 44."] },
+            { "id": "s3e-3", "kind": "input", "statement": "Calculează 37² − 27² folosind formula diferenței de pătrate.", "inputs": [{ "key": "e", "label": "Rezultatul", "unit": "", "answer": 640 }], "hints": ["a² − b² = (a − b)(a + b)."], "solution": ["37² − 27² = (37 − 27)(37 + 27) = 10 · 64 = 640.", "Răspuns: 640."] },
+            { "id": "s3e-4", "kind": "input", "statement": "Calculează valoarea expresiei E = x² − 4x + 4 pentru x = 7.", "inputs": [{ "key": "e", "label": "E", "unit": "", "answer": 25 }], "hints": ["x² − 4x + 4 = (x − 2)²."], "solution": ["E = (x − 2)² = (7 − 2)² = 5² = 25.", "Răspuns: 25."] }
+          ]
+        },
+        {
+          "id": "s3-functii",
+          "icon": "chart",
+          "title": "Funcții",
+          "subtitle": "Funcția liniară, grafic, intersecții cu axele",
+          "theory": [
+            "O funcție liniară f(x) = ax + b are graficul o dreaptă.",
+            "Intersecția cu axa Ox: rezolvi f(x) = 0. Intersecția cu axa Oy: calculezi f(0) = b.",
+            "f(x) se calculează înlocuind x cu valoarea dată."
+          ],
+          "problems": [
+            { "id": "s3f-1", "kind": "input", "statement": "Se consideră funcția f(x) = 2x − 6. Calculează f(4).", "inputs": [{ "key": "v", "label": "f(4)", "unit": "", "answer": 2 }], "hints": ["Înlocuiește x cu 4."], "solution": ["f(4) = 2·4 − 6 = 8 − 6 = 2.", "Răspuns: 2."] },
+            { "id": "s3f-2", "kind": "input", "figure": "<svg viewBox='0 0 160 160'><line x1='80' y1='12' x2='80' y2='150' stroke='currentColor' stroke-width='1'/><line x1='12' y1='80' x2='150' y2='80' stroke='currentColor' stroke-width='1'/><line x1='38' y1='140' x2='122' y2='24' stroke='currentColor' stroke-width='1.6'/><circle cx='110' cy='80' r='2.8' fill='currentColor'/><text x='143' y='92' font-size='10' fill='currentColor'>x</text><text x='84' y='20' font-size='10' fill='currentColor'>y</text></svg>", "statement": "Graficul funcției f(x) = 2x − 6 intersectează axa Ox. Pentru ce valoare a lui x?", "inputs": [{ "key": "x", "label": "x", "unit": "", "answer": 3 }], "hints": ["La intersecția cu Ox avem f(x) = 0."], "solution": ["2x − 6 = 0 ⟹ 2x = 6 ⟹ x = 3.", "Răspuns: x = 3."] },
+            { "id": "s3f-3", "kind": "input", "statement": "Graficul funcției f(x) = 3x + 5 intersectează axa Oy. Care este ordonata punctului de intersecție, adică f(0)?", "inputs": [{ "key": "y", "label": "f(0)", "unit": "", "answer": 5 }], "hints": ["La intersecția cu Oy avem x = 0."], "solution": ["f(0) = 3·0 + 5 = 5.", "Răspuns: 5."] },
+            { "id": "s3f-4", "kind": "input", "statement": "Se consideră funcția f(x) = x − 4. Calculează f(1) + f(3).", "inputs": [{ "key": "s", "label": "f(1) + f(3)", "unit": "", "answer": -4 }], "hints": ["Calculează separat f(1) și f(3)."], "solution": ["f(1) = 1 − 4 = −3;  f(3) = 3 − 4 = −1.", "f(1) + f(3) = −3 + (−1) = −4.", "Răspuns: −4."] }
+          ]
+        },
+        {
+          "id": "s3-cerc",
+          "icon": "circle",
+          "title": "Cerc: coardă, rază, Pitagora",
+          "subtitle": "Raza perpendiculară pe coardă, lungime, arie",
+          "theory": [
+            "Raza perpendiculară pe o coardă trece prin mijlocul coardei.",
+            "În triunghiul dreptunghic format: rază² = distanță² + (jumătate coardă)² (teorema lui Pitagora).",
+            "Lungimea cercului: L = 2πr. Aria cercului: A = πr²."
+          ],
+          "problems": [
+            { "id": "s3c-1", "kind": "input", "figure": "<svg viewBox='0 0 170 170'><circle cx='85' cy='90' r='58' fill='none' stroke='currentColor' stroke-width='1.6'/><line x1='32' y1='64' x2='138' y2='64' stroke='currentColor' stroke-width='1.3'/><line x1='85' y1='90' x2='85' y2='64' stroke='currentColor' stroke-width='1.2'/><rect x='85' y='64' width='9' height='9' fill='none' stroke='currentColor' stroke-width='0.8'/><circle cx='85' cy='90' r='2.6' fill='currentColor'/><circle cx='85' cy='64' r='2.6' fill='currentColor'/><text x='88' y='103' font-size='11' fill='currentColor'>O</text><text x='73' y='60' font-size='11' fill='currentColor'>M</text><text x='24' y='61' font-size='11' fill='currentColor'>A</text><text x='140' y='61' font-size='11' fill='currentColor'>B</text></svg>", "statement": "Într-un cerc cu centrul O și raza de 5 cm, coarda AB are mijlocul M, iar OM = 3 cm. Calculează AM.", "inputs": [{ "key": "am", "label": "AM", "unit": "cm", "answer": 4 }], "hints": ["OM ⊥ AB, deci triunghiul OMA este dreptunghic în M.", "OA² = OM² + AM²."], "solution": ["OA = 5 cm (rază), OM = 3 cm.", "AM = √(5² − 3²) = √(25 − 9) = √16 = 4 cm.", "Răspuns: AM = 4 cm."] },
+            { "id": "s3c-2", "kind": "input", "statement": "Lungimea unui cerc cu raza de 6 cm este de forma k·π cm. Cât este k?", "inputs": [{ "key": "k", "label": "k", "unit": "", "answer": 12 }], "hints": ["L = 2πr."], "solution": ["L = 2·π·6 = 12π cm, deci k = 12.", "Răspuns: 12."] },
+            { "id": "s3c-3", "kind": "input", "statement": "Aria unui cerc cu raza de 5 cm este de forma k·π cm². Cât este k?", "inputs": [{ "key": "k", "label": "k", "unit": "", "answer": 25 }], "hints": ["A = πr²."], "solution": ["A = π·5² = 25π cm², deci k = 25.", "Răspuns: 25."] },
+            { "id": "s3c-4", "kind": "input", "figure": "<svg viewBox='0 0 170 170'><circle cx='85' cy='85' r='58' fill='none' stroke='currentColor' stroke-width='1.6'/><line x1='34' y1='58' x2='136' y2='58' stroke='currentColor' stroke-width='1.3'/><line x1='85' y1='85' x2='85' y2='58' stroke='currentColor' stroke-width='1.2'/><rect x='85' y='58' width='9' height='9' fill='none' stroke='currentColor' stroke-width='0.8'/><circle cx='85' cy='85' r='2.6' fill='currentColor'/><text x='88' y='98' font-size='11' fill='currentColor'>O</text><text x='90' y='75' font-size='10' fill='currentColor'>3</text></svg>", "statement": "Un cerc are raza de 5 cm. O coardă se află la distanța de 3 cm față de centru. Calculează lungimea coardei.", "inputs": [{ "key": "c", "label": "Coarda", "unit": "cm", "answer": 8 }], "hints": ["Jumătate din coardă = √(r² − d²).", "Coarda = 2·√(r² − d²)."], "solution": ["Jumătate coardă = √(5² − 3²) = √16 = 4 cm.", "Coarda = 2·4 = 8 cm.", "Răspuns: 8 cm."] }
+          ]
+        },
+        {
+          "id": "s3-paralelogram",
+          "icon": "parallelogram",
+          "title": "Paralelogram și linii mijlocii",
+          "subtitle": "Perimetru, arie, linia mijlocie",
+          "theory": [
+            "Perimetrul paralelogramului = 2·(a + b). Aria = bază · înălțime.",
+            "Linia mijlocie a unui triunghi unește mijloacele a două laturi și este egală cu jumătate din a treia latură."
+          ],
+          "problems": [
+            { "id": "s3pg-1", "kind": "input", "figure": "<svg viewBox='0 0 200 112'><polygon points='30,90 150,90 180,30 60,30' fill='none' stroke='currentColor' stroke-width='1.6'/><text x='20' y='104' font-size='11' fill='currentColor'>A</text><text x='148' y='104' font-size='11' fill='currentColor'>B</text><text x='183' y='26' font-size='11' fill='currentColor'>C</text><text x='48' y='26' font-size='11' fill='currentColor'>D</text><text x='86' y='104' font-size='10' fill='currentColor'>10</text><text x='170' y='64' font-size='10' fill='currentColor'>8</text></svg>", "statement": "Paralelogramul ABCD are AB = 10 cm și AD = 8 cm. Calculează perimetrul.", "inputs": [{ "key": "p", "label": "Perimetrul", "unit": "cm", "answer": 36 }], "hints": ["P = 2·(AB + AD)."], "solution": ["P = 2·(10 + 8) = 2·18 = 36 cm.", "Răspuns: 36 cm."] },
+            { "id": "s3pg-2", "kind": "input", "statement": "Un paralelogram are baza de 12 cm și înălțimea corespunzătoare de 5 cm. Calculează aria.", "inputs": [{ "key": "a", "label": "Aria", "unit": "cm²", "answer": 60 }], "hints": ["Aria = bază · înălțime."], "solution": ["Aria = 12 · 5 = 60 cm².", "Răspuns: 60 cm²."] },
+            { "id": "s3pg-3", "kind": "input", "figure": "<svg viewBox='0 0 200 132'><polygon points='100,15 25,115 175,115' fill='none' stroke='currentColor' stroke-width='1.6'/><line x1='62' y1='65' x2='137' y2='65' stroke='currentColor' stroke-width='1.3'/><circle cx='62' cy='65' r='2.6' fill='currentColor'/><circle cx='137' cy='65' r='2.6' fill='currentColor'/><text x='50' y='62' font-size='11' fill='currentColor'>M</text><text x='140' y='62' font-size='11' fill='currentColor'>N</text><text x='94' y='13' font-size='11' fill='currentColor'>A</text><text x='16' y='120' font-size='11' fill='currentColor'>B</text><text x='178' y='120' font-size='11' fill='currentColor'>C</text><text x='93' y='128' font-size='10' fill='currentColor'>14</text></svg>", "statement": "În triunghiul ABC, M și N sunt mijloacele laturilor AB, respectiv AC. Dacă BC = 14 cm, calculează lungimea segmentului MN.", "inputs": [{ "key": "mn", "label": "MN", "unit": "cm", "answer": 7 }], "hints": ["MN este linie mijlocie: MN = BC : 2."], "solution": ["MN = BC : 2 = 14 : 2 = 7 cm.", "Răspuns: 7 cm."] }
+          ]
+        },
+        {
+          "id": "s3-corpuri",
+          "icon": "cube",
+          "title": "Corpuri: arii și volume",
+          "subtitle": "Prismă, cub, piramidă",
+          "theory": [
+            "Prismă dreaptă: aria laterală = perimetrul bazei · înălțimea; volumul = aria bazei · înălțimea.",
+            "Cub cu muchia l: aria totală = 6·l², volumul = l³.",
+            "Piramidă: volumul = (aria bazei · înălțimea) : 3."
+          ],
+          "problems": [
+            { "id": "s3cp-1", "kind": "input", "figure": "<svg viewBox='0 0 170 140'><rect x='30' y='55' width='90' height='60' fill='none' stroke='currentColor' stroke-width='1.6'/><rect x='55' y='30' width='90' height='60' fill='none' stroke='currentColor' stroke-width='1.3'/><line x1='30' y1='55' x2='55' y2='30' stroke='currentColor' stroke-width='1.3'/><line x1='120' y1='55' x2='145' y2='30' stroke='currentColor' stroke-width='1.3'/><line x1='30' y1='115' x2='55' y2='90' stroke='currentColor' stroke-width='1.3'/><line x1='120' y1='115' x2='145' y2='90' stroke='currentColor' stroke-width='1.3'/></svg>", "statement": "O prismă dreaptă are baza un pătrat cu latura de 4 cm și înălțimea de 10 cm. Calculează aria laterală.", "inputs": [{ "key": "al", "label": "Aria laterală", "unit": "cm²", "answer": 160 }], "hints": ["Aria laterală = perimetrul bazei · înălțimea.", "Perimetrul pătratului = 4·4 = 16 cm."], "solution": ["P_bază = 4·4 = 16 cm.", "A_laterală = 16 · 10 = 160 cm².", "Răspuns: 160 cm²."] },
+            { "id": "s3cp-2", "kind": "input", "figure": "<svg viewBox='0 0 150 140'><rect x='30' y='45' width='70' height='70' fill='none' stroke='currentColor' stroke-width='1.6'/><rect x='55' y='22' width='70' height='70' fill='none' stroke='currentColor' stroke-width='1.3'/><line x1='30' y1='45' x2='55' y2='22' stroke='currentColor' stroke-width='1.3'/><line x1='100' y1='45' x2='125' y2='22' stroke='currentColor' stroke-width='1.3'/><line x1='30' y1='115' x2='55' y2='92' stroke='currentColor' stroke-width='1.3'/><line x1='100' y1='115' x2='125' y2='92' stroke='currentColor' stroke-width='1.3'/></svg>", "statement": "Un cub are muchia de 5 cm. Calculează aria totală a cubului.", "inputs": [{ "key": "at", "label": "Aria totală", "unit": "cm²", "answer": 150 }], "hints": ["Aria totală a cubului = 6·l²."], "solution": ["A = 6·5² = 6·25 = 150 cm².", "Răspuns: 150 cm²."] },
+            { "id": "s3cp-3", "kind": "input", "figure": "<svg viewBox='0 0 170 150'><polygon points='35,115 115,115 140,95 60,95' fill='none' stroke='currentColor' stroke-width='1.3'/><line x1='35' y1='115' x2='88' y2='20' stroke='currentColor' stroke-width='1.3'/><line x1='115' y1='115' x2='88' y2='20' stroke='currentColor' stroke-width='1.3'/><line x1='140' y1='95' x2='88' y2='20' stroke='currentColor' stroke-width='1.3'/><line x1='60' y1='95' x2='88' y2='20' stroke='currentColor' stroke-width='1' stroke-dasharray='3 3'/><text x='83' y='16' font-size='11' fill='currentColor'>V</text></svg>", "statement": "O piramidă patrulateră regulată are baza un pătrat cu latura de 6 cm și înălțimea de 10 cm. Calculează volumul.", "inputs": [{ "key": "v", "label": "Volumul", "unit": "cm³", "answer": 120 }], "hints": ["Aria bazei = 6² = 36 cm². V = (aria bazei · h) : 3."], "solution": ["A_bază = 6·6 = 36 cm².", "V = (36 · 10) : 3 = 360 : 3 = 120 cm³.", "Răspuns: 120 cm³."] },
+            { "id": "s3cp-4", "kind": "input", "statement": "O prismă dreaptă are aria bazei de 16 cm² și înălțimea de 10 cm. Calculează volumul.", "inputs": [{ "key": "v", "label": "Volumul", "unit": "cm³", "answer": 160 }], "hints": ["V = aria bazei · înălțimea."], "solution": ["V = 16 · 10 = 160 cm³.", "Răspuns: 160 cm³."] }
+          ]
         }
       ]
     }
