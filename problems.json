@@ -1,82 +1,250 @@
 {
-  "version": "1.0.0",
+  "version": "2.0.0",
   "updated": "2026-10-13",
-  "chapters": [
+  "subiecte": [
     {
-      "id": "s3-1",
-      "code": "III · 3.1",
-      "title": "Probleme rezolvabile cu sisteme de ecuații",
-      "color": "#6366f1",
-      "unlocked": true,
+      "id": "s1",
+      "code": "Subiectul I",
+      "title": "Grile — calcul și noțiuni de bază",
+      "color": "#0AAEC0",
       "types": [
         {
-          "id": "apartamente",
-          "icon": "🏢",
-          "title": "Apartamente cu 3 și 5 camere",
-          "subtitle": "Sisteme de ecuații · substituție / reducere",
+          "id": "s1-ordinea",
+          "icon": "calc",
+          "title": "Ordinea operațiilor",
+          "subtitle": "Calcul numeric cu paranteze și puteri",
+          "theory": [
+            "Ordinea operațiilor: 1) parantezele ( ) [ ] { }; 2) ridicări la putere și radicali; 3) înmulțiri și împărțiri (de la stânga la dreapta); 4) adunări și scăderi (de la stânga la dreapta).",
+            "Exemplu: 12 − 2·5 = 12 − 10 = 2 (întâi înmulțirea, apoi scăderea)."
+          ],
           "problems": [
-            {
-              "id": "apt-01",
-              "title": "Problema 1",
-              "statement": "Într-un bloc sunt apartamente cu 3 camere și apartamente cu 5 camere. În total blocul are 18 apartamente și 70 de camere. Câte apartamente de fiecare fel sunt?",
-              "inputs": [
-                { "key": "x", "label": "Apartamente cu 3 camere", "unit": "ap.", "answer": 10 },
-                { "key": "y", "label": "Apartamente cu 5 camere", "unit": "ap.", "answer": 8 }
-              ],
-              "hints": [
-                "Notează cu x numărul apartamentelor cu 3 camere și cu y numărul celor cu 5 camere.",
-                "Scrie prima ecuație din numărul total de apartamente:  x + y = 18.",
-                "Scrie a doua ecuație din numărul total de camere:  3·x + 5·y = 70."
-              ],
-              "solution": [
-                "Notăm: x = nr. apartamentelor cu 3 camere, y = nr. apartamentelor cu 5 camere.",
-                "Total apartamente:  x + y = 18",
-                "Total camere:  3·x + 5·y = 70",
-                "Din prima ecuație:  x = 18 − y.",
-                "Înlocuim în a doua:  3·(18 − y) + 5·y = 70.",
-                "54 − 3y + 5y = 70  ⟹  54 + 2y = 70.",
-                "2y = 16  ⟹  y = 8.",
-                "x = 18 − 8 = 10.",
-                "Verificare:  10 + 8 = 18 ✓  și  3·10 + 5·8 = 30 + 40 = 70 ✓.",
-                "Răspuns: 10 apartamente cu 3 camere și 8 apartamente cu 5 camere."
-              ]
-            },
-            {
-              "id": "apt-02",
-              "title": "Problema 2",
-              "statement": "Într-un bloc sunt apartamente cu 3 camere și apartamente cu 5 camere. Sunt cu 4 mai multe apartamente cu 3 camere decât apartamente cu 5 camere, iar în total blocul are 60 de camere. Câte apartamente de fiecare fel sunt?",
-              "inputs": [
-                { "key": "x", "label": "Apartamente cu 3 camere", "unit": "ap.", "answer": 10 },
-                { "key": "y", "label": "Apartamente cu 5 camere", "unit": "ap.", "answer": 6 }
-              ],
-              "hints": [
-                "Notează cu y numărul apartamentelor cu 5 camere; atunci cele cu 3 camere sunt y + 4.",
-                "Numărul total de camere dă ecuația:  3·(y + 4) + 5·y = 60.",
-                "Rezolvă ecuația de gradul I în y, apoi află x."
-              ],
-              "solution": [
-                "Notăm: y = nr. apartamentelor cu 5 camere, x = nr. celor cu 3 camere.",
-                "Relația dintre ele:  x = y + 4.",
-                "Total camere:  3·x + 5·y = 60.",
-                "Înlocuim x:  3·(y + 4) + 5·y = 60.",
-                "3y + 12 + 5y = 60  ⟹  8y + 12 = 60.",
-                "8y = 48  ⟹  y = 6.",
-                "x = 6 + 4 = 10.",
-                "Verificare:  3·10 + 5·6 = 30 + 30 = 60 ✓  și  10 − 6 = 4 ✓.",
-                "Răspuns: 10 apartamente cu 3 camere și 6 apartamente cu 5 camere."
-              ]
-            }
+            { "id": "s1o-1", "kind": "mc", "statement": "Rezultatul calculului 12 − 2·5 este egal cu:", "options": ["50", "22", "2", "0"], "answer": 2,
+              "hints": ["Întâi se face înmulțirea, apoi scăderea."],
+              "solution": ["2·5 = 10.", "12 − 10 = 2.", "Răspuns corect: c) 2."] },
+            { "id": "s1o-2", "kind": "mc", "statement": "Rezultatul calculului 3 + 4·2 este egal cu:", "options": ["14", "11", "22", "24"], "answer": 1,
+              "hints": ["Înmulțirea are prioritate față de adunare."],
+              "solution": ["4·2 = 8.", "3 + 8 = 11.", "Răspuns corect: b) 11."] },
+            { "id": "s1o-3", "kind": "mc", "statement": "Rezultatul calculului (7 − 3)·2 + 1 este egal cu:", "options": ["9", "15", "8", "12"], "answer": 0,
+              "hints": ["Întâi paranteza, apoi înmulțirea, apoi adunarea."],
+              "solution": ["(7 − 3) = 4.", "4·2 = 8, apoi 8 + 1 = 9.", "Răspuns corect: a) 9."] },
+            { "id": "s1o-4", "kind": "mc", "statement": "Rezultatul calculului 20 − 6:3 este egal cu:", "options": ["18", "14", "16", "2"], "answer": 0,
+              "hints": ["Împărțirea se face înaintea scăderii."],
+              "solution": ["6:3 = 2.", "20 − 2 = 18.", "Răspuns corect: a) 18."] },
+            { "id": "s1o-5", "kind": "mc", "statement": "Rezultatul calculului 2·3² − 4 este egal cu:", "options": ["14", "32", "5", "50"], "answer": 0,
+              "hints": ["Întâi puterea: 3² = 9."],
+              "solution": ["3² = 9, apoi 2·9 = 18.", "18 − 4 = 14.", "Răspuns corect: a) 14."] },
+            { "id": "s1o-6", "kind": "mc", "statement": "Rezultatul calculului 10 − [2 + 3·(4 − 2)] este egal cu:", "options": ["2", "6", "8", "14"], "answer": 0,
+              "hints": ["Rezolvă întâi paranteza rotundă, apoi cea pătrată."],
+              "solution": ["(4 − 2) = 2, apoi 3·2 = 6.", "[2 + 6] = 8.", "10 − 8 = 2. Răspuns corect: a) 2."] }
+          ]
+        },
+        {
+          "id": "s1-procente",
+          "icon": "percent",
+          "title": "Procente",
+          "subtitle": "p% dintr-un număr, scumpiri și reduceri",
+          "theory": [
+            "p% dintr-un număr N se calculează: N · p/100.",
+            "Exemplu: 40% din 250 = 250 · 40/100 = 100.",
+            "Scumpire cu p%: N + N·p/100. Reducere cu p%: N − N·p/100."
+          ],
+          "problems": [
+            { "id": "s1p-1", "kind": "mc", "statement": "Dintre cei 250 de elevi participanți la un concurs, 40% sunt băieți. Numărul băieților este egal cu:", "options": ["150", "125", "100", "90"], "answer": 2,
+              "hints": ["Calculează 250 · 40/100."],
+              "solution": ["250 · 40/100 = 250 · 0,4 = 100.", "Răspuns corect: c) 100."] },
+            { "id": "s1p-2", "kind": "mc", "statement": "25% din 80 este egal cu:", "options": ["20", "25", "16", "40"], "answer": 0,
+              "hints": ["25% = un sfert."],
+              "solution": ["80 · 25/100 = 80 : 4 = 20.", "Răspuns corect: a) 20."] },
+            { "id": "s1p-3", "kind": "mc", "statement": "10% din 350 este egal cu:", "options": ["3,5", "35", "25", "305"], "answer": 1,
+              "hints": ["10% înseamnă împărțire la 10."],
+              "solution": ["350 · 10/100 = 350 : 10 = 35.", "Răspuns corect: b) 35."] },
+            { "id": "s1p-4", "kind": "mc", "statement": "Un produs costă 200 lei și se scumpește cu 15%. Noul preț este:", "options": ["215 lei", "230 lei", "170 lei", "260 lei"], "answer": 1,
+              "hints": ["Adaugă la preț 15% din 200."],
+              "solution": ["15% din 200 = 200·15/100 = 30.", "200 + 30 = 230 lei.", "Răspuns corect: b) 230 lei."] },
+            { "id": "s1p-5", "kind": "mc", "statement": "Numărul 30 reprezintă din 150 un procent de:", "options": ["20%", "30%", "15%", "50%"], "answer": 0,
+              "hints": ["Procent = (parte/întreg)·100."],
+              "solution": ["30/150 = 1/5 = 0,2.", "0,2 · 100 = 20%.", "Răspuns corect: a) 20%."] }
+          ]
+        },
+        {
+          "id": "s1-reale",
+          "icon": "number",
+          "title": "Numere reale: opus, modul",
+          "subtitle": "Opusul, modulul și tipuri de numere",
+          "theory": [
+            "Opusul unui număr a este −a. Suma unui număr cu opusul său este 0: a + (−a) = 0.",
+            "Modulul |a| este distanța față de 0: |5| = 5, |−5| = 5.",
+            "Numere raționale: se scriu ca fracție. Numere iraționale: ex. √2, π (zecimale infinite neperiodice)."
+          ],
+          "problems": [
+            { "id": "s1r-1", "kind": "mc", "statement": "Suma dintre numărul 10 și opusul numărului 10 este egală cu:", "options": ["101/10", "11/10", "1", "0"], "answer": 3,
+              "hints": ["Opusul lui 10 este −10."],
+              "solution": ["Opusul lui 10 este −10.", "10 + (−10) = 0.", "Răspuns corect: d) 0."] },
+            { "id": "s1r-2", "kind": "mc", "statement": "Opusul numărului −7 este egal cu:", "options": ["−7", "7", "0", "1/7"], "answer": 1,
+              "hints": ["Opusul schimbă semnul."],
+              "solution": ["Opusul lui −7 este −(−7) = 7.", "Răspuns corect: b) 7."] },
+            { "id": "s1r-3", "kind": "mc", "statement": "Valoarea expresiei |−5| este egală cu:", "options": ["−5", "5", "0", "25"], "answer": 1,
+              "hints": ["Modulul este mereu ≥ 0."],
+              "solution": ["|−5| = 5 (distanța față de 0).", "Răspuns corect: b) 5."] },
+            { "id": "s1r-4", "kind": "mc", "statement": "Care dintre următoarele numere este irațional?", "options": ["0,5", "√2", "3/4", "−2"], "answer": 1,
+              "hints": ["Caută numărul care NU se poate scrie ca fracție."],
+              "solution": ["0,5 = 1/2, 3/4 și −2 sunt raționale.", "√2 este irațional.", "Răspuns corect: b) √2."] },
+            { "id": "s1r-5", "kind": "mc", "statement": "Valoarea expresiei |3 − 8| este egală cu:", "options": ["5", "−5", "11", "−11"], "answer": 0,
+              "hints": ["Calculează întâi în modul, apoi aplică modulul."],
+              "solution": ["3 − 8 = −5.", "|−5| = 5.", "Răspuns corect: a) 5."] },
+            { "id": "s1r-6", "kind": "mc", "statement": "Opusul numărului 1/3 este egal cu:", "options": ["1/3", "−1/3", "3", "−3"], "answer": 1,
+              "hints": ["Opusul schimbă doar semnul, nu inversează fracția."],
+              "solution": ["Opusul lui 1/3 este −1/3.", "Răspuns corect: b) −1/3."] }
+          ]
+        },
+        {
+          "id": "s1-fractii",
+          "icon": "fraction",
+          "title": "Fracții zecimale ↔ ordinare",
+          "subtitle": "Transformări, inclusiv fracții periodice",
+          "theory": [
+            "Fracție zecimală finită: 1,2 = 12/10 = 6/5 (simplifici).",
+            "Fracție periodică simplă: 0,(a) = a/9. Ex: 0,(3) = 3/9 = 1/3.",
+            "Pentru 1,(2) = 1 + 0,(2) = 1 + 2/9 = 11/9."
+          ],
+          "problems": [
+            { "id": "s1f-1", "kind": "mc", "statement": "Transformând fracția zecimală 1,(2) în fracție ordinară se obține:", "options": ["11/10", "6/5", "11/9", "4/3"], "answer": 2,
+              "hints": ["0,(2) = 2/9, apoi adună 1."],
+              "solution": ["0,(2) = 2/9.", "1 + 2/9 = 9/9 + 2/9 = 11/9.", "Răspuns corect: c) 11/9."] },
+            { "id": "s1f-2", "kind": "mc", "statement": "Fracția zecimală 0,5 scrisă ca fracție ordinară (simplificată) este:", "options": ["1/2", "1/5", "5", "2/5"], "answer": 0,
+              "hints": ["0,5 = 5/10."],
+              "solution": ["0,5 = 5/10 = 1/2.", "Răspuns corect: a) 1/2."] },
+            { "id": "s1f-3", "kind": "mc", "statement": "Fracția periodică 0,(3) este egală cu:", "options": ["3", "1/3", "3/10", "1/30"], "answer": 1,
+              "hints": ["0,(a) = a/9."],
+              "solution": ["0,(3) = 3/9 = 1/3.", "Răspuns corect: b) 1/3."] },
+            { "id": "s1f-4", "kind": "mc", "statement": "Fracția zecimală 2,5 scrisă ca fracție ordinară (simplificată) este:", "options": ["5/2", "2/5", "25", "25/100"], "answer": 0,
+              "hints": ["2,5 = 25/10."],
+              "solution": ["2,5 = 25/10 = 5/2.", "Răspuns corect: a) 5/2."] },
+            { "id": "s1f-5", "kind": "mc", "statement": "Fracția 3/4 scrisă ca fracție zecimală este:", "options": ["0,34", "0,75", "0,43", "1,33"], "answer": 1,
+              "hints": ["Împarte 3 la 4."],
+              "solution": ["3 : 4 = 0,75.", "Răspuns corect: b) 0,75."] },
+            { "id": "s1f-6", "kind": "mc", "statement": "Fracția periodică 0,(6) este egală cu:", "options": ["6/10", "2/3", "3/2", "6"], "answer": 1,
+              "hints": ["0,(6) = 6/9, apoi simplifică."],
+              "solution": ["0,(6) = 6/9 = 2/3.", "Răspuns corect: b) 2/3."] }
+          ]
+        },
+        {
+          "id": "s1-proportii",
+          "icon": "equals",
+          "title": "Proporții și ecuații simple",
+          "subtitle": "Aflarea necunoscutei",
+          "theory": [
+            "Într-o proporție a/b = c/d avem a·d = b·c (produsul mezilor = produsul extremilor).",
+            "O ecuație de gradul I: izolezi necunoscuta mutând termenii și împărțind la coeficient. Ex: 2x + 3 = 11 → 2x = 8 → x = 4."
+          ],
+          "problems": [
+            { "id": "s1pr-1", "kind": "mc", "statement": "Valoarea lui x din proporția x/2 = 6/4 este:", "options": ["3", "12", "8", "2"], "answer": 0,
+              "hints": ["Produsul mezilor = produsul extremilor: 4x = 2·6."],
+              "solution": ["4·x = 2·6 = 12.", "x = 12 : 4 = 3.", "Răspuns corect: a) 3."] },
+            { "id": "s1pr-2", "kind": "mc", "statement": "Valoarea lui x din proporția 3/x = 9/12 este:", "options": ["4", "36", "3", "12"], "answer": 0,
+              "hints": ["3·12 = 9·x."],
+              "solution": ["9·x = 3·12 = 36.", "x = 36 : 9 = 4.", "Răspuns corect: a) 4."] },
+            { "id": "s1pr-3", "kind": "mc", "statement": "Soluția ecuației 2x + 3 = 11 este:", "options": ["4", "7", "5", "8"], "answer": 0,
+              "hints": ["Scade 3, apoi împarte la 2."],
+              "solution": ["2x = 11 − 3 = 8.", "x = 8 : 2 = 4.", "Răspuns corect: a) 4."] },
+            { "id": "s1pr-4", "kind": "mc", "statement": "Valoarea lui x din proporția 5/10 = x/4 este:", "options": ["2", "8", "20", "5"], "answer": 0,
+              "hints": ["5/10 = 1/2."],
+              "solution": ["10·x = 5·4 = 20.", "x = 20 : 10 = 2.", "Răspuns corect: a) 2."] },
+            { "id": "s1pr-5", "kind": "mc", "statement": "Soluția ecuației 3x − 6 = 0 este:", "options": ["2", "6", "−2", "3"], "answer": 0,
+              "hints": ["Adună 6, apoi împarte la 3."],
+              "solution": ["3x = 6.", "x = 6 : 3 = 2.", "Răspuns corect: a) 2."] }
+          ]
+        },
+        {
+          "id": "s1-date",
+          "icon": "chart",
+          "title": "Citirea datelor și medii",
+          "subtitle": "Diagrame, media aritmetică, mediană",
+          "theory": [
+            "Media aritmetică = (suma valorilor) : (numărul valorilor).",
+            "Mediana = valoarea din mijloc după ordonare.",
+            "Într-o diagramă cu bare, înălțimea barei arată valoarea."
+          ],
+          "problems": [
+            { "id": "s1d-1", "kind": "mc", "statement": "Media aritmetică a numerelor 4, 6 și 8 este egală cu:", "options": ["6", "18", "9", "4"], "answer": 0,
+              "hints": ["Adună apoi împarte la 3."],
+              "solution": ["(4 + 6 + 8) : 3 = 18 : 3 = 6.", "Răspuns corect: a) 6."] },
+            { "id": "s1d-2", "kind": "mc", "statement": "Media notelor 7, 8, 9 și 10 este egală cu:", "options": ["8", "8,5", "9", "34"], "answer": 1,
+              "hints": ["Suma este 34, împarte la 4."],
+              "solution": ["(7 + 8 + 9 + 10) : 4 = 34 : 4 = 8,5.", "Răspuns corect: b) 8,5."] },
+            { "id": "s1d-3", "kind": "mc", "statement": "Mediana mulțimii {2, 5, 9} este egală cu:", "options": ["2", "5", "9", "16"], "answer": 1,
+              "hints": ["Numerele sunt deja ordonate; ia valoarea din mijloc."],
+              "solution": ["Ordonat: 2, 5, 9. Valoarea din mijloc este 5.", "Răspuns corect: b) 5."] },
+            { "id": "s1d-4", "kind": "mc", "statement": "Un comerciant a vândut: ianuarie 1000, februarie 2000, martie 500, aprilie 2500 de mașini. Afirmația „Cele mai puține mașini au fost vândute în martie” este:", "options": ["adevărată", "falsă"], "answer": 0,
+              "hints": ["Compară valorile; caută minimul."],
+              "solution": ["Minimul este 500 (martie).", "Deci afirmația este adevărată.", "Răspuns corect: a) adevărată."] },
+            { "id": "s1d-5", "kind": "mc", "statement": "Totalul mașinilor vândute (1000 + 2000 + 500 + 2500) este egal cu:", "options": ["6000", "5000", "4500", "7000"], "answer": 0,
+              "hints": ["Adună cele patru valori."],
+              "solution": ["1000 + 2000 + 500 + 2500 = 6000.", "Răspuns corect: a) 6000."] }
           ]
         }
       ]
     },
     {
-      "id": "s3-2", "code": "III · 3.2", "title": "Probleme de mișcare",
-      "color": "#0ea5e9", "unlocked": false, "types": []
+      "id": "s2",
+      "code": "Subiectul II",
+      "title": "Grile — geometrie",
+      "color": "#008DA0",
+      "types": [
+        {
+          "id": "s2-segmente",
+          "icon": "ruler",
+          "title": "Segmente și mijloc",
+          "subtitle": "Lungimi de segmente, mijlocul unui segment",
+          "theory": [
+            "Mijlocul M al segmentului AB împarte segmentul în două părți egale: AM = MB = AB/2.",
+            "Dacă punctele sunt coliniare în ordinea A, B, C, atunci AC = AB + BC."
+          ],
+          "problems": [
+            { "id": "s2s-1", "kind": "mc", "statement": "Punctele A, B, C, D sunt coliniare în această ordine, cu AB = 1 cm, AD = 6 cm, iar C este mijlocul lui AD. Lungimea segmentului BC este:", "options": ["5 cm", "3 cm", "2 cm", "1 cm"], "answer": 2,
+              "hints": ["C mijlocul lui AD ⟹ AC = AD/2.", "BC = AC − AB."],
+              "solution": ["AC = AD : 2 = 6 : 2 = 3 cm.", "BC = AC − AB = 3 − 1 = 2 cm.", "Răspuns corect: c) 2 cm."] },
+            { "id": "s2s-2", "kind": "mc", "statement": "M este mijlocul segmentului AB, cu AB = 10 cm. Lungimea segmentului AM este:", "options": ["5 cm", "10 cm", "20 cm", "2,5 cm"], "answer": 0,
+              "hints": ["AM = AB/2."],
+              "solution": ["AM = 10 : 2 = 5 cm.", "Răspuns corect: a) 5 cm."] },
+            { "id": "s2s-3", "kind": "mc", "statement": "Punctele A, B, C sunt coliniare în această ordine, cu AB = 4 cm și BC = 7 cm. Lungimea segmentului AC este:", "options": ["11 cm", "3 cm", "28 cm", "7 cm"], "answer": 0,
+              "hints": ["AC = AB + BC."],
+              "solution": ["AC = 4 + 7 = 11 cm.", "Răspuns corect: a) 11 cm."] }
+          ]
+        }
+      ]
     },
     {
-      "id": "s3-3", "code": "III · 3.3", "title": "Probleme cu procente",
-      "color": "#10b981", "unlocked": false, "types": []
+      "id": "s3",
+      "code": "Subiectul III",
+      "title": "Probleme cu rezolvare completă",
+      "color": "#0B5E8C",
+      "types": [
+        {
+          "id": "s3-text",
+          "icon": "building",
+          "title": "Probleme cu text (sisteme)",
+          "subtitle": "Se rezolvă cu ecuații / sisteme",
+          "theory": [
+            "Notezi necunoscutele cu litere (x, y), scrii ecuațiile din enunț, apoi rezolvi sistemul prin substituție sau reducere.",
+            "La final verifici soluția în enunț."
+          ],
+          "problems": [
+            { "id": "s3t-apt1", "kind": "input", "statement": "Într-un bloc sunt apartamente cu 3 camere și apartamente cu 5 camere. În total blocul are 18 apartamente și 70 de camere. Câte apartamente de fiecare fel sunt?",
+              "inputs": [ { "key": "x", "label": "Apartamente cu 3 camere", "unit": "ap.", "answer": 10 }, { "key": "y", "label": "Apartamente cu 5 camere", "unit": "ap.", "answer": 8 } ],
+              "hints": ["Notează x = ap. cu 3 camere, y = ap. cu 5 camere.", "x + y = 18 și 3x + 5y = 70."],
+              "solution": ["x + y = 18 și 3x + 5y = 70.", "Din prima: x = 18 − y. Înlocuim: 3(18 − y) + 5y = 70.", "54 + 2y = 70 ⟹ y = 8, x = 10.", "Răspuns: 10 apartamente cu 3 camere și 8 cu 5 camere."] },
+            { "id": "s3t-apt2", "kind": "input", "statement": "Într-un bloc sunt apartamente cu 3 camere și apartamente cu 5 camere. Sunt cu 4 mai multe apartamente cu 3 camere decât cu 5 camere, iar în total blocul are 60 de camere. Câte apartamente de fiecare fel sunt?",
+              "inputs": [ { "key": "x", "label": "Apartamente cu 3 camere", "unit": "ap.", "answer": 10 }, { "key": "y", "label": "Apartamente cu 5 camere", "unit": "ap.", "answer": 6 } ],
+              "hints": ["Notează y = ap. cu 5 camere; cele cu 3 camere sunt y + 4.", "3(y + 4) + 5y = 60."],
+              "solution": ["x = y + 4 și 3x + 5y = 60.", "3(y + 4) + 5y = 60 ⟹ 8y + 12 = 60 ⟹ y = 6.", "x = 6 + 4 = 10.", "Răspuns: 10 apartamente cu 3 camere și 6 cu 5 camere."] },
+            { "id": "s3t-minge", "kind": "input", "statement": "Mai mulți copii cumpără împreună o minge. Dacă fiecare dă câte 18 lei, mai lipsesc 30 de lei. Dacă fiecare dă câte 24 de lei, rămân 12 lei în plus. Câți copii sunt și cât costă mingea?",
+              "inputs": [ { "key": "n", "label": "Numărul de copii", "unit": "copii", "answer": 7 }, { "key": "p", "label": "Prețul mingii", "unit": "lei", "answer": 156 } ],
+              "hints": ["Prețul: P = 18n + 30 și P = 24n − 12.", "Egalează cele două expresii."],
+              "solution": ["18n + 30 = 24n − 12.", "42 = 6n ⟹ n = 7 copii.", "P = 18·7 + 30 = 156 lei.", "Răspuns: 7 copii, mingea costă 156 lei."] }
+          ]
+        }
+      ]
     }
   ]
 }
