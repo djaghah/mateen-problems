@@ -1,6 +1,6 @@
 {
-  "version": "3.3.0",
-  "updated": "2026-10-19",
+  "version": "3.4.0",
+  "updated": "2026-10-20",
   "subiecte": [
     {
       "id": "p-op",
@@ -419,6 +419,526 @@
                 "Răspuns: 2300."
               ],
               "grade": "Cls. IV"
+            },
+            {
+              "id": "c1-add-01",
+              "kind": "input",
+              "statement": "Cât este 2 + 2?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Rezultat",
+                  "unit": "",
+                  "answer": 4
+                }
+              ],
+              "hints": [
+                "Numără mai departe de la 2."
+              ],
+              "solution": [
+                "2 + 2 = 4."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-add-02",
+              "kind": "input",
+              "statement": "Cât este 6 + 3?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Rezultat",
+                  "unit": "",
+                  "answer": 9
+                }
+              ],
+              "hints": [
+                "Numără mai departe de la 6."
+              ],
+              "solution": [
+                "6 + 3 = 9."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-add-03",
+              "kind": "input",
+              "statement": "Cât este 3 + 4?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Rezultat",
+                  "unit": "",
+                  "answer": 7
+                }
+              ],
+              "hints": [
+                "Numără mai departe de la 3."
+              ],
+              "solution": [
+                "3 + 4 = 7."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-add-04",
+              "kind": "input",
+              "statement": "Cât este 3 + 2?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Rezultat",
+                  "unit": "",
+                  "answer": 5
+                }
+              ],
+              "hints": [
+                "Numără mai departe de la 3."
+              ],
+              "solution": [
+                "3 + 2 = 5."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-add-05",
+              "kind": "input",
+              "statement": "Cât este 4 − 3?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Rezultat",
+                  "unit": "",
+                  "answer": 1
+                }
+              ],
+              "hints": [
+                "Pornește de la 4 și numără înapoi."
+              ],
+              "solution": [
+                "4 − 3 = 1."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-add-06",
+              "kind": "input",
+              "statement": "Cât este 9 − 8?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Rezultat",
+                  "unit": "",
+                  "answer": 1
+                }
+              ],
+              "hints": [
+                "Pornește de la 9 și numără înapoi."
+              ],
+              "solution": [
+                "9 − 8 = 1."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-add-07",
+              "kind": "input",
+              "statement": "Cât este 8 − 3?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Rezultat",
+                  "unit": "",
+                  "answer": 5
+                }
+              ],
+              "hints": [
+                "Pornește de la 8 și numără înapoi."
+              ],
+              "solution": [
+                "8 − 3 = 5."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-add-08",
+              "kind": "input",
+              "statement": "Cât este 11 + 3?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Rezultat",
+                  "unit": "",
+                  "answer": 14
+                }
+              ],
+              "hints": [
+                "Adună unitățile; zecea rămâne aceeași."
+              ],
+              "solution": [
+                "11 + 3 = 14."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-add-09",
+              "kind": "input",
+              "statement": "Cât este 13 + 1?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Rezultat",
+                  "unit": "",
+                  "answer": 14
+                }
+              ],
+              "hints": [
+                "Adună unitățile; zecea rămâne aceeași."
+              ],
+              "solution": [
+                "13 + 1 = 14."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-add-10",
+              "kind": "input",
+              "statement": "Cât este 11 + 7?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Rezultat",
+                  "unit": "",
+                  "answer": 18
+                }
+              ],
+              "hints": [
+                "Adună unitățile; zecea rămâne aceeași."
+              ],
+              "solution": [
+                "11 + 7 = 18."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-add-11",
+              "kind": "input",
+              "statement": "Cât este 18 − 6?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Rezultat",
+                  "unit": "",
+                  "answer": 12
+                }
+              ],
+              "hints": [
+                "Scade din unități; zecea rămâne aceeași."
+              ],
+              "solution": [
+                "18 − 6 = 12."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-add-12",
+              "kind": "input",
+              "statement": "Cât este 14 − 1?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Rezultat",
+                  "unit": "",
+                  "answer": 13
+                }
+              ],
+              "hints": [
+                "Scade din unități; zecea rămâne aceeași."
+              ],
+              "solution": [
+                "14 − 1 = 13."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-add-13",
+              "kind": "input",
+              "statement": "Cât este 13 − 3?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Rezultat",
+                  "unit": "",
+                  "answer": 10
+                }
+              ],
+              "hints": [
+                "Scade din unități; zecea rămâne aceeași."
+              ],
+              "solution": [
+                "13 − 3 = 10."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-add-14",
+              "kind": "input",
+              "statement": "Cât este 9 + 8?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Rezultat",
+                  "unit": "",
+                  "answer": 17
+                }
+              ],
+              "hints": [
+                "Completează întâi până la 10, apoi adaugă ce a rămas."
+              ],
+              "solution": [
+                "9 + 8 = 17."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-add-15",
+              "kind": "input",
+              "statement": "Cât este 9 + 9?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Rezultat",
+                  "unit": "",
+                  "answer": 18
+                }
+              ],
+              "hints": [
+                "Completează întâi până la 10, apoi adaugă ce a rămas."
+              ],
+              "solution": [
+                "9 + 9 = 18."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-add-16",
+              "kind": "input",
+              "statement": "Cât este 6 + 8?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Rezultat",
+                  "unit": "",
+                  "answer": 14
+                }
+              ],
+              "hints": [
+                "Completează întâi până la 10, apoi adaugă ce a rămas."
+              ],
+              "solution": [
+                "6 + 8 = 14."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-add-17",
+              "kind": "input",
+              "statement": "Cât este 9 + 9?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Rezultat",
+                  "unit": "",
+                  "answer": 18
+                }
+              ],
+              "hints": [
+                "Completează întâi până la 10, apoi adaugă ce a rămas."
+              ],
+              "solution": [
+                "9 + 9 = 18."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-add-18",
+              "kind": "input",
+              "statement": "Cât este 11 − 5?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Rezultat",
+                  "unit": "",
+                  "answer": 6
+                }
+              ],
+              "hints": [
+                "Scade întâi până la 10, apoi scade ce a rămas."
+              ],
+              "solution": [
+                "11 − 5 = 6."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-add-19",
+              "kind": "input",
+              "statement": "Cât este 13 − 5?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Rezultat",
+                  "unit": "",
+                  "answer": 8
+                }
+              ],
+              "hints": [
+                "Scade întâi până la 10, apoi scade ce a rămas."
+              ],
+              "solution": [
+                "13 − 5 = 8."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-add-20",
+              "kind": "input",
+              "statement": "Cât este 13 − 7?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Rezultat",
+                  "unit": "",
+                  "answer": 6
+                }
+              ],
+              "hints": [
+                "Scade întâi până la 10, apoi scade ce a rămas."
+              ],
+              "solution": [
+                "13 − 7 = 6."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-add-21",
+              "kind": "input",
+              "statement": "Cât este 50 + 10?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Rezultat",
+                  "unit": "",
+                  "answer": 60
+                }
+              ],
+              "hints": [
+                "Adună zecile: 5 zeci și încă câteva zeci."
+              ],
+              "solution": [
+                "50 + 10 = 60."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-add-22",
+              "kind": "input",
+              "statement": "Cât este 20 + 10?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Rezultat",
+                  "unit": "",
+                  "answer": 30
+                }
+              ],
+              "hints": [
+                "Adună zecile: 2 zeci și încă câteva zeci."
+              ],
+              "solution": [
+                "20 + 10 = 30."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-add-23",
+              "kind": "input",
+              "statement": "Cât este 30 + 50?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Rezultat",
+                  "unit": "",
+                  "answer": 80
+                }
+              ],
+              "hints": [
+                "Adună zecile: 3 zeci și încă câteva zeci."
+              ],
+              "solution": [
+                "30 + 50 = 80."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-add-24",
+              "kind": "input",
+              "statement": "Cât este 65 + 2?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Rezultat",
+                  "unit": "",
+                  "answer": 67
+                }
+              ],
+              "hints": [
+                "Adună unitățile cu unitățile și zecile cu zecile."
+              ],
+              "solution": [
+                "65 + 2 = 67."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-add-25",
+              "kind": "input",
+              "statement": "Cât este 35 + 3?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Rezultat",
+                  "unit": "",
+                  "answer": 38
+                }
+              ],
+              "hints": [
+                "Adună unitățile cu unitățile și zecile cu zecile."
+              ],
+              "solution": [
+                "35 + 3 = 38."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-add-26",
+              "kind": "input",
+              "statement": "Cât este 66 + 1?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Rezultat",
+                  "unit": "",
+                  "answer": 67
+                }
+              ],
+              "hints": [
+                "Adună unitățile cu unitățile și zecile cu zecile."
+              ],
+              "solution": [
+                "66 + 1 = 67."
+              ],
+              "grade": "Cls. I"
             }
           ]
         },
@@ -2133,6 +2653,258 @@
                 "Răspuns: x = 509."
               ],
               "grade": "Cls. IV"
+            },
+            {
+              "id": "c1-nec-01",
+              "kind": "input",
+              "statement": "Ce număr se ascunde în □?<br><b style=\"font-size:22px\">2 + □ = 9</b>",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "□ =",
+                  "unit": "",
+                  "answer": 7
+                }
+              ],
+              "hints": [
+                "Încearcă pe rând numerele, sau folosește operația inversă.",
+                "Verifică: pune numărul găsit în locul lui □."
+              ],
+              "solution": [
+                "□ = 7, pentru că 2 + 7 = 9."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-nec-02",
+              "kind": "input",
+              "statement": "Ce număr se ascunde în □?<br><b style=\"font-size:22px\">8 − □ = 1</b>",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "□ =",
+                  "unit": "",
+                  "answer": 7
+                }
+              ],
+              "hints": [
+                "Încearcă pe rând numerele, sau folosește operația inversă.",
+                "Verifică: pune numărul găsit în locul lui □."
+              ],
+              "solution": [
+                "□ = 7, pentru că 8 − 7 = 1."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-nec-03",
+              "kind": "input",
+              "statement": "Ce număr se ascunde în □?<br><b style=\"font-size:22px\">1 + □ = 8</b>",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "□ =",
+                  "unit": "",
+                  "answer": 7
+                }
+              ],
+              "hints": [
+                "Încearcă pe rând numerele, sau folosește operația inversă.",
+                "Verifică: pune numărul găsit în locul lui □."
+              ],
+              "solution": [
+                "□ = 7, pentru că 1 + 7 = 8."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-nec-04",
+              "kind": "input",
+              "statement": "Ce număr se ascunde în □?<br><b style=\"font-size:22px\">4 − □ = 2</b>",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "□ =",
+                  "unit": "",
+                  "answer": 2
+                }
+              ],
+              "hints": [
+                "Încearcă pe rând numerele, sau folosește operația inversă.",
+                "Verifică: pune numărul găsit în locul lui □."
+              ],
+              "solution": [
+                "□ = 2, pentru că 4 − 2 = 2."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-nec-05",
+              "kind": "input",
+              "statement": "Ce număr se ascunde în □?<br><b style=\"font-size:22px\">8 + □ = 10</b>",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "□ =",
+                  "unit": "",
+                  "answer": 2
+                }
+              ],
+              "hints": [
+                "Încearcă pe rând numerele, sau folosește operația inversă.",
+                "Verifică: pune numărul găsit în locul lui □."
+              ],
+              "solution": [
+                "□ = 2, pentru că 8 + 2 = 10."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-nec-06",
+              "kind": "input",
+              "statement": "Ce număr se ascunde în □?<br><b style=\"font-size:22px\">9 − □ = 3</b>",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "□ =",
+                  "unit": "",
+                  "answer": 6
+                }
+              ],
+              "hints": [
+                "Încearcă pe rând numerele, sau folosește operația inversă.",
+                "Verifică: pune numărul găsit în locul lui □."
+              ],
+              "solution": [
+                "□ = 6, pentru că 9 − 6 = 3."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-nec-07",
+              "kind": "input",
+              "statement": "Ce număr se ascunde în □?<br><b style=\"font-size:22px\">4 + □ = 17</b>",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "□ =",
+                  "unit": "",
+                  "answer": 13
+                }
+              ],
+              "hints": [
+                "Încearcă pe rând numerele, sau folosește operația inversă.",
+                "Verifică: pune numărul găsit în locul lui □."
+              ],
+              "solution": [
+                "□ = 13, pentru că 4 + 13 = 17."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-nec-08",
+              "kind": "input",
+              "statement": "Ce număr se ascunde în □?<br><b style=\"font-size:22px\">6 − □ = 2</b>",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "□ =",
+                  "unit": "",
+                  "answer": 4
+                }
+              ],
+              "hints": [
+                "Încearcă pe rând numerele, sau folosește operația inversă.",
+                "Verifică: pune numărul găsit în locul lui □."
+              ],
+              "solution": [
+                "□ = 4, pentru că 6 − 4 = 2."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-nec-09",
+              "kind": "input",
+              "statement": "Ce număr se ascunde în □?<br><b style=\"font-size:22px\">10 + □ = 11</b>",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "□ =",
+                  "unit": "",
+                  "answer": 1
+                }
+              ],
+              "hints": [
+                "Încearcă pe rând numerele, sau folosește operația inversă.",
+                "Verifică: pune numărul găsit în locul lui □."
+              ],
+              "solution": [
+                "□ = 1, pentru că 10 + 1 = 11."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-nec-10",
+              "kind": "input",
+              "statement": "Ce număr se ascunde în □?<br><b style=\"font-size:22px\">19 − □ = 10</b>",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "□ =",
+                  "unit": "",
+                  "answer": 9
+                }
+              ],
+              "hints": [
+                "Încearcă pe rând numerele, sau folosește operația inversă.",
+                "Verifică: pune numărul găsit în locul lui □."
+              ],
+              "solution": [
+                "□ = 9, pentru că 19 − 9 = 10."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-nec-11",
+              "kind": "input",
+              "statement": "Ce număr se ascunde în □?<br><b style=\"font-size:22px\">2 + □ = 18</b>",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "□ =",
+                  "unit": "",
+                  "answer": 16
+                }
+              ],
+              "hints": [
+                "Încearcă pe rând numerele, sau folosește operația inversă.",
+                "Verifică: pune numărul găsit în locul lui □."
+              ],
+              "solution": [
+                "□ = 16, pentru că 2 + 16 = 18."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-nec-12",
+              "kind": "input",
+              "statement": "Ce număr se ascunde în □?<br><b style=\"font-size:22px\">7 − □ = 1</b>",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "□ =",
+                  "unit": "",
+                  "answer": 6
+                }
+              ],
+              "hints": [
+                "Încearcă pe rând numerele, sau folosește operația inversă.",
+                "Verifică: pune numărul găsit în locul lui □."
+              ],
+              "solution": [
+                "□ = 6, pentru că 7 − 6 = 1."
+              ],
+              "grade": "Cls. I"
             }
           ]
         }
@@ -2148,7 +2920,7 @@
         {
           "id": "prim-num",
           "icon": "number",
-          "title": "Numere: comparare & rotunjire",
+          "title": "Numere: comparare, șiruri, rotunjire",
           "subtitle": "Numere naturale până la 1 000 000",
           "theory": [
             "Comparăm numerele cifră cu cifră, de la rangul cel mai mare.",
@@ -2541,6 +3313,479 @@
                 "Zecile lui 571930 sunt 3, deci rotunjim la 571900."
               ],
               "grade": "Cls. IV"
+            },
+            {
+              "id": "c1-num-01",
+              "kind": "input",
+              "statement": "Ce număr urmează după <b>85</b>?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Numărul",
+                  "unit": "",
+                  "answer": 86
+                }
+              ],
+              "hints": [
+                "Numărul care urmează este cu 1 mai mare."
+              ],
+              "solution": [
+                "După 85 urmează 86."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-num-02",
+              "kind": "input",
+              "statement": "Ce număr urmează după <b>86</b>?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Numărul",
+                  "unit": "",
+                  "answer": 87
+                }
+              ],
+              "hints": [
+                "Numărul care urmează este cu 1 mai mare."
+              ],
+              "solution": [
+                "După 86 urmează 87."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-num-03",
+              "kind": "input",
+              "statement": "Ce număr urmează după <b>76</b>?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Numărul",
+                  "unit": "",
+                  "answer": 77
+                }
+              ],
+              "hints": [
+                "Numărul care urmează este cu 1 mai mare."
+              ],
+              "solution": [
+                "După 76 urmează 77."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-num-04",
+              "kind": "input",
+              "statement": "Ce număr este chiar înainte de <b>89</b>?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Numărul",
+                  "unit": "",
+                  "answer": 88
+                }
+              ],
+              "hints": [
+                "Numărul de dinainte este cu 1 mai mic."
+              ],
+              "solution": [
+                "Înainte de 89 este 88."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-num-05",
+              "kind": "input",
+              "statement": "Ce număr este chiar înainte de <b>93</b>?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Numărul",
+                  "unit": "",
+                  "answer": 92
+                }
+              ],
+              "hints": [
+                "Numărul de dinainte este cu 1 mai mic."
+              ],
+              "solution": [
+                "Înainte de 93 este 92."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-num-06",
+              "kind": "input",
+              "statement": "Ce număr este chiar înainte de <b>36</b>?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Numărul",
+                  "unit": "",
+                  "answer": 35
+                }
+              ],
+              "hints": [
+                "Numărul de dinainte este cu 1 mai mic."
+              ],
+              "solution": [
+                "Înainte de 36 este 35."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-num-07",
+              "kind": "input",
+              "statement": "Câte <b>zeci</b> are numărul 56?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Zeci",
+                  "unit": "",
+                  "answer": 5
+                }
+              ],
+              "hints": [
+                "Prima cifră (din stânga) arată zecile."
+              ],
+              "solution": [
+                "56 = 5 zeci și 6 unități."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-num-08",
+              "kind": "input",
+              "statement": "Câte <b>zeci</b> are numărul 68?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Zeci",
+                  "unit": "",
+                  "answer": 6
+                }
+              ],
+              "hints": [
+                "Prima cifră (din stânga) arată zecile."
+              ],
+              "solution": [
+                "68 = 6 zeci și 8 unități."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-num-09",
+              "kind": "input",
+              "statement": "Câte <b>zeci</b> are numărul 41?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Zeci",
+                  "unit": "",
+                  "answer": 4
+                }
+              ],
+              "hints": [
+                "Prima cifră (din stânga) arată zecile."
+              ],
+              "solution": [
+                "41 = 4 zeci și 1 unități."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-num-10",
+              "kind": "input",
+              "statement": "Ce număr are <b>1 zeci</b> și <b>2 unități</b>?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Numărul",
+                  "unit": "",
+                  "answer": 12
+                }
+              ],
+              "hints": [
+                "Zecile se scriu primele, apoi unitățile."
+              ],
+              "solution": [
+                "1 zeci și 2 unități = 12."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-num-11",
+              "kind": "input",
+              "statement": "Ce număr are <b>1 zeci</b> și <b>7 unități</b>?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Numărul",
+                  "unit": "",
+                  "answer": 17
+                }
+              ],
+              "hints": [
+                "Zecile se scriu primele, apoi unitățile."
+              ],
+              "solution": [
+                "1 zeci și 7 unități = 17."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-num-12",
+              "kind": "input",
+              "statement": "Ce număr are <b>4 zeci</b> și <b>7 unități</b>?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Numărul",
+                  "unit": "",
+                  "answer": 47
+                }
+              ],
+              "hints": [
+                "Zecile se scriu primele, apoi unitățile."
+              ],
+              "solution": [
+                "4 zeci și 7 unități = 47."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-num-13",
+              "kind": "mc",
+              "statement": "Ce semn pui între numere?<br><b style=\"font-size:24px\">11 &nbsp;□&nbsp; 25</b>",
+              "options": [
+                "=",
+                ">",
+                "<"
+              ],
+              "answer": 2,
+              "hints": [
+                "Compară întâi zecile; dacă sunt egale, compară unitățile.",
+                "Ciocul semnului se deschide spre numărul mai mare."
+              ],
+              "solution": [
+                "11 < 25."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-num-14",
+              "kind": "mc",
+              "statement": "Ce semn pui între numere?<br><b style=\"font-size:24px\">70 &nbsp;□&nbsp; 52</b>",
+              "options": [
+                "<",
+                ">",
+                "="
+              ],
+              "answer": 1,
+              "hints": [
+                "Compară întâi zecile; dacă sunt egale, compară unitățile.",
+                "Ciocul semnului se deschide spre numărul mai mare."
+              ],
+              "solution": [
+                "70 > 52."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-num-15",
+              "kind": "mc",
+              "statement": "Ce semn pui între numere?<br><b style=\"font-size:24px\">95 &nbsp;□&nbsp; 22</b>",
+              "options": [
+                ">",
+                "<",
+                "="
+              ],
+              "answer": 0,
+              "hints": [
+                "Compară întâi zecile; dacă sunt egale, compară unitățile.",
+                "Ciocul semnului se deschide spre numărul mai mare."
+              ],
+              "solution": [
+                "95 > 22."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-num-16",
+              "kind": "mc",
+              "statement": "Ce semn pui între numere?<br><b style=\"font-size:24px\">42 &nbsp;□&nbsp; 42</b>",
+              "options": [
+                "=",
+                ">",
+                "<"
+              ],
+              "answer": 0,
+              "hints": [
+                "Compară întâi zecile; dacă sunt egale, compară unitățile.",
+                "Ciocul semnului se deschide spre numărul mai mare."
+              ],
+              "solution": [
+                "42 = 42."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-num-17",
+              "kind": "input",
+              "statement": "Continuă șirul: <b>4, 6, 8, 10, …</b>",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Următorul",
+                  "unit": "",
+                  "answer": 12
+                }
+              ],
+              "hints": [
+                "Vezi din cât în cât crește șirul (aici din 2 în 2)."
+              ],
+              "solution": [
+                "Fiecare număr e cu 2 mai mare: 10 + 2 = 12."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-num-18",
+              "kind": "input",
+              "statement": "Continuă șirul: <b>5, 10, 15, 20, …</b>",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Următorul",
+                  "unit": "",
+                  "answer": 25
+                }
+              ],
+              "hints": [
+                "Vezi din cât în cât crește șirul (aici din 5 în 5)."
+              ],
+              "solution": [
+                "Fiecare număr e cu 5 mai mare: 20 + 5 = 25."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-num-19",
+              "kind": "input",
+              "statement": "Continuă șirul: <b>10, 20, 30, 40, …</b>",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Următorul",
+                  "unit": "",
+                  "answer": 50
+                }
+              ],
+              "hints": [
+                "Vezi din cât în cât crește șirul (aici din 10 în 10)."
+              ],
+              "solution": [
+                "Fiecare număr e cu 10 mai mare: 40 + 10 = 50."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-num-20",
+              "kind": "input",
+              "statement": "Continuă șirul: <b>9, 12, 15, 18, …</b>",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Următorul",
+                  "unit": "",
+                  "answer": 21
+                }
+              ],
+              "hints": [
+                "Vezi din cât în cât crește șirul (aici din 3 în 3)."
+              ],
+              "solution": [
+                "Fiecare număr e cu 3 mai mare: 18 + 3 = 21."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-num-21",
+              "kind": "input",
+              "statement": "Continuă șirul: <b>20, 30, 40, 50, …</b>",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Următorul",
+                  "unit": "",
+                  "answer": 60
+                }
+              ],
+              "hints": [
+                "Vezi din cât în cât crește șirul (aici din 10 în 10)."
+              ],
+              "solution": [
+                "Fiecare număr e cu 10 mai mare: 50 + 10 = 60."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-num-22",
+              "kind": "mc",
+              "statement": "Care este cel mai MIC număr?",
+              "options": [
+                "80",
+                "9",
+                "31",
+                "10"
+              ],
+              "answer": 3,
+              "hints": [
+                "Compară zecile numerelor."
+              ],
+              "solution": [
+                "Cel mai mic este 10."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-num-23",
+              "kind": "mc",
+              "statement": "Care este cel mai MIC număr?",
+              "options": [
+                "86",
+                "11",
+                "10",
+                "54"
+              ],
+              "answer": 1,
+              "hints": [
+                "Compară zecile numerelor."
+              ],
+              "solution": [
+                "Cel mai mic este 11."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-num-24",
+              "kind": "mc",
+              "statement": "Care este cel mai MARE număr?",
+              "options": [
+                "81",
+                "37",
+                "27",
+                "82"
+              ],
+              "answer": 0,
+              "hints": [
+                "Compară zecile numerelor."
+              ],
+              "solution": [
+                "Cel mai mare este 81."
+              ],
+              "grade": "Cls. I"
             }
           ]
         },
@@ -2980,7 +4225,8 @@
           "theory": [
             "Lungime: 1 m = 100 cm = 1000 mm; 1 km = 1000 m.",
             "Masă: 1 kg = 1000 g. Capacitate: 1 l = 1000 ml.",
-            "Timp: 1 oră = 60 minute. Bani: 1 leu = 100 bani."
+            "Timp: 1 oră = 60 minute. Bani: 1 leu = 100 bani.",
+            "Ceasul: acul mic arată ora, acul mare arată minutele. Când acul mare e la 12, ora e fixă. Săptămâna are 7 zile: luni, marți, miercuri, joi, vineri, sâmbătă, duminică."
           ],
           "problems": [
             {
@@ -3382,15 +4628,259 @@
                 "12 × 100 = 1200 cm."
               ],
               "grade": "Cls. IV"
+            },
+            {
+              "id": "c1-mas-01",
+              "kind": "input",
+              "statement": "Ce oră arată ceasul?<br><small>Acul mic (galben) arată ora, acul mare (albastru) stă la 12.</small>",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Ora",
+                  "unit": "",
+                  "answer": 6
+                }
+              ],
+              "hints": [
+                "Uită-te unde arată acul mic, cel scurt."
+              ],
+              "solution": [
+                "Acul mic arată 6, iar acul mare e la 12: este ora 6 fix."
+              ],
+              "grade": "Cls. I",
+              "figure": "<svg viewBox='0 0 120 120' width='150'><circle cx='60' cy='60' r='54' fill='none' stroke='currentColor' stroke-width='3'/><text x='80.5' y='28.5' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>1</text><text x='95.5' y='43.5' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>2</text><text x='101.0' y='64.0' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>3</text><text x='95.5' y='84.5' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>4</text><text x='80.5' y='99.5' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>5</text><text x='60.0' y='105.0' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>6</text><text x='39.5' y='99.5' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>7</text><text x='24.5' y='84.5' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>8</text><text x='19.0' y='64.0' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>9</text><text x='24.5' y='43.5' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>10</text><text x='39.5' y='28.5' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>11</text><text x='60.0' y='23.0' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>12</text><line x1='60' y1='60' x2='60' y2='16' stroke='#21DADE' stroke-width='3' stroke-linecap='round'/><line x1='60' y1='60' x2='60.0' y2='86.0' stroke='#F6C65B' stroke-width='6' stroke-linecap='round'/><circle cx='60' cy='60' r='4' fill='currentColor'/></svg>"
+            },
+            {
+              "id": "c1-mas-02",
+              "kind": "input",
+              "statement": "Ce oră arată ceasul?<br><small>Acul mic (galben) arată ora, acul mare (albastru) stă la 12.</small>",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Ora",
+                  "unit": "",
+                  "answer": 7
+                }
+              ],
+              "hints": [
+                "Uită-te unde arată acul mic, cel scurt."
+              ],
+              "solution": [
+                "Acul mic arată 7, iar acul mare e la 12: este ora 7 fix."
+              ],
+              "grade": "Cls. I",
+              "figure": "<svg viewBox='0 0 120 120' width='150'><circle cx='60' cy='60' r='54' fill='none' stroke='currentColor' stroke-width='3'/><text x='80.5' y='28.5' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>1</text><text x='95.5' y='43.5' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>2</text><text x='101.0' y='64.0' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>3</text><text x='95.5' y='84.5' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>4</text><text x='80.5' y='99.5' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>5</text><text x='60.0' y='105.0' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>6</text><text x='39.5' y='99.5' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>7</text><text x='24.5' y='84.5' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>8</text><text x='19.0' y='64.0' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>9</text><text x='24.5' y='43.5' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>10</text><text x='39.5' y='28.5' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>11</text><text x='60.0' y='23.0' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>12</text><line x1='60' y1='60' x2='60' y2='16' stroke='#21DADE' stroke-width='3' stroke-linecap='round'/><line x1='60' y1='60' x2='47.0' y2='82.5' stroke='#F6C65B' stroke-width='6' stroke-linecap='round'/><circle cx='60' cy='60' r='4' fill='currentColor'/></svg>"
+            },
+            {
+              "id": "c1-mas-03",
+              "kind": "input",
+              "statement": "Ce oră arată ceasul?<br><small>Acul mic (galben) arată ora, acul mare (albastru) stă la 12.</small>",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Ora",
+                  "unit": "",
+                  "answer": 9
+                }
+              ],
+              "hints": [
+                "Uită-te unde arată acul mic, cel scurt."
+              ],
+              "solution": [
+                "Acul mic arată 9, iar acul mare e la 12: este ora 9 fix."
+              ],
+              "grade": "Cls. I",
+              "figure": "<svg viewBox='0 0 120 120' width='150'><circle cx='60' cy='60' r='54' fill='none' stroke='currentColor' stroke-width='3'/><text x='80.5' y='28.5' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>1</text><text x='95.5' y='43.5' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>2</text><text x='101.0' y='64.0' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>3</text><text x='95.5' y='84.5' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>4</text><text x='80.5' y='99.5' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>5</text><text x='60.0' y='105.0' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>6</text><text x='39.5' y='99.5' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>7</text><text x='24.5' y='84.5' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>8</text><text x='19.0' y='64.0' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>9</text><text x='24.5' y='43.5' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>10</text><text x='39.5' y='28.5' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>11</text><text x='60.0' y='23.0' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>12</text><line x1='60' y1='60' x2='60' y2='16' stroke='#21DADE' stroke-width='3' stroke-linecap='round'/><line x1='60' y1='60' x2='34.0' y2='60.0' stroke='#F6C65B' stroke-width='6' stroke-linecap='round'/><circle cx='60' cy='60' r='4' fill='currentColor'/></svg>"
+            },
+            {
+              "id": "c1-mas-04",
+              "kind": "input",
+              "statement": "Ce oră arată ceasul?<br><small>Acul mic (galben) arată ora, acul mare (albastru) stă la 12.</small>",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Ora",
+                  "unit": "",
+                  "answer": 1
+                }
+              ],
+              "hints": [
+                "Uită-te unde arată acul mic, cel scurt."
+              ],
+              "solution": [
+                "Acul mic arată 1, iar acul mare e la 12: este ora 1 fix."
+              ],
+              "grade": "Cls. I",
+              "figure": "<svg viewBox='0 0 120 120' width='150'><circle cx='60' cy='60' r='54' fill='none' stroke='currentColor' stroke-width='3'/><text x='80.5' y='28.5' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>1</text><text x='95.5' y='43.5' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>2</text><text x='101.0' y='64.0' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>3</text><text x='95.5' y='84.5' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>4</text><text x='80.5' y='99.5' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>5</text><text x='60.0' y='105.0' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>6</text><text x='39.5' y='99.5' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>7</text><text x='24.5' y='84.5' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>8</text><text x='19.0' y='64.0' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>9</text><text x='24.5' y='43.5' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>10</text><text x='39.5' y='28.5' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>11</text><text x='60.0' y='23.0' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>12</text><line x1='60' y1='60' x2='60' y2='16' stroke='#21DADE' stroke-width='3' stroke-linecap='round'/><line x1='60' y1='60' x2='73.0' y2='37.5' stroke='#F6C65B' stroke-width='6' stroke-linecap='round'/><circle cx='60' cy='60' r='4' fill='currentColor'/></svg>"
+            },
+            {
+              "id": "c1-mas-05",
+              "kind": "input",
+              "statement": "Ce oră arată ceasul?<br><small>Acul mic (galben) arată ora, acul mare (albastru) stă la 12.</small>",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Ora",
+                  "unit": "",
+                  "answer": 11
+                }
+              ],
+              "hints": [
+                "Uită-te unde arată acul mic, cel scurt."
+              ],
+              "solution": [
+                "Acul mic arată 11, iar acul mare e la 12: este ora 11 fix."
+              ],
+              "grade": "Cls. I",
+              "figure": "<svg viewBox='0 0 120 120' width='150'><circle cx='60' cy='60' r='54' fill='none' stroke='currentColor' stroke-width='3'/><text x='80.5' y='28.5' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>1</text><text x='95.5' y='43.5' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>2</text><text x='101.0' y='64.0' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>3</text><text x='95.5' y='84.5' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>4</text><text x='80.5' y='99.5' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>5</text><text x='60.0' y='105.0' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>6</text><text x='39.5' y='99.5' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>7</text><text x='24.5' y='84.5' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>8</text><text x='19.0' y='64.0' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>9</text><text x='24.5' y='43.5' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>10</text><text x='39.5' y='28.5' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>11</text><text x='60.0' y='23.0' text-anchor='middle' font-size='11' font-weight='700' fill='currentColor'>12</text><line x1='60' y1='60' x2='60' y2='16' stroke='#21DADE' stroke-width='3' stroke-linecap='round'/><line x1='60' y1='60' x2='47.0' y2='37.5' stroke='#F6C65B' stroke-width='6' stroke-linecap='round'/><circle cx='60' cy='60' r='4' fill='currentColor'/></svg>"
+            },
+            {
+              "id": "c1-mas-06",
+              "kind": "input",
+              "statement": "Ai o bancnotă de 5 lei și o bancnotă de 1 leu. Câți lei ai în total?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Lei",
+                  "unit": "lei",
+                  "answer": 6
+                }
+              ],
+              "hints": [
+                "Adună întâi bancnotele de 5 lei, apoi pe cele de 1 leu."
+              ],
+              "solution": [
+                "5 lei + 1 lei = 6 lei."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-mas-07",
+              "kind": "input",
+              "statement": "Ai 2 bancnote de 5 lei și 2 bancnote de 1 leu. Câți lei ai în total?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Lei",
+                  "unit": "lei",
+                  "answer": 12
+                }
+              ],
+              "hints": [
+                "Adună întâi bancnotele de 5 lei, apoi pe cele de 1 leu."
+              ],
+              "solution": [
+                "2 × 5 = 10 lei + 2 lei = 12 lei."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-mas-08",
+              "kind": "input",
+              "statement": "Ai 2 bancnote de 5 lei și 3 bancnote de 1 leu. Câți lei ai în total?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Lei",
+                  "unit": "lei",
+                  "answer": 13
+                }
+              ],
+              "hints": [
+                "Adună întâi bancnotele de 5 lei, apoi pe cele de 1 leu."
+              ],
+              "solution": [
+                "2 × 5 = 10 lei + 3 lei = 13 lei."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-mas-09",
+              "kind": "input",
+              "statement": "Ai o bancnotă de 5 lei și 4 bancnote de 1 leu. Câți lei ai în total?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Lei",
+                  "unit": "lei",
+                  "answer": 9
+                }
+              ],
+              "hints": [
+                "Adună întâi bancnotele de 5 lei, apoi pe cele de 1 leu."
+              ],
+              "solution": [
+                "5 lei + 4 lei = 9 lei."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-mas-10",
+              "kind": "mc",
+              "statement": "Azi este <b>miercuri</b>. Ce zi va fi mâine?",
+              "options": [
+                "marți",
+                "luni",
+                "joi",
+                "duminică"
+              ],
+              "answer": 2,
+              "hints": [
+                "Spune zilele săptămânii în ordine, începând cu luni."
+              ],
+              "solution": [
+                "După miercuri vine joi."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-mas-11",
+              "kind": "mc",
+              "statement": "Azi este <b>joi</b>. Ce zi a fost ieri?",
+              "options": [
+                "vineri",
+                "duminică",
+                "miercuri",
+                "marți"
+              ],
+              "answer": 2,
+              "hints": [
+                "Ieri este ziua dinaintea zilei de azi."
+              ],
+              "solution": [
+                "Înainte de joi este miercuri."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-mas-12",
+              "kind": "input",
+              "statement": "Câte zile are o săptămână?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Zile",
+                  "unit": "",
+                  "answer": 7
+                }
+              ],
+              "hints": [
+                "Numără: luni, marți, miercuri, joi, vineri, sâmbătă, duminică."
+              ],
+              "solution": [
+                "O săptămână are 7 zile."
+              ],
+              "grade": "Cls. I"
             }
           ]
         },
         {
           "id": "prim-geo",
           "icon": "ruler",
-          "title": "Geometrie: perimetru și arie",
-          "subtitle": "Pătrat și dreptunghi",
+          "title": "Geometrie: figuri, perimetru, arie",
+          "subtitle": "Figuri geometrice, pătrat și dreptunghi",
           "theory": [
+            "Figuri plane: triunghiul are 3 laturi și 3 colțuri; pătratul are 4 laturi egale; dreptunghiul are 4 laturi (două lungi, două scurte); cercul nu are colțuri.",
             "Perimetrul = lungimea conturului. Pătrat: P = 4 × l. Dreptunghi: P = 2 × (L + l).",
             "Aria dreptunghiului = L × l; aria pătratului = l × l.",
             "Lungimea se măsoară în cm, aria în cm²."
@@ -3815,6 +5305,209 @@
               ],
               "grade": "Cls. IV",
               "figure": "<svg viewBox='0 0 200 130'><rect x='40' y='25' width='120' height='70' fill='none' stroke='currentColor' stroke-width='2'/><text x='100' y='18' text-anchor='middle' font-size='13' fill='currentColor'>45 cm</text><text x='170' y='64' font-size='13' fill='currentColor'>29 cm</text></svg>"
+            },
+            {
+              "id": "c1-geo-01",
+              "kind": "mc",
+              "statement": "Cum se numește figura?",
+              "options": [
+                "cerc",
+                "triunghi",
+                "dreptunghi",
+                "pătrat"
+              ],
+              "answer": 1,
+              "hints": [
+                "Numără laturile și colțurile figurii."
+              ],
+              "solution": [
+                "Figura este un triunghi."
+              ],
+              "grade": "Cls. I",
+              "figure": "<svg viewBox='0 0 120 110' width='140'><polygon points='60,12 108,96 12,96' fill='rgba(33,218,222,.25)' stroke='currentColor' stroke-width='3'/></svg>"
+            },
+            {
+              "id": "c1-geo-02",
+              "kind": "mc",
+              "statement": "Cum se numește figura?",
+              "options": [
+                "dreptunghi",
+                "pătrat",
+                "triunghi",
+                "cerc"
+              ],
+              "answer": 1,
+              "hints": [
+                "Numără laturile și colțurile figurii."
+              ],
+              "solution": [
+                "Figura este un pătrat."
+              ],
+              "grade": "Cls. I",
+              "figure": "<svg viewBox='0 0 120 110' width='140'><rect x='22' y='14' width='76' height='76' fill='rgba(246,198,91,.25)' stroke='currentColor' stroke-width='3'/></svg>"
+            },
+            {
+              "id": "c1-geo-03",
+              "kind": "mc",
+              "statement": "Cum se numește figura?",
+              "options": [
+                "pătrat",
+                "triunghi",
+                "cerc",
+                "dreptunghi"
+              ],
+              "answer": 2,
+              "hints": [
+                "Numără laturile și colțurile figurii."
+              ],
+              "solution": [
+                "Figura este un cerc."
+              ],
+              "grade": "Cls. I",
+              "figure": "<svg viewBox='0 0 120 110' width='140'><circle cx='60' cy='54' r='42' fill='rgba(244,63,94,.22)' stroke='currentColor' stroke-width='3'/></svg>"
+            },
+            {
+              "id": "c1-geo-04",
+              "kind": "mc",
+              "statement": "Cum se numește figura?",
+              "options": [
+                "triunghi",
+                "dreptunghi",
+                "cerc",
+                "pătrat"
+              ],
+              "answer": 1,
+              "hints": [
+                "Numără laturile și colțurile figurii."
+              ],
+              "solution": [
+                "Figura este un dreptunghi."
+              ],
+              "grade": "Cls. I",
+              "figure": "<svg viewBox='0 0 120 110' width='140'><rect x='8' y='28' width='104' height='52' fill='rgba(139,92,246,.25)' stroke='currentColor' stroke-width='3'/></svg>"
+            },
+            {
+              "id": "c1-geo-05",
+              "kind": "input",
+              "statement": "Câte laturi are un triunghi?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Răspuns",
+                  "unit": "",
+                  "answer": 3
+                }
+              ],
+              "hints": [
+                "Desenează figura și numără."
+              ],
+              "solution": [
+                "Răspuns: 3."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-geo-06",
+              "kind": "input",
+              "statement": "Câte colțuri are un pătrat?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Răspuns",
+                  "unit": "",
+                  "answer": 4
+                }
+              ],
+              "hints": [
+                "Desenează figura și numără."
+              ],
+              "solution": [
+                "Răspuns: 4."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-geo-07",
+              "kind": "input",
+              "statement": "Câte laturi are un dreptunghi?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Răspuns",
+                  "unit": "",
+                  "answer": 4
+                }
+              ],
+              "hints": [
+                "Desenează figura și numără."
+              ],
+              "solution": [
+                "Răspuns: 4."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-geo-08",
+              "kind": "input",
+              "statement": "Câte triunghiuri vezi în desen?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Câte",
+                  "unit": "",
+                  "answer": 7
+                }
+              ],
+              "hints": [
+                "Numără-le pe rând, de la stânga la dreapta."
+              ],
+              "solution": [
+                "Sunt 7 triunghiuri."
+              ],
+              "grade": "Cls. I",
+              "figure": "<svg viewBox='0 0 200 104' width='220'><polygon points='30,10 50,46 10,46' fill='rgba(33,218,222,.3)' stroke='currentColor' stroke-width='2'/><polygon points='78,10 98,46 58,46' fill='rgba(33,218,222,.3)' stroke='currentColor' stroke-width='2'/><polygon points='126,10 146,46 106,46' fill='rgba(33,218,222,.3)' stroke='currentColor' stroke-width='2'/><polygon points='174,10 194,46 154,46' fill='rgba(33,218,222,.3)' stroke='currentColor' stroke-width='2'/><polygon points='30,58 50,94 10,94' fill='rgba(33,218,222,.3)' stroke='currentColor' stroke-width='2'/><polygon points='78,58 98,94 58,94' fill='rgba(33,218,222,.3)' stroke='currentColor' stroke-width='2'/><polygon points='126,58 146,94 106,94' fill='rgba(33,218,222,.3)' stroke='currentColor' stroke-width='2'/></svg>"
+            },
+            {
+              "id": "c1-geo-09",
+              "kind": "input",
+              "statement": "Câte cercuri vezi în desen?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Câte",
+                  "unit": "",
+                  "answer": 6
+                }
+              ],
+              "hints": [
+                "Numără-le pe rând, de la stânga la dreapta."
+              ],
+              "solution": [
+                "Sunt 6 cercuri."
+              ],
+              "grade": "Cls. I",
+              "figure": "<svg viewBox='0 0 200 104' width='220'><circle cx='30' cy='28' r='17' fill='rgba(244,63,94,.28)' stroke='currentColor' stroke-width='2'/><circle cx='78' cy='28' r='17' fill='rgba(244,63,94,.28)' stroke='currentColor' stroke-width='2'/><circle cx='126' cy='28' r='17' fill='rgba(244,63,94,.28)' stroke='currentColor' stroke-width='2'/><circle cx='174' cy='28' r='17' fill='rgba(244,63,94,.28)' stroke='currentColor' stroke-width='2'/><circle cx='30' cy='76' r='17' fill='rgba(244,63,94,.28)' stroke='currentColor' stroke-width='2'/><circle cx='78' cy='76' r='17' fill='rgba(244,63,94,.28)' stroke='currentColor' stroke-width='2'/></svg>"
+            },
+            {
+              "id": "c1-geo-10",
+              "kind": "input",
+              "statement": "Câte triunghiuri vezi în desen?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Câte",
+                  "unit": "",
+                  "answer": 8
+                }
+              ],
+              "hints": [
+                "Numără-le pe rând, de la stânga la dreapta."
+              ],
+              "solution": [
+                "Sunt 8 triunghiuri."
+              ],
+              "grade": "Cls. I",
+              "figure": "<svg viewBox='0 0 200 104' width='220'><polygon points='30,10 50,46 10,46' fill='rgba(33,218,222,.3)' stroke='currentColor' stroke-width='2'/><polygon points='78,10 98,46 58,46' fill='rgba(33,218,222,.3)' stroke='currentColor' stroke-width='2'/><polygon points='126,10 146,46 106,46' fill='rgba(33,218,222,.3)' stroke='currentColor' stroke-width='2'/><polygon points='174,10 194,46 154,46' fill='rgba(33,218,222,.3)' stroke='currentColor' stroke-width='2'/><polygon points='30,58 50,94 10,94' fill='rgba(33,218,222,.3)' stroke='currentColor' stroke-width='2'/><polygon points='78,58 98,94 58,94' fill='rgba(33,218,222,.3)' stroke='currentColor' stroke-width='2'/><polygon points='126,58 146,94 106,94' fill='rgba(33,218,222,.3)' stroke='currentColor' stroke-width='2'/><polygon points='174,58 194,94 154,94' fill='rgba(33,218,222,.3)' stroke='currentColor' stroke-width='2'/></svg>"
             }
           ]
         }
@@ -3830,8 +5523,8 @@
         {
           "id": "prim-prob",
           "icon": "chart",
-          "title": "Probleme (pe metode)",
-          "subtitle": "Figurativă · comparație · reducere la unitate · mersul invers",
+          "title": "Probleme",
+          "subtitle": "Probleme simple (clasa I) și probleme pe metode",
           "theory": [
             "Metoda figurativă: desenăm bare/segmente ca să vedem relațiile dintre mărimi.",
             "Metoda comparației: comparăm două situații și scădem ca să eliminăm o mărime.",
@@ -4283,6 +5976,326 @@
                 "Numărul: 30."
               ],
               "grade": "Cls. V"
+            },
+            {
+              "id": "c1-pb-01",
+              "kind": "input",
+              "statement": "Mihai are 5 baloane. Mai primește 2 baloane. Câte baloane are acum?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Baloane",
+                  "unit": "",
+                  "answer": 7
+                }
+              ],
+              "hints": [
+                "„Mai primește” → adunăm."
+              ],
+              "solution": [
+                "5 + 2 = 7 baloane."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-pb-02",
+              "kind": "input",
+              "statement": "Într-un coș sunt 7 mere. Se mănâncă 2 mere. Câte mere au rămas?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Mere",
+                  "unit": "",
+                  "answer": 5
+                }
+              ],
+              "hints": [
+                "„Se mănâncă” → scădem."
+              ],
+              "solution": [
+                "7 − 2 = 5 mere."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-pb-03",
+              "kind": "input",
+              "statement": "Andrei are 2 creioane, iar Vlad are cu 8 mai multe. Câte creioane are Vlad?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Creioane",
+                  "unit": "",
+                  "answer": 10
+                }
+              ],
+              "hints": [
+                "„Cu 8 mai multe” → adunăm 8."
+              ],
+              "solution": [
+                "2 + 8 = 10 creioane."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-pb-04",
+              "kind": "input",
+              "statement": "Radu are 7 timbre, iar Sara are cu 6 mai puține. Câte timbre are Sara?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Timbre",
+                  "unit": "",
+                  "answer": 1
+                }
+              ],
+              "hints": [
+                "„Cu 6 mai puține” → scădem 6."
+              ],
+              "solution": [
+                "7 − 6 = 1 timbre."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-pb-05",
+              "kind": "input",
+              "statement": "Pe un lac sunt 3 rățuște. Mai vin 5. Câte rățuște sunt acum pe lac?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Rățuște",
+                  "unit": "",
+                  "answer": 8
+                }
+              ],
+              "hints": [
+                "„Mai vin” → adunăm."
+              ],
+              "solution": [
+                "3 + 5 = 8 rățuște."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-pb-06",
+              "kind": "input",
+              "statement": "Într-o parcare erau 10 mașini. Au plecat 7. Câte mașini au rămas?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Mașini",
+                  "unit": "",
+                  "answer": 3
+                }
+              ],
+              "hints": [
+                "„Au plecat” → scădem."
+              ],
+              "solution": [
+                "10 − 7 = 3 mașini."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-pb-07",
+              "kind": "input",
+              "statement": "Luca are 5 baloane. Mai primește 3 baloane. Câte baloane are acum?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Baloane",
+                  "unit": "",
+                  "answer": 8
+                }
+              ],
+              "hints": [
+                "„Mai primește” → adunăm."
+              ],
+              "solution": [
+                "5 + 3 = 8 baloane."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-pb-08",
+              "kind": "input",
+              "statement": "Într-un coș sunt 6 mere. Se mănâncă 2 mere. Câte mere au rămas?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Mere",
+                  "unit": "",
+                  "answer": 4
+                }
+              ],
+              "hints": [
+                "„Se mănâncă” → scădem."
+              ],
+              "solution": [
+                "6 − 2 = 4 mere."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-pb-09",
+              "kind": "input",
+              "statement": "Luca are 8 creioane, iar Ana are cu 9 mai multe. Câte creioane are Ana?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Creioane",
+                  "unit": "",
+                  "answer": 17
+                }
+              ],
+              "hints": [
+                "„Cu 9 mai multe” → adunăm 9."
+              ],
+              "solution": [
+                "8 + 9 = 17 creioane."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-pb-10",
+              "kind": "input",
+              "statement": "Ana are 17 timbre, iar Luca are cu 3 mai puține. Câte timbre are Luca?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Timbre",
+                  "unit": "",
+                  "answer": 14
+                }
+              ],
+              "hints": [
+                "„Cu 3 mai puține” → scădem 3."
+              ],
+              "solution": [
+                "17 − 3 = 14 timbre."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-pb-11",
+              "kind": "input",
+              "statement": "Pe un lac sunt 12 rățuște. Mai vin 7. Câte rățuște sunt acum pe lac?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Rățuște",
+                  "unit": "",
+                  "answer": 19
+                }
+              ],
+              "hints": [
+                "„Mai vin” → adunăm."
+              ],
+              "solution": [
+                "12 + 7 = 19 rățuște."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-pb-12",
+              "kind": "input",
+              "statement": "Într-o parcare erau 13 mașini. Au plecat 1. Câte mașini au rămas?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Mașini",
+                  "unit": "",
+                  "answer": 12
+                }
+              ],
+              "hints": [
+                "„Au plecat” → scădem."
+              ],
+              "solution": [
+                "13 − 1 = 12 mașini."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-pb-13",
+              "kind": "input",
+              "statement": "Mihai are 44 baloane. Mai primește 5 baloane. Câte baloane are acum?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Baloane",
+                  "unit": "",
+                  "answer": 49
+                }
+              ],
+              "hints": [
+                "„Mai primește” → adunăm."
+              ],
+              "solution": [
+                "44 + 5 = 49 baloane."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-pb-14",
+              "kind": "input",
+              "statement": "Într-un coș sunt 13 mere. Se mănâncă 11 mere. Câte mere au rămas?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Mere",
+                  "unit": "",
+                  "answer": 2
+                }
+              ],
+              "hints": [
+                "„Se mănâncă” → scădem."
+              ],
+              "solution": [
+                "13 − 11 = 2 mere."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-pb-15",
+              "kind": "input",
+              "statement": "O carte are 40 de pagini. Maria a citit 20 de pagini. Câte pagini mai are de citit?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Pagini",
+                  "unit": "",
+                  "answer": 20
+                }
+              ],
+              "hints": [
+                "Din toate paginile scazi paginile citite."
+              ],
+              "solution": [
+                "40 − 20 = 20 pagini."
+              ],
+              "grade": "Cls. I"
+            },
+            {
+              "id": "c1-pb-16",
+              "kind": "input",
+              "statement": "O carte are 70 de pagini. Maria a citit 50 de pagini. Câte pagini mai are de citit?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Pagini",
+                  "unit": "",
+                  "answer": 20
+                }
+              ],
+              "hints": [
+                "Din toate paginile scazi paginile citite."
+              ],
+              "solution": [
+                "70 − 50 = 20 pagini."
+              ],
+              "grade": "Cls. I"
             }
           ]
         }
