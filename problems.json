@@ -1,6 +1,6 @@
 {
-  "version": "3.4.0",
-  "updated": "2026-10-20",
+  "version": "3.4.4",
+  "updated": "2026-10-22",
   "subiecte": [
     {
       "id": "p-op",
@@ -743,20 +743,20 @@
             {
               "id": "c1-add-17",
               "kind": "input",
-              "statement": "Cât este 9 + 9?",
+              "statement": "Cât este 8 + 4?",
               "inputs": [
                 {
                   "key": "x",
                   "label": "Rezultat",
                   "unit": "",
-                  "answer": 18
+                  "answer": 12
                 }
               ],
               "hints": [
                 "Completează întâi până la 10, apoi adaugă ce a rămas."
               ],
               "solution": [
-                "9 + 9 = 18."
+                "8 + 4 = 12."
               ],
               "grade": "Cls. I"
             },
@@ -1065,7 +1065,7 @@
               ],
               "answer": 0,
               "hints": [
-                "Descompune: 72 × 6 = sute×6 + zeci×6 + unități×6."
+                "Descompune: 72 × 6 = 70 × 6 + 2 × 6."
               ],
               "solution": [
                 "72 × 6 = 432.",
@@ -1085,7 +1085,7 @@
               ],
               "answer": 2,
               "hints": [
-                "Descompune: 22 × 7 = sute×7 + zeci×7 + unități×7."
+                "Descompune: 22 × 7 = 20 × 7 + 2 × 7."
               ],
               "solution": [
                 "22 × 7 = 154.",
@@ -1105,7 +1105,7 @@
               ],
               "answer": 3,
               "hints": [
-                "Descompune: 51 × 9 = sute×9 + zeci×9 + unități×9."
+                "Descompune: 51 × 9 = 50 × 9 + 1 × 9."
               ],
               "solution": [
                 "51 × 9 = 459.",
@@ -1125,7 +1125,7 @@
               ],
               "answer": 0,
               "hints": [
-                "Descompune: 27 × 6 = sute×6 + zeci×6 + unități×6."
+                "Descompune: 27 × 6 = 20 × 6 + 7 × 6."
               ],
               "solution": [
                 "27 × 6 = 162.",
@@ -1145,7 +1145,7 @@
               ],
               "answer": 2,
               "hints": [
-                "Descompune: 72 × 9 = sute×9 + zeci×9 + unități×9."
+                "Descompune: 72 × 9 = 70 × 9 + 2 × 9."
               ],
               "solution": [
                 "72 × 9 = 648.",
@@ -1165,7 +1165,7 @@
               ],
               "answer": 2,
               "hints": [
-                "Descompune: 365 × 6 = sute×6 + zeci×6 + unități×6."
+                "Descompune: 365 × 6 = 300 × 6 + 60 × 6 + 5 × 6."
               ],
               "solution": [
                 "365 × 6 = 2190.",
@@ -1185,7 +1185,7 @@
               ],
               "answer": 0,
               "hints": [
-                "Descompune: 180 × 8 = sute×8 + zeci×8 + unități×8."
+                "Descompune: 180 × 8 = 100 × 8 + 80 × 8."
               ],
               "solution": [
                 "180 × 8 = 1440.",
@@ -1205,7 +1205,7 @@
               ],
               "answer": 3,
               "hints": [
-                "Descompune: 480 × 7 = sute×7 + zeci×7 + unități×7."
+                "Descompune: 480 × 7 = 400 × 7 + 80 × 7."
               ],
               "solution": [
                 "480 × 7 = 3360.",
@@ -1225,7 +1225,7 @@
               ],
               "answer": 3,
               "hints": [
-                "Descompune: 285 × 5 = sute×5 + zeci×5 + unități×5."
+                "Descompune: 285 × 5 = 200 × 5 + 80 × 5 + 5 × 5."
               ],
               "solution": [
                 "285 × 5 = 1425.",
@@ -1245,7 +1245,7 @@
               ],
               "answer": 1,
               "hints": [
-                "Descompune: 392 × 2 = sute×2 + zeci×2 + unități×2."
+                "Descompune: 392 × 2 = 300 × 2 + 90 × 2 + 2 × 2."
               ],
               "solution": [
                 "392 × 2 = 784.",
@@ -1265,7 +1265,7 @@
               ],
               "answer": 1,
               "hints": [
-                "Descompune: 17 × 27 = sute×27 + zeci×27 + unități×27."
+                "Descompune: 17 × 27 = 10 × 27 + 7 × 27."
               ],
               "solution": [
                 "17 × 27 = 459.",
@@ -1285,7 +1285,7 @@
               ],
               "answer": 3,
               "hints": [
-                "Descompune: 14 × 25 = sute×25 + zeci×25 + unități×25."
+                "Descompune: 14 × 25 = 10 × 25 + 4 × 25."
               ],
               "solution": [
                 "14 × 25 = 350.",
@@ -1305,7 +1305,7 @@
               ],
               "answer": 3,
               "hints": [
-                "Descompune: 32 × 28 = sute×28 + zeci×28 + unități×28."
+                "Descompune: 32 × 28 = 30 × 28 + 2 × 28."
               ],
               "solution": [
                 "32 × 28 = 896.",
@@ -1325,7 +1325,7 @@
               ],
               "answer": 1,
               "hints": [
-                "Descompune: 45 × 18 = sute×18 + zeci×18 + unități×18."
+                "Descompune: 45 × 18 = 40 × 18 + 5 × 18."
               ],
               "solution": [
                 "45 × 18 = 810.",
@@ -1345,7 +1345,7 @@
               ],
               "answer": 3,
               "hints": [
-                "Descompune: 12 × 23 = sute×23 + zeci×23 + unități×23."
+                "Descompune: 12 × 23 = 10 × 23 + 2 × 23."
               ],
               "solution": [
                 "12 × 23 = 276.",
@@ -2940,31 +2940,31 @@
               ],
               "answer": 2,
               "hints": [
-                "Cifra unităților ≥5 → rotunjim în sus, altfel în jos."
+                "Dacă cifra unităților este 5 sau mai mare, rotunjim în sus; altfel, în jos."
               ],
               "solution": [
-                "Unitatea lui 26 este 6, deci rotunjim la 30."
+                "Cifra unităților lui 26 este 6, deci rotunjim în sus, la 30."
               ],
-              "grade": "Cls. I–II"
+              "grade": "Cls. II–III"
             },
             {
               "id": "pnum-02",
               "kind": "mc",
-              "statement": "Rotunjește 100 la sute.",
+              "statement": "Rotunjește 81 la zeci.",
               "options": [
-                "200",
-                "100",
-                "0",
-                "110"
+                "90",
+                "80",
+                "70",
+                "81"
               ],
               "answer": 1,
               "hints": [
-                "Privește cifra zecilor: ≥5 rotunjim în sus."
+                "Dacă cifra unităților este 5 sau mai mare, rotunjim în sus; altfel, în jos."
               ],
               "solution": [
-                "Zecile lui 100 sunt 0, deci rotunjim la 100."
+                "Cifra unităților lui 81 este 1, mai mică decât 5, deci rotunjim în jos, la 80."
               ],
-              "grade": "Cls. I–II"
+              "grade": "Cls. II–III"
             },
             {
               "id": "pnum-03",
@@ -2998,31 +2998,31 @@
               ],
               "answer": 3,
               "hints": [
-                "Cifra unităților ≥5 → rotunjim în sus, altfel în jos."
+                "Dacă cifra unităților este 5 sau mai mare, rotunjim în sus; altfel, în jos."
               ],
               "solution": [
-                "Unitatea lui 49 este 9, deci rotunjim la 50."
+                "Cifra unităților lui 49 este 9, deci rotunjim în sus, la 50."
               ],
-              "grade": "Cls. I–II"
+              "grade": "Cls. II–III"
             },
             {
               "id": "pnum-05",
               "kind": "mc",
-              "statement": "Rotunjește 100 la sute.",
+              "statement": "Rotunjește 86 la zeci.",
               "options": [
-                "110",
-                "0",
-                "200",
-                "100"
+                "86",
+                "80",
+                "100",
+                "90"
               ],
               "answer": 3,
               "hints": [
-                "Privește cifra zecilor: ≥5 rotunjim în sus."
+                "Dacă cifra unităților este 5 sau mai mare, rotunjim în sus; altfel, în jos."
               ],
               "solution": [
-                "Zecile lui 100 sunt 0, deci rotunjim la 100."
+                "Cifra unităților lui 86 este 6, deci rotunjim în sus, la 90."
               ],
-              "grade": "Cls. I–II"
+              "grade": "Cls. II–III"
             },
             {
               "id": "pnum-06",
@@ -3056,10 +3056,10 @@
               ],
               "answer": 1,
               "hints": [
-                "Cifra unităților ≥5 → rotunjim în sus, altfel în jos."
+                "Dacă cifra unităților este 5 sau mai mare, rotunjim în sus; altfel, în jos."
               ],
               "solution": [
-                "Unitatea lui 484 este 4, deci rotunjim la 480."
+                "Cifra unităților lui 484 este 4, mai mică decât 5, deci rotunjim în jos, la 480."
               ],
               "grade": "Cls. II–III"
             },
@@ -3075,10 +3075,10 @@
               ],
               "answer": 2,
               "hints": [
-                "Privește cifra zecilor: ≥5 rotunjim în sus."
+                "Privește cifra zecilor: dacă este 5 sau mai mare, rotunjim în sus; altfel, în jos."
               ],
               "solution": [
-                "Zecile lui 714 sunt 1, deci rotunjim la 700."
+                "Cifra zecilor lui 714 este 1, mai mică decât 5, deci rotunjim în jos, la 700."
               ],
               "grade": "Cls. II–III"
             },
@@ -3114,10 +3114,10 @@
               ],
               "answer": 3,
               "hints": [
-                "Cifra unităților ≥5 → rotunjim în sus, altfel în jos."
+                "Dacă cifra unităților este 5 sau mai mare, rotunjim în sus; altfel, în jos."
               ],
               "solution": [
-                "Unitatea lui 992 este 2, deci rotunjim la 990."
+                "Cifra unităților lui 992 este 2, mai mică decât 5, deci rotunjim în jos, la 990."
               ],
               "grade": "Cls. II–III"
             },
@@ -3133,10 +3133,10 @@
               ],
               "answer": 0,
               "hints": [
-                "Privește cifra zecilor: ≥5 rotunjim în sus."
+                "Privește cifra zecilor: dacă este 5 sau mai mare, rotunjim în sus; altfel, în jos."
               ],
               "solution": [
-                "Zecile lui 8914 sunt 1, deci rotunjim la 8900."
+                "Cifra zecilor lui 8914 este 1, mai mică decât 5, deci rotunjim în jos, la 8900."
               ],
               "grade": "Cls. III–IV"
             },
@@ -3172,10 +3172,10 @@
               ],
               "answer": 2,
               "hints": [
-                "Cifra unităților ≥5 → rotunjim în sus, altfel în jos."
+                "Dacă cifra unităților este 5 sau mai mare, rotunjim în sus; altfel, în jos."
               ],
               "solution": [
-                "Unitatea lui 6022 este 2, deci rotunjim la 6020."
+                "Cifra unităților lui 6022 este 2, mai mică decât 5, deci rotunjim în jos, la 6020."
               ],
               "grade": "Cls. III–IV"
             },
@@ -3191,10 +3191,10 @@
               ],
               "answer": 0,
               "hints": [
-                "Privește cifra zecilor: ≥5 rotunjim în sus."
+                "Privește cifra zecilor: dacă este 5 sau mai mare, rotunjim în sus; altfel, în jos."
               ],
               "solution": [
-                "Zecile lui 9284 sunt 8, deci rotunjim la 9300."
+                "Cifra zecilor lui 9284 este 8, deci rotunjim în sus, la 9300."
               ],
               "grade": "Cls. III–IV"
             },
@@ -3230,10 +3230,10 @@
               ],
               "answer": 1,
               "hints": [
-                "Cifra unităților ≥5 → rotunjim în sus, altfel în jos."
+                "Dacă cifra unităților este 5 sau mai mare, rotunjim în sus; altfel, în jos."
               ],
               "solution": [
-                "Unitatea lui 386346 este 6, deci rotunjim la 386350."
+                "Cifra unităților lui 386346 este 6, deci rotunjim în sus, la 386350."
               ],
               "grade": "Cls. IV"
             },
@@ -3249,10 +3249,10 @@
               ],
               "answer": 1,
               "hints": [
-                "Privește cifra zecilor: ≥5 rotunjim în sus."
+                "Privește cifra zecilor: dacă este 5 sau mai mare, rotunjim în sus; altfel, în jos."
               ],
               "solution": [
-                "Zecile lui 663162 sunt 6, deci rotunjim la 663200."
+                "Cifra zecilor lui 663162 este 6, deci rotunjim în sus, la 663200."
               ],
               "grade": "Cls. IV"
             },
@@ -3288,10 +3288,10 @@
               ],
               "answer": 0,
               "hints": [
-                "Cifra unităților ≥5 → rotunjim în sus, altfel în jos."
+                "Dacă cifra unităților este 5 sau mai mare, rotunjim în sus; altfel, în jos."
               ],
               "solution": [
-                "Unitatea lui 269632 este 2, deci rotunjim la 269630."
+                "Cifra unităților lui 269632 este 2, mai mică decât 5, deci rotunjim în jos, la 269630."
               ],
               "grade": "Cls. IV"
             },
@@ -3307,10 +3307,10 @@
               ],
               "answer": 3,
               "hints": [
-                "Privește cifra zecilor: ≥5 rotunjim în sus."
+                "Privește cifra zecilor: dacă este 5 sau mai mare, rotunjim în sus; altfel, în jos."
               ],
               "solution": [
-                "Zecile lui 571930 sunt 3, deci rotunjim la 571900."
+                "Cifra zecilor lui 571930 este 3, mai mică decât 5, deci rotunjim în jos, la 571900."
               ],
               "grade": "Cls. IV"
             },
@@ -3490,14 +3490,14 @@
                 "Prima cifră (din stânga) arată zecile."
               ],
               "solution": [
-                "41 = 4 zeci și 1 unități."
+                "41 = 4 zeci și 1 unitate."
               ],
               "grade": "Cls. I"
             },
             {
               "id": "c1-num-10",
               "kind": "input",
-              "statement": "Ce număr are <b>1 zeci</b> și <b>2 unități</b>?",
+              "statement": "Ce număr are <b>1 zece</b> și <b>2 unități</b>?",
               "inputs": [
                 {
                   "key": "x",
@@ -3510,14 +3510,14 @@
                 "Zecile se scriu primele, apoi unitățile."
               ],
               "solution": [
-                "1 zeci și 2 unități = 12."
+                "1 zece și 2 unități = 12."
               ],
               "grade": "Cls. I"
             },
             {
               "id": "c1-num-11",
               "kind": "input",
-              "statement": "Ce număr are <b>1 zeci</b> și <b>7 unități</b>?",
+              "statement": "Ce număr are <b>1 zece</b> și <b>7 unități</b>?",
               "inputs": [
                 {
                   "key": "x",
@@ -3530,7 +3530,7 @@
                 "Zecile se scriu primele, apoi unitățile."
               ],
               "solution": [
-                "1 zeci și 7 unități = 17."
+                "1 zece și 7 unități = 17."
               ],
               "grade": "Cls. I"
             },
@@ -3733,10 +3733,10 @@
             {
               "id": "c1-num-22",
               "kind": "mc",
-              "statement": "Care este cel mai MIC număr?",
+              "statement": "Care este cel mai <b>mic</b> număr?",
               "options": [
                 "80",
-                "9",
+                "11",
                 "31",
                 "10"
               ],
@@ -3752,11 +3752,11 @@
             {
               "id": "c1-num-23",
               "kind": "mc",
-              "statement": "Care este cel mai MIC număr?",
+              "statement": "Care este cel mai <b>mic</b> număr?",
               "options": [
                 "86",
                 "11",
-                "10",
+                "12",
                 "54"
               ],
               "answer": 1,
@@ -3771,12 +3771,12 @@
             {
               "id": "c1-num-24",
               "kind": "mc",
-              "statement": "Care este cel mai MARE număr?",
+              "statement": "Care este cel mai <b>mare</b> număr?",
               "options": [
                 "81",
                 "37",
                 "27",
-                "82"
+                "80"
               ],
               "answer": 0,
               "hints": [
@@ -3818,8 +3818,8 @@
                 "6/10 + 2/10 = 8/10.",
                 "Numărătorul este 8."
               ],
-              "grade": "Cls. I–II",
-              "figure": "<svg viewBox='0 0 200 100'><rect x='10' y='30' width='18' height='40' fill='#0AAEC0' stroke='currentColor' stroke-width='1.5'/><rect x='28' y='30' width='18' height='40' fill='#0AAEC0' stroke='currentColor' stroke-width='1.5'/><rect x='46' y='30' width='18' height='40' fill='#0AAEC0' stroke='currentColor' stroke-width='1.5'/><rect x='64' y='30' width='18' height='40' fill='#0AAEC0' stroke='currentColor' stroke-width='1.5'/><rect x='82' y='30' width='18' height='40' fill='#0AAEC0' stroke='currentColor' stroke-width='1.5'/><rect x='100' y='30' width='18' height='40' fill='#0AAEC0' stroke='currentColor' stroke-width='1.5'/><rect x='118' y='30' width='18' height='40' fill='none' stroke='currentColor' stroke-width='1.5'/><rect x='136' y='30' width='18' height='40' fill='none' stroke='currentColor' stroke-width='1.5'/><rect x='154' y='30' width='18' height='40' fill='none' stroke='currentColor' stroke-width='1.5'/><rect x='172' y='30' width='18' height='40' fill='none' stroke='currentColor' stroke-width='1.5'/></svg>"
+              "grade": "Cls. IV",
+              "figure": "<svg viewBox='0 0 200 100'><rect x='10' y='30' width='18' height='40' fill='#0AAEC0' stroke='currentColor' stroke-width='1.5'/><rect x='28' y='30' width='18' height='40' fill='#0AAEC0' stroke='currentColor' stroke-width='1.5'/><rect x='46' y='30' width='18' height='40' fill='#0AAEC0' stroke='currentColor' stroke-width='1.5'/><rect x='64' y='30' width='18' height='40' fill='#0AAEC0' stroke='currentColor' stroke-width='1.5'/><rect x='82' y='30' width='18' height='40' fill='#0AAEC0' stroke='currentColor' stroke-width='1.5'/><rect x='100' y='30' width='18' height='40' fill='#0AAEC0' stroke='currentColor' stroke-width='1.5'/><rect x='118' y='30' width='18' height='40' fill='#F6C65B' stroke='currentColor' stroke-width='1.5'/><rect x='136' y='30' width='18' height='40' fill='#F6C65B' stroke='currentColor' stroke-width='1.5'/><rect x='154' y='30' width='18' height='40' fill='none' stroke='currentColor' stroke-width='1.5'/><rect x='172' y='30' width='18' height='40' fill='none' stroke='currentColor' stroke-width='1.5'/></svg>"
             },
             {
               "id": "pf-02",
@@ -3838,7 +3838,7 @@
               "solution": [
                 "3/5 > 2/5."
               ],
-              "grade": "Cls. I–II"
+              "grade": "Cls. III–IV"
             },
             {
               "id": "pf-03",
@@ -3858,7 +3858,7 @@
               "solution": [
                 "60 : 6 = 10; 10 × 1 = 10."
               ],
-              "grade": "Cls. I–II",
+              "grade": "Cls. III–IV",
               "figure": "<svg viewBox='0 0 200 100'><rect x='10' y='30' width='30' height='40' fill='#0AAEC0' stroke='currentColor' stroke-width='1.5'/><rect x='40' y='30' width='30' height='40' fill='none' stroke='currentColor' stroke-width='1.5'/><rect x='70' y='30' width='30' height='40' fill='none' stroke='currentColor' stroke-width='1.5'/><rect x='100' y='30' width='30' height='40' fill='none' stroke='currentColor' stroke-width='1.5'/><rect x='130' y='30' width='30' height='40' fill='none' stroke='currentColor' stroke-width='1.5'/><rect x='160' y='30' width='30' height='40' fill='none' stroke='currentColor' stroke-width='1.5'/></svg>"
             },
             {
@@ -3879,8 +3879,8 @@
                 "8/10 + 2/10 = 10/10.",
                 "Numărătorul este 10."
               ],
-              "grade": "Cls. I–II",
-              "figure": "<svg viewBox='0 0 200 100'><rect x='10' y='30' width='18' height='40' fill='#0AAEC0' stroke='currentColor' stroke-width='1.5'/><rect x='28' y='30' width='18' height='40' fill='#0AAEC0' stroke='currentColor' stroke-width='1.5'/><rect x='46' y='30' width='18' height='40' fill='#0AAEC0' stroke='currentColor' stroke-width='1.5'/><rect x='64' y='30' width='18' height='40' fill='#0AAEC0' stroke='currentColor' stroke-width='1.5'/><rect x='82' y='30' width='18' height='40' fill='#0AAEC0' stroke='currentColor' stroke-width='1.5'/><rect x='100' y='30' width='18' height='40' fill='#0AAEC0' stroke='currentColor' stroke-width='1.5'/><rect x='118' y='30' width='18' height='40' fill='#0AAEC0' stroke='currentColor' stroke-width='1.5'/><rect x='136' y='30' width='18' height='40' fill='#0AAEC0' stroke='currentColor' stroke-width='1.5'/><rect x='154' y='30' width='18' height='40' fill='none' stroke='currentColor' stroke-width='1.5'/><rect x='172' y='30' width='18' height='40' fill='none' stroke='currentColor' stroke-width='1.5'/></svg>"
+              "grade": "Cls. IV",
+              "figure": "<svg viewBox='0 0 200 100'><rect x='10' y='30' width='18' height='40' fill='#0AAEC0' stroke='currentColor' stroke-width='1.5'/><rect x='28' y='30' width='18' height='40' fill='#0AAEC0' stroke='currentColor' stroke-width='1.5'/><rect x='46' y='30' width='18' height='40' fill='#0AAEC0' stroke='currentColor' stroke-width='1.5'/><rect x='64' y='30' width='18' height='40' fill='#0AAEC0' stroke='currentColor' stroke-width='1.5'/><rect x='82' y='30' width='18' height='40' fill='#0AAEC0' stroke='currentColor' stroke-width='1.5'/><rect x='100' y='30' width='18' height='40' fill='#0AAEC0' stroke='currentColor' stroke-width='1.5'/><rect x='118' y='30' width='18' height='40' fill='#0AAEC0' stroke='currentColor' stroke-width='1.5'/><rect x='136' y='30' width='18' height='40' fill='#0AAEC0' stroke='currentColor' stroke-width='1.5'/><rect x='154' y='30' width='18' height='40' fill='#F6C65B' stroke='currentColor' stroke-width='1.5'/><rect x='172' y='30' width='18' height='40' fill='#F6C65B' stroke='currentColor' stroke-width='1.5'/></svg>"
             },
             {
               "id": "pf-05",
@@ -3899,7 +3899,7 @@
               "solution": [
                 "3/4 > 2/4."
               ],
-              "grade": "Cls. I–II"
+              "grade": "Cls. III–IV"
             },
             {
               "id": "pf-06",
@@ -3919,7 +3919,7 @@
               "solution": [
                 "20 : 10 = 2; 2 × 3 = 6."
               ],
-              "grade": "Cls. II–III",
+              "grade": "Cls. III–IV",
               "figure": "<svg viewBox='0 0 200 100'><rect x='10' y='30' width='18' height='40' fill='#0AAEC0' stroke='currentColor' stroke-width='1.5'/><rect x='28' y='30' width='18' height='40' fill='#0AAEC0' stroke='currentColor' stroke-width='1.5'/><rect x='46' y='30' width='18' height='40' fill='#0AAEC0' stroke='currentColor' stroke-width='1.5'/><rect x='64' y='30' width='18' height='40' fill='none' stroke='currentColor' stroke-width='1.5'/><rect x='82' y='30' width='18' height='40' fill='none' stroke='currentColor' stroke-width='1.5'/><rect x='100' y='30' width='18' height='40' fill='none' stroke='currentColor' stroke-width='1.5'/><rect x='118' y='30' width='18' height='40' fill='none' stroke='currentColor' stroke-width='1.5'/><rect x='136' y='30' width='18' height='40' fill='none' stroke='currentColor' stroke-width='1.5'/><rect x='154' y='30' width='18' height='40' fill='none' stroke='currentColor' stroke-width='1.5'/><rect x='172' y='30' width='18' height='40' fill='none' stroke='currentColor' stroke-width='1.5'/></svg>"
             },
             {
@@ -3940,8 +3940,8 @@
                 "1/6 + 4/6 = 5/6.",
                 "Numărătorul este 5."
               ],
-              "grade": "Cls. II–III",
-              "figure": "<svg viewBox='0 0 200 100'><rect x='10' y='30' width='30' height='40' fill='#0AAEC0' stroke='currentColor' stroke-width='1.5'/><rect x='40' y='30' width='30' height='40' fill='none' stroke='currentColor' stroke-width='1.5'/><rect x='70' y='30' width='30' height='40' fill='none' stroke='currentColor' stroke-width='1.5'/><rect x='100' y='30' width='30' height='40' fill='none' stroke='currentColor' stroke-width='1.5'/><rect x='130' y='30' width='30' height='40' fill='none' stroke='currentColor' stroke-width='1.5'/><rect x='160' y='30' width='30' height='40' fill='none' stroke='currentColor' stroke-width='1.5'/></svg>"
+              "grade": "Cls. IV",
+              "figure": "<svg viewBox='0 0 200 100'><rect x='10' y='30' width='30' height='40' fill='#0AAEC0' stroke='currentColor' stroke-width='1.5'/><rect x='40' y='30' width='30' height='40' fill='#F6C65B' stroke='currentColor' stroke-width='1.5'/><rect x='70' y='30' width='30' height='40' fill='#F6C65B' stroke='currentColor' stroke-width='1.5'/><rect x='100' y='30' width='30' height='40' fill='#F6C65B' stroke='currentColor' stroke-width='1.5'/><rect x='130' y='30' width='30' height='40' fill='#F6C65B' stroke='currentColor' stroke-width='1.5'/><rect x='160' y='30' width='30' height='40' fill='none' stroke='currentColor' stroke-width='1.5'/></svg>"
             },
             {
               "id": "pf-08",
@@ -3960,7 +3960,7 @@
               "solution": [
                 "3/6 > 2/6."
               ],
-              "grade": "Cls. II–III"
+              "grade": "Cls. III–IV"
             },
             {
               "id": "pf-09",
@@ -3980,29 +3980,29 @@
               "solution": [
                 "40 : 5 = 8; 8 × 4 = 32."
               ],
-              "grade": "Cls. II–III",
+              "grade": "Cls. III–IV",
               "figure": "<svg viewBox='0 0 200 100'><rect x='10' y='30' width='36' height='40' fill='#0AAEC0' stroke='currentColor' stroke-width='1.5'/><rect x='46' y='30' width='36' height='40' fill='#0AAEC0' stroke='currentColor' stroke-width='1.5'/><rect x='82' y='30' width='36' height='40' fill='#0AAEC0' stroke='currentColor' stroke-width='1.5'/><rect x='118' y='30' width='36' height='40' fill='#0AAEC0' stroke='currentColor' stroke-width='1.5'/><rect x='154' y='30' width='36' height='40' fill='none' stroke='currentColor' stroke-width='1.5'/></svg>"
             },
             {
               "id": "pf-10",
               "kind": "mc",
-              "statement": "Cât este 4/6 + 1/6? (scrie numărătorul rezultatului)",
+              "statement": "Cât este 1/6 + 1/6? (scrie numărătorul rezultatului)",
               "options": [
-                "4",
-                "5",
+                "2",
                 "6",
-                "7"
+                "5",
+                "3"
               ],
-              "answer": 1,
+              "answer": 0,
               "hints": [
                 "Cu același numitor, aduni numărătorii; numitorul rămâne la fel."
               ],
               "solution": [
-                "4/6 + 1/6 = 5/6.",
-                "Numărătorul este 5."
+                "1/6 + 1/6 = 2/6.",
+                "Numărătorul este 2."
               ],
-              "grade": "Cls. II–III",
-              "figure": "<svg viewBox='0 0 200 100'><rect x='10' y='30' width='30' height='40' fill='#0AAEC0' stroke='currentColor' stroke-width='1.5'/><rect x='40' y='30' width='30' height='40' fill='#0AAEC0' stroke='currentColor' stroke-width='1.5'/><rect x='70' y='30' width='30' height='40' fill='#0AAEC0' stroke='currentColor' stroke-width='1.5'/><rect x='100' y='30' width='30' height='40' fill='#0AAEC0' stroke='currentColor' stroke-width='1.5'/><rect x='130' y='30' width='30' height='40' fill='none' stroke='currentColor' stroke-width='1.5'/><rect x='160' y='30' width='30' height='40' fill='none' stroke='currentColor' stroke-width='1.5'/></svg>"
+              "grade": "Cls. IV",
+              "figure": "<svg viewBox='0 0 200 100'><rect x='10' y='30' width='30' height='40' fill='#0AAEC0' stroke='currentColor' stroke-width='1.5'/><rect x='40' y='30' width='30' height='40' fill='#F6C65B' stroke='currentColor' stroke-width='1.5'/><rect x='70' y='30' width='30' height='40' fill='none' stroke='currentColor' stroke-width='1.5'/><rect x='100' y='30' width='30' height='40' fill='none' stroke='currentColor' stroke-width='1.5'/><rect x='130' y='30' width='30' height='40' fill='none' stroke='currentColor' stroke-width='1.5'/><rect x='160' y='30' width='30' height='40' fill='none' stroke='currentColor' stroke-width='1.5'/></svg>"
             },
             {
               "id": "pf-11",
@@ -4062,8 +4062,8 @@
                 "1/4 + 2/4 = 3/4.",
                 "Numărătorul este 3."
               ],
-              "grade": "Cls. III–IV",
-              "figure": "<svg viewBox='0 0 200 100'><rect x='10' y='30' width='45' height='40' fill='#0AAEC0' stroke='currentColor' stroke-width='1.5'/><rect x='55' y='30' width='45' height='40' fill='none' stroke='currentColor' stroke-width='1.5'/><rect x='100' y='30' width='45' height='40' fill='none' stroke='currentColor' stroke-width='1.5'/><rect x='145' y='30' width='45' height='40' fill='none' stroke='currentColor' stroke-width='1.5'/></svg>"
+              "grade": "Cls. IV",
+              "figure": "<svg viewBox='0 0 200 100'><rect x='10' y='30' width='45' height='40' fill='#0AAEC0' stroke='currentColor' stroke-width='1.5'/><rect x='55' y='30' width='45' height='40' fill='#F6C65B' stroke='currentColor' stroke-width='1.5'/><rect x='100' y='30' width='45' height='40' fill='#F6C65B' stroke='currentColor' stroke-width='1.5'/><rect x='145' y='30' width='45' height='40' fill='none' stroke='currentColor' stroke-width='1.5'/></svg>"
             },
             {
               "id": "pf-14",
@@ -4124,7 +4124,7 @@
                 "Numărătorul este 3."
               ],
               "grade": "Cls. IV",
-              "figure": "<svg viewBox='0 0 200 100'><rect x='10' y='30' width='30' height='40' fill='#0AAEC0' stroke='currentColor' stroke-width='1.5'/><rect x='40' y='30' width='30' height='40' fill='#0AAEC0' stroke='currentColor' stroke-width='1.5'/><rect x='70' y='30' width='30' height='40' fill='none' stroke='currentColor' stroke-width='1.5'/><rect x='100' y='30' width='30' height='40' fill='none' stroke='currentColor' stroke-width='1.5'/><rect x='130' y='30' width='30' height='40' fill='none' stroke='currentColor' stroke-width='1.5'/><rect x='160' y='30' width='30' height='40' fill='none' stroke='currentColor' stroke-width='1.5'/></svg>"
+              "figure": "<svg viewBox='0 0 200 100'><rect x='10' y='30' width='30' height='40' fill='#0AAEC0' stroke='currentColor' stroke-width='1.5'/><rect x='40' y='30' width='30' height='40' fill='#0AAEC0' stroke='currentColor' stroke-width='1.5'/><rect x='70' y='30' width='30' height='40' fill='#F6C65B' stroke='currentColor' stroke-width='1.5'/><rect x='100' y='30' width='30' height='40' fill='none' stroke='currentColor' stroke-width='1.5'/><rect x='130' y='30' width='30' height='40' fill='none' stroke='currentColor' stroke-width='1.5'/><rect x='160' y='30' width='30' height='40' fill='none' stroke='currentColor' stroke-width='1.5'/></svg>"
             },
             {
               "id": "pf-17",
@@ -4172,7 +4172,7 @@
               "statement": "Cât este 1/4 + 1/4? (scrie numărătorul rezultatului)",
               "options": [
                 "2",
-                "1",
+                "5",
                 "3",
                 "4"
               ],
@@ -4185,24 +4185,24 @@
                 "Numărătorul este 2."
               ],
               "grade": "Cls. IV",
-              "figure": "<svg viewBox='0 0 200 100'><rect x='10' y='30' width='45' height='40' fill='#0AAEC0' stroke='currentColor' stroke-width='1.5'/><rect x='55' y='30' width='45' height='40' fill='none' stroke='currentColor' stroke-width='1.5'/><rect x='100' y='30' width='45' height='40' fill='none' stroke='currentColor' stroke-width='1.5'/><rect x='145' y='30' width='45' height='40' fill='none' stroke='currentColor' stroke-width='1.5'/></svg>"
+              "figure": "<svg viewBox='0 0 200 100'><rect x='10' y='30' width='45' height='40' fill='#0AAEC0' stroke='currentColor' stroke-width='1.5'/><rect x='55' y='30' width='45' height='40' fill='#F6C65B' stroke='currentColor' stroke-width='1.5'/><rect x='100' y='30' width='45' height='40' fill='none' stroke='currentColor' stroke-width='1.5'/><rect x='145' y='30' width='45' height='40' fill='none' stroke='currentColor' stroke-width='1.5'/></svg>"
             },
             {
               "id": "pf-20",
               "kind": "mc",
-              "statement": "Care fracție este mai mare: 3/8 sau 2/8?",
+              "statement": "Care fracție este mai mare: 4/5 sau 2/5?",
               "options": [
-                "3/9",
-                "2/8",
-                "2/9",
-                "3/8"
+                "2/5",
+                "4/5",
+                "2/6",
+                "4/6"
               ],
-              "answer": 3,
+              "answer": 1,
               "hints": [
                 "Cu același numitor, e mai mare fracția cu numărătorul mai mare."
               ],
               "solution": [
-                "3/8 > 2/8."
+                "4/5 > 2/5."
               ],
               "grade": "Cls. IV"
             }
@@ -4225,7 +4225,7 @@
           "theory": [
             "Lungime: 1 m = 100 cm = 1000 mm; 1 km = 1000 m.",
             "Masă: 1 kg = 1000 g. Capacitate: 1 l = 1000 ml.",
-            "Timp: 1 oră = 60 minute. Bani: 1 leu = 100 bani.",
+            "Timp: 1 oră = 60 de minute. Bani: 1 leu = 100 de bani.",
             "Ceasul: acul mic arată ora, acul mare arată minutele. Când acul mare e la 12, ora e fixă. Săptămâna are 7 zile: luni, marți, miercuri, joi, vineri, sâmbătă, duminică."
           ],
           "problems": [
@@ -4247,7 +4247,7 @@
               "solution": [
                 "2 × 1000 = 2000 g."
               ],
-              "grade": "Cls. I–II"
+              "grade": "Cls. III–IV"
             },
             {
               "id": "pmas-02",
@@ -4267,7 +4267,7 @@
               "solution": [
                 "3 × 1000 = 3000 ml."
               ],
-              "grade": "Cls. I–II"
+              "grade": "Cls. III–IV"
             },
             {
               "id": "pmas-03",
@@ -4282,12 +4282,12 @@
                 }
               ],
               "hints": [
-                "1 oră = 60 minute."
+                "1 oră = 60 de minute."
               ],
               "solution": [
-                "2 × 60 = 120 minute."
+                "2 × 60 = 120 de minute."
               ],
-              "grade": "Cls. I–II"
+              "grade": "Cls. II–III"
             },
             {
               "id": "pmas-04",
@@ -4302,10 +4302,10 @@
                 }
               ],
               "hints": [
-                "1 leu = 100 bani."
+                "1 leu = 100 de bani."
               ],
               "solution": [
-                "3 × 100 = 300 bani."
+                "3 × 100 = 300 de bani."
               ],
               "grade": "Cls. I–II"
             },
@@ -4347,7 +4347,7 @@
               "solution": [
                 "5 × 1000 = 5000 g."
               ],
-              "grade": "Cls. II–III"
+              "grade": "Cls. III–IV"
             },
             {
               "id": "pmas-07",
@@ -4367,7 +4367,7 @@
               "solution": [
                 "4 × 1000 = 4000 ml."
               ],
-              "grade": "Cls. II–III"
+              "grade": "Cls. III–IV"
             },
             {
               "id": "pmas-08",
@@ -4382,10 +4382,10 @@
                 }
               ],
               "hints": [
-                "1 oră = 60 minute."
+                "1 oră = 60 de minute."
               ],
               "solution": [
-                "3 × 60 = 180 minute."
+                "3 × 60 = 180 de minute."
               ],
               "grade": "Cls. II–III"
             },
@@ -4402,10 +4402,10 @@
                 }
               ],
               "hints": [
-                "1 leu = 100 bani."
+                "1 leu = 100 de bani."
               ],
               "solution": [
-                "9 × 100 = 900 bani."
+                "9 × 100 = 900 de bani."
               ],
               "grade": "Cls. II–III"
             },
@@ -4452,40 +4452,40 @@
             {
               "id": "pmas-12",
               "kind": "input",
-              "statement": "Câți mililitri sunt în 3 litri?",
+              "statement": "Câți mililitri sunt în 9 litri?",
               "inputs": [
                 {
                   "key": "x",
                   "label": "ml",
                   "unit": "ml",
-                  "answer": 3000
+                  "answer": 9000
                 }
               ],
               "hints": [
                 "1 l = 1000 ml."
               ],
               "solution": [
-                "3 × 1000 = 3000 ml."
+                "9 × 1000 = 9000 ml."
               ],
               "grade": "Cls. III–IV"
             },
             {
               "id": "pmas-13",
               "kind": "input",
-              "statement": "Câte minute sunt în 2 ore?",
+              "statement": "Câte minute sunt în 4 ore?",
               "inputs": [
                 {
                   "key": "x",
                   "label": "min",
                   "unit": "min",
-                  "answer": 120
+                  "answer": 240
                 }
               ],
               "hints": [
-                "1 oră = 60 minute."
+                "1 oră = 60 de minute."
               ],
               "solution": [
-                "2 × 60 = 120 minute."
+                "4 × 60 = 240 de minute."
               ],
               "grade": "Cls. III–IV"
             },
@@ -4502,10 +4502,10 @@
                 }
               ],
               "hints": [
-                "1 leu = 100 bani."
+                "1 leu = 100 de bani."
               ],
               "solution": [
-                "5 × 100 = 500 bani."
+                "5 × 100 = 500 de bani."
               ],
               "grade": "Cls. III–IV"
             },
@@ -4572,20 +4572,20 @@
             {
               "id": "pmas-18",
               "kind": "input",
-              "statement": "Câte minute sunt în 2 ore?",
+              "statement": "Câte minute sunt în 5 ore?",
               "inputs": [
                 {
                   "key": "x",
                   "label": "min",
                   "unit": "min",
-                  "answer": 120
+                  "answer": 300
                 }
               ],
               "hints": [
-                "1 oră = 60 minute."
+                "1 oră = 60 de minute."
               ],
               "solution": [
-                "2 × 60 = 120 minute."
+                "5 × 60 = 300 de minute."
               ],
               "grade": "Cls. IV"
             },
@@ -4602,10 +4602,10 @@
                 }
               ],
               "hints": [
-                "1 leu = 100 bani."
+                "1 leu = 100 de bani."
               ],
               "solution": [
-                "10 × 100 = 1000 bani."
+                "10 × 100 = 1000 de bani."
               ],
               "grade": "Cls. IV"
             },
@@ -4750,7 +4750,7 @@
                 "Adună întâi bancnotele de 5 lei, apoi pe cele de 1 leu."
               ],
               "solution": [
-                "5 lei + 1 lei = 6 lei."
+                "5 lei + 1 leu = 6 lei."
               ],
               "grade": "Cls. I"
             },
@@ -4770,7 +4770,7 @@
                 "Adună întâi bancnotele de 5 lei, apoi pe cele de 1 leu."
               ],
               "solution": [
-                "2 × 5 = 10 lei + 2 lei = 12 lei."
+                "5 lei + 5 lei = 10 lei; 10 lei + 2 lei = 12 lei."
               ],
               "grade": "Cls. I"
             },
@@ -4790,7 +4790,7 @@
                 "Adună întâi bancnotele de 5 lei, apoi pe cele de 1 leu."
               ],
               "solution": [
-                "2 × 5 = 10 lei + 3 lei = 13 lei."
+                "5 lei + 5 lei = 10 lei; 10 lei + 3 lei = 13 lei."
               ],
               "grade": "Cls. I"
             },
@@ -4994,23 +4994,23 @@
             {
               "id": "pg-06",
               "kind": "input",
-              "statement": "Un pătrat are latura de 8 cm. Cât este perimetrul?",
+              "statement": "Un pătrat are latura de 7 cm. Cât este perimetrul?",
               "inputs": [
                 {
                   "key": "x",
                   "label": "Perimetru",
                   "unit": "cm",
-                  "answer": 32
+                  "answer": 28
                 }
               ],
               "hints": [
                 "Perimetrul pătratului = 4 × latură."
               ],
               "solution": [
-                "P = 4 × 8 = 32 cm."
+                "P = 4 × 7 = 28 cm."
               ],
               "grade": "Cls. II–III",
-              "figure": "<svg viewBox='0 0 160 150'><rect x='40' y='25' width='90' height='90' fill='none' stroke='currentColor' stroke-width='2'/><text x='85' y='18' text-anchor='middle' font-size='13' fill='currentColor'>8 cm</text></svg>"
+              "figure": "<svg viewBox='0 0 160 150'><rect x='40' y='25' width='90' height='90' fill='none' stroke='currentColor' stroke-width='2'/><text x='85' y='18' text-anchor='middle' font-size='13' fill='currentColor'>7 cm</text></svg>"
             },
             {
               "id": "pg-07",
@@ -5183,23 +5183,23 @@
             {
               "id": "pg-15",
               "kind": "input",
-              "statement": "Un pătrat are latura de 8 cm. Cât este perimetrul?",
+              "statement": "Un pătrat are latura de 10 cm. Cât este perimetrul?",
               "inputs": [
                 {
                   "key": "x",
                   "label": "Perimetru",
                   "unit": "cm",
-                  "answer": 32
+                  "answer": 40
                 }
               ],
               "hints": [
                 "Perimetrul pătratului = 4 × latură."
               ],
               "solution": [
-                "P = 4 × 8 = 32 cm."
+                "P = 4 × 10 = 40 cm."
               ],
               "grade": "Cls. III–IV",
-              "figure": "<svg viewBox='0 0 160 150'><rect x='40' y='25' width='90' height='90' fill='none' stroke='currentColor' stroke-width='2'/><text x='85' y='18' text-anchor='middle' font-size='13' fill='currentColor'>8 cm</text></svg>"
+              "figure": "<svg viewBox='0 0 160 150'><rect x='40' y='25' width='90' height='90' fill='none' stroke='currentColor' stroke-width='2'/><text x='85' y='18' text-anchor='middle' font-size='13' fill='currentColor'>10 cm</text></svg>"
             },
             {
               "id": "pg-16",
@@ -5331,7 +5331,7 @@
               "kind": "mc",
               "statement": "Cum se numește figura?",
               "options": [
-                "dreptunghi",
+                "oval",
                 "pătrat",
                 "triunghi",
                 "cerc"
@@ -5529,7 +5529,7 @@
             "Metoda figurativă: desenăm bare/segmente ca să vedem relațiile dintre mărimi.",
             "Metoda comparației: comparăm două situații și scădem ca să eliminăm o mărime.",
             "Reducerea la unitate: aflăm întâi valoarea unei singure unități.",
-            "Mersul invers (presupunem că): pornim de la rezultat și facem operațiile inverse, în ordine inversă."
+            "Mersul invers: pornim de la rezultat și facem operațiile inverse, în ordine inversă."
           ],
           "problems": [
             {
@@ -5650,7 +5650,7 @@
             {
               "id": "pp-comp1",
               "kind": "input",
-              "statement": "Metoda comparației: 2 caiete la fel costă 14 lei, iar 5 caiete costă 35 lei. Cât costă un caiet?",
+              "statement": "Metoda comparației: 2 caiete la fel costă 14 lei, iar 5 caiete costă 35 de lei. Cât costă un caiet?",
               "inputs": [
                 {
                   "key": "x",
@@ -5660,11 +5660,11 @@
                 }
               ],
               "hints": [
-                "Scade cele două situații: diferența de 3 caiete costă 21 lei.",
+                "Scade cele două situații: diferența de 3 caiete costă 21 de lei.",
                 "Un caiet = diferența de bani : diferența de caiete."
               ],
               "solution": [
-                "Diferența: 35 − 14 = 21 lei pentru 3 caiete.",
+                "Diferența: 35 − 14 = 21 de lei pentru 3 caiete.",
                 "Un caiet = 21 : 3 = 7 lei."
               ],
               "grade": "Cls. III–IV"
@@ -5672,7 +5672,7 @@
             {
               "id": "pp-comp2",
               "kind": "input",
-              "statement": "Metoda comparației: 4 caiete la fel costă 28 lei, iar 6 caiete costă 42 lei. Cât costă un caiet?",
+              "statement": "Metoda comparației: 4 caiete la fel costă 28 de lei, iar 6 caiete costă 42 de lei. Cât costă un caiet?",
               "inputs": [
                 {
                   "key": "x",
@@ -5694,7 +5694,7 @@
             {
               "id": "pp-comp3",
               "kind": "input",
-              "statement": "Metoda comparației: 4 caiete la fel costă 16 lei, iar 7 caiete costă 28 lei. Cât costă un caiet?",
+              "statement": "Metoda comparației: 4 caiete la fel costă 16 lei, iar 7 caiete costă 28 de lei. Cât costă un caiet?",
               "inputs": [
                 {
                   "key": "x",
@@ -5716,7 +5716,7 @@
             {
               "id": "pp-comp4",
               "kind": "input",
-              "statement": "Metoda comparației: 3 caiete la fel costă 12 lei, iar 6 caiete costă 24 lei. Cât costă un caiet?",
+              "statement": "Metoda comparației: 3 caiete la fel costă 12 lei, iar 6 caiete costă 24 de lei. Cât costă un caiet?",
               "inputs": [
                 {
                   "key": "x",
@@ -5738,7 +5738,7 @@
             {
               "id": "pp-comp5",
               "kind": "input",
-              "statement": "Metoda comparației: 4 caiete la fel costă 24 lei, iar 6 caiete costă 36 lei. Cât costă un caiet?",
+              "statement": "Metoda comparației: 4 caiete la fel costă 24 de lei, iar 6 caiete costă 36 de lei. Cât costă un caiet?",
               "inputs": [
                 {
                   "key": "x",
@@ -5770,34 +5770,34 @@
                 }
               ],
               "hints": [
-                "Află întâi cât costă UN creion.",
+                "Află întâi cât costă <b>un</b> creion.",
                 "Apoi înmulțește cu numărul cerut."
               ],
               "solution": [
                 "Un creion: 18 : 3 = 6 lei.",
-                "7 creioane: 6 × 7 = 42 lei."
+                "7 creioane: 6 × 7 = 42 de lei."
               ],
               "grade": "Cls. III–IV"
             },
             {
               "id": "pp-red2",
               "kind": "input",
-              "statement": "Reducerea la unitate: 5 creioane costă 10 lei. Cât costă 5 creioane la același preț?",
+              "statement": "Reducerea la unitate: 5 creioane costă 10 lei. Cât costă 8 creioane la același preț?",
               "inputs": [
                 {
                   "key": "x",
                   "label": "Răspuns",
                   "unit": "",
-                  "answer": 10
+                  "answer": 16
                 }
               ],
               "hints": [
-                "Află întâi cât costă UN creion.",
+                "Află întâi cât costă <b>un</b> creion.",
                 "Apoi înmulțește cu numărul cerut."
               ],
               "solution": [
                 "Un creion: 10 : 5 = 2 lei.",
-                "5 creioane: 2 × 5 = 10 lei."
+                "8 creioane: 2 × 8 = 16 lei."
               ],
               "grade": "Cls. III–IV"
             },
@@ -5814,12 +5814,12 @@
                 }
               ],
               "hints": [
-                "Află întâi cât costă UN creion.",
+                "Află întâi cât costă <b>un</b> creion.",
                 "Apoi înmulțește cu numărul cerut."
               ],
               "solution": [
                 "Un creion: 10 : 2 = 5 lei.",
-                "5 creioane: 5 × 5 = 25 lei."
+                "5 creioane: 5 × 5 = 25 de lei."
               ],
               "grade": "Cls. III–IV"
             },
@@ -5836,19 +5836,19 @@
                 }
               ],
               "hints": [
-                "Află întâi cât costă UN creion.",
+                "Află întâi cât costă <b>un</b> creion.",
                 "Apoi înmulțește cu numărul cerut."
               ],
               "solution": [
                 "Un creion: 14 : 2 = 7 lei.",
-                "4 creioane: 7 × 4 = 28 lei."
+                "4 creioane: 7 × 4 = 28 de lei."
               ],
               "grade": "Cls. IV–V"
             },
             {
               "id": "pp-red5",
               "kind": "input",
-              "statement": "Reducerea la unitate: 4 creioane costă 40 lei. Cât costă 8 creioane la același preț?",
+              "statement": "Reducerea la unitate: 4 creioane costă 40 de lei. Cât costă 8 creioane la același preț?",
               "inputs": [
                 {
                   "key": "x",
@@ -5858,19 +5858,19 @@
                 }
               ],
               "hints": [
-                "Află întâi cât costă UN creion.",
+                "Află întâi cât costă <b>un</b> creion.",
                 "Apoi înmulțește cu numărul cerut."
               ],
               "solution": [
                 "Un creion: 40 : 4 = 10 lei.",
-                "8 creioane: 10 × 8 = 80 lei."
+                "8 creioane: 10 × 8 = 80 de lei."
               ],
               "grade": "Cls. IV–V"
             },
             {
               "id": "pp-inv1",
               "kind": "input",
-              "statement": "Mersul invers (presupunem că): M-am gândit la un număr, i-am adunat 10, apoi am înmulțit cu 3 și am obținut 42. La ce număr m-am gândit?",
+              "statement": "Mersul invers: M-am gândit la un număr, i-am adunat 10, apoi am înmulțit cu 3 și am obținut 42. La ce număr m-am gândit?",
               "inputs": [
                 {
                   "key": "x",
@@ -5880,7 +5880,7 @@
                 }
               ],
               "hints": [
-                "Pornește de la rezultat și fă operațiile INVERSE, în ordine inversă.",
+                "Pornește de la rezultat și fă operațiile <b>inverse</b>, în ordine inversă.",
                 "Întâi împarte la 3, apoi scade 10."
               ],
               "solution": [
@@ -5892,7 +5892,7 @@
             {
               "id": "pp-inv2",
               "kind": "input",
-              "statement": "Mersul invers (presupunem că): M-am gândit la un număr, i-am adunat 11, apoi am înmulțit cu 2 și am obținut 54. La ce număr m-am gândit?",
+              "statement": "Mersul invers: M-am gândit la un număr, i-am adunat 11, apoi am înmulțit cu 2 și am obținut 54. La ce număr m-am gândit?",
               "inputs": [
                 {
                   "key": "x",
@@ -5902,7 +5902,7 @@
                 }
               ],
               "hints": [
-                "Pornește de la rezultat și fă operațiile INVERSE, în ordine inversă.",
+                "Pornește de la rezultat și fă operațiile <b>inverse</b>, în ordine inversă.",
                 "Întâi împarte la 2, apoi scade 11."
               ],
               "solution": [
@@ -5914,7 +5914,7 @@
             {
               "id": "pp-inv3",
               "kind": "input",
-              "statement": "Mersul invers (presupunem că): M-am gândit la un număr, i-am adunat 12, apoi am înmulțit cu 2 și am obținut 38. La ce număr m-am gândit?",
+              "statement": "Mersul invers: M-am gândit la un număr, i-am adunat 12, apoi am înmulțit cu 2 și am obținut 38. La ce număr m-am gândit?",
               "inputs": [
                 {
                   "key": "x",
@@ -5924,7 +5924,7 @@
                 }
               ],
               "hints": [
-                "Pornește de la rezultat și fă operațiile INVERSE, în ordine inversă.",
+                "Pornește de la rezultat și fă operațiile <b>inverse</b>, în ordine inversă.",
                 "Întâi împarte la 2, apoi scade 12."
               ],
               "solution": [
@@ -5936,7 +5936,7 @@
             {
               "id": "pp-inv4",
               "kind": "input",
-              "statement": "Mersul invers (presupunem că): M-am gândit la un număr, i-am adunat 18, apoi am înmulțit cu 4 și am obținut 96. La ce număr m-am gândit?",
+              "statement": "Mersul invers: M-am gândit la un număr, i-am adunat 18, apoi am înmulțit cu 4 și am obținut 96. La ce număr m-am gândit?",
               "inputs": [
                 {
                   "key": "x",
@@ -5946,7 +5946,7 @@
                 }
               ],
               "hints": [
-                "Pornește de la rezultat și fă operațiile INVERSE, în ordine inversă.",
+                "Pornește de la rezultat și fă operațiile <b>inverse</b>, în ordine inversă.",
                 "Întâi împarte la 4, apoi scade 18."
               ],
               "solution": [
@@ -5958,7 +5958,7 @@
             {
               "id": "pp-inv5",
               "kind": "input",
-              "statement": "Mersul invers (presupunem că): M-am gândit la un număr, i-am adunat 20, apoi am înmulțit cu 4 și am obținut 200. La ce număr m-am gândit?",
+              "statement": "Mersul invers: M-am gândit la un număr, i-am adunat 20, apoi am înmulțit cu 4 și am obținut 200. La ce număr m-am gândit?",
               "inputs": [
                 {
                   "key": "x",
@@ -5968,7 +5968,7 @@
                 }
               ],
               "hints": [
-                "Pornește de la rezultat și fă operațiile INVERSE, în ordine inversă.",
+                "Pornește de la rezultat și fă operațiile <b>inverse</b>, în ordine inversă.",
                 "Întâi împarte la 4, apoi scade 20."
               ],
               "solution": [
@@ -6053,7 +6053,7 @@
                 "„Cu 6 mai puține” → scădem 6."
               ],
               "solution": [
-                "7 − 6 = 1 timbre."
+                "7 − 6 = 1 timbru."
               ],
               "grade": "Cls. I"
             },
@@ -6200,7 +6200,7 @@
             {
               "id": "c1-pb-12",
               "kind": "input",
-              "statement": "Într-o parcare erau 13 mașini. Au plecat 1. Câte mașini au rămas?",
+              "statement": "Într-o parcare erau 13 mașini. A plecat 1 mașină. Câte mașini au rămas?",
               "inputs": [
                 {
                   "key": "x",
@@ -6210,7 +6210,7 @@
                 }
               ],
               "hints": [
-                "„Au plecat” → scădem."
+                "„A plecat” → scădem."
               ],
               "solution": [
                 "13 − 1 = 12 mașini."
@@ -6220,7 +6220,7 @@
             {
               "id": "c1-pb-13",
               "kind": "input",
-              "statement": "Mihai are 44 baloane. Mai primește 5 baloane. Câte baloane are acum?",
+              "statement": "Mihai are 44 de baloane. Mai primește 5 baloane. Câte baloane are acum?",
               "inputs": [
                 {
                   "key": "x",
@@ -6233,7 +6233,7 @@
                 "„Mai primește” → adunăm."
               ],
               "solution": [
-                "44 + 5 = 49 baloane."
+                "44 + 5 = 49 de baloane."
               ],
               "grade": "Cls. I"
             },
@@ -6273,7 +6273,7 @@
                 "Din toate paginile scazi paginile citite."
               ],
               "solution": [
-                "40 − 20 = 20 pagini."
+                "40 − 20 = 20 de pagini."
               ],
               "grade": "Cls. I"
             },
@@ -6293,7 +6293,7 @@
                 "Din toate paginile scazi paginile citite."
               ],
               "solution": [
-                "70 − 50 = 20 pagini."
+                "70 − 50 = 20 de pagini."
               ],
               "grade": "Cls. I"
             }
@@ -6968,7 +6968,7 @@
               ],
               "solution": [
                 "Suma cifrelor: 1 + 6 + x = 7 + x.",
-                "Cel mai apropiat multiplu de 9 posibil este 9, deci x = 2.",
+                "Cum x este cifră, 7 ≤ 7 + x ≤ 16; singurul multiplu de 9 din acest interval este 9, deci 7 + x = 9 și x = 2.",
                 "Răspuns: x = 2."
               ],
               "grade": "Cls. VIII"
@@ -7090,12 +7090,12 @@
             {
               "id": "s1p-4",
               "kind": "mc",
-              "statement": "Un produs costă 200 lei și se scumpește cu 15%. Noul preț este:",
+              "statement": "Un produs costă 200 de lei și se scumpește cu 15%. Noul preț este:",
               "options": [
                 "215 lei",
-                "230 lei",
-                "170 lei",
-                "260 lei"
+                "230 de lei",
+                "170 de lei",
+                "260 de lei"
               ],
               "answer": 1,
               "hints": [
@@ -7103,8 +7103,8 @@
               ],
               "solution": [
                 "15% din 200 = 200·15/100 = 30.",
-                "200 + 30 = 230 lei.",
-                "Răspuns corect: b) 230 lei."
+                "200 + 30 = 230 de lei.",
+                "Răspuns corect: b) 230 de lei."
               ]
             },
             {
@@ -7168,21 +7168,21 @@
             {
               "id": "s1p-8",
               "kind": "mc",
-              "statement": "Un produs costă 80 lei și se ieftinește cu 25%. Noul preț este:",
+              "statement": "Un produs costă 80 de lei și se ieftinește cu 25%. Noul preț este:",
               "options": [
-                "20 lei",
-                "55 lei",
-                "60 lei",
-                "100 lei"
+                "20 de lei",
+                "55 de lei",
+                "60 de lei",
+                "100 de lei"
               ],
               "answer": 2,
               "hints": [
                 "Scade 25% din 80."
               ],
               "solution": [
-                "25% din 80 = 20 lei.",
-                "80 − 20 = 60 lei.",
-                "Răspuns corect: c) 60 lei."
+                "25% din 80 = 20 de lei.",
+                "80 − 20 = 60 de lei.",
+                "Răspuns corect: c) 60 de lei."
               ]
             },
             {
@@ -7308,7 +7308,7 @@
                 "80",
                 "60",
                 "8",
-                "-20"
+                "−20"
               ],
               "answer": 2,
               "hints": [
@@ -7643,7 +7643,7 @@
               "answer": 1,
               "hints": [
                 "Prețul nou reprezintă 60% din prețul inițial.",
-                "Capcană: 40% se calculează din prețul INIȚIAL, nu din 180."
+                "Capcană: 40% se calculează din prețul <b>inițial</b>, nu din 180."
               ],
               "solution": [
                 "60% din x = 180, adică x · 60/100 = 180.",
@@ -7799,7 +7799,7 @@
               ],
               "answer": 0,
               "hints": [
-                "Calculează întâi în modul, apoi aplică modulul."
+                "Calculează întâi expresia din interiorul modulului, apoi aplică modulul."
               ],
               "solution": [
                 "3 − 8 = −5.",
@@ -7908,7 +7908,7 @@
               "statement": "Opusul numărului −13 este:",
               "options": [
                 "26",
-                "-13",
+                "−13",
                 "13",
                 "0"
               ],
@@ -7919,7 +7919,7 @@
               "solution": [
                 "Opusul lui −13 este 13."
               ],
-              "grade": "Cls. V"
+              "grade": "Cls. VI"
             },
             {
               "id": "s1r-g02",
@@ -7927,9 +7927,9 @@
               "statement": "Cel mai mare dintre numerele −4, 2 și 0 este:",
               "options": [
                 "2",
-                "-6",
+                "−6",
                 "0",
-                "-4"
+                "−4"
               ],
               "answer": 0,
               "hints": [
@@ -7938,14 +7938,14 @@
               "solution": [
                 "−4 < 0 < 2, deci cel mai mare este 2."
               ],
-              "grade": "Cls. V"
+              "grade": "Cls. VI"
             },
             {
               "id": "s1r-g03",
               "kind": "mc",
               "statement": "Modulul numărului −8, adică |−8|, este:",
               "options": [
-                "-8",
+                "−8",
                 "0",
                 "64",
                 "8"
@@ -7964,7 +7964,7 @@
               "kind": "mc",
               "statement": "Opusul numărului 18 este:",
               "options": [
-                "-18",
+                "−18",
                 "18",
                 "36",
                 "0"
@@ -7974,7 +7974,7 @@
                 "Opusul lui x este −x (schimbă semnul)."
               ],
               "solution": [
-                "Opusul lui 18 este -18."
+                "Opusul lui 18 este −18."
               ],
               "grade": "Cls. VI"
             },
@@ -7984,9 +7984,9 @@
               "statement": "Cel mai mare dintre numerele −9, 5 și 0 este:",
               "options": [
                 "0",
-                "-14",
+                "−14",
                 "5",
-                "-9"
+                "−9"
               ],
               "answer": 2,
               "hints": [
@@ -8005,7 +8005,7 @@
                 "3",
                 "9",
                 "0",
-                "-3"
+                "−3"
               ],
               "answer": 0,
               "hints": [
@@ -8019,11 +8019,11 @@
             {
               "id": "s1r-g07",
               "kind": "mc",
-              "statement": "Opusul numărului −7 este:",
+              "statement": "Opusul numărului −4 este:",
               "options": [
-                "14",
-                "-7",
-                "7",
+                "−4",
+                "8",
+                "4",
                 "0"
               ],
               "answer": 2,
@@ -8031,7 +8031,7 @@
                 "Opusul lui x este −x (schimbă semnul)."
               ],
               "solution": [
-                "Opusul lui −7 este 7."
+                "Opusul lui −4 este 4."
               ],
               "grade": "Cls. VII"
             },
@@ -8040,8 +8040,8 @@
               "kind": "mc",
               "statement": "Cel mai mare dintre numerele −6, 4 și 0 este:",
               "options": [
-                "-10",
-                "-6",
+                "−10",
+                "−6",
                 "4",
                 "0"
               ],
@@ -8059,7 +8059,7 @@
               "kind": "mc",
               "statement": "Modulul numărului −7, adică |−7|, este:",
               "options": [
-                "-7",
+                "−7",
                 "49",
                 "0",
                 "7"
@@ -8081,14 +8081,14 @@
                 "6",
                 "0",
                 "12",
-                "-6"
+                "−6"
               ],
               "answer": 3,
               "hints": [
                 "Opusul lui x este −x (schimbă semnul)."
               ],
               "solution": [
-                "Opusul lui 6 este -6."
+                "Opusul lui 6 este −6."
               ],
               "grade": "Cls. VIII"
             },
@@ -8297,7 +8297,7 @@
               "answer": 1,
               "hints": [
                 "Reprezintă ambele intervale pe axă și păstrează partea comună.",
-                "La fiecare capăt, verifică dacă e inclus în AMBELE intervale."
+                "La fiecare capăt, verifică dacă e inclus în <b>ambele</b> intervale."
               ],
               "solution": [
                 "Partea comună începe la 0 (exclus, pentru că (0, 9] are paranteză rotundă).",
@@ -8600,57 +8600,57 @@
             {
               "id": "s1f-g01",
               "kind": "mc",
-              "statement": "Numărul zecimal 0,5 scris ca fracție ireductibilă este:",
+              "statement": "Numărul zecimal 0,35 scris ca fracție ireductibilă este:",
               "options": [
-                "5/100",
-                "1/2",
-                "2/1",
-                "5/10"
+                "20/7",
+                "35/100",
+                "7/20",
+                "35/10"
               ],
-              "answer": 1,
+              "answer": 2,
               "hints": [
-                "Scrie ca fracție cu 10/100, apoi simplifică."
+                "Scrie ca fracție cu numitorul 10 (o zecimală) sau 100 (două zecimale), apoi simplifică."
               ],
               "solution": [
-                "0,5 = 1/2 după simplificare."
+                "0,35 = 7/20 după simplificare."
               ],
               "grade": "Cls. V"
             },
             {
               "id": "s1f-g02",
               "kind": "mc",
-              "statement": "Fracția 3/4 scrisă ca număr zecimal este:",
+              "statement": "Fracția 1/5 scrisă ca număr zecimal este:",
               "options": [
-                "4,3",
-                "6,4",
-                "0,12",
-                "0,75"
+                "5,1",
+                "0,5",
+                "0,2",
+                "2,5"
               ],
-              "answer": 3,
+              "answer": 2,
               "hints": [
                 "Împarte numărătorul la numitor."
               ],
               "solution": [
-                "3 : 4 = 0,75."
+                "1 : 5 = 0,2."
               ],
               "grade": "Cls. V"
             },
             {
               "id": "s1f-g03",
               "kind": "mc",
-              "statement": "Numărul zecimal 0,5 scris ca fracție ireductibilă este:",
+              "statement": "Numărul zecimal 0,15 scris ca fracție ireductibilă este:",
               "options": [
-                "1/2",
-                "2/1",
-                "5/100",
-                "5/10"
+                "3/20",
+                "15/10",
+                "20/3",
+                "15/100"
               ],
               "answer": 0,
               "hints": [
-                "Scrie ca fracție cu 10/100, apoi simplifică."
+                "Scrie ca fracție cu numitorul 10 (o zecimală) sau 100 (două zecimale), apoi simplifică."
               ],
               "solution": [
-                "0,5 = 1/2 după simplificare."
+                "0,15 = 3/20 după simplificare."
               ],
               "grade": "Cls. VI"
             },
@@ -8662,7 +8662,7 @@
                 "0,1",
                 "2,10",
                 "10,1",
-                "0,10"
+                "0,01"
               ],
               "answer": 0,
               "hints": [
@@ -8676,19 +8676,19 @@
             {
               "id": "s1f-g05",
               "kind": "mc",
-              "statement": "Numărul zecimal 0,75 scris ca fracție ireductibilă este:",
+              "statement": "Numărul zecimal 0,4 scris ca fracție ireductibilă este:",
               "options": [
-                "75/100",
-                "3/4",
-                "75/10",
-                "4/3"
+                "4/100",
+                "2/5",
+                "4/10",
+                "5/2"
               ],
               "answer": 1,
               "hints": [
-                "Scrie ca fracție cu 10/100, apoi simplifică."
+                "Scrie ca fracție cu numitorul 10 (o zecimală) sau 100 (două zecimale), apoi simplifică."
               ],
               "solution": [
-                "0,75 = 3/4 după simplificare."
+                "0,4 = 2/5 după simplificare."
               ],
               "grade": "Cls. VII"
             },
@@ -8714,19 +8714,19 @@
             {
               "id": "s1f-g07",
               "kind": "mc",
-              "statement": "Numărul zecimal 0,25 scris ca fracție ireductibilă este:",
+              "statement": "Numărul zecimal 0,2 scris ca fracție ireductibilă este:",
               "options": [
-                "25/100",
-                "4/1",
-                "25/10",
-                "1/4"
+                "2/100",
+                "5/1",
+                "2/10",
+                "1/5"
               ],
               "answer": 3,
               "hints": [
-                "Scrie ca fracție cu 10/100, apoi simplifică."
+                "Scrie ca fracție cu numitorul 10 (o zecimală) sau 100 (două zecimale), apoi simplifică."
               ],
               "solution": [
-                "0,25 = 1/4 după simplificare."
+                "0,2 = 1/5 după simplificare."
               ],
               "grade": "Cls. VII"
             },
@@ -8752,19 +8752,19 @@
             {
               "id": "s1f-g09",
               "kind": "mc",
-              "statement": "Numărul zecimal 0,25 scris ca fracție ireductibilă este:",
+              "statement": "Numărul zecimal 0,75 scris ca fracție ireductibilă este:",
               "options": [
-                "1/4",
-                "25/10",
-                "25/100",
-                "4/1"
+                "3/4",
+                "75/10",
+                "75/100",
+                "4/3"
               ],
               "answer": 0,
               "hints": [
-                "Scrie ca fracție cu 10/100, apoi simplifică."
+                "Scrie ca fracție cu numitorul 10 (o zecimală) sau 100 (două zecimale), apoi simplifică."
               ],
               "solution": [
-                "0,25 = 1/4 după simplificare."
+                "0,75 = 3/4 după simplificare."
               ],
               "grade": "Cls. VIII"
             },
@@ -8906,7 +8906,7 @@
               "answer": 3,
               "hints": [
                 "Dublul înseamnă 2 · 3/4.",
-                "Capcană: se înmulțește doar numărătorul."
+                "Atenție: se înmulțește doar numărătorul: 2 · 3/4 = 6/4; apoi simplifică fracția."
               ],
               "solution": [
                 "2 · 3/4 = 6/4 = 3/2.",
@@ -9012,7 +9012,7 @@
               ],
               "answer": 2,
               "hints": [
-                "Trece 5 în membrul drept, apoi împarte la −4.",
+                "Trece −5 în membrul drept, cu semn schimbat, apoi împarte la −4.",
                 "Capcană: la împărțirea cu un număr negativ, sensul inegalității se schimbă."
               ],
               "solution": [
@@ -9035,7 +9035,7 @@
               "answer": 2,
               "hints": [
                 "Împarte la 5: x² = 4.",
-                "Capcană: un număr pozitiv are două rădăcini pătrate, una pozitivă și una negativă."
+                "Capcană: ecuația x² = a, cu a > 0, are două soluții: √a și −√a."
               ],
               "solution": [
                 "x² = 20 : 5 = 4.",
@@ -9281,23 +9281,23 @@
             {
               "id": "s1pr-g01",
               "kind": "input",
-              "statement": "În proporția 5/2 = x/6, află x.",
+              "statement": "În proporția 8/5 = x/30, află x.",
               "inputs": [
                 {
                   "key": "x",
                   "label": "x =",
                   "unit": "",
-                  "answer": 15
+                  "answer": 48
                 }
               ],
               "hints": [
-                "Proporția se păstrează: x = 5·6/2.",
+                "Proporția se păstrează: x = 8·30/5.",
                 "Capcană: nu aduna, înmulțește încrucișat."
               ],
               "solution": [
-                "x = 5 · 6 : 2 = 15."
+                "x = 8 · 30 : 5 = 48."
               ],
-              "grade": "Cls. V"
+              "grade": "Cls. VI"
             },
             {
               "id": "s1pr-g02",
@@ -10470,14 +10470,14 @@
             {
               "id": "en-i6-06",
               "kind": "mc",
-              "statement": "Un telefon costa 400 de lei. Prețul a crescut cu 25%, apoi noul preț a scăzut cu 25%. Este adevărată afirmația „Prețul final este 375 lei”?",
+              "statement": "Un telefon costa 400 de lei. Prețul a crescut cu 25%, apoi noul preț a scăzut cu 25%. Este adevărată afirmația „Prețul final este 375 de lei”?",
               "options": [
                 "Adevărat",
                 "Fals"
               ],
               "answer": 0,
               "hints": [
-                "Al doilea procent se calculează din prețul NOU, nu din cel inițial."
+                "Al doilea procent se calculează din prețul <b>nou</b>, nu din cel inițial."
               ],
               "solution": [
                 "După scumpire: 400 + 100 = 500 de lei.",
@@ -10496,7 +10496,7 @@
               ],
               "answer": 1,
               "hints": [
-                "Peste câțiva ani, AMBELE vârste cresc cu același număr de ani."
+                "Peste câțiva ani, <b>ambele</b> vârste cresc cu același număr de ani."
               ],
               "solution": [
                 "Peste 3 ani: Matei 17 ani, mama 45 de ani.",
@@ -10528,7 +10528,7 @@
             {
               "id": "en-i6-09",
               "kind": "mc",
-              "statement": "3 kg de pere costă 18 lei. Este adevărată afirmația „7 kg de pere de același fel costă 42 lei”?",
+              "statement": "3 kg de pere costă 18 lei. Este adevărată afirmația „7 kg de pere de același fel costă 42 de lei”?",
               "options": [
                 "Adevărat",
                 "Fals"
@@ -10868,20 +10868,20 @@
             {
               "id": "s2s-g04",
               "kind": "input",
-              "statement": "M este mijlocul segmentului AB, cu AB = 12 cm. Cât este AM?",
+              "statement": "M este mijlocul segmentului AB, cu AB = 22 cm. Cât este AM?",
               "inputs": [
                 {
                   "key": "x",
                   "label": "AM",
                   "unit": "cm",
-                  "answer": 6
+                  "answer": 11
                 }
               ],
               "hints": [
                 "Mijlocul împarte segmentul în două părți egale."
               ],
               "solution": [
-                "AM = AB : 2 = 12 : 2 = 6 cm."
+                "AM = AB : 2 = 22 : 2 = 11 cm."
               ],
               "grade": "Cls. V"
             },
@@ -10988,40 +10988,40 @@
             {
               "id": "s2s-g10",
               "kind": "input",
-              "statement": "M este mijlocul segmentului AB, cu AB = 10 cm. Cât este AM?",
+              "statement": "M este mijlocul segmentului AB, cu AB = 40 cm. Cât este AM?",
               "inputs": [
                 {
                   "key": "x",
                   "label": "AM",
                   "unit": "cm",
-                  "answer": 5
+                  "answer": 20
                 }
               ],
               "hints": [
                 "Mijlocul împarte segmentul în două părți egale."
               ],
               "solution": [
-                "AM = AB : 2 = 10 : 2 = 5 cm."
+                "AM = AB : 2 = 40 : 2 = 20 cm."
               ],
               "grade": "Cls. VII"
             },
             {
               "id": "s2s-g11",
               "kind": "input",
-              "statement": "Punctele A, B, C sunt coliniare în această ordine, cu AB = 9 cm și BC = 6 cm. Cât este AC?",
+              "statement": "Punctele A, B, C sunt coliniare în această ordine, cu AB = 6 cm și BC = 5 cm. Cât este AC?",
               "inputs": [
                 {
                   "key": "x",
                   "label": "AC",
                   "unit": "cm",
-                  "answer": 15
+                  "answer": 11
                 }
               ],
               "hints": [
                 "Capcană: dacă ordinea e A-B-C, atunci AC = AB + BC."
               ],
               "solution": [
-                "AC = 9 + 6 = 15 cm."
+                "AC = 6 + 5 = 11 cm."
               ],
               "grade": "Cls. VII"
             },
@@ -11048,20 +11048,20 @@
             {
               "id": "s2s-g13",
               "kind": "input",
-              "statement": "Punctele A, B, C sunt coliniare în această ordine, cu AB = 9 cm și BC = 4 cm. Cât este AC?",
+              "statement": "Punctele A, B, C sunt coliniare în această ordine, cu AB = 10 cm și BC = 9 cm. Cât este AC?",
               "inputs": [
                 {
                   "key": "x",
                   "label": "AC",
                   "unit": "cm",
-                  "answer": 13
+                  "answer": 19
                 }
               ],
               "hints": [
                 "Capcană: dacă ordinea e A-B-C, atunci AC = AB + BC."
               ],
               "solution": [
-                "AC = 9 + 4 = 13 cm."
+                "AC = 10 + 9 = 19 cm."
               ],
               "grade": "Cls. VIII"
             },
@@ -11332,7 +11332,7 @@
             {
               "id": "en-ii1-09",
               "kind": "mc",
-              "statement": "Punctele A, B, C, D sunt coliniare, în această ordine. Lungimile segmentelor AB, BC și CD, exprimate în centimetri, sunt trei numere naturale consecutive (în această ordine), iar AD = 12 cm. Lungimea segmentului CD este:",
+              "statement": "Punctele A, B, C, D sunt coliniare, în această ordine. Lungimile segmentelor AB, BC și CD, exprimate în centimetri, sunt trei numere naturale consecutive, în ordine crescătoare, iar AD = 12 cm. Lungimea segmentului CD este:",
               "options": [
                 "5 cm",
                 "4 cm",
@@ -11355,7 +11355,7 @@
             {
               "id": "en-ii1-10",
               "kind": "mc",
-              "statement": "Punctele A, B, C, D sunt coliniare, în această ordine. Lungimile segmentelor AB, BC și CD, exprimate în centimetri, sunt trei numere naturale consecutive (în această ordine), iar AD = 27 cm. Lungimea segmentului CD este:",
+              "statement": "Punctele A, B, C, D sunt coliniare, în această ordine. Lungimile segmentelor AB, BC și CD, exprimate în centimetri, sunt trei numere naturale consecutive, în ordine crescătoare, iar AD = 27 cm. Lungimea segmentului CD este:",
               "options": [
                 "9 cm",
                 "19 cm",
@@ -11556,7 +11556,7 @@
               "solution": [
                 "180° − 31° = 149°."
               ],
-              "grade": "Cls. V"
+              "grade": "Cls. VI"
             },
             {
               "id": "s2u-g02",
@@ -11577,7 +11577,7 @@
               "solution": [
                 "90° − 27° = 63°."
               ],
-              "grade": "Cls. V"
+              "grade": "Cls. VI"
             },
             {
               "id": "s2u-g03",
@@ -11597,7 +11597,7 @@
               "solution": [
                 "180° − 57° = 123°."
               ],
-              "grade": "Cls. V"
+              "grade": "Cls. VI"
             },
             {
               "id": "s2u-g04",
@@ -11828,20 +11828,20 @@
             {
               "id": "s2u-g15",
               "kind": "input",
-              "statement": "Măsura suplementului unui unghi de 21° este:",
+              "statement": "Măsura suplementului unui unghi de 64° este:",
               "inputs": [
                 {
                   "key": "x",
                   "label": "grade",
                   "unit": "°",
-                  "answer": 159
+                  "answer": 116
                 }
               ],
               "hints": [
                 "Suplement: două unghiuri cu suma 180°."
               ],
               "solution": [
-                "180° − 21° = 159°."
+                "180° − 64° = 116°."
               ],
               "grade": "Cls. VIII"
             },
@@ -11961,7 +11961,7 @@
             {
               "id": "en-ii2-05",
               "kind": "mc",
-              "statement": "Dreptele AC și BD se intersectează în punctul O. Dacă m(∠AOB) + m(∠COD) = 158°, atunci măsura unghiului BOC este:",
+              "statement": "Dreptele AC și BD se intersectează în punctul O, iar O se află atât între A și C, cât și între B și D. Dacă m(∠AOB) + m(∠COD) = 158°, atunci măsura unghiului BOC este:",
               "options": [
                 "101°",
                 "11°",
@@ -12274,12 +12274,12 @@
               "solution": [
                 "180° − 77° − 47° = 56°."
               ],
-              "grade": "Cls. V"
+              "grade": "Cls. VI"
             },
             {
               "id": "s2t-g02",
               "kind": "input",
-              "statement": "Un triunghi are baza de 18 cm și înălțimea de 17 cm. Cât este aria?",
+              "statement": "Un triunghi are baza de 18 cm, iar înălțimea corespunzătoare bazei este de 17 cm. Cât este aria?",
               "inputs": [
                 {
                   "key": "x",
@@ -12294,7 +12294,7 @@
               "solution": [
                 "A = 18 · 17 : 2 = 306 : 2 = 153 cm²."
               ],
-              "grade": "Cls. V"
+              "grade": "Cls. VII"
             },
             {
               "id": "s2t-g03",
@@ -12314,27 +12314,27 @@
               "solution": [
                 "180° − 71° − 40° = 69°."
               ],
-              "grade": "Cls. V"
+              "grade": "Cls. VI"
             },
             {
               "id": "s2t-g04",
               "kind": "input",
-              "statement": "Un triunghi are baza de 6 cm și înălțimea de 10 cm. Cât este aria?",
+              "statement": "Un triunghi are baza de 16 cm, iar înălțimea corespunzătoare bazei este de 5 cm. Cât este aria?",
               "inputs": [
                 {
                   "key": "x",
                   "label": "Arie",
                   "unit": "cm²",
-                  "answer": 30
+                  "answer": 40
                 }
               ],
               "hints": [
                 "Capcană: aria triunghiului = (bază × înălțime) : 2."
               ],
               "solution": [
-                "A = 6 · 10 : 2 = 60 : 2 = 30 cm²."
+                "A = 16 · 5 : 2 = 80 : 2 = 40 cm²."
               ],
-              "grade": "Cls. VI"
+              "grade": "Cls. VII"
             },
             {
               "id": "s2t-g05",
@@ -12359,7 +12359,7 @@
             {
               "id": "s2t-g06",
               "kind": "input",
-              "statement": "Un triunghi are baza de 18 cm și înălțimea de 10 cm. Cât este aria?",
+              "statement": "Un triunghi are baza de 18 cm, iar înălțimea corespunzătoare bazei este de 10 cm. Cât este aria?",
               "inputs": [
                 {
                   "key": "x",
@@ -12374,7 +12374,7 @@
               "solution": [
                 "A = 18 · 10 : 2 = 180 : 2 = 90 cm²."
               ],
-              "grade": "Cls. VI"
+              "grade": "Cls. VII"
             },
             {
               "id": "s2t-g07",
@@ -12399,7 +12399,7 @@
             {
               "id": "s2t-g08",
               "kind": "input",
-              "statement": "Un triunghi are baza de 6 cm și înălțimea de 3 cm. Cât este aria?",
+              "statement": "Un triunghi are baza de 6 cm, iar înălțimea corespunzătoare bazei este de 3 cm. Cât este aria?",
               "inputs": [
                 {
                   "key": "x",
@@ -12439,7 +12439,7 @@
             {
               "id": "s2t-g10",
               "kind": "input",
-              "statement": "Un triunghi are baza de 10 cm și înălțimea de 11 cm. Cât este aria?",
+              "statement": "Un triunghi are baza de 10 cm, iar înălțimea corespunzătoare bazei este de 11 cm. Cât este aria?",
               "inputs": [
                 {
                   "key": "x",
@@ -12479,7 +12479,7 @@
             {
               "id": "s2t-g12",
               "kind": "input",
-              "statement": "Un triunghi are baza de 15 cm și înălțimea de 18 cm. Cât este aria?",
+              "statement": "Un triunghi are baza de 15 cm, iar înălțimea corespunzătoare bazei este de 18 cm. Cât este aria?",
               "inputs": [
                 {
                   "key": "x",
@@ -12519,7 +12519,7 @@
             {
               "id": "s2t-g14",
               "kind": "input",
-              "statement": "Un triunghi are baza de 8 cm și înălțimea de 13 cm. Cât este aria?",
+              "statement": "Un triunghi are baza de 8 cm, iar înălțimea corespunzătoare bazei este de 13 cm. Cât este aria?",
               "inputs": [
                 {
                   "key": "x",
@@ -12559,7 +12559,7 @@
             {
               "id": "s2t-g16",
               "kind": "input",
-              "statement": "Un triunghi are baza de 17 cm și înălțimea de 8 cm. Cât este aria?",
+              "statement": "Un triunghi are baza de 17 cm, iar înălțimea corespunzătoare bazei este de 8 cm. Cât este aria?",
               "inputs": [
                 {
                   "key": "x",
@@ -12620,7 +12620,7 @@
                 "AD = 6√3 cm. Răspuns: 6√3 cm."
               ],
               "grade": "Cls. VIII",
-              "figure": "<svg viewBox='0 0 260 180'><polygon points='78,45 26,135 234,135' fill='none' stroke='currentColor' stroke-width='1.6'/><line x1='78' y1='45' x2='78' y2='135' stroke='currentColor' stroke-width='1.4'/><path d='M74,51.9 L80.9,55.9 L84.9,49' fill='none' stroke='currentColor' stroke-width='1'/><path d='M78,127 L86,127 L86,135' fill='none' stroke='currentColor' stroke-width='1'/><path d='M33.5,122 A15,15 0 0 1 41,135' fill='none' stroke='currentColor' stroke-width='1'/><text x='51.1' y='124.5' font-size='10.5' fill='currentColor' text-anchor='middle'>60°</text><text x='41.6' y='88' font-size='10.5' fill='currentColor' text-anchor='middle'>12 cm</text><text x='73.3' y='36.8' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='13.5' y='142.6' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='246.8' y='141.3' font-size='12' fill='currentColor' text-anchor='middle'>C</text><text x='68.2' y='147.5' font-size='12' fill='currentColor' text-anchor='middle'>D</text></svg>"
+              "figure": "<svg viewBox='0 0 260 180'><polygon points='78,45 26,135 234,135' fill='none' stroke='currentColor' stroke-width='1.6'/><line x1='78' y1='45' x2='78' y2='135' stroke='currentColor' stroke-width='1.4'/><path d='M74,51.9 L80.9,55.9 L84.9,49' fill='none' stroke='currentColor' stroke-width='1'/><path d='M78,127 L86,127 L86,135' fill='none' stroke='currentColor' stroke-width='1'/><path d='M33.5,122 A15,15 0 0 1 41,135' fill='none' stroke='currentColor' stroke-width='1'/><text x='51.1' y='124.5' font-size='10.5' fill='currentColor' text-anchor='middle'>60°</text><text x='34.2' y='83.8' font-size='10.5' fill='currentColor' text-anchor='middle'>12 cm</text><text x='73.3' y='36.8' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='13.5' y='142.6' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='246.8' y='141.3' font-size='12' fill='currentColor' text-anchor='middle'>C</text><text x='68.2' y='147.5' font-size='12' fill='currentColor' text-anchor='middle'>D</text></svg>"
             },
             {
               "id": "en-ii3-03",
@@ -12849,7 +12849,7 @@
                 "P(ABM) = 10 + 13 + 13 = 36 cm. Răspuns: 36 cm."
               ],
               "grade": "Cls. VIII",
-              "figure": "<svg viewBox='0 0 260 180'><polygon points='26,133.3 26,46.7 234,133.3' fill='none' stroke='currentColor' stroke-width='1.6'/><line x1='26' y1='133.3' x2='130' y2='90' stroke='currentColor' stroke-width='1.4'/><path d='M26,125.3 L34,125.3 L34,133.3' fill='none' stroke='currentColor' stroke-width='1'/><text x='14' y='94' font-size='10.5' fill='currentColor' text-anchor='middle'>10 cm</text><text x='130' y='149.3' font-size='10.5' fill='currentColor' text-anchor='middle'>24 cm</text><text x='142' y='89' font-size='12' fill='currentColor' text-anchor='middle'>M</text><text x='14' y='142.3' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='15.3' y='43.3' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='246.6' y='140.5' font-size='12' fill='currentColor' text-anchor='middle'>C</text></svg>"
+              "figure": "<svg viewBox='0 0 260 180'><polygon points='26,133.3 26,46.7 234,133.3' fill='none' stroke='currentColor' stroke-width='1.6'/><line x1='26' y1='133.3' x2='130' y2='90' stroke='currentColor' stroke-width='1.4'/><path d='M26,125.3 L34,125.3 L34,133.3' fill='none' stroke='currentColor' stroke-width='1'/><text x='5.5' y='94' font-size='10.5' fill='currentColor' text-anchor='middle'>10 cm</text><text x='130' y='149.3' font-size='10.5' fill='currentColor' text-anchor='middle'>24 cm</text><text x='142' y='89' font-size='12' fill='currentColor' text-anchor='middle'>M</text><text x='14' y='142.3' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='15.3' y='43.3' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='246.6' y='140.5' font-size='12' fill='currentColor' text-anchor='middle'>C</text></svg>"
             },
             {
               "id": "en-ii3-13",
@@ -12974,7 +12974,7 @@
             {
               "id": "s2pl-g01",
               "kind": "input",
-              "statement": "Un paralelogram are baza de 11 cm și înălțimea de 8 cm. Cât este aria?",
+              "statement": "Un paralelogram are baza de 11 cm, iar înălțimea corespunzătoare bazei este de 8 cm. Cât este aria?",
               "inputs": [
                 {
                   "key": "x",
@@ -12989,7 +12989,7 @@
               "solution": [
                 "A = 11 · 8 = 88 cm²."
               ],
-              "grade": "Cls. V"
+              "grade": "Cls. VII"
             },
             {
               "id": "s2pl-g02",
@@ -13009,12 +13009,12 @@
               "solution": [
                 "P = 2 · (15 + 7) = 44 cm."
               ],
-              "grade": "Cls. V"
+              "grade": "Cls. VII"
             },
             {
               "id": "s2pl-g03",
               "kind": "input",
-              "statement": "Un paralelogram are baza de 7 cm și înălțimea de 14 cm. Cât este aria?",
+              "statement": "Un paralelogram are baza de 7 cm, iar înălțimea corespunzătoare bazei este de 14 cm. Cât este aria?",
               "inputs": [
                 {
                   "key": "x",
@@ -13029,7 +13029,7 @@
               "solution": [
                 "A = 7 · 14 = 98 cm²."
               ],
-              "grade": "Cls. V"
+              "grade": "Cls. VII"
             },
             {
               "id": "s2pl-g04",
@@ -13049,12 +13049,12 @@
               "solution": [
                 "P = 2 · (14 + 12) = 52 cm."
               ],
-              "grade": "Cls. V"
+              "grade": "Cls. VII"
             },
             {
               "id": "s2pl-g05",
               "kind": "input",
-              "statement": "Un paralelogram are baza de 8 cm și înălțimea de 13 cm. Cât este aria?",
+              "statement": "Un paralelogram are baza de 8 cm, iar înălțimea corespunzătoare bazei este de 13 cm. Cât este aria?",
               "inputs": [
                 {
                   "key": "x",
@@ -13069,7 +13069,7 @@
               "solution": [
                 "A = 8 · 13 = 104 cm²."
               ],
-              "grade": "Cls. VI"
+              "grade": "Cls. VII"
             },
             {
               "id": "s2pl-g06",
@@ -13089,12 +13089,12 @@
               "solution": [
                 "P = 2 · (5 + 10) = 30 cm."
               ],
-              "grade": "Cls. VI"
+              "grade": "Cls. VII"
             },
             {
               "id": "s2pl-g07",
               "kind": "input",
-              "statement": "Un paralelogram are baza de 12 cm și înălțimea de 11 cm. Cât este aria?",
+              "statement": "Un paralelogram are baza de 12 cm, iar înălțimea corespunzătoare bazei este de 11 cm. Cât este aria?",
               "inputs": [
                 {
                   "key": "x",
@@ -13109,7 +13109,7 @@
               "solution": [
                 "A = 12 · 11 = 132 cm²."
               ],
-              "grade": "Cls. VI"
+              "grade": "Cls. VII"
             },
             {
               "id": "s2pl-g08",
@@ -13129,12 +13129,12 @@
               "solution": [
                 "P = 2 · (17 + 18) = 70 cm."
               ],
-              "grade": "Cls. VI"
+              "grade": "Cls. VII"
             },
             {
               "id": "s2pl-g09",
               "kind": "input",
-              "statement": "Un paralelogram are baza de 10 cm și înălțimea de 14 cm. Cât este aria?",
+              "statement": "Un paralelogram are baza de 10 cm, iar înălțimea corespunzătoare bazei este de 14 cm. Cât este aria?",
               "inputs": [
                 {
                   "key": "x",
@@ -13174,7 +13174,7 @@
             {
               "id": "s2pl-g11",
               "kind": "input",
-              "statement": "Un paralelogram are baza de 14 cm și înălțimea de 12 cm. Cât este aria?",
+              "statement": "Un paralelogram are baza de 14 cm, iar înălțimea corespunzătoare bazei este de 12 cm. Cât este aria?",
               "inputs": [
                 {
                   "key": "x",
@@ -13214,7 +13214,7 @@
             {
               "id": "s2pl-g13",
               "kind": "input",
-              "statement": "Un paralelogram are baza de 20 cm și înălțimea de 13 cm. Cât este aria?",
+              "statement": "Un paralelogram are baza de 20 cm, iar înălțimea corespunzătoare bazei este de 13 cm. Cât este aria?",
               "inputs": [
                 {
                   "key": "x",
@@ -13254,7 +13254,7 @@
             {
               "id": "s2pl-g15",
               "kind": "input",
-              "statement": "Un paralelogram are baza de 13 cm și înălțimea de 9 cm. Cât este aria?",
+              "statement": "Un paralelogram are baza de 13 cm, iar înălțimea corespunzătoare bazei este de 9 cm. Cât este aria?",
               "inputs": [
                 {
                   "key": "x",
@@ -13294,7 +13294,7 @@
             {
               "id": "s2pl-g17",
               "kind": "input",
-              "statement": "Un paralelogram are baza de 18 cm și înălțimea de 3 cm. Cât este aria?",
+              "statement": "Un paralelogram are baza de 18 cm, iar înălțimea corespunzătoare bazei este de 3 cm. Cât este aria?",
               "inputs": [
                 {
                   "key": "x",
@@ -13513,7 +13513,7 @@
                 "Răspuns: 48 cm."
               ],
               "grade": "Cls. VIII",
-              "figure": "<svg viewBox='0 0 260 180'><polygon points='26,150 164.7,150 234,30 95.3,30' fill='none' stroke='currentColor' stroke-width='1.6'/><line x1='164.7' y1='150' x2='95.3' y2='30' stroke='currentColor' stroke-width='1.4'/><path d='M41,150 A15,15 0 0 0 33.5,137.1' fill='none' stroke='currentColor' stroke-width='1'/><text x='51.1' y='139.5' font-size='10.5' fill='currentColor' text-anchor='middle'>60°</text><text x='140.4' y='88' font-size='10.5' fill='currentColor' text-anchor='middle'>12 cm</text><text x='14.7' y='160.5' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='171.2' y='165.3' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='245.3' y='27.5' font-size='12' fill='currentColor' text-anchor='middle'>C</text><text x='88.8' y='22.7' font-size='12' fill='currentColor' text-anchor='middle'>D</text></svg>"
+              "figure": "<svg viewBox='0 0 260 180'><polygon points='26,150 164.7,150 234,30 95.3,30' fill='none' stroke='currentColor' stroke-width='1.6'/><line x1='164.7' y1='150' x2='95.3' y2='30' stroke='currentColor' stroke-width='1.4'/><path d='M41,150 A15,15 0 0 0 33.5,137.1' fill='none' stroke='currentColor' stroke-width='1'/><text x='51.1' y='139.5' font-size='10.5' fill='currentColor' text-anchor='middle'>60°</text><text x='147.8' y='83.8' font-size='10.5' fill='currentColor' text-anchor='middle'>12 cm</text><text x='14.7' y='160.5' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='171.2' y='165.3' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='245.3' y='27.5' font-size='12' fill='currentColor' text-anchor='middle'>C</text><text x='88.8' y='22.7' font-size='12' fill='currentColor' text-anchor='middle'>D</text></svg>"
             },
             {
               "id": "en-ii4-10",
@@ -13559,7 +13559,7 @@
                 "Răspuns: 72 cm."
               ],
               "grade": "Cls. VIII",
-              "figure": "<svg viewBox='0 0 260 180'><polygon points='130,154 183.3,154 130,26 76.7,26' fill='none' stroke='currentColor' stroke-width='1.6'/><line x1='130' y1='154' x2='130' y2='26' stroke='currentColor' stroke-width='1.4'/><path d='M138,154 L138,146 L130,146' fill='none' stroke='currentColor' stroke-width='1'/><text x='156.7' y='170' font-size='10.5' fill='currentColor' text-anchor='middle'>10 cm</text><text x='142' y='94' font-size='10.5' fill='currentColor' text-anchor='middle'>24 cm</text><text x='130' y='171' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='191.7' y='168' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='130' y='17' font-size='12' fill='currentColor' text-anchor='middle'>C</text><text x='68.3' y='20' font-size='12' fill='currentColor' text-anchor='middle'>D</text></svg>"
+              "figure": "<svg viewBox='0 0 260 180'><polygon points='130,154 183.3,154 130,26 76.7,26' fill='none' stroke='currentColor' stroke-width='1.6'/><line x1='130' y1='154' x2='130' y2='26' stroke='currentColor' stroke-width='1.4'/><path d='M138,154 L138,146 L130,146' fill='none' stroke='currentColor' stroke-width='1'/><text x='156.7' y='170' font-size='10.5' fill='currentColor' text-anchor='middle'>10 cm</text><text x='150.5' y='94' font-size='10.5' fill='currentColor' text-anchor='middle'>24 cm</text><text x='130' y='171' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='191.7' y='168' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='130' y='17' font-size='12' fill='currentColor' text-anchor='middle'>C</text><text x='68.3' y='20' font-size='12' fill='currentColor' text-anchor='middle'>D</text></svg>"
             },
             {
               "id": "en-ii4-12",
@@ -13696,26 +13696,26 @@
               "solution": [
                 "A = π·r² = π·12² = 144π cm²."
               ],
-              "grade": "Cls. V"
+              "grade": "Cls. VII"
             },
             {
               "id": "s2c-g02",
               "kind": "mc",
-              "statement": "Lungimea unui cerc cu raza de 2 cm este (în cm):",
+              "statement": "Lungimea unui cerc cu raza de 8 cm este (în cm):",
               "options": [
-                "5π",
-                "2π",
+                "32π",
                 "8π",
-                "4π"
+                "64π",
+                "16π"
               ],
               "answer": 3,
               "hints": [
                 "Capcană: L = 2·π·r (folosește raza, nu diametrul)."
               ],
               "solution": [
-                "L = 2·π·r = 2·π·2 = 4π cm."
+                "L = 2·π·r = 2·π·8 = 16π cm."
               ],
-              "grade": "Cls. V"
+              "grade": "Cls. VII"
             },
             {
               "id": "s2c-g03",
@@ -13734,7 +13734,7 @@
               "solution": [
                 "A = π·r² = π·11² = 121π cm²."
               ],
-              "grade": "Cls. V"
+              "grade": "Cls. VII"
             },
             {
               "id": "s2c-g04",
@@ -13753,7 +13753,7 @@
               "solution": [
                 "L = 2·π·r = 2·π·7 = 14π cm."
               ],
-              "grade": "Cls. V"
+              "grade": "Cls. VII"
             },
             {
               "id": "s2c-g05",
@@ -13772,7 +13772,7 @@
               "solution": [
                 "A = π·r² = π·6² = 36π cm²."
               ],
-              "grade": "Cls. VI"
+              "grade": "Cls. VII"
             },
             {
               "id": "s2c-g06",
@@ -13791,7 +13791,7 @@
               "solution": [
                 "L = 2·π·r = 2·π·12 = 24π cm."
               ],
-              "grade": "Cls. VI"
+              "grade": "Cls. VII"
             },
             {
               "id": "s2c-g07",
@@ -13810,26 +13810,26 @@
               "solution": [
                 "A = π·r² = π·8² = 64π cm²."
               ],
-              "grade": "Cls. VI"
+              "grade": "Cls. VII"
             },
             {
               "id": "s2c-g08",
               "kind": "mc",
-              "statement": "Lungimea unui cerc cu raza de 8 cm este (în cm):",
+              "statement": "Lungimea unui cerc cu raza de 3 cm este (în cm):",
               "options": [
-                "32π",
-                "64π",
-                "8π",
-                "16π"
+                "6π",
+                "3π",
+                "12π",
+                "9π"
               ],
-              "answer": 3,
+              "answer": 0,
               "hints": [
                 "Capcană: L = 2·π·r (folosește raza, nu diametrul)."
               ],
               "solution": [
-                "L = 2·π·r = 2·π·8 = 16π cm."
+                "L = 2·π·r = 2·π·3 = 6π cm."
               ],
-              "grade": "Cls. VI"
+              "grade": "Cls. VII"
             },
             {
               "id": "s2c-g09",
@@ -13853,19 +13853,19 @@
             {
               "id": "s2c-g10",
               "kind": "mc",
-              "statement": "Lungimea unui cerc cu raza de 7 cm este (în cm):",
+              "statement": "Lungimea unui cerc cu raza de 4 cm este (în cm):",
               "options": [
-                "28π",
-                "14π",
-                "7π",
-                "49π"
+                "8π",
+                "4π",
+                "9π",
+                "16π"
               ],
-              "answer": 1,
+              "answer": 0,
               "hints": [
                 "Capcană: L = 2·π·r (folosește raza, nu diametrul)."
               ],
               "solution": [
-                "L = 2·π·r = 2·π·7 = 14π cm."
+                "L = 2·π·r = 2·π·4 = 8π cm."
               ],
               "grade": "Cls. VII"
             },
@@ -13910,76 +13910,76 @@
             {
               "id": "s2c-g13",
               "kind": "mc",
-              "statement": "Aria unui disc cu raza de 8 cm este (în cm²):",
+              "statement": "Aria unui disc cu raza de 3 cm este (în cm²):",
               "options": [
-                "64π",
-                "16π",
-                "512π",
-                "256π"
+                "6π",
+                "36π",
+                "9π",
+                "27π"
               ],
-              "answer": 0,
+              "answer": 2,
               "hints": [
                 "Capcană: A = π·r² (ridici raza la pătrat)."
               ],
               "solution": [
-                "A = π·r² = π·8² = 64π cm²."
+                "A = π·r² = π·3² = 9π cm²."
               ],
               "grade": "Cls. VIII"
             },
             {
               "id": "s2c-g14",
               "kind": "mc",
-              "statement": "Lungimea unui cerc cu raza de 7 cm este (în cm):",
+              "statement": "Lungimea unui cerc cu raza de 11 cm este (în cm):",
               "options": [
-                "7π",
-                "14π",
-                "28π",
-                "49π"
+                "44π",
+                "11π",
+                "22π",
+                "121π"
               ],
-              "answer": 1,
+              "answer": 2,
               "hints": [
                 "Capcană: L = 2·π·r (folosește raza, nu diametrul)."
               ],
               "solution": [
-                "L = 2·π·r = 2·π·7 = 14π cm."
+                "L = 2·π·r = 2·π·11 = 22π cm."
               ],
               "grade": "Cls. VIII"
             },
             {
               "id": "s2c-g15",
               "kind": "mc",
-              "statement": "Aria unui disc cu raza de 6 cm este (în cm²):",
+              "statement": "Aria unui disc cu raza de 9 cm este (în cm²):",
               "options": [
-                "144π",
-                "216π",
-                "12π",
-                "36π"
+                "18π",
+                "729π",
+                "81π",
+                "324π"
               ],
-              "answer": 3,
+              "answer": 2,
               "hints": [
                 "Capcană: A = π·r² (ridici raza la pătrat)."
               ],
               "solution": [
-                "A = π·r² = π·6² = 36π cm²."
+                "A = π·r² = π·9² = 81π cm²."
               ],
               "grade": "Cls. VIII"
             },
             {
               "id": "s2c-g16",
               "kind": "mc",
-              "statement": "Lungimea unui cerc cu raza de 6 cm este (în cm):",
+              "statement": "Lungimea unui cerc cu raza de 9 cm este (în cm):",
               "options": [
-                "24π",
-                "6π",
+                "81π",
                 "36π",
-                "12π"
+                "9π",
+                "18π"
               ],
               "answer": 3,
               "hints": [
                 "Capcană: L = 2·π·r (folosește raza, nu diametrul)."
               ],
               "solution": [
-                "L = 2·π·r = 2·π·6 = 12π cm."
+                "L = 2·π·r = 2·π·9 = 18π cm."
               ],
               "grade": "Cls. VIII"
             },
@@ -14028,25 +14028,25 @@
             {
               "id": "en-ii5-02",
               "kind": "mc",
-              "statement": "Punctele A, B, C, D, E, F, G, H, I împart cercul de centru O în 9 arce congruente. Măsura unghiului AOC este:",
+              "statement": "Punctele A, B, C, D, E, F, G, H, I, J, în această ordine, împart cercul de centru O în 10 arce congruente. Măsura unghiului AOC este:",
               "options": [
-                "100°",
-                "120°",
-                "40°",
-                "80°"
+                "36°",
+                "144°",
+                "108°",
+                "72°"
               ],
               "answer": 3,
               "hints": [
-                "Fiecare arc are 360° : 9 = 40°.",
+                "Fiecare arc are 360° : 10 = 36°.",
                 "Între A și C sunt 2 arce."
               ],
               "solution": [
-                "Un arc are 40°.",
-                "m(∠AOC) = 2 · 40° = 80° (unghi la centru = arcul cuprins).",
-                "Răspuns: 80°."
+                "Un arc are 36°.",
+                "m(∠AOC) = 2 · 36° = 72° (unghi la centru = arcul cuprins).",
+                "Răspuns: 72°."
               ],
               "grade": "Cls. VIII",
-              "figure": "<svg viewBox='0 0 260 180'><circle cx='130' cy='90' r='64' fill='none' stroke='currentColor' stroke-width='1.6'/><line x1='130' y1='90' x2='130' y2='26' stroke='currentColor' stroke-width='1.4'/><line x1='130' y1='90' x2='67' y2='78.9' stroke='currentColor' stroke-width='1.4'/><circle cx='130' cy='90' r='2.6' fill='currentColor'/><circle cx='130' cy='26' r='2.6' fill='currentColor'/><circle cx='88.9' cy='41' r='2.6' fill='currentColor'/><circle cx='67' cy='78.9' r='2.6' fill='currentColor'/><circle cx='74.6' cy='122' r='2.6' fill='currentColor'/><circle cx='108.1' cy='150.1' r='2.6' fill='currentColor'/><circle cx='151.9' cy='150.1' r='2.6' fill='currentColor'/><circle cx='185.4' cy='122' r='2.6' fill='currentColor'/><circle cx='193' cy='78.9' r='2.6' fill='currentColor'/><circle cx='171.1' cy='41' r='2.6' fill='currentColor'/><text x='130' y='81' font-size='12' fill='currentColor' text-anchor='middle'>O</text><text x='130' y='17' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='80.5' y='35' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='54.2' y='80.6' font-size='12' fill='currentColor' text-anchor='middle'>C</text><text x='63.3' y='132.5' font-size='12' fill='currentColor' text-anchor='middle'>D</text><text x='103.7' y='166.4' font-size='12' fill='currentColor' text-anchor='middle'>E</text><text x='156.3' y='166.4' font-size='12' fill='currentColor' text-anchor='middle'>F</text><text x='196.7' y='132.5' font-size='12' fill='currentColor' text-anchor='middle'>G</text><text x='205.8' y='80.6' font-size='12' fill='currentColor' text-anchor='middle'>H</text><text x='179.5' y='35' font-size='12' fill='currentColor' text-anchor='middle'>I</text></svg>"
+              "figure": "<svg viewBox='0 0 260 180'><circle cx='130' cy='90' r='64' fill='none' stroke='currentColor' stroke-width='1.6'/><line x1='130' y1='90' x2='130' y2='26' stroke='currentColor' stroke-width='1.4'/><line x1='130' y1='90' x2='69.1' y2='70.2' stroke='currentColor' stroke-width='1.4'/><circle cx='130' cy='90' r='2.6' fill='currentColor'/><circle cx='130' cy='26' r='2.6' fill='currentColor'/><circle cx='92.4' cy='38.2' r='2.6' fill='currentColor'/><circle cx='69.1' cy='70.2' r='2.6' fill='currentColor'/><circle cx='69.1' cy='109.8' r='2.6' fill='currentColor'/><circle cx='92.4' cy='141.8' r='2.6' fill='currentColor'/><circle cx='130' cy='154' r='2.6' fill='currentColor'/><circle cx='167.6' cy='141.8' r='2.6' fill='currentColor'/><circle cx='190.9' cy='109.8' r='2.6' fill='currentColor'/><circle cx='190.9' cy='70.2' r='2.6' fill='currentColor'/><circle cx='167.6' cy='38.2' r='2.6' fill='currentColor'/><text x='137.6' y='104.5' font-size='12' fill='currentColor' text-anchor='middle'>O</text><text x='130' y='17' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='84.7' y='31.7' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='56.8' y='70.2' font-size='12' fill='currentColor' text-anchor='middle'>C</text><text x='56.8' y='117.8' font-size='12' fill='currentColor' text-anchor='middle'>D</text><text x='84.7' y='156.3' font-size='12' fill='currentColor' text-anchor='middle'>E</text><text x='130' y='171' font-size='12' fill='currentColor' text-anchor='middle'>F</text><text x='175.3' y='156.3' font-size='12' fill='currentColor' text-anchor='middle'>G</text><text x='203.2' y='117.8' font-size='12' fill='currentColor' text-anchor='middle'>H</text><text x='203.2' y='70.2' font-size='12' fill='currentColor' text-anchor='middle'>I</text><text x='175.3' y='31.7' font-size='12' fill='currentColor' text-anchor='middle'>J</text></svg>"
             },
             {
               "id": "en-ii5-03",
@@ -14535,20 +14535,20 @@
             {
               "id": "s2cp-g08",
               "kind": "input",
-              "statement": "Un cub are muchia de 3 cm. Cât este volumul?",
+              "statement": "Un cub are muchia de 9 cm. Cât este volumul?",
               "inputs": [
                 {
                   "key": "x",
                   "label": "Volum",
                   "unit": "cm³",
-                  "answer": 27
+                  "answer": 729
                 }
               ],
               "hints": [
                 "Capcană: volumul cubului = muchie³ (muchie·muchie·muchie)."
               ],
               "solution": [
-                "V = 3³ = 27 cm³."
+                "V = 9³ = 729 cm³."
               ],
               "grade": "Cls. VII"
             },
@@ -14575,20 +14575,20 @@
             {
               "id": "s2cp-g10",
               "kind": "input",
-              "statement": "Un cub are muchia de 3 cm. Cât este volumul?",
+              "statement": "Un cub are muchia de 6 cm. Cât este volumul?",
               "inputs": [
                 {
                   "key": "x",
                   "label": "Volum",
                   "unit": "cm³",
-                  "answer": 27
+                  "answer": 216
                 }
               ],
               "hints": [
                 "Capcană: volumul cubului = muchie³ (muchie·muchie·muchie)."
               ],
               "solution": [
-                "V = 3³ = 27 cm³."
+                "V = 6³ = 216 cm³."
               ],
               "grade": "Cls. VII"
             },
@@ -14655,20 +14655,20 @@
             {
               "id": "s2cp-g14",
               "kind": "input",
-              "statement": "Un cub are muchia de 4 cm. Cât este volumul?",
+              "statement": "Un cub are muchia de 2 cm. Cât este volumul?",
               "inputs": [
                 {
                   "key": "x",
                   "label": "Volum",
                   "unit": "cm³",
-                  "answer": 64
+                  "answer": 8
                 }
               ],
               "hints": [
                 "Capcană: volumul cubului = muchie³ (muchie·muchie·muchie)."
               ],
               "solution": [
-                "V = 4³ = 64 cm³."
+                "V = 2³ = 8 cm³."
               ],
               "grade": "Cls. VIII"
             },
@@ -14909,7 +14909,7 @@
               "answer": 3,
               "hints": [
                 "Dacă dreptele nu au punct comun, înlocuiește una dintre ele cu o paralelă care trece printr-un punct al celeilalte.",
-                "Diagonalele fețelor cubului sunt toate egale (l√2)."
+                "B′C′ ∥ BC, iar ABCD este pătrat."
               ],
               "solution": [
                 "B′C′ ∥ BC, iar AB ⊥ BC (unghi al pătratului ABCD).",
@@ -14931,7 +14931,7 @@
               ],
               "answer": 1,
               "hints": [
-                "Dacă dreptele nu au punct comun, înlocuiește una dintre ele cu o paralelă care trece printr-un punct al celeilalte.",
+                "Dreptele AB′ și AD′ au punctul comun A: unește B′ cu D′ și privește triunghiul AB′D′.",
                 "Diagonalele fețelor cubului sunt toate egale (l√2)."
               ],
               "solution": [
@@ -15159,14 +15159,14 @@
               "solution": [
                 "18n + 30 = 24n − 12.",
                 "42 = 6n ⟹ n = 7 copii.",
-                "P = 18·7 + 30 = 156 lei.",
-                "Răspuns: 7 copii, mingea costă 156 lei."
+                "P = 18·7 + 30 = 156 de lei.",
+                "Răspuns: 7 copii, mingea costă 156 de lei."
               ]
             },
             {
               "id": "s3t-g01",
               "kind": "input",
-              "statement": "Un elev cumpără 10 caiete la același preț și îi rămân 32 lei din 62 lei. Cât costă un caiet?",
+              "statement": "Un elev cumpără 10 caiete la același preț și îi rămân 32 de lei din 62 de lei. Cât costă un caiet?",
               "inputs": [
                 {
                   "key": "x",
@@ -15180,7 +15180,7 @@
                 "Apoi împarte la numărul de caiete."
               ],
               "solution": [
-                "Cheltuit: 62 − 32 = 30 lei; un caiet: 30 : 10 = 3 lei."
+                "Cheltuit: 62 − 32 = 30 de lei; un caiet: 30 : 10 = 3 lei."
               ],
               "grade": "Cls. V"
             },
@@ -15229,7 +15229,7 @@
             {
               "id": "s3t-g04",
               "kind": "input",
-              "statement": "Un elev cumpără 11 caiete la același preț și îi rămân 43 lei din 164 lei. Cât costă un caiet?",
+              "statement": "Un elev cumpără 11 caiete la același preț și îi rămân 43 de lei din 164 de lei. Cât costă un caiet?",
               "inputs": [
                 {
                   "key": "x",
@@ -15243,7 +15243,7 @@
                 "Apoi împarte la numărul de caiete."
               ],
               "solution": [
-                "Cheltuit: 164 − 43 = 121 lei; un caiet: 121 : 11 = 11 lei."
+                "Cheltuit: 164 − 43 = 121 de lei; un caiet: 121 : 11 = 11 lei."
               ],
               "grade": "Cls. VI"
             },
@@ -15292,7 +15292,7 @@
             {
               "id": "s3t-g07",
               "kind": "input",
-              "statement": "Un elev cumpără 10 caiete la același preț și îi rămân 37 lei din 147 lei. Cât costă un caiet?",
+              "statement": "Un elev cumpără 10 caiete la același preț și îi rămân 37 de lei din 147 de lei. Cât costă un caiet?",
               "inputs": [
                 {
                   "key": "x",
@@ -15355,7 +15355,7 @@
             {
               "id": "s3t-g10",
               "kind": "input",
-              "statement": "Un elev cumpără 12 caiete la același preț și îi rămân 37 lei din 97 lei. Cât costă un caiet?",
+              "statement": "Un elev cumpără 12 caiete la același preț și îi rămân 37 de lei din 97 de lei. Cât costă un caiet?",
               "inputs": [
                 {
                   "key": "x",
@@ -15369,7 +15369,7 @@
                 "Apoi împarte la numărul de caiete."
               ],
               "solution": [
-                "Cheltuit: 97 − 37 = 60 lei; un caiet: 60 : 12 = 5 lei."
+                "Cheltuit: 97 − 37 = 60 de lei; un caiet: 60 : 12 = 5 lei."
               ],
               "grade": "Cls. VIII"
             },
@@ -15508,7 +15508,7 @@
             {
               "id": "en-iii1-04",
               "kind": "input",
-              "statement": "Elevii unei clase intră într-o sală de festivități. Dacă se așază câte 3 în fiecare bancă, rămân 7 elevi în picioare. Dacă se așază câte 4 în fiecare bancă, rămân o bancă liberă, iar celelalte sunt ocupate complet. <br>a) Dacă în sală ar fi 13 bănci, câți elevi ar avea clasa, conform primei situații? Se potrivește cu a doua situație? <br>b) Câte bănci sunt în sală și câți elevi are clasa?",
+              "statement": "Elevii unei clase intră într-o sală de festivități. Dacă se așază câte 3 în fiecare bancă, rămân 7 elevi în picioare. Dacă se așază câte 4 în fiecare bancă, rămâne o bancă liberă, iar celelalte sunt ocupate complet. <br>a) Dacă în sală ar fi 13 bănci, câți elevi ar avea clasa, conform primei situații? Se potrivește cu a doua situație? <br>b) Câte bănci sunt în sală și câți elevi are clasa?",
               "inputs": [
                 {
                   "key": "a",
@@ -16331,7 +16331,7 @@
               "solution": [
                 "E(x) = (x − 2)/(x + 2).",
                 "a) E(18) = 16/20 = 0,8.",
-                "b) (n − 2)/(n + 2) = 1/2 ⟹ 2(n − 2) = n + 2 ⟹ n = 6 ⟹ n = 6.",
+                "b) (n − 2)/(n + 2) = 1/2 ⟹ 2(n − 2) = n + 2 ⟹ 2n − 4 = n + 2 ⟹ n = 6.",
                 "Răspuns: a) 0,8; b) n = 6."
               ],
               "grade": "Cls. VIII"
@@ -16713,7 +16713,7 @@
                 "Răspuns: a) −1; b) 2."
               ],
               "grade": "Cls. VIII",
-              "figure": "<svg viewBox='0 0 260 180'><line x1='66' y1='115.6' x2='194' y2='115.6' stroke='currentColor' stroke-width='1.4'/><line x1='104.4' y1='154' x2='104.4' y2='26' stroke='currentColor' stroke-width='1.4'/><circle cx='155.6' cy='115.6' r='2.6' fill='currentColor'/><circle cx='104.4' cy='64.4' r='2.6' fill='currentColor'/><text x='95.2' y='128.8' font-size='12' fill='currentColor' text-anchor='middle'>O</text><text x='167.7' y='124.4' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='99.6' y='56.3' font-size='12' fill='currentColor' text-anchor='middle'>B</text><line x1='66' y1='26' x2='194' y2='154' stroke='currentColor' stroke-width='1.6'/><text x='197' y='109.6' font-size='10.5' fill='currentColor' text-anchor='middle'>x</text><text x='94.4' y='32' font-size='10.5' fill='currentColor' text-anchor='middle'>y</text></svg>"
+              "figure": "<svg viewBox='0 0 260 180'><line x1='66' y1='115.6' x2='194' y2='115.6' stroke='currentColor' stroke-width='1.4'/><line x1='104.4' y1='154' x2='104.4' y2='26' stroke='currentColor' stroke-width='1.4'/><circle cx='155.6' cy='115.6' r='2.6' fill='currentColor'/><circle cx='104.4' cy='64.4' r='2.6' fill='currentColor'/><text x='95.2' y='128.8' font-size='12' fill='currentColor' text-anchor='middle'>O</text><text x='164.8' y='110.4' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='113.6' y='59.2' font-size='12' fill='currentColor' text-anchor='middle'>B</text><line x1='66' y1='26' x2='194' y2='154' stroke='currentColor' stroke-width='1.6'/><text x='197' y='109.6' font-size='10.5' fill='currentColor' text-anchor='middle'>x</text><text x='104.4' y='21' font-size='10.5' fill='currentColor' text-anchor='middle'>y</text></svg>"
             },
             {
               "id": "en-iii3-02",
@@ -16745,7 +16745,7 @@
                 "Răspuns: a) 0; b) 0,8."
               ],
               "grade": "Cls. VIII",
-              "figure": "<svg viewBox='0 0 260 180'><line x1='50' y1='74' x2='210' y2='74' stroke='currentColor' stroke-width='1.4'/><line x1='162' y1='154' x2='162' y2='26' stroke='currentColor' stroke-width='1.4'/><line x1='162' y1='74' x2='149.2' y2='99.6' stroke='currentColor' stroke-width='1.2' stroke-dasharray='4 3'/><path d='M152.8,92.4 L145.6,88.9 L142,96' fill='none' stroke='currentColor' stroke-width='1'/><circle cx='98' cy='74' r='2.6' fill='currentColor'/><circle cx='162' cy='106' r='2.6' fill='currentColor'/><text x='152.8' y='87.2' font-size='12' fill='currentColor' text-anchor='middle'>O</text><text x='85.4' y='74.9' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='170.4' y='119.9' font-size='12' fill='currentColor' text-anchor='middle'>B</text><line x1='50' y1='50' x2='210' y2='130' stroke='currentColor' stroke-width='1.6'/><text x='213' y='68' font-size='10.5' fill='currentColor' text-anchor='middle'>x</text><text x='152' y='32' font-size='10.5' fill='currentColor' text-anchor='middle'>y</text></svg>"
+              "figure": "<svg viewBox='0 0 260 180'><line x1='50' y1='74' x2='210' y2='74' stroke='currentColor' stroke-width='1.4'/><line x1='162' y1='154' x2='162' y2='26' stroke='currentColor' stroke-width='1.4'/><line x1='162' y1='74' x2='149.2' y2='99.6' stroke='currentColor' stroke-width='1.2' stroke-dasharray='4 3'/><path d='M152.8,92.4 L145.6,88.9 L142,96' fill='none' stroke='currentColor' stroke-width='1'/><circle cx='98' cy='74' r='2.6' fill='currentColor'/><circle cx='162' cy='106' r='2.6' fill='currentColor'/><text x='152.8' y='87.2' font-size='12' fill='currentColor' text-anchor='middle'>O</text><text x='88.8' y='87.2' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='152.8' y='119.2' font-size='12' fill='currentColor' text-anchor='middle'>B</text><line x1='50' y1='50' x2='210' y2='130' stroke='currentColor' stroke-width='1.6'/><text x='213' y='68' font-size='10.5' fill='currentColor' text-anchor='middle'>x</text><text x='162' y='21' font-size='10.5' fill='currentColor' text-anchor='middle'>y</text></svg>"
             },
             {
               "id": "en-iii3-03",
@@ -16777,7 +16777,7 @@
                 "Răspuns: a) −4; b) 3,2."
               ],
               "grade": "Cls. VIII",
-              "figure": "<svg viewBox='0 0 260 180'><line x1='40.4' y1='64.4' x2='219.6' y2='64.4' stroke='currentColor' stroke-width='1.4'/><line x1='181.2' y1='154' x2='181.2' y2='26' stroke='currentColor' stroke-width='1.4'/><line x1='181.2' y1='64.4' x2='160.7' y2='105.4' stroke='currentColor' stroke-width='1.2' stroke-dasharray='4 3'/><path d='M164.3,98.2 L157.1,94.6 L153.6,101.8' fill='none' stroke='currentColor' stroke-width='1'/><circle cx='78.8' cy='64.4' r='2.6' fill='currentColor'/><circle cx='181.2' cy='115.6' r='2.6' fill='currentColor'/><text x='172' y='77.6' font-size='12' fill='currentColor' text-anchor='middle'>O</text><text x='66.2' y='65.3' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='189.6' y='129.5' font-size='12' fill='currentColor' text-anchor='middle'>B</text><line x1='40.4' y1='45.2' x2='219.6' y2='134.8' stroke='currentColor' stroke-width='1.6'/><text x='222.6' y='58.4' font-size='10.5' fill='currentColor' text-anchor='middle'>x</text><text x='171.2' y='32' font-size='10.5' fill='currentColor' text-anchor='middle'>y</text></svg>"
+              "figure": "<svg viewBox='0 0 260 180'><line x1='40.4' y1='64.4' x2='219.6' y2='64.4' stroke='currentColor' stroke-width='1.4'/><line x1='181.2' y1='154' x2='181.2' y2='26' stroke='currentColor' stroke-width='1.4'/><line x1='181.2' y1='64.4' x2='160.7' y2='105.4' stroke='currentColor' stroke-width='1.2' stroke-dasharray='4 3'/><path d='M164.3,98.2 L157.1,94.6 L153.6,101.8' fill='none' stroke='currentColor' stroke-width='1'/><circle cx='78.8' cy='64.4' r='2.6' fill='currentColor'/><circle cx='181.2' cy='115.6' r='2.6' fill='currentColor'/><text x='172' y='77.6' font-size='12' fill='currentColor' text-anchor='middle'>O</text><text x='69.6' y='77.6' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='172' y='128.8' font-size='12' fill='currentColor' text-anchor='middle'>B</text><line x1='40.4' y1='45.2' x2='219.6' y2='134.8' stroke='currentColor' stroke-width='1.6'/><text x='222.6' y='58.4' font-size='10.5' fill='currentColor' text-anchor='middle'>x</text><text x='181.2' y='21' font-size='10.5' fill='currentColor' text-anchor='middle'>y</text></svg>"
             },
             {
               "id": "en-iii3-04",
@@ -16809,7 +16809,7 @@
                 "Răspuns: a) 18; b) 54."
               ],
               "grade": "Cls. VIII",
-              "figure": "<svg viewBox='0 0 260 180'><line x1='50' y1='138' x2='210' y2='138' stroke='currentColor' stroke-width='1.4'/><line x1='130' y1='154' x2='130' y2='26' stroke='currentColor' stroke-width='1.4'/><circle cx='66' cy='138' r='2.6' fill='currentColor'/><circle cx='130' cy='42' r='2.6' fill='currentColor'/><circle cx='194' cy='138' r='2.6' fill='currentColor'/><text x='120.8' y='151.2' font-size='12' fill='currentColor' text-anchor='middle'>O</text><text x='53.8' y='146.6' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='130' y='33' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='206.2' y='146.6' font-size='12' fill='currentColor' text-anchor='middle'>M</text><line x1='55.3' y1='154' x2='140.7' y2='26' stroke='currentColor' stroke-width='1.6'/><text x='213' y='132' font-size='10.5' fill='currentColor' text-anchor='middle'>x</text><text x='120' y='32' font-size='10.5' fill='currentColor' text-anchor='middle'>y</text></svg>"
+              "figure": "<svg viewBox='0 0 260 180'><line x1='50' y1='138' x2='210' y2='138' stroke='currentColor' stroke-width='1.4'/><line x1='130' y1='154' x2='130' y2='26' stroke='currentColor' stroke-width='1.4'/><circle cx='66' cy='138' r='2.6' fill='currentColor'/><circle cx='130' cy='42' r='2.6' fill='currentColor'/><circle cx='194' cy='138' r='2.6' fill='currentColor'/><text x='120.8' y='151.2' font-size='12' fill='currentColor' text-anchor='middle'>O</text><text x='56.8' y='132.8' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='120.8' y='36.8' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='206.2' y='146.6' font-size='12' fill='currentColor' text-anchor='middle'>M</text><line x1='55.3' y1='154' x2='140.7' y2='26' stroke='currentColor' stroke-width='1.6'/><text x='213' y='132' font-size='10.5' fill='currentColor' text-anchor='middle'>x</text><text x='130' y='21' font-size='10.5' fill='currentColor' text-anchor='middle'>y</text></svg>"
             },
             {
               "id": "en-iii3-05",
@@ -16830,7 +16830,7 @@
                 }
               ],
               "hints": [
-                "a) Înlocuiește x cu fiecare valoare.",
+                "a) P(m, −1) aparține graficului dacă f(m) = −1, adică m/3 + 1 = −1.",
                 "b) A: f(x) = 0 ⟹ x = −3; B: f(0) = 1."
               ],
               "solution": [
@@ -16841,39 +16841,39 @@
                 "Răspuns: a) −6; b) 2,5."
               ],
               "grade": "Cls. VIII",
-              "figure": "<svg viewBox='0 0 260 180'><line x1='34' y1='106' x2='226' y2='106' stroke='currentColor' stroke-width='1.4'/><line x1='178' y1='154' x2='178' y2='26' stroke='currentColor' stroke-width='1.4'/><circle cx='82' cy='106' r='2.6' fill='currentColor'/><circle cx='178' cy='74' r='2.6' fill='currentColor'/><circle cx='130' cy='90' r='2.6' fill='currentColor'/><text x='168.8' y='119.2' font-size='12' fill='currentColor' text-anchor='middle'>O</text><text x='69.1' y='111.9' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='188.5' y='70.3' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='117.7' y='89.9' font-size='12' fill='currentColor' text-anchor='middle'>M</text><line x1='34' y1='122' x2='226' y2='58' stroke='currentColor' stroke-width='1.6'/><text x='229' y='100' font-size='10.5' fill='currentColor' text-anchor='middle'>x</text><text x='168' y='32' font-size='10.5' fill='currentColor' text-anchor='middle'>y</text></svg>"
+              "figure": "<svg viewBox='0 0 260 180'><line x1='34' y1='106' x2='226' y2='106' stroke='currentColor' stroke-width='1.4'/><line x1='178' y1='154' x2='178' y2='26' stroke='currentColor' stroke-width='1.4'/><circle cx='82' cy='106' r='2.6' fill='currentColor'/><circle cx='178' cy='74' r='2.6' fill='currentColor'/><circle cx='130' cy='90' r='2.6' fill='currentColor'/><text x='168.8' y='119.2' font-size='12' fill='currentColor' text-anchor='middle'>O</text><text x='72.8' y='100.8' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='168.8' y='68.8' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='117.7' y='89.9' font-size='12' fill='currentColor' text-anchor='middle'>M</text><line x1='34' y1='122' x2='226' y2='58' stroke='currentColor' stroke-width='1.6'/><text x='229' y='100' font-size='10.5' fill='currentColor' text-anchor='middle'>x</text><text x='178' y='21' font-size='10.5' fill='currentColor' text-anchor='middle'>y</text></svg>"
             },
             {
               "id": "en-iii3-06",
               "kind": "input",
-              "statement": "Se consideră funcția f : ℝ → ℝ, f(x) = 3x/2 + 9. <br>a) Calculează f(4) + f(2). <br>b) Graficul funcției f intersectează axa Ox în punctul A și axa Oy în punctul B. Punctul C este mijlocul segmentului OA. Calculează aria triunghiului OBC.",
+              "statement": "Se consideră funcția f : ℝ → ℝ, f(x) = x/2 − 1. <br>a) Calculează f(−4) + f(2). <br>b) Graficul funcției f intersectează axa Ox în punctul A și axa Oy în punctul B. Punctul C este mijlocul segmentului OA. Calculează aria triunghiului OBC.",
               "inputs": [
                 {
                   "key": "a",
-                  "label": "a) f(4) + f(2)",
+                  "label": "a) f(−4) + f(2)",
                   "unit": "",
-                  "answer": 27
+                  "answer": -3
                 },
                 {
                   "key": "b",
                   "label": "b) Aria triunghiului OBC",
                   "unit": "",
-                  "answer": 13.5
+                  "answer": 0.5
                 }
               ],
               "hints": [
                 "a) Înlocuiește x cu fiecare valoare.",
-                "b) A: f(x) = 0 ⟹ x = −6; B: f(0) = 9."
+                "b) A: f(x) = 0 ⟹ x = 2; B: f(0) = −1."
               ],
               "solution": [
-                "a) f(4) = 15, f(2) = 12; suma este 27.",
-                "b) A(−6, 0) și B(0, 9).",
-                "OC = 3, OB = 9.",
-                "Aria = OC · OB : 2 = 13,5.",
-                "Răspuns: a) 27; b) 13,5."
+                "a) f(−4) = −3, f(2) = 0; suma este −3.",
+                "b) A(2, 0) și B(0, −1).",
+                "OC = 1, OB = 1.",
+                "Aria = OC · OB : 2 = 0,5.",
+                "Răspuns: a) −3; b) 0,5."
               ],
               "grade": "Cls. VIII",
-              "figure": "<svg viewBox='0 0 260 180'><line x1='82' y1='138' x2='178' y2='138' stroke='currentColor' stroke-width='1.4'/><line x1='162' y1='154' x2='162' y2='26' stroke='currentColor' stroke-width='1.4'/><circle cx='98' cy='138' r='2.6' fill='currentColor'/><circle cx='162' cy='42' r='2.6' fill='currentColor'/><circle cx='130' cy='138' r='2.6' fill='currentColor'/><text x='152.8' y='151.2' font-size='12' fill='currentColor' text-anchor='middle'>O</text><text x='86.6' y='148.2' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='165.5' y='33.5' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='124.2' y='153.6' font-size='12' fill='currentColor' text-anchor='middle'>C</text><line x1='87.3' y1='154' x2='172.7' y2='26' stroke='currentColor' stroke-width='1.6'/><text x='181' y='132' font-size='10.5' fill='currentColor' text-anchor='middle'>x</text><text x='152' y='32' font-size='10.5' fill='currentColor' text-anchor='middle'>y</text></svg>"
+              "figure": "<svg viewBox='0 0 260 180'><line x1='50' y1='74' x2='210' y2='74' stroke='currentColor' stroke-width='1.4'/><line x1='98' y1='154' x2='98' y2='26' stroke='currentColor' stroke-width='1.4'/><circle cx='162' cy='74' r='2.6' fill='currentColor'/><circle cx='98' cy='106' r='2.6' fill='currentColor'/><circle cx='130' cy='74' r='2.6' fill='currentColor'/><text x='88.8' y='87.2' font-size='12' fill='currentColor' text-anchor='middle'>O</text><text x='171.2' y='87.2' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='107.2' y='119.2' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='140.8' y='70.8' font-size='12' fill='currentColor' text-anchor='middle'>C</text><line x1='50' y1='130' x2='210' y2='50' stroke='currentColor' stroke-width='1.6'/><text x='213' y='68' font-size='10.5' fill='currentColor' text-anchor='middle'>x</text><text x='98' y='21' font-size='10.5' fill='currentColor' text-anchor='middle'>y</text></svg>"
             },
             {
               "id": "en-iii3-07",
@@ -16905,7 +16905,7 @@
                 "Răspuns: a) 0; b) 2."
               ],
               "grade": "Cls. VIII",
-              "figure": "<svg viewBox='0 0 260 180'><line x1='66' y1='115.6' x2='194' y2='115.6' stroke='currentColor' stroke-width='1.4'/><line x1='155.6' y1='154' x2='155.6' y2='26' stroke='currentColor' stroke-width='1.4'/><circle cx='104.4' cy='115.6' r='2.6' fill='currentColor'/><circle cx='155.6' cy='64.4' r='2.6' fill='currentColor'/><text x='146.4' y='128.8' font-size='12' fill='currentColor' text-anchor='middle'>O</text><text x='92.3' y='124.4' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='160.4' y='56.3' font-size='12' fill='currentColor' text-anchor='middle'>B</text><line x1='66' y1='154' x2='194' y2='26' stroke='currentColor' stroke-width='1.6'/><text x='197' y='109.6' font-size='10.5' fill='currentColor' text-anchor='middle'>x</text><text x='145.6' y='32' font-size='10.5' fill='currentColor' text-anchor='middle'>y</text></svg>"
+              "figure": "<svg viewBox='0 0 260 180'><line x1='66' y1='115.6' x2='194' y2='115.6' stroke='currentColor' stroke-width='1.4'/><line x1='155.6' y1='154' x2='155.6' y2='26' stroke='currentColor' stroke-width='1.4'/><circle cx='104.4' cy='115.6' r='2.6' fill='currentColor'/><circle cx='155.6' cy='64.4' r='2.6' fill='currentColor'/><text x='146.4' y='128.8' font-size='12' fill='currentColor' text-anchor='middle'>O</text><text x='95.2' y='110.4' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='146.4' y='59.2' font-size='12' fill='currentColor' text-anchor='middle'>B</text><line x1='66' y1='154' x2='194' y2='26' stroke='currentColor' stroke-width='1.6'/><text x='197' y='109.6' font-size='10.5' fill='currentColor' text-anchor='middle'>x</text><text x='155.6' y='21' font-size='10.5' fill='currentColor' text-anchor='middle'>y</text></svg>"
             },
             {
               "id": "en-iii3-08",
@@ -16937,39 +16937,39 @@
                 "Răspuns: a) −16; b) 5."
               ],
               "grade": "Cls. VIII",
-              "figure": "<svg viewBox='0 0 260 180'><line x1='84.3' y1='53.4' x2='175.7' y2='53.4' stroke='currentColor' stroke-width='1.4'/><line x1='148.3' y1='154' x2='148.3' y2='26' stroke='currentColor' stroke-width='1.4'/><circle cx='111.7' cy='53.4' r='2.6' fill='currentColor'/><circle cx='148.3' cy='126.6' r='2.6' fill='currentColor'/><circle cx='130' cy='90' r='2.6' fill='currentColor'/><text x='139.1' y='66.6' font-size='12' fill='currentColor' text-anchor='middle'>O</text><text x='102.1' y='48.7' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='151.2' y='143.2' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='124.2' y='105.6' font-size='12' fill='currentColor' text-anchor='middle'>M</text><line x1='98' y1='26' x2='162' y2='154' stroke='currentColor' stroke-width='1.6'/><text x='178.7' y='47.4' font-size='10.5' fill='currentColor' text-anchor='middle'>x</text><text x='138.3' y='32' font-size='10.5' fill='currentColor' text-anchor='middle'>y</text></svg>"
+              "figure": "<svg viewBox='0 0 260 180'><line x1='84.3' y1='53.4' x2='175.7' y2='53.4' stroke='currentColor' stroke-width='1.4'/><line x1='148.3' y1='154' x2='148.3' y2='26' stroke='currentColor' stroke-width='1.4'/><circle cx='111.7' cy='53.4' r='2.6' fill='currentColor'/><circle cx='148.3' cy='126.6' r='2.6' fill='currentColor'/><circle cx='130' cy='90' r='2.6' fill='currentColor'/><text x='139.1' y='66.6' font-size='12' fill='currentColor' text-anchor='middle'>O</text><text x='102.5' y='66.6' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='139.1' y='139.8' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='124.2' y='105.6' font-size='12' fill='currentColor' text-anchor='middle'>M</text><line x1='98' y1='26' x2='162' y2='154' stroke='currentColor' stroke-width='1.6'/><text x='178.7' y='47.4' font-size='10.5' fill='currentColor' text-anchor='middle'>x</text><text x='148.3' y='21' font-size='10.5' fill='currentColor' text-anchor='middle'>y</text></svg>"
             },
             {
               "id": "en-iii3-09",
               "kind": "input",
-              "statement": "Se consideră funcția f : ℝ → ℝ, f(x) = −x/2 − 2. <br>a) Calculează f(8) + f(−8). <br>b) Graficul funcției f intersectează axa Ox în punctul A și axa Oy în punctul B. Calculează pătratul distanței de la originea O la dreapta AB.",
+              "statement": "Se consideră funcția f : ℝ → ℝ, f(x) = 3x + 6. <br>a) Calculează f(3) + f(−3). <br>b) Graficul funcției f intersectează axa Ox în punctul A și axa Oy în punctul B. Calculează pătratul distanței de la originea O la dreapta AB.",
               "inputs": [
                 {
                   "key": "a",
-                  "label": "a) f(8) + f(−8)",
+                  "label": "a) f(3) + f(−3)",
                   "unit": "",
-                  "answer": -4
+                  "answer": 12
                 },
                 {
                   "key": "b",
                   "label": "b) d² (distanța de la O la AB, la pătrat)",
                   "unit": "",
-                  "answer": 3.2
+                  "answer": 3.6
                 }
               ],
               "hints": [
                 "a) Înlocuiește x cu fiecare valoare.",
-                "b) A: f(x) = 0 ⟹ x = −4; B: f(0) = −2."
+                "b) A: f(x) = 0 ⟹ x = −2; B: f(0) = 6."
               ],
               "solution": [
-                "a) f(8) + f(−8) = −6 + 2 = −4 (termenii cu x se reduc).",
-                "b) A(−4, 0) și B(0, −2).",
-                "OA = 4, OB = 2, AB² = 16 + 4 = 20.",
-                "d = OA · OB / AB (aria calculată în două moduri), deci d² = 64/20 = 3,2.",
-                "Răspuns: a) −4; b) 3,2."
+                "a) f(3) + f(−3) = 15 + (−3) = 12 (termenii cu x se reduc).",
+                "b) A(−2, 0) și B(0, 6).",
+                "OA = 2, OB = 6, AB² = 4 + 36 = 40.",
+                "d = OA · OB / AB (aria calculată în două moduri), deci d² = 144/40 = 3,6.",
+                "Răspuns: a) 12; b) 3,6."
               ],
               "grade": "Cls. VIII",
-              "figure": "<svg viewBox='0 0 260 180'><line x1='40.4' y1='64.4' x2='219.6' y2='64.4' stroke='currentColor' stroke-width='1.4'/><line x1='181.2' y1='154' x2='181.2' y2='26' stroke='currentColor' stroke-width='1.4'/><line x1='181.2' y1='64.4' x2='160.7' y2='105.4' stroke='currentColor' stroke-width='1.2' stroke-dasharray='4 3'/><path d='M164.3,98.2 L157.1,94.6 L153.6,101.8' fill='none' stroke='currentColor' stroke-width='1'/><circle cx='78.8' cy='64.4' r='2.6' fill='currentColor'/><circle cx='181.2' cy='115.6' r='2.6' fill='currentColor'/><text x='172' y='77.6' font-size='12' fill='currentColor' text-anchor='middle'>O</text><text x='66.2' y='65.3' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='189.6' y='129.5' font-size='12' fill='currentColor' text-anchor='middle'>B</text><line x1='40.4' y1='45.2' x2='219.6' y2='134.8' stroke='currentColor' stroke-width='1.6'/><text x='222.6' y='58.4' font-size='10.5' fill='currentColor' text-anchor='middle'>x</text><text x='171.2' y='32' font-size='10.5' fill='currentColor' text-anchor='middle'>y</text></svg>"
+              "figure": "<svg viewBox='0 0 260 180'><line x1='94.4' y1='132.7' x2='165.6' y2='132.7' stroke='currentColor' stroke-width='1.4'/><line x1='144.2' y1='154' x2='144.2' y2='26' stroke='currentColor' stroke-width='1.4'/><line x1='144.2' y1='132.7' x2='118.6' y2='124.1' stroke='currentColor' stroke-width='1.2' stroke-dasharray='4 3'/><path d='M126.2,126.7 L123.7,134.3 L116.1,131.7' fill='none' stroke='currentColor' stroke-width='1'/><circle cx='115.8' cy='132.7' r='2.6' fill='currentColor'/><circle cx='144.2' cy='47.3' r='2.6' fill='currentColor'/><text x='135' y='145.9' font-size='12' fill='currentColor' text-anchor='middle'>O</text><text x='106.6' y='127.5' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='135' y='42.1' font-size='12' fill='currentColor' text-anchor='middle'>B</text><line x1='108.7' y1='154' x2='151.3' y2='26' stroke='currentColor' stroke-width='1.6'/><text x='168.6' y='126.7' font-size='10.5' fill='currentColor' text-anchor='middle'>x</text><text x='144.2' y='21' font-size='10.5' fill='currentColor' text-anchor='middle'>y</text></svg>"
             },
             {
               "id": "en-iii3-10",
@@ -16990,7 +16990,7 @@
                 }
               ],
               "hints": [
-                "a) Înlocuiește x cu fiecare valoare.",
+                "a) P(m, 3) aparține graficului dacă f(m) = 3, adică m/3 − 1 = 3.",
                 "b) A: f(x) = 0 ⟹ x = 3; B: f(0) = −1."
               ],
               "solution": [
@@ -17001,7 +17001,7 @@
                 "Răspuns: a) 12; b) 3."
               ],
               "grade": "Cls. VIII",
-              "figure": "<svg viewBox='0 0 260 180'><line x1='26' y1='78.4' x2='234' y2='78.4' stroke='currentColor' stroke-width='1.4'/><line x1='130' y1='136.2' x2='130' y2='43.8' stroke='currentColor' stroke-width='1.4'/><circle cx='199.3' cy='78.4' r='2.6' fill='currentColor'/><circle cx='130' cy='101.6' r='2.6' fill='currentColor'/><circle cx='60.7' cy='78.4' r='2.6' fill='currentColor'/><text x='120.8' y='91.6' font-size='12' fill='currentColor' text-anchor='middle'>O</text><text x='212.3' y='81.4' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='130' y='118.6' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='47.7' y='81.4' font-size='12' fill='currentColor' text-anchor='middle'>M</text><line x1='26' y1='136.2' x2='234' y2='66.9' stroke='currentColor' stroke-width='1.6'/><text x='237' y='72.4' font-size='10.5' fill='currentColor' text-anchor='middle'>x</text><text x='120' y='49.8' font-size='10.5' fill='currentColor' text-anchor='middle'>y</text></svg>"
+              "figure": "<svg viewBox='0 0 260 180'><line x1='26' y1='78.4' x2='234' y2='78.4' stroke='currentColor' stroke-width='1.4'/><line x1='130' y1='136.2' x2='130' y2='43.8' stroke='currentColor' stroke-width='1.4'/><circle cx='199.3' cy='78.4' r='2.6' fill='currentColor'/><circle cx='130' cy='101.6' r='2.6' fill='currentColor'/><circle cx='60.7' cy='78.4' r='2.6' fill='currentColor'/><text x='120.8' y='91.6' font-size='12' fill='currentColor' text-anchor='middle'>O</text><text x='208.5' y='91.6' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='139.2' y='114.7' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='47.7' y='81.4' font-size='12' fill='currentColor' text-anchor='middle'>M</text><line x1='26' y1='136.2' x2='234' y2='66.9' stroke='currentColor' stroke-width='1.6'/><text x='237' y='72.4' font-size='10.5' fill='currentColor' text-anchor='middle'>x</text><text x='130' y='38.8' font-size='10.5' fill='currentColor' text-anchor='middle'>y</text></svg>"
             },
             {
               "id": "en-iii3-11",
@@ -17095,7 +17095,7 @@
                 "Răspuns: a) 0; b) 2,25."
               ],
               "grade": "Cls. VIII",
-              "figure": "<svg viewBox='0 0 260 180'><line x1='66' y1='58' x2='194' y2='58' stroke='currentColor' stroke-width='1.4'/><line x1='162' y1='154' x2='162' y2='26' stroke='currentColor' stroke-width='1.4'/><circle cx='98' cy='58' r='2.6' fill='currentColor'/><circle cx='162' cy='122' r='2.6' fill='currentColor'/><circle cx='130' cy='58' r='2.6' fill='currentColor'/><text x='152.8' y='71.2' font-size='12' fill='currentColor' text-anchor='middle'>O</text><text x='85.8' y='57.6' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='167' y='138' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='122.2' y='51.6' font-size='12' fill='currentColor' text-anchor='middle'>C</text><line x1='66' y1='26' x2='194' y2='154' stroke='currentColor' stroke-width='1.6'/><text x='197' y='52' font-size='10.5' fill='currentColor' text-anchor='middle'>x</text><text x='152' y='32' font-size='10.5' fill='currentColor' text-anchor='middle'>y</text></svg>"
+              "figure": "<svg viewBox='0 0 260 180'><line x1='66' y1='58' x2='194' y2='58' stroke='currentColor' stroke-width='1.4'/><line x1='162' y1='154' x2='162' y2='26' stroke='currentColor' stroke-width='1.4'/><circle cx='98' cy='58' r='2.6' fill='currentColor'/><circle cx='162' cy='122' r='2.6' fill='currentColor'/><circle cx='130' cy='58' r='2.6' fill='currentColor'/><text x='152.8' y='71.2' font-size='12' fill='currentColor' text-anchor='middle'>O</text><text x='88.8' y='71.2' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='152.8' y='135.2' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='122.2' y='51.6' font-size='12' fill='currentColor' text-anchor='middle'>C</text><line x1='66' y1='26' x2='194' y2='154' stroke='currentColor' stroke-width='1.6'/><text x='197' y='52' font-size='10.5' fill='currentColor' text-anchor='middle'>x</text><text x='162' y='21' font-size='10.5' fill='currentColor' text-anchor='middle'>y</text></svg>"
             },
             {
               "id": "en-iii3-14",
@@ -17127,7 +17127,7 @@
                 "Răspuns: a) 12; b) 3."
               ],
               "grade": "Cls. VIII",
-              "figure": "<svg viewBox='0 0 260 180'><line x1='76.7' y1='58' x2='183.3' y2='58' stroke='currentColor' stroke-width='1.4'/><line x1='108.7' y1='154' x2='108.7' y2='26' stroke='currentColor' stroke-width='1.4'/><circle cx='151.3' cy='58' r='2.6' fill='currentColor'/><circle cx='108.7' cy='122' r='2.6' fill='currentColor'/><text x='99.5' y='71.2' font-size='12' fill='currentColor' text-anchor='middle'>O</text><text x='162.5' y='55.3' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='105.3' y='138.6' font-size='12' fill='currentColor' text-anchor='middle'>B</text><line x1='87.3' y1='154' x2='172.7' y2='26' stroke='currentColor' stroke-width='1.6'/><text x='186.3' y='52' font-size='10.5' fill='currentColor' text-anchor='middle'>x</text><text x='98.7' y='32' font-size='10.5' fill='currentColor' text-anchor='middle'>y</text></svg>"
+              "figure": "<svg viewBox='0 0 260 180'><line x1='76.7' y1='58' x2='183.3' y2='58' stroke='currentColor' stroke-width='1.4'/><line x1='108.7' y1='154' x2='108.7' y2='26' stroke='currentColor' stroke-width='1.4'/><circle cx='151.3' cy='58' r='2.6' fill='currentColor'/><circle cx='108.7' cy='122' r='2.6' fill='currentColor'/><text x='99.5' y='71.2' font-size='12' fill='currentColor' text-anchor='middle'>O</text><text x='160.5' y='71.2' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='117.9' y='135.2' font-size='12' fill='currentColor' text-anchor='middle'>B</text><line x1='87.3' y1='154' x2='172.7' y2='26' stroke='currentColor' stroke-width='1.6'/><text x='186.3' y='52' font-size='10.5' fill='currentColor' text-anchor='middle'>x</text><text x='108.7' y='21' font-size='10.5' fill='currentColor' text-anchor='middle'>y</text></svg>"
             },
             {
               "id": "en-iii3-15",
@@ -17159,7 +17159,7 @@
                 "Răspuns: a) 0; b) 12,5."
               ],
               "grade": "Cls. VIII",
-              "figure": "<svg viewBox='0 0 260 180'><line x1='66' y1='130' x2='194' y2='130' stroke='currentColor' stroke-width='1.4'/><line x1='90' y1='154' x2='90' y2='26' stroke='currentColor' stroke-width='1.4'/><line x1='90' y1='130' x2='130' y2='90' stroke='currentColor' stroke-width='1.2' stroke-dasharray='4 3'/><path d='M124.3,95.7 L130,101.3 L135.7,95.7' fill='none' stroke='currentColor' stroke-width='1'/><circle cx='170' cy='130' r='2.6' fill='currentColor'/><circle cx='90' cy='50' r='2.6' fill='currentColor'/><text x='80.8' y='143.2' font-size='12' fill='currentColor' text-anchor='middle'>O</text><text x='181.8' y='139.4' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='84.6' y='42.2' font-size='12' fill='currentColor' text-anchor='middle'>B</text><line x1='66' y1='26' x2='194' y2='154' stroke='currentColor' stroke-width='1.6'/><text x='197' y='124' font-size='10.5' fill='currentColor' text-anchor='middle'>x</text><text x='80' y='32' font-size='10.5' fill='currentColor' text-anchor='middle'>y</text></svg>"
+              "figure": "<svg viewBox='0 0 260 180'><line x1='66' y1='130' x2='194' y2='130' stroke='currentColor' stroke-width='1.4'/><line x1='90' y1='154' x2='90' y2='26' stroke='currentColor' stroke-width='1.4'/><line x1='90' y1='130' x2='130' y2='90' stroke='currentColor' stroke-width='1.2' stroke-dasharray='4 3'/><path d='M124.3,95.7 L130,101.3 L135.7,95.7' fill='none' stroke='currentColor' stroke-width='1'/><circle cx='170' cy='130' r='2.6' fill='currentColor'/><circle cx='90' cy='50' r='2.6' fill='currentColor'/><text x='80.8' y='143.2' font-size='12' fill='currentColor' text-anchor='middle'>O</text><text x='179.2' y='124.8' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='99.2' y='44.8' font-size='12' fill='currentColor' text-anchor='middle'>B</text><line x1='66' y1='26' x2='194' y2='154' stroke='currentColor' stroke-width='1.6'/><text x='197' y='124' font-size='10.5' fill='currentColor' text-anchor='middle'>x</text><text x='90' y='21' font-size='10.5' fill='currentColor' text-anchor='middle'>y</text></svg>"
             },
             {
               "id": "en-iii3-16",
@@ -17191,7 +17191,7 @@
                 "Răspuns: a) 12; b) 12,8."
               ],
               "grade": "Cls. VIII",
-              "figure": "<svg viewBox='0 0 260 180'><line x1='89.3' y1='136.5' x2='170.7' y2='136.5' stroke='currentColor' stroke-width='1.4'/><line x1='153.3' y1='154' x2='153.3' y2='26' stroke='currentColor' stroke-width='1.4'/><line x1='153.3' y1='136.5' x2='116' y2='117.9' stroke='currentColor' stroke-width='1.2' stroke-dasharray='4 3'/><path d='M123.2,121.5 L119.6,128.7 L112.5,125.1' fill='none' stroke='currentColor' stroke-width='1'/><circle cx='106.7' cy='136.5' r='2.6' fill='currentColor'/><circle cx='153.3' cy='43.5' r='2.6' fill='currentColor'/><text x='144.1' y='149.7' font-size='12' fill='currentColor' text-anchor='middle'>O</text><text x='96.8' y='148.9' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='156.3' y='34.8' font-size='12' fill='currentColor' text-anchor='middle'>B</text><line x1='98' y1='154' x2='162' y2='26' stroke='currentColor' stroke-width='1.6'/><text x='173.7' y='130.5' font-size='10.5' fill='currentColor' text-anchor='middle'>x</text><text x='143.3' y='32' font-size='10.5' fill='currentColor' text-anchor='middle'>y</text></svg>"
+              "figure": "<svg viewBox='0 0 260 180'><line x1='89.3' y1='136.5' x2='170.7' y2='136.5' stroke='currentColor' stroke-width='1.4'/><line x1='153.3' y1='154' x2='153.3' y2='26' stroke='currentColor' stroke-width='1.4'/><line x1='153.3' y1='136.5' x2='116' y2='117.9' stroke='currentColor' stroke-width='1.2' stroke-dasharray='4 3'/><path d='M123.2,121.5 L119.6,128.7 L112.5,125.1' fill='none' stroke='currentColor' stroke-width='1'/><circle cx='106.7' cy='136.5' r='2.6' fill='currentColor'/><circle cx='153.3' cy='43.5' r='2.6' fill='currentColor'/><text x='144.1' y='149.7' font-size='12' fill='currentColor' text-anchor='middle'>O</text><text x='97.5' y='131.4' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='144.1' y='38.3' font-size='12' fill='currentColor' text-anchor='middle'>B</text><line x1='98' y1='154' x2='162' y2='26' stroke='currentColor' stroke-width='1.6'/><text x='173.7' y='130.5' font-size='10.5' fill='currentColor' text-anchor='middle'>x</text><text x='153.3' y='21' font-size='10.5' fill='currentColor' text-anchor='middle'>y</text></svg>"
             },
             {
               "id": "en-iii3-17",
@@ -17223,7 +17223,7 @@
                 "Răspuns: a) −12; b) 24."
               ],
               "grade": "Cls. VIII",
-              "figure": "<svg viewBox='0 0 260 180'><line x1='51.8' y1='47.3' x2='208.2' y2='47.3' stroke='currentColor' stroke-width='1.4'/><line x1='130' y1='154' x2='130' y2='26' stroke='currentColor' stroke-width='1.4'/><circle cx='186.9' cy='47.3' r='2.6' fill='currentColor'/><circle cx='130' cy='132.7' r='2.6' fill='currentColor'/><circle cx='73.1' cy='47.3' r='2.6' fill='currentColor'/><text x='120.8' y='60.5' font-size='12' fill='currentColor' text-anchor='middle'>O</text><text x='199.1' y='46.8' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='130' y='149.7' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='60.9' y='46.8' font-size='12' fill='currentColor' text-anchor='middle'>M</text><line x1='115.8' y1='154' x2='201.1' y2='26' stroke='currentColor' stroke-width='1.6'/><text x='211.2' y='41.3' font-size='10.5' fill='currentColor' text-anchor='middle'>x</text><text x='120' y='32' font-size='10.5' fill='currentColor' text-anchor='middle'>y</text></svg>"
+              "figure": "<svg viewBox='0 0 260 180'><line x1='51.8' y1='47.3' x2='208.2' y2='47.3' stroke='currentColor' stroke-width='1.4'/><line x1='130' y1='154' x2='130' y2='26' stroke='currentColor' stroke-width='1.4'/><circle cx='186.9' cy='47.3' r='2.6' fill='currentColor'/><circle cx='130' cy='132.7' r='2.6' fill='currentColor'/><circle cx='73.1' cy='47.3' r='2.6' fill='currentColor'/><text x='120.8' y='60.5' font-size='12' fill='currentColor' text-anchor='middle'>O</text><text x='196.1' y='60.5' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='139.2' y='145.9' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='60.9' y='46.8' font-size='12' fill='currentColor' text-anchor='middle'>M</text><line x1='115.8' y1='154' x2='201.1' y2='26' stroke='currentColor' stroke-width='1.6'/><text x='211.2' y='41.3' font-size='10.5' fill='currentColor' text-anchor='middle'>x</text><text x='130' y='21' font-size='10.5' fill='currentColor' text-anchor='middle'>y</text></svg>"
             },
             {
               "id": "en-iii3-18",
@@ -17244,7 +17244,7 @@
                 }
               ],
               "hints": [
-                "a) Înlocuiește x cu fiecare valoare.",
+                "a) P(m, 6) aparține graficului dacă f(m) = 6, adică 3m/2 + 3 = 6.",
                 "b) A: f(x) = 0 ⟹ x = −2; B: f(0) = 3."
               ],
               "solution": [
@@ -17255,7 +17255,7 @@
                 "Răspuns: a) 2; b) 3,25."
               ],
               "grade": "Cls. VIII",
-              "figure": "<svg viewBox='0 0 260 180'><line x1='76.7' y1='122' x2='183.3' y2='122' stroke='currentColor' stroke-width='1.4'/><line x1='151.3' y1='154' x2='151.3' y2='26' stroke='currentColor' stroke-width='1.4'/><circle cx='108.7' cy='122' r='2.6' fill='currentColor'/><circle cx='151.3' cy='58' r='2.6' fill='currentColor'/><circle cx='130' cy='90' r='2.6' fill='currentColor'/><text x='142.1' y='135.2' font-size='12' fill='currentColor' text-anchor='middle'>O</text><text x='97.9' y='133.3' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='155.1' y='49.6' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='122.8' y='83.2' font-size='12' fill='currentColor' text-anchor='middle'>M</text><line x1='87.3' y1='154' x2='172.7' y2='26' stroke='currentColor' stroke-width='1.6'/><text x='186.3' y='116' font-size='10.5' fill='currentColor' text-anchor='middle'>x</text><text x='141.3' y='32' font-size='10.5' fill='currentColor' text-anchor='middle'>y</text></svg>"
+              "figure": "<svg viewBox='0 0 260 180'><line x1='76.7' y1='122' x2='183.3' y2='122' stroke='currentColor' stroke-width='1.4'/><line x1='151.3' y1='154' x2='151.3' y2='26' stroke='currentColor' stroke-width='1.4'/><circle cx='108.7' cy='122' r='2.6' fill='currentColor'/><circle cx='151.3' cy='58' r='2.6' fill='currentColor'/><circle cx='130' cy='90' r='2.6' fill='currentColor'/><text x='142.1' y='135.2' font-size='12' fill='currentColor' text-anchor='middle'>O</text><text x='99.5' y='116.8' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='142.1' y='52.8' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='122.8' y='83.2' font-size='12' fill='currentColor' text-anchor='middle'>M</text><line x1='87.3' y1='154' x2='172.7' y2='26' stroke='currentColor' stroke-width='1.6'/><text x='186.3' y='116' font-size='10.5' fill='currentColor' text-anchor='middle'>x</text><text x='151.3' y='21' font-size='10.5' fill='currentColor' text-anchor='middle'>y</text></svg>"
             },
             {
               "id": "en-iii3-19",
@@ -17287,16 +17287,16 @@
                 "Răspuns: a) 1; b) 4,5."
               ],
               "grade": "Cls. VIII",
-              "figure": "<svg viewBox='0 0 260 180'><line x1='34' y1='122' x2='226' y2='122' stroke='currentColor' stroke-width='1.4'/><line x1='66' y1='154' x2='66' y2='26' stroke='currentColor' stroke-width='1.4'/><circle cx='194' cy='122' r='2.6' fill='currentColor'/><circle cx='66' cy='58' r='2.6' fill='currentColor'/><circle cx='130' cy='122' r='2.6' fill='currentColor'/><text x='56.8' y='135.2' font-size='12' fill='currentColor' text-anchor='middle'>O</text><text x='206.8' y='128.3' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='57.7' y='52' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='140.8' y='133.2' font-size='12' fill='currentColor' text-anchor='middle'>C</text><line x1='34' y1='42' x2='226' y2='138' stroke='currentColor' stroke-width='1.6'/><text x='229' y='116' font-size='10.5' fill='currentColor' text-anchor='middle'>x</text><text x='56' y='32' font-size='10.5' fill='currentColor' text-anchor='middle'>y</text></svg>"
+              "figure": "<svg viewBox='0 0 260 180'><line x1='34' y1='122' x2='226' y2='122' stroke='currentColor' stroke-width='1.4'/><line x1='66' y1='154' x2='66' y2='26' stroke='currentColor' stroke-width='1.4'/><circle cx='194' cy='122' r='2.6' fill='currentColor'/><circle cx='66' cy='58' r='2.6' fill='currentColor'/><circle cx='130' cy='122' r='2.6' fill='currentColor'/><text x='56.8' y='135.2' font-size='12' fill='currentColor' text-anchor='middle'>O</text><text x='203.2' y='116.8' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='75.2' y='52.8' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='140.8' y='133.2' font-size='12' fill='currentColor' text-anchor='middle'>C</text><line x1='34' y1='42' x2='226' y2='138' stroke='currentColor' stroke-width='1.6'/><text x='229' y='116' font-size='10.5' fill='currentColor' text-anchor='middle'>x</text><text x='66' y='21' font-size='10.5' fill='currentColor' text-anchor='middle'>y</text></svg>"
             },
             {
               "id": "en-iii3-20",
               "kind": "input",
-              "statement": "Se consideră funcția f : ℝ → ℝ, f(x) = −x/2 − 1. <br>a) Calculează f(−2) · f(2026). <br>b) Graficul funcției f intersectează axa Ox în punctul A și axa Oy în punctul B. Calculează aria triunghiului AOB, unde O este originea.",
+              "statement": "Se consideră funcția f : ℝ → ℝ, f(x) = 2x − 8. <br>a) Calculează f(4) · f(2024). <br>b) Graficul funcției f intersectează axa Ox în punctul A și axa Oy în punctul B. Calculează aria triunghiului AOB, unde O este originea.",
               "inputs": [
                 {
                   "key": "a",
-                  "label": "a) f(−2) · f(2026)",
+                  "label": "a) f(4) · f(2024)",
                   "unit": "",
                   "answer": 0
                 },
@@ -17304,22 +17304,22 @@
                   "key": "b",
                   "label": "b) Aria triunghiului AOB",
                   "unit": "",
-                  "answer": 1
+                  "answer": 16
                 }
               ],
               "hints": [
                 "a) Uită-te întâi dacă unul dintre factori este 0.",
-                "b) A: f(x) = 0 ⟹ x = −2; B: f(0) = −1."
+                "b) A: f(x) = 0 ⟹ x = 4; B: f(0) = −8."
               ],
               "solution": [
-                "a) f(−2) = 1 − 1 = 0, deci produsul este 0 (nu mai e nevoie să calculezi f(2026)).",
-                "b) A(−2, 0) și B(0, −1).",
-                "OA = 2, OB = 1.",
-                "Aria = OA · OB : 2 = 1.",
-                "Răspuns: a) 0; b) 1."
+                "a) f(4) = 8 − 8 = 0, deci produsul este 0 (nu mai e nevoie să calculezi f(2024)).",
+                "b) A(4, 0) și B(0, −8).",
+                "OA = 4, OB = 8.",
+                "Aria = OA · OB : 2 = 16.",
+                "Răspuns: a) 0; b) 16."
               ],
               "grade": "Cls. VIII",
-              "figure": "<svg viewBox='0 0 260 180'><line x1='50' y1='74' x2='210' y2='74' stroke='currentColor' stroke-width='1.4'/><line x1='162' y1='154' x2='162' y2='26' stroke='currentColor' stroke-width='1.4'/><circle cx='98' cy='74' r='2.6' fill='currentColor'/><circle cx='162' cy='106' r='2.6' fill='currentColor'/><text x='152.8' y='87.2' font-size='12' fill='currentColor' text-anchor='middle'>O</text><text x='85.3' y='75.5' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='170.1' y='120.2' font-size='12' fill='currentColor' text-anchor='middle'>B</text><line x1='50' y1='50' x2='210' y2='130' stroke='currentColor' stroke-width='1.6'/><text x='213' y='68' font-size='10.5' fill='currentColor' text-anchor='middle'>x</text><text x='152' y='32' font-size='10.5' fill='currentColor' text-anchor='middle'>y</text></svg>"
+              "figure": "<svg viewBox='0 0 260 180'><line x1='89.3' y1='43.5' x2='170.7' y2='43.5' stroke='currentColor' stroke-width='1.4'/><line x1='106.7' y1='154' x2='106.7' y2='26' stroke='currentColor' stroke-width='1.4'/><circle cx='153.3' cy='43.5' r='2.6' fill='currentColor'/><circle cx='106.7' cy='136.5' r='2.6' fill='currentColor'/><text x='97.5' y='56.6' font-size='12' fill='currentColor' text-anchor='middle'>O</text><text x='162.5' y='56.6' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='115.9' y='149.7' font-size='12' fill='currentColor' text-anchor='middle'>B</text><line x1='98' y1='154' x2='162' y2='26' stroke='currentColor' stroke-width='1.6'/><text x='173.7' y='37.5' font-size='10.5' fill='currentColor' text-anchor='middle'>x</text><text x='106.7' y='21' font-size='10.5' fill='currentColor' text-anchor='middle'>y</text></svg>"
             },
             {
               "id": "en-iii3-21",
@@ -17351,7 +17351,7 @@
                 "Răspuns: a) 8; b) 5."
               ],
               "grade": "Cls. VIII",
-              "figure": "<svg viewBox='0 0 260 180'><line x1='40.4' y1='64.4' x2='219.6' y2='64.4' stroke='currentColor' stroke-width='1.4'/><line x1='78.8' y1='154' x2='78.8' y2='26' stroke='currentColor' stroke-width='1.4'/><circle cx='181.2' cy='64.4' r='2.6' fill='currentColor'/><circle cx='78.8' cy='115.6' r='2.6' fill='currentColor'/><circle cx='130' cy='90' r='2.6' fill='currentColor'/><text x='69.6' y='77.6' font-size='12' fill='currentColor' text-anchor='middle'>O</text><text x='193.9' y='65.5' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='70.1' y='129.2' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='141.6' y='99.8' font-size='12' fill='currentColor' text-anchor='middle'>M</text><line x1='40.4' y1='134.8' x2='219.6' y2='45.2' stroke='currentColor' stroke-width='1.6'/><text x='222.6' y='58.4' font-size='10.5' fill='currentColor' text-anchor='middle'>x</text><text x='68.8' y='32' font-size='10.5' fill='currentColor' text-anchor='middle'>y</text></svg>"
+              "figure": "<svg viewBox='0 0 260 180'><line x1='40.4' y1='64.4' x2='219.6' y2='64.4' stroke='currentColor' stroke-width='1.4'/><line x1='78.8' y1='154' x2='78.8' y2='26' stroke='currentColor' stroke-width='1.4'/><circle cx='181.2' cy='64.4' r='2.6' fill='currentColor'/><circle cx='78.8' cy='115.6' r='2.6' fill='currentColor'/><circle cx='130' cy='90' r='2.6' fill='currentColor'/><text x='69.6' y='77.6' font-size='12' fill='currentColor' text-anchor='middle'>O</text><text x='190.4' y='77.6' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='88' y='128.8' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='141.6' y='99.8' font-size='12' fill='currentColor' text-anchor='middle'>M</text><line x1='40.4' y1='134.8' x2='219.6' y2='45.2' stroke='currentColor' stroke-width='1.6'/><text x='222.6' y='58.4' font-size='10.5' fill='currentColor' text-anchor='middle'>x</text><text x='78.8' y='21' font-size='10.5' fill='currentColor' text-anchor='middle'>y</text></svg>"
             }
           ]
         },
@@ -17512,7 +17512,7 @@
                 "Răspuns: a) 24 cm; b) 10,8 cm."
               ],
               "grade": "Cls. VIII",
-              "figure": "<svg viewBox='0 0 260 180'><polygon points='44.7,154 44.7,26 215.3,154' fill='none' stroke='currentColor' stroke-width='1.6'/><line x1='44.7' y1='154' x2='106.1' y2='72.1' stroke='currentColor' stroke-width='1.4'/><path d='M44.7,146 L52.7,146 L52.7,154' fill='none' stroke='currentColor' stroke-width='1'/><path d='M101.3,78.5 L107.7,83.3 L112.5,76.9' fill='none' stroke='currentColor' stroke-width='1'/><text x='32.7' y='94' font-size='10.5' fill='currentColor' text-anchor='middle'>18 cm</text><text x='137.2' y='84.4' font-size='10.5' fill='currentColor' text-anchor='middle'>30 cm</text><text x='107.6' y='63.2' font-size='12' fill='currentColor' text-anchor='middle'>D</text><text x='35' y='166.7' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='36.7' y='19.7' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='227.1' y='163.5' font-size='12' fill='currentColor' text-anchor='middle'>C</text></svg>"
+              "figure": "<svg viewBox='0 0 260 180'><polygon points='44.7,154 44.7,26 215.3,154' fill='none' stroke='currentColor' stroke-width='1.6'/><line x1='44.7' y1='154' x2='106.1' y2='72.1' stroke='currentColor' stroke-width='1.4'/><path d='M44.7,146 L52.7,146 L52.7,154' fill='none' stroke='currentColor' stroke-width='1'/><path d='M101.3,78.5 L107.7,83.3 L112.5,76.9' fill='none' stroke='currentColor' stroke-width='1'/><text x='24.2' y='94' font-size='10.5' fill='currentColor' text-anchor='middle'>18 cm</text><text x='137.2' y='84.4' font-size='10.5' fill='currentColor' text-anchor='middle'>30 cm</text><text x='107.6' y='63.2' font-size='12' fill='currentColor' text-anchor='middle'>D</text><text x='35' y='166.7' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='36.7' y='19.7' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='227.1' y='163.5' font-size='12' fill='currentColor' text-anchor='middle'>C</text></svg>"
             },
             {
               "id": "en-iii5-03",
@@ -17727,7 +17727,7 @@
                 "Răspuns: a) 13 cm; b) 40 cm²."
               ],
               "grade": "Cls. VIII",
-              "figure": "<svg viewBox='0 0 260 180'><polygon points='103.3,154 103.3,26 156.7,154' fill='none' stroke='currentColor' stroke-width='1.6'/><line x1='103.3' y1='154' x2='130' y2='90' stroke='currentColor' stroke-width='1.4'/><line x1='121.1' y1='111.3' x2='103.3' y2='26' stroke='currentColor' stroke-width='1.4'/><line x1='121.1' y1='111.3' x2='156.7' y2='154' stroke='currentColor' stroke-width='1.4'/><path d='M103.3,146 L111.3,146 L111.3,154' fill='none' stroke='currentColor' stroke-width='1'/><text x='91.3' y='94' font-size='10.5' fill='currentColor' text-anchor='middle'>24 cm</text><text x='130' y='170' font-size='10.5' fill='currentColor' text-anchor='middle'>10 cm</text><circle cx='121.1' cy='111.3' r='2.6' fill='currentColor'/><text x='135' y='82' font-size='12' fill='currentColor' text-anchor='middle'>M</text><text x='116.1' y='127.3' font-size='12' fill='currentColor' text-anchor='middle'>G</text><text x='98.3' y='170' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='100.3' y='17.4' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='164.3' y='168.6' font-size='12' fill='currentColor' text-anchor='middle'>C</text></svg>"
+              "figure": "<svg viewBox='0 0 260 180'><polygon points='103.3,154 103.3,26 156.7,154' fill='none' stroke='currentColor' stroke-width='1.6'/><line x1='103.3' y1='154' x2='130' y2='90' stroke='currentColor' stroke-width='1.4'/><line x1='121.1' y1='111.3' x2='103.3' y2='26' stroke='currentColor' stroke-width='1.4'/><line x1='121.1' y1='111.3' x2='156.7' y2='154' stroke='currentColor' stroke-width='1.4'/><path d='M103.3,146 L111.3,146 L111.3,154' fill='none' stroke='currentColor' stroke-width='1'/><text x='82.8' y='94' font-size='10.5' fill='currentColor' text-anchor='middle'>24 cm</text><text x='130' y='170' font-size='10.5' fill='currentColor' text-anchor='middle'>10 cm</text><circle cx='121.1' cy='111.3' r='2.6' fill='currentColor'/><text x='135' y='82' font-size='12' fill='currentColor' text-anchor='middle'>M</text><text x='116.1' y='127.3' font-size='12' fill='currentColor' text-anchor='middle'>G</text><text x='98.3' y='170' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='100.3' y='17.4' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='164.3' y='168.6' font-size='12' fill='currentColor' text-anchor='middle'>C</text></svg>"
             },
             {
               "id": "en-iii5-10",
@@ -17749,7 +17749,7 @@
               ],
               "hints": [
                 "a) În triunghiul isoscel, mediana AD este și înălțime: Pitagora în triunghiul ADC.",
-                "b) Aria triunghiului ABC = BC · AD : 2 = AC · BE : 2."
+                "b) Fie BE ⊥ AC, cu E pe dreapta AC. Aria triunghiului ABC = BC · AD : 2 = AC · BE : 2."
               ],
               "solution": [
                 "a) DC = 6 cm, AD² = 100 − 36 = 64 ⟹ AD = 8 cm.",
@@ -17758,7 +17758,7 @@
                 "Răspuns: a) 8 cm; b) 9,6 cm."
               ],
               "grade": "Cls. VIII",
-              "figure": "<svg viewBox='0 0 260 180'><polygon points='130,26 34,154 226,154' fill='none' stroke='currentColor' stroke-width='1.6'/><line x1='130' y1='26' x2='130' y2='154' stroke='currentColor' stroke-width='1.4'/><line x1='34' y1='154' x2='156.9' y2='61.8' stroke='currentColor' stroke-width='1.2' stroke-dasharray='4 3'/><path d='M130,146 L138,146 L138,154' fill='none' stroke='currentColor' stroke-width='1'/><path d='M150.5,66.6 L145.7,60.2 L152.1,55.4' fill='none' stroke='currentColor' stroke-width='1'/><text x='187.6' y='86.8' font-size='10.5' fill='currentColor' text-anchor='middle'>10 cm</text><text x='128.4' y='170.9' font-size='12' fill='currentColor' text-anchor='middle'>D</text><text x='162.2' y='54' font-size='12' fill='currentColor' text-anchor='middle'>E</text><text x='129.2' y='17' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='22.1' y='163.2' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='237.7' y='163.7' font-size='12' fill='currentColor' text-anchor='middle'>C</text></svg>"
+              "figure": "<svg viewBox='0 0 260 180'><polygon points='130,26 34,154 226,154' fill='none' stroke='currentColor' stroke-width='1.6'/><line x1='130' y1='26' x2='130' y2='154' stroke='currentColor' stroke-width='1.4'/><line x1='34' y1='154' x2='156.9' y2='61.8' stroke='currentColor' stroke-width='1.2' stroke-dasharray='4 3'/><path d='M130,146 L138,146 L138,154' fill='none' stroke='currentColor' stroke-width='1'/><path d='M150.5,66.6 L145.7,60.2 L152.1,55.4' fill='none' stroke='currentColor' stroke-width='1'/><text x='194.4' y='81.7' font-size='10.5' fill='currentColor' text-anchor='middle'>10 cm</text><text x='128.4' y='170.9' font-size='12' fill='currentColor' text-anchor='middle'>D</text><text x='162.2' y='54' font-size='12' fill='currentColor' text-anchor='middle'>E</text><text x='129.2' y='17' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='22.1' y='163.2' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='237.7' y='163.7' font-size='12' fill='currentColor' text-anchor='middle'>C</text></svg>"
             },
             {
               "id": "en-iii5-11",
@@ -17842,7 +17842,7 @@
               ],
               "hints": [
                 "a) În triunghiul isoscel, mediana AD este și înălțime: Pitagora în triunghiul ADC.",
-                "b) Aria triunghiului ABC = BC · AD : 2 = AC · BE : 2."
+                "b) Fie BE ⊥ AC, cu E pe dreapta AC (unghiul A este obtuz, deci E se află pe prelungirea laturii CA). Aria triunghiului ABC = BC · AD : 2 = AC · BE : 2."
               ],
               "solution": [
                 "a) DC = 8 cm, AD² = 100 − 64 = 36 ⟹ AD = 6 cm.",
@@ -17851,24 +17851,24 @@
                 "Răspuns: a) 6 cm; b) 9,6 cm."
               ],
               "grade": "Cls. VIII",
-              "figure": "<svg viewBox='0 0 260 180'><polygon points='130,61.9 26,139.9 234,139.9' fill='none' stroke='currentColor' stroke-width='1.6'/><line x1='130' y1='61.9' x2='130' y2='139.9' stroke='currentColor' stroke-width='1.4'/><line x1='26' y1='139.9' x2='100.9' y2='40.1' stroke='currentColor' stroke-width='1.2' stroke-dasharray='4 3'/><path d='M130,131.9 L138,131.9 L138,139.9' fill='none' stroke='currentColor' stroke-width='1'/><path d='M96.1,46.5 L102.5,51.3 L107.3,44.9' fill='none' stroke='currentColor' stroke-width='1'/><text x='189.2' y='95.3' font-size='10.5' fill='currentColor' text-anchor='middle'>10 cm</text><text x='132.1' y='156.7' font-size='12' fill='currentColor' text-anchor='middle'>D</text><text x='96.5' y='31.9' font-size='12' fill='currentColor' text-anchor='middle'>E</text><text x='131.8' y='53' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='13.8' y='148.3' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='246.4' y='147.9' font-size='12' fill='currentColor' text-anchor='middle'>C</text></svg>"
+              "figure": "<svg viewBox='0 0 260 180'><polygon points='130,61.9 26,139.9 234,139.9' fill='none' stroke='currentColor' stroke-width='1.6'/><line x1='130' y1='61.9' x2='130' y2='139.9' stroke='currentColor' stroke-width='1.4'/><line x1='26' y1='139.9' x2='100.9' y2='40.1' stroke='currentColor' stroke-width='1.2' stroke-dasharray='4 3'/><line x1='130' y1='61.9' x2='100.9' y2='40.1' stroke='currentColor' stroke-width='1.2' stroke-dasharray='4 3'/><path d='M130,131.9 L138,131.9 L138,139.9' fill='none' stroke='currentColor' stroke-width='1'/><path d='M96.1,46.5 L102.5,51.3 L107.3,44.9' fill='none' stroke='currentColor' stroke-width='1'/><text x='189.2' y='95.3' font-size='10.5' fill='currentColor' text-anchor='middle'>10 cm</text><text x='132.1' y='156.7' font-size='12' fill='currentColor' text-anchor='middle'>D</text><text x='96.5' y='31.9' font-size='12' fill='currentColor' text-anchor='middle'>E</text><text x='131.8' y='53' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='13.8' y='148.3' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='246.4' y='147.9' font-size='12' fill='currentColor' text-anchor='middle'>C</text></svg>"
             },
             {
               "id": "en-iii5-14",
               "kind": "input",
-              "statement": "Triunghiul ABC este dreptunghic în A, cu AB = 3 cm și AC = 4 cm. Fie AD ⊥ BC, cu D pe BC. <br>a) Calculează lungimea ipotenuzei BC. <br>b) Calculează lungimea înălțimii AD.",
+              "statement": "Triunghiul ABC este dreptunghic în A, cu AB = 12 cm și AC = 16 cm. Fie AD ⊥ BC, cu D pe BC. <br>a) Calculează lungimea ipotenuzei BC. <br>b) Calculează lungimea înălțimii AD.",
               "inputs": [
                 {
                   "key": "a",
                   "label": "a) BC",
                   "unit": "cm",
-                  "answer": 5
+                  "answer": 20
                 },
                 {
                   "key": "b",
                   "label": "b) AD",
                   "unit": "cm",
-                  "answer": 2.4
+                  "answer": 9.6
                 }
               ],
               "hints": [
@@ -17876,13 +17876,13 @@
                 "b) AD = AB · AC : BC (aria în două moduri)."
               ],
               "solution": [
-                "a) BC² = 9 + 16 = 25 ⟹ BC = 5 cm.",
-                "b) AB · AC = BC · AD ⟹ 3 · 4 = 5 · AD.",
-                "AD = 12 : 5 = 2,4 cm.",
-                "Răspuns: a) 5 cm; b) 2,4 cm."
+                "a) BC² = 144 + 256 = 400 ⟹ BC = 20 cm.",
+                "b) AB · AC = BC · AD ⟹ 12 · 16 = 20 · AD.",
+                "AD = 192 : 20 = 9,6 cm.",
+                "Răspuns: a) 20 cm; b) 9,6 cm."
               ],
               "grade": "Cls. VIII",
-              "figure": "<svg viewBox='0 0 260 180'><polygon points='44.7,154 44.7,26 215.3,154' fill='none' stroke='currentColor' stroke-width='1.6'/><line x1='44.7' y1='154' x2='106.1' y2='72.1' stroke='currentColor' stroke-width='1.4'/><path d='M44.7,146 L52.7,146 L52.7,154' fill='none' stroke='currentColor' stroke-width='1'/><path d='M101.3,78.5 L107.7,83.3 L112.5,76.9' fill='none' stroke='currentColor' stroke-width='1'/><text x='32.7' y='94' font-size='10.5' fill='currentColor' text-anchor='middle'>3 cm</text><text x='130' y='170' font-size='10.5' fill='currentColor' text-anchor='middle'>4 cm</text><text x='107.6' y='63.2' font-size='12' fill='currentColor' text-anchor='middle'>D</text><text x='35' y='166.7' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='36.7' y='19.7' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='227.1' y='163.5' font-size='12' fill='currentColor' text-anchor='middle'>C</text></svg>"
+              "figure": "<svg viewBox='0 0 260 180'><polygon points='44.7,154 44.7,26 215.3,154' fill='none' stroke='currentColor' stroke-width='1.6'/><line x1='44.7' y1='154' x2='106.1' y2='72.1' stroke='currentColor' stroke-width='1.4'/><path d='M44.7,146 L52.7,146 L52.7,154' fill='none' stroke='currentColor' stroke-width='1'/><path d='M101.3,78.5 L107.7,83.3 L112.5,76.9' fill='none' stroke='currentColor' stroke-width='1'/><text x='24.2' y='94' font-size='10.5' fill='currentColor' text-anchor='middle'>12 cm</text><text x='130' y='170' font-size='10.5' fill='currentColor' text-anchor='middle'>16 cm</text><text x='107.6' y='63.2' font-size='12' fill='currentColor' text-anchor='middle'>D</text><text x='35' y='166.7' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='36.7' y='19.7' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='227.1' y='163.5' font-size='12' fill='currentColor' text-anchor='middle'>C</text></svg>"
             },
             {
               "id": "en-iii5-15",
@@ -18193,7 +18193,7 @@
               ],
               "hints": [
                 "a) Teorema lui Pitagora în triunghiul ABC.",
-                "b) Aria triunghiului ABC se scrie în două moduri: AB · BC : 2 = AC · BE : 2."
+                "b) Fie BE ⊥ AC, cu E pe AC. Aria triunghiului ABC se scrie în două moduri: AB · BC : 2 = AC · BE : 2."
               ],
               "solution": [
                 "a) AC² = 81 + 144 = 225, AC = 15 cm.",
@@ -18202,7 +18202,7 @@
                 "Răspuns: a) 15 cm; b) 7,2 cm."
               ],
               "grade": "Cls. VIII",
-              "figure": "<svg viewBox='0 0 260 180'><polygon points='82,154 178,154 178,26 82,26' fill='none' stroke='currentColor' stroke-width='1.6'/><line x1='82' y1='154' x2='178' y2='26' stroke='currentColor' stroke-width='1.4'/><line x1='178' y1='154' x2='116.6' y2='107.9' stroke='currentColor' stroke-width='1.2' stroke-dasharray='4 3'/><path d='M123,112.7 L127.8,106.3 L121.4,101.5' fill='none' stroke='currentColor' stroke-width='1'/><text x='130' y='170' font-size='10.5' fill='currentColor' text-anchor='middle'>9 cm</text><text x='190' y='94' font-size='10.5' fill='currentColor' text-anchor='middle'>12 cm</text><text x='108.8' y='122.3' font-size='12' fill='currentColor' text-anchor='middle'>E</text><text x='74.2' y='168.4' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='186.4' y='168' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='185.8' y='19.6' font-size='12' fill='currentColor' text-anchor='middle'>C</text><text x='74.8' y='19.2' font-size='12' fill='currentColor' text-anchor='middle'>D</text></svg>"
+              "figure": "<svg viewBox='0 0 260 180'><polygon points='82,154 178,154 178,26 82,26' fill='none' stroke='currentColor' stroke-width='1.6'/><line x1='82' y1='154' x2='178' y2='26' stroke='currentColor' stroke-width='1.4'/><line x1='178' y1='154' x2='116.6' y2='107.9' stroke='currentColor' stroke-width='1.2' stroke-dasharray='4 3'/><path d='M123,112.7 L127.8,106.3 L121.4,101.5' fill='none' stroke='currentColor' stroke-width='1'/><text x='130' y='170' font-size='10.5' fill='currentColor' text-anchor='middle'>9 cm</text><text x='198.5' y='94' font-size='10.5' fill='currentColor' text-anchor='middle'>12 cm</text><text x='108.8' y='122.3' font-size='12' fill='currentColor' text-anchor='middle'>E</text><text x='74.2' y='168.4' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='186.4' y='168' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='185.8' y='19.6' font-size='12' fill='currentColor' text-anchor='middle'>C</text><text x='74.8' y='19.2' font-size='12' fill='currentColor' text-anchor='middle'>D</text></svg>"
             },
             {
               "id": "en-iii4-02",
@@ -18325,7 +18325,7 @@
                 "Răspuns: a) 60 cm; b) k = 108."
               ],
               "grade": "Cls. VIII",
-              "figure": "<svg viewBox='0 0 260 180'><polygon points='26,135 234,135 182,45 78,45' fill='none' stroke='currentColor' stroke-width='1.6'/><text x='130' y='151' font-size='10.5' fill='currentColor' text-anchor='middle'>24 cm</text><text x='130' y='37' font-size='10.5' fill='currentColor' text-anchor='middle'>12 cm</text><text x='41.6' y='88' font-size='10.5' fill='currentColor' text-anchor='middle'>12 cm</text><text x='218.4' y='88' font-size='10.5' fill='currentColor' text-anchor='middle'>12 cm</text><text x='14.1' y='144.2' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='245.9' y='144.2' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='191.8' y='40.5' font-size='12' fill='currentColor' text-anchor='middle'>C</text><text x='68.2' y='40.5' font-size='12' fill='currentColor' text-anchor='middle'>D</text></svg>"
+              "figure": "<svg viewBox='0 0 260 180'><polygon points='26,135 234,135 182,45 78,45' fill='none' stroke='currentColor' stroke-width='1.6'/><text x='130' y='151' font-size='10.5' fill='currentColor' text-anchor='middle'>24 cm</text><text x='130' y='37' font-size='10.5' fill='currentColor' text-anchor='middle'>12 cm</text><text x='34.2' y='83.8' font-size='10.5' fill='currentColor' text-anchor='middle'>12 cm</text><text x='225.8' y='83.8' font-size='10.5' fill='currentColor' text-anchor='middle'>12 cm</text><text x='14.1' y='144.2' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='245.9' y='144.2' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='191.8' y='40.5' font-size='12' fill='currentColor' text-anchor='middle'>C</text><text x='68.2' y='40.5' font-size='12' fill='currentColor' text-anchor='middle'>D</text></svg>"
             },
             {
               "id": "en-iii4-06",
@@ -18563,7 +18563,7 @@
               ],
               "hints": [
                 "a) Teorema lui Pitagora în triunghiul ABC.",
-                "b) Aria triunghiului ABC se scrie în două moduri: AB · BC : 2 = AC · BE : 2."
+                "b) Fie BE ⊥ AC, cu E pe AC. Aria triunghiului ABC se scrie în două moduri: AB · BC : 2 = AC · BE : 2."
               ],
               "solution": [
                 "a) AC² = 9 + 16 = 25, AC = 5 cm.",
@@ -18594,7 +18594,7 @@
               ],
               "hints": [
                 "a) Teorema lui Pitagora în triunghiul ABC.",
-                "b) Aria triunghiului ABC se scrie în două moduri: AB · BC : 2 = AC · BE : 2."
+                "b) Fie BE ⊥ AC, cu E pe AC. Aria triunghiului ABC se scrie în două moduri: AB · BC : 2 = AC · BE : 2."
               ],
               "solution": [
                 "a) AC² = 225 + 400 = 625, AC = 25 cm.",
@@ -18603,7 +18603,7 @@
                 "Răspuns: a) 25 cm; b) 12 cm."
               ],
               "grade": "Cls. VIII",
-              "figure": "<svg viewBox='0 0 260 180'><polygon points='82,154 178,154 178,26 82,26' fill='none' stroke='currentColor' stroke-width='1.6'/><line x1='82' y1='154' x2='178' y2='26' stroke='currentColor' stroke-width='1.4'/><line x1='178' y1='154' x2='116.6' y2='107.9' stroke='currentColor' stroke-width='1.2' stroke-dasharray='4 3'/><path d='M123,112.7 L127.8,106.3 L121.4,101.5' fill='none' stroke='currentColor' stroke-width='1'/><text x='130' y='170' font-size='10.5' fill='currentColor' text-anchor='middle'>15 cm</text><text x='190' y='94' font-size='10.5' fill='currentColor' text-anchor='middle'>20 cm</text><text x='108.8' y='122.3' font-size='12' fill='currentColor' text-anchor='middle'>E</text><text x='74.2' y='168.4' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='186.4' y='168' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='185.8' y='19.6' font-size='12' fill='currentColor' text-anchor='middle'>C</text><text x='74.8' y='19.2' font-size='12' fill='currentColor' text-anchor='middle'>D</text></svg>"
+              "figure": "<svg viewBox='0 0 260 180'><polygon points='82,154 178,154 178,26 82,26' fill='none' stroke='currentColor' stroke-width='1.6'/><line x1='82' y1='154' x2='178' y2='26' stroke='currentColor' stroke-width='1.4'/><line x1='178' y1='154' x2='116.6' y2='107.9' stroke='currentColor' stroke-width='1.2' stroke-dasharray='4 3'/><path d='M123,112.7 L127.8,106.3 L121.4,101.5' fill='none' stroke='currentColor' stroke-width='1'/><text x='130' y='170' font-size='10.5' fill='currentColor' text-anchor='middle'>15 cm</text><text x='198.5' y='94' font-size='10.5' fill='currentColor' text-anchor='middle'>20 cm</text><text x='108.8' y='122.3' font-size='12' fill='currentColor' text-anchor='middle'>E</text><text x='74.2' y='168.4' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='186.4' y='168' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='185.8' y='19.6' font-size='12' fill='currentColor' text-anchor='middle'>C</text><text x='74.8' y='19.2' font-size='12' fill='currentColor' text-anchor='middle'>D</text></svg>"
             },
             {
               "id": "en-iii4-15",
@@ -19190,7 +19190,7 @@
               ],
               "solution": [
                 "a) BD = 7√2 cm, deci k = 7.",
-                "b) După translatare se obține un triunghi cu toate laturile diagonale ale fețelor, deci echilateral.",
+                "b) Înlocuind una dintre drepte cu o paralelă la ea, se obține un triunghi cu toate laturile diagonale ale fețelor, deci echilateral.",
                 "Unghiul are 60°.",
                 "Răspuns: a) k = 7; b) 60°."
               ],
@@ -19309,7 +19309,7 @@
                 }
               ],
               "hints": [
-                "a) În triunghiul dreptunghic ABD: AM = AB · AD : BD.",
+                "a) Fie AM ⊥ BD, cu M pe BD. În triunghiul dreptunghic ABD: AM = AB · AD : BD.",
                 "b) AA′ ⊥ (ABC) și AM ⊥ BD ⟹ A′M ⊥ BD (teorema celor trei perpendiculare); Pitagora în triunghiul A′AM."
               ],
               "solution": [
@@ -19592,7 +19592,7 @@
               ],
               "solution": [
                 "a) BD = 5√2 cm, deci k = 5.",
-                "b) După translatare se obține un triunghi cu toate laturile diagonale ale fețelor, deci echilateral.",
+                "b) Înlocuind una dintre drepte cu o paralelă la ea, se obține un triunghi cu toate laturile diagonale ale fețelor, deci echilateral.",
                 "Unghiul are 60°.",
                 "Răspuns: a) k = 5; b) 60°."
               ],
@@ -19615,7 +19615,7 @@
     {
       "id": "gimnaziu",
       "title": "Clasele 5-8",
-      "subtitle": "Evaluarea Națională",
+      "subtitle": "Gimnaziu",
       "emoji": "📗"
     }
   ]
