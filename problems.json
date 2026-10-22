@@ -1,5 +1,5 @@
 {
-  "version": "3.4.4",
+  "version": "3.5.0",
   "updated": "2026-10-22",
   "subiecte": [
     {
@@ -5508,6 +5508,761 @@
               ],
               "grade": "Cls. I",
               "figure": "<svg viewBox='0 0 200 104' width='220'><polygon points='30,10 50,46 10,46' fill='rgba(33,218,222,.3)' stroke='currentColor' stroke-width='2'/><polygon points='78,10 98,46 58,46' fill='rgba(33,218,222,.3)' stroke='currentColor' stroke-width='2'/><polygon points='126,10 146,46 106,46' fill='rgba(33,218,222,.3)' stroke='currentColor' stroke-width='2'/><polygon points='174,10 194,46 154,46' fill='rgba(33,218,222,.3)' stroke='currentColor' stroke-width='2'/><polygon points='30,58 50,94 10,94' fill='rgba(33,218,222,.3)' stroke='currentColor' stroke-width='2'/><polygon points='78,58 98,94 58,94' fill='rgba(33,218,222,.3)' stroke='currentColor' stroke-width='2'/><polygon points='126,58 146,94 106,94' fill='rgba(33,218,222,.3)' stroke='currentColor' stroke-width='2'/><polygon points='174,58 194,94 154,94' fill='rgba(33,218,222,.3)' stroke='currentColor' stroke-width='2'/></svg>"
+            }
+          ]
+        },
+        {
+          "id": "prim-unit",
+          "icon": "ruler",
+          "title": "Transformări de unități",
+          "subtitle": "Lungime, masă, capacitate, timp și bani — în ambele sensuri",
+          "theory": [
+            "Lungime: 1 km = 1000 m; 1 m = 10 dm = 100 cm = 1000 mm; 1 dm = 10 cm; 1 cm = 10 mm.",
+            "Masă: 1 t = 1000 kg; 1 kg = 1000 g. Capacitate: 1 l = 10 dl = 100 cl = 1000 ml.",
+            "Timp: 1 zi = 24 de ore; 1 oră = 60 de minute; 1 minut = 60 de secunde; 1 săptămână = 7 zile; 1 an = 12 luni.",
+            "Bani: 1 leu = 100 de bani.",
+            "Din unitatea mare în cea mică înmulțești: 3 m = (3 × 100) cm = 300 cm. Din unitatea mică în cea mare împarți: 500 cm = (500 : 100) m = 5 m."
+          ],
+          "problems": [
+            {
+              "id": "pu-01",
+              "kind": "input",
+              "statement": "Câți centimetri sunt în 6 metri?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "cm",
+                  "unit": "cm",
+                  "answer": 600
+                }
+              ],
+              "hints": [
+                "1 metru = 100 de centimetri: din unitatea mare în cea mică înmulțești cu 100."
+              ],
+              "solution": [
+                "6 × 100 = 600 cm."
+              ],
+              "grade": "Cls. III"
+            },
+            {
+              "id": "pu-02",
+              "kind": "input",
+              "statement": "Câți metri sunt în 300 de centimetri?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "m",
+                  "unit": "m",
+                  "answer": 3
+                }
+              ],
+              "hints": [
+                "100 de centimetri = 1 metru: din unitatea mică în cea mare împarți la 100."
+              ],
+              "solution": [
+                "300 : 100 = 3 m."
+              ],
+              "grade": "Cls. III"
+            },
+            {
+              "id": "pu-03",
+              "kind": "input",
+              "statement": "Câte minute sunt în 5 ore?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "min",
+                  "unit": "min",
+                  "answer": 300
+                }
+              ],
+              "hints": [
+                "1 oră = 60 de minute: din unitatea mare în cea mică înmulțești cu 60."
+              ],
+              "solution": [
+                "5 × 60 = 300 min."
+              ],
+              "grade": "Cls. III"
+            },
+            {
+              "id": "pu-04",
+              "kind": "input",
+              "statement": "Câte ore sunt în 180 de minute?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Ore",
+                  "unit": "",
+                  "answer": 3
+                }
+              ],
+              "hints": [
+                "60 de minute = 1 oră: din unitatea mică în cea mare împarți la 60."
+              ],
+              "solution": [
+                "180 : 60 = 3 ore."
+              ],
+              "grade": "Cls. III"
+            },
+            {
+              "id": "pu-05",
+              "kind": "input",
+              "statement": "Câți bani sunt în 4 lei?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Bani",
+                  "unit": "",
+                  "answer": 400
+                }
+              ],
+              "hints": [
+                "1 leu = 100 de bani: din unitatea mare în cea mică înmulțești cu 100."
+              ],
+              "solution": [
+                "4 × 100 = 400 de bani."
+              ],
+              "grade": "Cls. III"
+            },
+            {
+              "id": "pu-06",
+              "kind": "input",
+              "statement": "Câți lei sunt în 500 de bani?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Lei",
+                  "unit": "",
+                  "answer": 5
+                }
+              ],
+              "hints": [
+                "100 de bani = 1 leu: din unitatea mică în cea mare împarți la 100."
+              ],
+              "solution": [
+                "500 : 100 = 5 lei."
+              ],
+              "grade": "Cls. III"
+            },
+            {
+              "id": "pu-07",
+              "kind": "input",
+              "statement": "Câți decimetri sunt în 3 metri?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "dm",
+                  "unit": "dm",
+                  "answer": 30
+                }
+              ],
+              "hints": [
+                "1 metru = 10 decimetri: din unitatea mare în cea mică înmulțești cu 10."
+              ],
+              "solution": [
+                "3 × 10 = 30 dm."
+              ],
+              "grade": "Cls. III–IV"
+            },
+            {
+              "id": "pu-08",
+              "kind": "input",
+              "statement": "Câți metri sunt în 70 de decimetri?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "m",
+                  "unit": "m",
+                  "answer": 7
+                }
+              ],
+              "hints": [
+                "10 decimetri = 1 metru: din unitatea mică în cea mare împarți la 10."
+              ],
+              "solution": [
+                "70 : 10 = 7 m."
+              ],
+              "grade": "Cls. III–IV"
+            },
+            {
+              "id": "pu-09",
+              "kind": "input",
+              "statement": "Câți centimetri sunt în 4 decimetri?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "cm",
+                  "unit": "cm",
+                  "answer": 40
+                }
+              ],
+              "hints": [
+                "1 decimetru = 10 centimetri: din unitatea mare în cea mică înmulțești cu 10."
+              ],
+              "solution": [
+                "4 × 10 = 40 cm."
+              ],
+              "grade": "Cls. III–IV"
+            },
+            {
+              "id": "pu-10",
+              "kind": "input",
+              "statement": "Câți decimetri sunt în 50 de centimetri?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "dm",
+                  "unit": "dm",
+                  "answer": 5
+                }
+              ],
+              "hints": [
+                "10 centimetri = 1 decimetru: din unitatea mică în cea mare împarți la 10."
+              ],
+              "solution": [
+                "50 : 10 = 5 dm."
+              ],
+              "grade": "Cls. III–IV"
+            },
+            {
+              "id": "pu-11",
+              "kind": "input",
+              "statement": "Câți milimetri sunt în 7 centimetri?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "mm",
+                  "unit": "mm",
+                  "answer": 70
+                }
+              ],
+              "hints": [
+                "1 centimetru = 10 milimetri: din unitatea mare în cea mică înmulțești cu 10."
+              ],
+              "solution": [
+                "7 × 10 = 70 mm."
+              ],
+              "grade": "Cls. III–IV"
+            },
+            {
+              "id": "pu-12",
+              "kind": "input",
+              "statement": "Câți centimetri sunt în 50 de milimetri?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "cm",
+                  "unit": "cm",
+                  "answer": 5
+                }
+              ],
+              "hints": [
+                "10 milimetri = 1 centimetru: din unitatea mică în cea mare împarți la 10."
+              ],
+              "solution": [
+                "50 : 10 = 5 cm."
+              ],
+              "grade": "Cls. III–IV"
+            },
+            {
+              "id": "pu-13",
+              "kind": "input",
+              "statement": "Câte grame sunt în 6 kilograme?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "g",
+                  "unit": "g",
+                  "answer": 6000
+                }
+              ],
+              "hints": [
+                "1 kilogram = 1000 de grame: din unitatea mare în cea mică înmulțești cu 1000."
+              ],
+              "solution": [
+                "6 × 1000 = 6000 g."
+              ],
+              "grade": "Cls. III–IV"
+            },
+            {
+              "id": "pu-14",
+              "kind": "input",
+              "statement": "Câte kilograme sunt în 5000 de grame?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "kg",
+                  "unit": "kg",
+                  "answer": 5
+                }
+              ],
+              "hints": [
+                "1000 de grame = 1 kilogram: din unitatea mică în cea mare împarți la 1000."
+              ],
+              "solution": [
+                "5000 : 1000 = 5 kg."
+              ],
+              "grade": "Cls. III–IV"
+            },
+            {
+              "id": "pu-15",
+              "kind": "input",
+              "statement": "Câți mililitri sunt în 8 litri?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "ml",
+                  "unit": "ml",
+                  "answer": 8000
+                }
+              ],
+              "hints": [
+                "1 litru = 1000 de mililitri: din unitatea mare în cea mică înmulțești cu 1000."
+              ],
+              "solution": [
+                "8 × 1000 = 8000 ml."
+              ],
+              "grade": "Cls. III–IV"
+            },
+            {
+              "id": "pu-16",
+              "kind": "input",
+              "statement": "Câți litri sunt în 2000 de mililitri?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "l",
+                  "unit": "l",
+                  "answer": 2
+                }
+              ],
+              "hints": [
+                "1000 de mililitri = 1 litru: din unitatea mică în cea mare împarți la 1000."
+              ],
+              "solution": [
+                "2000 : 1000 = 2 l."
+              ],
+              "grade": "Cls. III–IV"
+            },
+            {
+              "id": "pu-17",
+              "kind": "input",
+              "statement": "Câți decilitri sunt în 6 litri?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "dl",
+                  "unit": "dl",
+                  "answer": 60
+                }
+              ],
+              "hints": [
+                "1 litru = 10 decilitri: din unitatea mare în cea mică înmulțești cu 10."
+              ],
+              "solution": [
+                "6 × 10 = 60 dl."
+              ],
+              "grade": "Cls. III–IV"
+            },
+            {
+              "id": "pu-18",
+              "kind": "input",
+              "statement": "Câți litri sunt în 20 de decilitri?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "l",
+                  "unit": "l",
+                  "answer": 2
+                }
+              ],
+              "hints": [
+                "10 decilitri = 1 litru: din unitatea mică în cea mare împarți la 10."
+              ],
+              "solution": [
+                "20 : 10 = 2 l."
+              ],
+              "grade": "Cls. III–IV"
+            },
+            {
+              "id": "pu-19",
+              "kind": "input",
+              "statement": "Câți centilitri sunt în 3 litri?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "cl",
+                  "unit": "cl",
+                  "answer": 300
+                }
+              ],
+              "hints": [
+                "1 litru = 100 de centilitri: din unitatea mare în cea mică înmulțești cu 100."
+              ],
+              "solution": [
+                "3 × 100 = 300 cl."
+              ],
+              "grade": "Cls. III–IV"
+            },
+            {
+              "id": "pu-20",
+              "kind": "input",
+              "statement": "Câți litri sunt în 900 de centilitri?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "l",
+                  "unit": "l",
+                  "answer": 9
+                }
+              ],
+              "hints": [
+                "100 de centilitri = 1 litru: din unitatea mică în cea mare împarți la 100."
+              ],
+              "solution": [
+                "900 : 100 = 9 l."
+              ],
+              "grade": "Cls. III–IV"
+            },
+            {
+              "id": "pu-21",
+              "kind": "input",
+              "statement": "Câte secunde sunt în 5 minute?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "s",
+                  "unit": "s",
+                  "answer": 300
+                }
+              ],
+              "hints": [
+                "1 minut = 60 de secunde: din unitatea mare în cea mică înmulțești cu 60."
+              ],
+              "solution": [
+                "5 × 60 = 300 s."
+              ],
+              "grade": "Cls. IV"
+            },
+            {
+              "id": "pu-22",
+              "kind": "input",
+              "statement": "Câte minute sunt în 240 de secunde?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "min",
+                  "unit": "min",
+                  "answer": 4
+                }
+              ],
+              "hints": [
+                "60 de secunde = 1 minut: din unitatea mică în cea mare împarți la 60."
+              ],
+              "solution": [
+                "240 : 60 = 4 min."
+              ],
+              "grade": "Cls. IV"
+            },
+            {
+              "id": "pu-23",
+              "kind": "input",
+              "statement": "Câte ore sunt în 2 zile?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Ore",
+                  "unit": "",
+                  "answer": 48
+                }
+              ],
+              "hints": [
+                "1 zi = 24 de ore: din unitatea mare în cea mică înmulțești cu 24."
+              ],
+              "solution": [
+                "2 × 24 = 48 de ore."
+              ],
+              "grade": "Cls. III–IV"
+            },
+            {
+              "id": "pu-24",
+              "kind": "input",
+              "statement": "Câte zile sunt în 96 de ore?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Zile",
+                  "unit": "",
+                  "answer": 4
+                }
+              ],
+              "hints": [
+                "24 de ore = 1 zi: din unitatea mică în cea mare împarți la 24."
+              ],
+              "solution": [
+                "96 : 24 = 4 zile."
+              ],
+              "grade": "Cls. III–IV"
+            },
+            {
+              "id": "pu-25",
+              "kind": "input",
+              "statement": "Câte zile sunt în 6 săptămâni?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Zile",
+                  "unit": "",
+                  "answer": 42
+                }
+              ],
+              "hints": [
+                "1 săptămână = 7 zile: din unitatea mare în cea mică înmulțești cu 7."
+              ],
+              "solution": [
+                "6 × 7 = 42 de zile."
+              ],
+              "grade": "Cls. III–IV"
+            },
+            {
+              "id": "pu-26",
+              "kind": "input",
+              "statement": "Câte săptămâni sunt în 35 de zile?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Săptămâni",
+                  "unit": "",
+                  "answer": 5
+                }
+              ],
+              "hints": [
+                "7 zile = 1 săptămână: din unitatea mică în cea mare împarți la 7."
+              ],
+              "solution": [
+                "35 : 7 = 5 săptămâni."
+              ],
+              "grade": "Cls. III–IV"
+            },
+            {
+              "id": "pu-27",
+              "kind": "input",
+              "statement": "Câte luni sunt în 4 ani?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Luni",
+                  "unit": "",
+                  "answer": 48
+                }
+              ],
+              "hints": [
+                "1 an = 12 luni: din unitatea mare în cea mică înmulțești cu 12."
+              ],
+              "solution": [
+                "4 × 12 = 48 de luni."
+              ],
+              "grade": "Cls. III–IV"
+            },
+            {
+              "id": "pu-28",
+              "kind": "input",
+              "statement": "Câți ani sunt în 24 de luni?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Ani",
+                  "unit": "",
+                  "answer": 2
+                }
+              ],
+              "hints": [
+                "12 luni = 1 an: din unitatea mică în cea mare împarți la 12."
+              ],
+              "solution": [
+                "24 : 12 = 2 ani."
+              ],
+              "grade": "Cls. III–IV"
+            },
+            {
+              "id": "pu-29",
+              "kind": "input",
+              "statement": "Câți metri sunt în 4 kilometri?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "m",
+                  "unit": "m",
+                  "answer": 4000
+                }
+              ],
+              "hints": [
+                "1 kilometru = 1000 de metri: din unitatea mare în cea mică înmulțești cu 1000."
+              ],
+              "solution": [
+                "4 × 1000 = 4000 m."
+              ],
+              "grade": "Cls. IV"
+            },
+            {
+              "id": "pu-30",
+              "kind": "input",
+              "statement": "Câți kilometri sunt în 6000 de metri?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "km",
+                  "unit": "km",
+                  "answer": 6
+                }
+              ],
+              "hints": [
+                "1000 de metri = 1 kilometru: din unitatea mică în cea mare împarți la 1000."
+              ],
+              "solution": [
+                "6000 : 1000 = 6 km."
+              ],
+              "grade": "Cls. IV"
+            },
+            {
+              "id": "pu-31",
+              "kind": "input",
+              "statement": "Câte kilograme sunt în 9 tone?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "kg",
+                  "unit": "kg",
+                  "answer": 9000
+                }
+              ],
+              "hints": [
+                "1 tonă = 1000 de kilograme: din unitatea mare în cea mică înmulțești cu 1000."
+              ],
+              "solution": [
+                "9 × 1000 = 9000 kg."
+              ],
+              "grade": "Cls. IV"
+            },
+            {
+              "id": "pu-32",
+              "kind": "input",
+              "statement": "Câte tone sunt în 4000 de kilograme?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "t",
+                  "unit": "t",
+                  "answer": 4
+                }
+              ],
+              "hints": [
+                "1000 de kilograme = 1 tonă: din unitatea mică în cea mare împarți la 1000."
+              ],
+              "solution": [
+                "4000 : 1000 = 4 t."
+              ],
+              "grade": "Cls. IV"
+            },
+            {
+              "id": "pu-33",
+              "kind": "input",
+              "statement": "Câți centimetri sunt în 3 metri și 80 de centimetri?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "cm",
+                  "unit": "cm",
+                  "answer": 380
+                }
+              ],
+              "hints": [
+                "Transformă întâi 3 metri în centimetri, apoi adună 80 de centimetri."
+              ],
+              "solution": [
+                "3 × 100 = 300; 300 + 80 = 380 cm."
+              ],
+              "grade": "Cls. III–IV"
+            },
+            {
+              "id": "pu-34",
+              "kind": "input",
+              "statement": "Câți bani sunt în 4 lei și 25 de bani?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Bani",
+                  "unit": "",
+                  "answer": 425
+                }
+              ],
+              "hints": [
+                "Transformă întâi 4 lei în bani, apoi adună 25 de bani."
+              ],
+              "solution": [
+                "4 × 100 = 400; 400 + 25 = 425 de bani."
+              ],
+              "grade": "Cls. III–IV"
+            },
+            {
+              "id": "pu-35",
+              "kind": "input",
+              "statement": "Câte minute sunt în 3 ore și 23 de minute?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "min",
+                  "unit": "min",
+                  "answer": 203
+                }
+              ],
+              "hints": [
+                "Transformă întâi 3 ore în minute, apoi adună 23 de minute."
+              ],
+              "solution": [
+                "3 × 60 = 180; 180 + 23 = 203 min."
+              ],
+              "grade": "Cls. III–IV"
+            },
+            {
+              "id": "pu-36",
+              "kind": "input",
+              "statement": "Câți metri sunt în 2 kilometri și 565 de metri?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "m",
+                  "unit": "m",
+                  "answer": 2565
+                }
+              ],
+              "hints": [
+                "Transformă întâi 2 kilometri în metri, apoi adună 565 de metri."
+              ],
+              "solution": [
+                "2 × 1000 = 2000; 2000 + 565 = 2565 m."
+              ],
+              "grade": "Cls. IV"
+            },
+            {
+              "id": "pu-37",
+              "kind": "input",
+              "statement": "Câte grame sunt în 1 kilogram și 520 de grame?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "g",
+                  "unit": "g",
+                  "answer": 1520
+                }
+              ],
+              "hints": [
+                "Transformă întâi 1 kilogram în grame, apoi adună 520 de grame."
+              ],
+              "solution": [
+                "1 × 1000 = 1000; 1000 + 520 = 1520 g."
+              ],
+              "grade": "Cls. IV"
             }
           ]
         }
@@ -12172,7 +12927,11 @@
             "Suma măsurilor unghiurilor unui triunghi este 180°.",
             "Centrul de greutate G împarte fiecare mediană în raportul 2:1 dinspre vârf (AG = 2/3·AD, GD = 1/3·AD).",
             "Aria unui triunghi = (bază · înălțime) : 2.",
-            "Capcană: aria = bază·înălțime : 2; unghiurile dau 180°."
+            "Capcană: aria = bază·înălțime : 2; unghiurile dau 180°.",
+            "Triunghiul dreptunghic: cateta opusă unghiului de 30° este jumătate din ipotenuză; mediana corespunzătoare ipotenuzei este jumătate din ipotenuză.",
+            "Triunghiul echilateral cu latura ℓ: înălțimea h = ℓ√3/2, iar aria A = ℓ²√3/4.",
+            "În triunghiul isoscel, mediana corespunzătoare bazei este și înălțime, bisectoare și mediatoare.",
+            "Măsura unui unghi exterior al unui triunghi este egală cu suma măsurilor celor două unghiuri interioare neadiacente cu el."
           ],
           "problems": [
             {
@@ -12908,7 +13667,11 @@
             "Într-un paralelogram, laturile opuse sunt egale.",
             "Perimetrul = 2·(a + b), unde a și b sunt lungimile a două laturi alăturate.",
             "Aria = bază · înălțimea corespunzătoare acelei baze.",
-            "Capcană: perimetru = 2(L+l); aria = bază·înălțime."
+            "Capcană: perimetru = 2(L+l); aria = bază·înălțime.",
+            "Dreptunghiul are diagonalele egale; pătratul cu latura ℓ are diagonala d = ℓ√2.",
+            "Rombul are diagonalele perpendiculare; aria rombului = d₁ · d₂ : 2.",
+            "Trapezul cu bazele B și b și înălțimea h: linia mijlocie = (B + b) : 2; aria trapezului = (B + b) · h : 2.",
+            "Suma măsurilor unghiurilor unui patrulater convex este 360°."
           ],
           "problems": [
             {
@@ -13616,7 +14379,9 @@
             "Unghiul înscris care subîntinde același arc are jumătate din măsura unghiului la centru.",
             "Un unghi înscris care subîntinde diametrul (semicercul) are 90°.",
             "Raza = diametru : 2.",
-            "Capcană: L = 2πr, A = πr² (folosește raza, ridicată la pătrat la arie)."
+            "Capcană: L = 2πr, A = πr² (folosește raza, ridicată la pătrat la arie).",
+            "Tangenta la cerc este perpendiculară pe raza dusă în punctul de tangență.",
+            "Hexagonul regulat înscris într-un cerc de rază R are latura egală cu R."
           ],
           "problems": [
             {
@@ -14308,7 +15073,9 @@
             "Volumul cubului = l³ (l = muchia). Volumul paralelipipedului dreptunghic = L · l · h.",
             "Volumul piramidei = (aria bazei · înălțimea) : 3.",
             "Volumul prismei drepte = aria bazei · înălțimea.",
-            "Capcană: volumul cubului = muchie³."
+            "Capcană: volumul cubului = muchie³.",
+            "Piramida regulată: aria laterală = perimetrul bazei · apotema piramidei : 2.",
+            "Conul circular drept (r = raza bazei, g = generatoarea, h = înălțimea): aria laterală = π · r · g; volumul = π · r² · h : 3."
           ],
           "problems": [
             {
@@ -15053,6 +15820,1364 @@
               ],
               "grade": "Cls. VII",
               "figure": "<svg viewBox='0 0 260 180'><polygon points='64.4,154 195.6,154 120.5,26' fill='none' stroke='currentColor' stroke-width='1.6'/><line x1='64.4' y1='154' x2='101.6' y2='91.5' stroke='currentColor' stroke-width='1.2' stroke-dasharray='4 3'/><line x1='195.6' y1='154' x2='101.6' y2='91.5' stroke='currentColor' stroke-width='1.2' stroke-dasharray='4 3'/><line x1='101.6' y1='91.5' x2='120.5' y2='26' stroke='currentColor' stroke-width='1.2' stroke-dasharray='4 3'/><text x='55.2' y='167.2' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='206' y='165.8' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='89.2' y='91.6' font-size='12' fill='currentColor' text-anchor='middle'>C</text><text x='120.5' y='17' font-size='12' fill='currentColor' text-anchor='middle'>D</text></svg>"
+            }
+          ]
+        },
+        {
+          "id": "s2-unitati",
+          "icon": "ruler",
+          "title": "Unități de măsură: transformări",
+          "subtitle": "Lungimi, arii, volume, capacități, mase și timp",
+          "theory": [
+            "Lungime: km, hm, dam, m, dm, cm, mm — între două unități vecine pasul este 10 (1 km = 1000 m; 1 m = 100 cm = 1000 mm).",
+            "Arie: km², hm², dam², m², dm², cm², mm² — între două unități vecine pasul este 100 (1 m² = 100 dm² = 10 000 cm²); 1 ar = 1 dam² = 100 m²; 1 ha = 1 hm² = 10 000 m².",
+            "Volum: m³, dm³, cm³, mm³ — între două unități vecine pasul este 1000 (1 m³ = 1000 dm³; 1 dm³ = 1000 cm³).",
+            "Capacitate: 1 l = 1 dm³; 1 ml = 1 cm³. Masă: 1 t = 1000 kg; 1 kg = 1000 g. Timp: 1 h = 60 min.",
+            "Capcană: la arii pasul este 100, iar la volume 1000 — nu 10!"
+          ],
+          "problems": [
+            {
+              "id": "s2un-01",
+              "kind": "input",
+              "statement": "Completează: 4,8 m = … cm",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "cm",
+                  "unit": "cm",
+                  "answer": 480
+                }
+              ],
+              "hints": [
+                "1 m = 10 dm = 100 cm = 1000 mm; 1 km = 1000 m.",
+                "Din unitatea mare în cea mică înmulțești cu 100."
+              ],
+              "solution": [
+                "4,8 · 100 = 480, deci 4,8 m = 480 cm."
+              ],
+              "grade": "Cls. V"
+            },
+            {
+              "id": "s2un-02",
+              "kind": "input",
+              "statement": "Completează: 250 cm = … m",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "m",
+                  "unit": "m",
+                  "answer": 2.5
+                }
+              ],
+              "hints": [
+                "1 m = 10 dm = 100 cm = 1000 mm; 1 km = 1000 m.",
+                "Din unitatea mică în cea mare împarți la 100."
+              ],
+              "solution": [
+                "250 : 100 = 2,5, deci 250 cm = 2,5 m."
+              ],
+              "grade": "Cls. V"
+            },
+            {
+              "id": "s2un-03",
+              "kind": "input",
+              "statement": "Completează: 0,8 km = … m",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "m",
+                  "unit": "m",
+                  "answer": 800
+                }
+              ],
+              "hints": [
+                "1 m = 10 dm = 100 cm = 1000 mm; 1 km = 1000 m.",
+                "Din unitatea mare în cea mică înmulțești cu 1000."
+              ],
+              "solution": [
+                "0,8 · 1000 = 800, deci 0,8 km = 800 m."
+              ],
+              "grade": "Cls. V"
+            },
+            {
+              "id": "s2un-04",
+              "kind": "input",
+              "statement": "Completează: 45 mm = … cm",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "cm",
+                  "unit": "cm",
+                  "answer": 4.5
+                }
+              ],
+              "hints": [
+                "1 m = 10 dm = 100 cm = 1000 mm; 1 km = 1000 m.",
+                "Din unitatea mică în cea mare împarți la 10."
+              ],
+              "solution": [
+                "45 : 10 = 4,5, deci 45 mm = 4,5 cm."
+              ],
+              "grade": "Cls. V"
+            },
+            {
+              "id": "s2un-05",
+              "kind": "input",
+              "statement": "Completează: 4,25 dm = … mm",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "mm",
+                  "unit": "mm",
+                  "answer": 425
+                }
+              ],
+              "hints": [
+                "1 m = 10 dm = 100 cm = 1000 mm; 1 km = 1000 m.",
+                "Din unitatea mare în cea mică înmulțești cu 100."
+              ],
+              "solution": [
+                "4,25 · 100 = 425, deci 4,25 dm = 425 mm."
+              ],
+              "grade": "Cls. V"
+            },
+            {
+              "id": "s2un-06",
+              "kind": "input",
+              "statement": "Completează: 2,5 m² = … dm²",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "dm²",
+                  "unit": "dm²",
+                  "answer": 250
+                }
+              ],
+              "hints": [
+                "La arii pasul dintre unitățile vecine este 100: 1 m² = 100 dm², 1 dm² = 100 cm²; 1 ha = 10 000 m².",
+                "Din unitatea mare în cea mică înmulțești cu 100."
+              ],
+              "solution": [
+                "2,5 · 100 = 250, deci 2,5 m² = 250 dm²."
+              ],
+              "grade": "Cls. V"
+            },
+            {
+              "id": "s2un-07",
+              "kind": "input",
+              "statement": "Completează: 0,5 m² = … cm²",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "cm²",
+                  "unit": "cm²",
+                  "answer": 5000
+                }
+              ],
+              "hints": [
+                "La arii pasul dintre unitățile vecine este 100: 1 m² = 100 dm², 1 dm² = 100 cm²; 1 ha = 10 000 m².",
+                "Din unitatea mare în cea mică înmulțești cu 10 000."
+              ],
+              "solution": [
+                "0,5 · 10 000 = 5000, deci 0,5 m² = 5000 cm²."
+              ],
+              "grade": "Cls. V"
+            },
+            {
+              "id": "s2un-08",
+              "kind": "input",
+              "statement": "Completează: 1250 cm² = … dm²",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "dm²",
+                  "unit": "dm²",
+                  "answer": 12.5
+                }
+              ],
+              "hints": [
+                "La arii pasul dintre unitățile vecine este 100: 1 m² = 100 dm², 1 dm² = 100 cm²; 1 ha = 10 000 m².",
+                "Din unitatea mică în cea mare împarți la 100."
+              ],
+              "solution": [
+                "1250 : 100 = 12,5, deci 1250 cm² = 12,5 dm²."
+              ],
+              "grade": "Cls. V"
+            },
+            {
+              "id": "s2un-09",
+              "kind": "input",
+              "statement": "Completează: 1,2 ha = … m²",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "m²",
+                  "unit": "m²",
+                  "answer": 12000
+                }
+              ],
+              "hints": [
+                "La arii pasul dintre unitățile vecine este 100: 1 m² = 100 dm², 1 dm² = 100 cm²; 1 ha = 10 000 m².",
+                "Din unitatea mare în cea mică înmulțești cu 10 000."
+              ],
+              "solution": [
+                "1,2 · 10 000 = 12 000, deci 1,2 ha = 12 000 m²."
+              ],
+              "grade": "Cls. V–VI"
+            },
+            {
+              "id": "s2un-10",
+              "kind": "input",
+              "statement": "Completează: 2050 dm² = … m²",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "m²",
+                  "unit": "m²",
+                  "answer": 20.5
+                }
+              ],
+              "hints": [
+                "La arii pasul dintre unitățile vecine este 100: 1 m² = 100 dm², 1 dm² = 100 cm²; 1 ha = 10 000 m².",
+                "Din unitatea mică în cea mare împarți la 100."
+              ],
+              "solution": [
+                "2050 : 100 = 20,5, deci 2050 dm² = 20,5 m²."
+              ],
+              "grade": "Cls. V"
+            },
+            {
+              "id": "s2un-11",
+              "kind": "input",
+              "statement": "Completează: 2 dm³ = … cm³",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "cm³",
+                  "unit": "cm³",
+                  "answer": 2000
+                }
+              ],
+              "hints": [
+                "La volume pasul dintre unitățile vecine este 1000: 1 m³ = 1000 dm³, 1 dm³ = 1000 cm³; 1 l = 1 dm³, 1 ml = 1 cm³.",
+                "Din unitatea mare în cea mică înmulțești cu 1000."
+              ],
+              "solution": [
+                "2 · 1000 = 2000, deci 2 dm³ = 2000 cm³."
+              ],
+              "grade": "Cls. V"
+            },
+            {
+              "id": "s2un-12",
+              "kind": "input",
+              "statement": "Completează: 1,5 m³ = … dm³",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "dm³",
+                  "unit": "dm³",
+                  "answer": 1500
+                }
+              ],
+              "hints": [
+                "La volume pasul dintre unitățile vecine este 1000: 1 m³ = 1000 dm³, 1 dm³ = 1000 cm³; 1 l = 1 dm³, 1 ml = 1 cm³.",
+                "Din unitatea mare în cea mică înmulțești cu 1000."
+              ],
+              "solution": [
+                "1,5 · 1000 = 1500, deci 1,5 m³ = 1500 dm³."
+              ],
+              "grade": "Cls. V"
+            },
+            {
+              "id": "s2un-13",
+              "kind": "input",
+              "statement": "Completează: 3500 cm³ = … dm³",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "dm³",
+                  "unit": "dm³",
+                  "answer": 3.5
+                }
+              ],
+              "hints": [
+                "La volume pasul dintre unitățile vecine este 1000: 1 m³ = 1000 dm³, 1 dm³ = 1000 cm³; 1 l = 1 dm³, 1 ml = 1 cm³.",
+                "Din unitatea mică în cea mare împarți la 1000."
+              ],
+              "solution": [
+                "3500 : 1000 = 3,5, deci 3500 cm³ = 3,5 dm³."
+              ],
+              "grade": "Cls. V–VI"
+            },
+            {
+              "id": "s2un-14",
+              "kind": "input",
+              "statement": "Completează: 0,75 l = … cm³",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "cm³",
+                  "unit": "cm³",
+                  "answer": 750
+                }
+              ],
+              "hints": [
+                "La volume pasul dintre unitățile vecine este 1000: 1 m³ = 1000 dm³, 1 dm³ = 1000 cm³; 1 l = 1 dm³, 1 ml = 1 cm³.",
+                "Din unitatea mare în cea mică înmulțești cu 1000."
+              ],
+              "solution": [
+                "0,75 · 1000 = 750, deci 0,75 l = 750 cm³."
+              ],
+              "grade": "Cls. V–VI"
+            },
+            {
+              "id": "s2un-15",
+              "kind": "input",
+              "statement": "Completează: 1,2 m³ = … l",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "l",
+                  "unit": "l",
+                  "answer": 1200
+                }
+              ],
+              "hints": [
+                "La volume pasul dintre unitățile vecine este 1000: 1 m³ = 1000 dm³, 1 dm³ = 1000 cm³; 1 l = 1 dm³, 1 ml = 1 cm³.",
+                "Din unitatea mare în cea mică înmulțești cu 1000."
+              ],
+              "solution": [
+                "1,2 · 1000 = 1200, deci 1,2 m³ = 1200 l."
+              ],
+              "grade": "Cls. V–VI"
+            },
+            {
+              "id": "s2un-16",
+              "kind": "input",
+              "statement": "Completează: 250 ml = … l",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "l",
+                  "unit": "l",
+                  "answer": 0.25
+                }
+              ],
+              "hints": [
+                "La volume pasul dintre unitățile vecine este 1000: 1 m³ = 1000 dm³, 1 dm³ = 1000 cm³; 1 l = 1 dm³, 1 ml = 1 cm³.",
+                "Din unitatea mică în cea mare împarți la 1000."
+              ],
+              "solution": [
+                "250 : 1000 = 0,25, deci 250 ml = 0,25 l."
+              ],
+              "grade": "Cls. V–VI"
+            },
+            {
+              "id": "s2un-17",
+              "kind": "input",
+              "statement": "Completează: 2,3 t = … kg",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "kg",
+                  "unit": "kg",
+                  "answer": 2300
+                }
+              ],
+              "hints": [
+                "1 t = 1000 kg; 1 kg = 1000 g.",
+                "Din unitatea mare în cea mică înmulțești cu 1000."
+              ],
+              "solution": [
+                "2,3 · 1000 = 2300, deci 2,3 t = 2300 kg."
+              ],
+              "grade": "Cls. V"
+            },
+            {
+              "id": "s2un-18",
+              "kind": "input",
+              "statement": "Completează: 2500 g = … kg",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "kg",
+                  "unit": "kg",
+                  "answer": 2.5
+                }
+              ],
+              "hints": [
+                "1 t = 1000 kg; 1 kg = 1000 g.",
+                "Din unitatea mică în cea mare împarți la 1000."
+              ],
+              "solution": [
+                "2500 : 1000 = 2,5, deci 2500 g = 2,5 kg."
+              ],
+              "grade": "Cls. V"
+            },
+            {
+              "id": "s2un-19",
+              "kind": "input",
+              "statement": "Câte minute sunt în 2,5 ore?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "min",
+                  "unit": "min",
+                  "answer": 150
+                }
+              ],
+              "hints": [
+                "1 oră = 60 de minute.",
+                "Din unitatea mare în cea mică înmulțești cu 60."
+              ],
+              "solution": [
+                "2,5 · 60 = 150, deci 2,5 h = 150 min."
+              ],
+              "grade": "Cls. V–VI"
+            },
+            {
+              "id": "s2un-20",
+              "kind": "input",
+              "statement": "Câte ore sunt în 45 de minute?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "h",
+                  "unit": "h",
+                  "answer": 0.75
+                }
+              ],
+              "hints": [
+                "1 oră = 60 de minute.",
+                "Din unitatea mică în cea mare împarți la 60."
+              ],
+              "solution": [
+                "45 : 60 = 0,75, deci 45 min = 0,75 h."
+              ],
+              "grade": "Cls. V–VI"
+            },
+            {
+              "id": "s2un-21",
+              "kind": "mc",
+              "statement": "Care dintre egalitățile de mai jos este adevărată?",
+              "options": [
+                "1 m² = 100 dm²",
+                "1 m² = 100 cm²",
+                "1 m² = 10 dm²",
+                "1 m² = 1000 dm²"
+              ],
+              "answer": 0,
+              "hints": [
+                "La arii pasul dintre unitățile vecine este 100: 1 m² = 100 dm², 1 dm² = 100 cm²; 1 ha = 10 000 m²."
+              ],
+              "solution": [
+                "Adevărat: 1 m² = 100 dm²."
+              ],
+              "grade": "Cls. V"
+            },
+            {
+              "id": "s2un-22",
+              "kind": "mc",
+              "statement": "Care dintre egalitățile de mai jos este adevărată?",
+              "options": [
+                "1 dm³ = 10 cm³",
+                "1 dm³ = 1000 cm³",
+                "1 dm³ = 100 cm³",
+                "1 m³ = 100 dm³"
+              ],
+              "answer": 1,
+              "hints": [
+                "La volume pasul dintre unitățile vecine este 1000: 1 m³ = 1000 dm³, 1 dm³ = 1000 cm³; 1 l = 1 dm³, 1 ml = 1 cm³."
+              ],
+              "solution": [
+                "Adevărat: 1 dm³ = 1000 cm³."
+              ],
+              "grade": "Cls. V"
+            },
+            {
+              "id": "s2un-23",
+              "kind": "mc",
+              "statement": "Care dintre egalitățile de mai jos este adevărată?",
+              "options": [
+                "1 l = 1 cm³",
+                "1 l = 100 cm³",
+                "1 l = 1 m³",
+                "1 l = 1 dm³"
+              ],
+              "answer": 3,
+              "hints": [
+                "La volume pasul dintre unitățile vecine este 1000: 1 m³ = 1000 dm³, 1 dm³ = 1000 cm³; 1 l = 1 dm³, 1 ml = 1 cm³."
+              ],
+              "solution": [
+                "Adevărat: 1 l = 1 dm³."
+              ],
+              "grade": "Cls. V–VI"
+            },
+            {
+              "id": "s2un-24",
+              "kind": "mc",
+              "statement": "Care dintre egalitățile de mai jos este adevărată?",
+              "options": [
+                "1 ha = 10 000 m²",
+                "1 ha = 100 m²",
+                "1 ha = 100 000 m²",
+                "1 ha = 1000 m²"
+              ],
+              "answer": 0,
+              "hints": [
+                "La arii pasul dintre unitățile vecine este 100: 1 m² = 100 dm², 1 dm² = 100 cm²; 1 ha = 10 000 m²."
+              ],
+              "solution": [
+                "Adevărat: 1 ha = 10 000 m²."
+              ],
+              "grade": "Cls. V–VI"
+            }
+          ]
+        },
+        {
+          "id": "s2-asemanare",
+          "icon": "triangle",
+          "title": "Teorema lui Thales și asemănarea",
+          "subtitle": "Paralele în triunghi, triunghiuri asemenea, linia mijlocie",
+          "theory": [
+            "Teorema lui Thales: dacă MN ∥ BC, cu M pe AB și N pe AC, atunci AM/MB = AN/NC.",
+            "Reciproca teoremei lui Thales: dacă AM/MB = AN/NC, atunci MN ∥ BC.",
+            "Teorema fundamentală a asemănării: dacă MN ∥ BC, atunci triunghiul AMN este asemenea cu triunghiul ABC, deci AM/AB = AN/AC = MN/BC.",
+            "Cazurile de asemănare a triunghiurilor: UU (două perechi de unghiuri congruente), LUL (două perechi de laturi proporționale și unghiurile dintre ele congruente), LLL (toate cele trei perechi de laturi proporționale).",
+            "Dacă raportul de asemănare este k, raportul perimetrelor este k, iar raportul ariilor este k².",
+            "Linia mijlocie: dacă M și N sunt mijloacele laturilor AB și AC, atunci MN ∥ BC și MN = BC : 2."
+          ],
+          "problems": [
+            {
+              "id": "s2as-01",
+              "kind": "input",
+              "statement": "În triunghiul ABC, punctele M și N se află pe laturile AB, respectiv AC, astfel încât MN ∥ BC. Dacă AM = 10 cm, MB = 15 cm și AN = 8 cm, atunci lungimea segmentului NC este:",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "NC",
+                  "unit": "cm",
+                  "answer": 12
+                }
+              ],
+              "hints": [
+                "Teorema lui Thales: AM/MB = AN/NC."
+              ],
+              "solution": [
+                "10/15 = 8/NC.",
+                "NC = 15 · 8 : 10 = 12 cm."
+              ],
+              "grade": "Cls. VII",
+              "figure": "<svg viewBox='0 0 260 180'><polygon points='163.3,26 52.4,154 207.6,154' fill='none' stroke='currentColor' stroke-width='1.6'/><line x1='118.9' y1='77.2' x2='181' y2='77.2' stroke='currentColor' stroke-width='1.4'/><text x='125.6' y='42.2' font-size='10.5' fill='currentColor' text-anchor='middle'>10 cm</text><text x='70.2' y='106.2' font-size='10.5' fill='currentColor' text-anchor='middle'>15 cm</text><text x='183.5' y='51.7' font-size='10.5' fill='currentColor' text-anchor='middle'>8 cm</text><text x='166.5' y='17.4' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='41.3' y='164.8' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='217.3' y='166.7' font-size='12' fill='currentColor' text-anchor='middle'>C</text><text x='106.2' y='83.7' font-size='12' fill='currentColor' text-anchor='middle'>M</text><text x='193.7' y='83.7' font-size='12' fill='currentColor' text-anchor='middle'>N</text></svg>"
+            },
+            {
+              "id": "s2as-02",
+              "kind": "input",
+              "statement": "În triunghiul ABC, punctele M și N se află pe laturile AB, respectiv AC, astfel încât MN ∥ BC. Dacă AM = 6 cm, MB = 2 cm și AN = 9 cm, atunci lungimea segmentului NC este:",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "NC",
+                  "unit": "cm",
+                  "answer": 3
+                }
+              ],
+              "hints": [
+                "Teorema lui Thales: AM/MB = AN/NC."
+              ],
+              "solution": [
+                "6/2 = 9/NC.",
+                "NC = 2 · 9 : 6 = 3 cm."
+              ],
+              "grade": "Cls. VII",
+              "figure": "<svg viewBox='0 0 260 180'><polygon points='68.4,26 43.8,154 216.2,154' fill='none' stroke='currentColor' stroke-width='1.6'/><line x1='49.9' y1='122' x2='179.3' y2='122' stroke='currentColor' stroke-width='1.4'/><text x='47.4' y='75.7' font-size='10.5' fill='currentColor' text-anchor='middle'>6 cm</text><text x='35.1' y='139.7' font-size='10.5' fill='currentColor' text-anchor='middle'>2 cm</text><text x='131.7' y='68.9' font-size='10.5' fill='currentColor' text-anchor='middle'>9 cm</text><text x='62.8' y='18.3' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='32.5' y='164.4' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='228.4' y='162.5' font-size='12' fill='currentColor' text-anchor='middle'>C</text><text x='37.2' y='128.5' font-size='12' fill='currentColor' text-anchor='middle'>M</text><text x='192' y='128.5' font-size='12' fill='currentColor' text-anchor='middle'>N</text></svg>"
+            },
+            {
+              "id": "s2as-03",
+              "kind": "input",
+              "statement": "În triunghiul ABC, punctele M și N se află pe laturile AB, respectiv AC, astfel încât MN ∥ BC. Dacă AM = 2 cm, MB = 4 cm și AN = 3 cm, atunci lungimea segmentului NC este:",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "NC",
+                  "unit": "cm",
+                  "answer": 6
+                }
+              ],
+              "hints": [
+                "Teorema lui Thales: AM/MB = AN/NC."
+              ],
+              "solution": [
+                "2/4 = 3/NC.",
+                "NC = 4 · 3 : 2 = 6 cm."
+              ],
+              "grade": "Cls. VII",
+              "figure": "<svg viewBox='0 0 260 180'><polygon points='68.4,26 43.8,154 216.2,154' fill='none' stroke='currentColor' stroke-width='1.6'/><line x1='60.2' y1='68.7' x2='117.7' y2='68.7' stroke='currentColor' stroke-width='1.4'/><text x='52.5' y='49.1' font-size='10.5' fill='currentColor' text-anchor='middle'>2 cm</text><text x='40.2' y='113.1' font-size='10.5' fill='currentColor' text-anchor='middle'>4 cm</text><text x='100.9' y='42.3' font-size='10.5' fill='currentColor' text-anchor='middle'>3 cm</text><text x='62.8' y='18.3' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='34.8' y='167.4' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='227.8' y='164' font-size='12' fill='currentColor' text-anchor='middle'>C</text><text x='47.5' y='75.2' font-size='12' fill='currentColor' text-anchor='middle'>M</text><text x='130.4' y='75.2' font-size='12' fill='currentColor' text-anchor='middle'>N</text></svg>"
+            },
+            {
+              "id": "s2as-04",
+              "kind": "input",
+              "statement": "În triunghiul ABC, punctele M și N se află pe laturile AB, respectiv AC, astfel încât MN ∥ BC. Dacă AM = 4 cm, MB = 12 cm și AN = 3 cm, atunci lungimea segmentului NC este:",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "NC",
+                  "unit": "cm",
+                  "answer": 9
+                }
+              ],
+              "hints": [
+                "Teorema lui Thales: AM/MB = AN/NC."
+              ],
+              "solution": [
+                "4/12 = 3/NC.",
+                "NC = 12 · 3 : 4 = 9 cm."
+              ],
+              "grade": "Cls. VII",
+              "figure": "<svg viewBox='0 0 260 180'><polygon points='173.1,26 49.9,154 210.1,154' fill='none' stroke='currentColor' stroke-width='1.6'/><line x1='142.3' y1='58' x2='182.3' y2='58' stroke='currentColor' stroke-width='1.4'/><text x='149.1' y='37.7' font-size='10.5' fill='currentColor' text-anchor='middle'>4 cm</text><text x='81.4' y='95.8' font-size='10.5' fill='currentColor' text-anchor='middle'>12 cm</text><text x='189.3' y='42.7' font-size='10.5' fill='currentColor' text-anchor='middle'>3 cm</text><text x='177.3' y='17.7' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='38.9' y='164.9' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='218.8' y='167.6' font-size='12' fill='currentColor' text-anchor='middle'>C</text><text x='129.6' y='64.5' font-size='12' fill='currentColor' text-anchor='middle'>M</text><text x='195.1' y='64.5' font-size='12' fill='currentColor' text-anchor='middle'>N</text></svg>"
+            },
+            {
+              "id": "s2as-05",
+              "kind": "input",
+              "statement": "În triunghiul ABC, punctele M și N se află pe laturile AB, respectiv AC, astfel încât MN ∥ BC. Dacă AM = 15 cm, MB = 10 cm și AC = 30 cm, atunci lungimea segmentului AN este:",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "AN",
+                  "unit": "cm",
+                  "answer": 18
+                }
+              ],
+              "hints": [
+                "Din Thales: AM/AB = AN/AC.",
+                "Calculează întâi AB = AM + MB."
+              ],
+              "solution": [
+                "AB = 15 + 10 = 25 cm.",
+                "AN = AM · AC : AB = 15 · 30 : 25 = 18 cm."
+              ],
+              "grade": "Cls. VII",
+              "figure": "<svg viewBox='0 0 260 180'><polygon points='102.9,26 53.6,154 206.4,154' fill='none' stroke='currentColor' stroke-width='1.6'/><line x1='73.3' y1='102.8' x2='165' y2='102.8' stroke='currentColor' stroke-width='1.4'/><text x='69' y='61' font-size='10.5' fill='currentColor' text-anchor='middle'>15 cm</text><text x='44.4' y='125' font-size='10.5' fill='currentColor' text-anchor='middle'>10 cm</text><text x='100.2' y='17.3' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='42.9' y='165.4' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='217.8' y='164.1' font-size='12' fill='currentColor' text-anchor='middle'>C</text><text x='60.6' y='109.3' font-size='12' fill='currentColor' text-anchor='middle'>M</text><text x='177.7' y='109.3' font-size='12' fill='currentColor' text-anchor='middle'>N</text></svg>"
+            },
+            {
+              "id": "s2as-06",
+              "kind": "input",
+              "statement": "În triunghiul ABC, punctele M și N se află pe laturile AB, respectiv AC, astfel încât MN ∥ BC. Dacă AM = 5 cm, MB = 15 cm și AC = 24 cm, atunci lungimea segmentului AN este:",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "AN",
+                  "unit": "cm",
+                  "answer": 6
+                }
+              ],
+              "hints": [
+                "Din Thales: AM/AB = AN/AC.",
+                "Calculează întâi AB = AM + MB."
+              ],
+              "solution": [
+                "AB = 5 + 15 = 20 cm.",
+                "AN = AM · AC : AB = 5 · 24 : 20 = 6 cm."
+              ],
+              "grade": "Cls. VII",
+              "figure": "<svg viewBox='0 0 260 180'><polygon points='102.9,26 53.6,154 206.4,154' fill='none' stroke='currentColor' stroke-width='1.6'/><line x1='90.6' y1='58' x2='128.8' y2='58' stroke='currentColor' stroke-width='1.4'/><text x='85.5' y='41.7' font-size='10.5' fill='currentColor' text-anchor='middle'>5 cm</text><text x='53' y='102.6' font-size='10.5' fill='currentColor' text-anchor='middle'>15 cm</text><text x='100.2' y='17.3' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='44.5' y='167.3' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='217' y='165.5' font-size='12' fill='currentColor' text-anchor='middle'>C</text><text x='77.8' y='64.5' font-size='12' fill='currentColor' text-anchor='middle'>M</text><text x='141.5' y='64.5' font-size='12' fill='currentColor' text-anchor='middle'>N</text></svg>"
+            },
+            {
+              "id": "s2as-07",
+              "kind": "input",
+              "statement": "În triunghiul ABC, punctele M și N se află pe laturile AB, respectiv AC, astfel încât MN ∥ BC. Dacă AM = 5 cm, MB = 10 cm și AC = 18 cm, atunci lungimea segmentului AN este:",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "AN",
+                  "unit": "cm",
+                  "answer": 6
+                }
+              ],
+              "hints": [
+                "Din Thales: AM/AB = AN/AC.",
+                "Calculează întâi AB = AM + MB."
+              ],
+              "solution": [
+                "AB = 5 + 10 = 15 cm.",
+                "AN = AM · AC : AB = 5 · 18 : 15 = 6 cm."
+              ],
+              "grade": "Cls. VII",
+              "figure": "<svg viewBox='0 0 260 180'><polygon points='102.9,26 53.6,154 206.4,154' fill='none' stroke='currentColor' stroke-width='1.6'/><line x1='86.5' y1='68.7' x2='137.4' y2='68.7' stroke='currentColor' stroke-width='1.4'/><text x='83.5' y='47' font-size='10.5' fill='currentColor' text-anchor='middle'>5 cm</text><text x='50.9' y='108' font-size='10.5' fill='currentColor' text-anchor='middle'>10 cm</text><text x='100.2' y='17.3' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='44.2' y='166.9' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='217.2' y='165.2' font-size='12' fill='currentColor' text-anchor='middle'>C</text><text x='73.7' y='75.2' font-size='12' fill='currentColor' text-anchor='middle'>M</text><text x='150.1' y='75.2' font-size='12' fill='currentColor' text-anchor='middle'>N</text></svg>"
+            },
+            {
+              "id": "s2as-08",
+              "kind": "input",
+              "statement": "În triunghiul ABC, punctele M și N se află pe laturile AB, respectiv AC, astfel încât MN ∥ BC. Dacă AM = 2 cm, AB = 6 cm și BC = 9 cm, atunci lungimea segmentului MN este:",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "MN",
+                  "unit": "cm",
+                  "answer": 3
+                }
+              ],
+              "hints": [
+                "Din MN ∥ BC rezultă că triunghiurile AMN și ABC sunt asemenea, deci AM/AB = MN/BC."
+              ],
+              "solution": [
+                "MN = AM · BC : AB = 2 · 9 : 6 = 3 cm."
+              ],
+              "grade": "Cls. VII",
+              "figure": "<svg viewBox='0 0 260 180'><polygon points='95.3,30 26,150 234,150' fill='none' stroke='currentColor' stroke-width='1.6'/><line x1='72.2' y1='70' x2='141.6' y2='70' stroke='currentColor' stroke-width='1.4'/><text x='73.4' y='48' font-size='10.5' fill='currentColor' text-anchor='middle'>2 cm</text><text x='130' y='166' font-size='10.5' fill='currentColor' text-anchor='middle'>9 cm</text><text x='91.7' y='21.5' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='15' y='161' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='245.8' y='159.5' font-size='12' fill='currentColor' text-anchor='middle'>C</text><text x='59.5' y='76.5' font-size='12' fill='currentColor' text-anchor='middle'>M</text><text x='154.3' y='76.5' font-size='12' fill='currentColor' text-anchor='middle'>N</text></svg>"
+            },
+            {
+              "id": "s2as-09",
+              "kind": "input",
+              "statement": "În triunghiul ABC, punctele M și N se află pe laturile AB, respectiv AC, astfel încât MN ∥ BC. Dacă AM = 8 cm, AB = 10 cm și BC = 15 cm, atunci lungimea segmentului MN este:",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "MN",
+                  "unit": "cm",
+                  "answer": 12
+                }
+              ],
+              "hints": [
+                "Din MN ∥ BC rezultă că triunghiurile AMN și ABC sunt asemenea, deci AM/AB = MN/BC."
+              ],
+              "solution": [
+                "MN = AM · BC : AB = 8 · 15 : 10 = 12 cm."
+              ],
+              "grade": "Cls. VII",
+              "figure": "<svg viewBox='0 0 260 180'><polygon points='95.3,30 26,150 234,150' fill='none' stroke='currentColor' stroke-width='1.6'/><line x1='39.9' y1='126' x2='206.3' y2='126' stroke='currentColor' stroke-width='1.4'/><text x='57.2' y='76' font-size='10.5' fill='currentColor' text-anchor='middle'>8 cm</text><text x='130' y='166' font-size='10.5' fill='currentColor' text-anchor='middle'>15 cm</text><text x='91.7' y='21.5' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='13.8' y='158.4' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='246.5' y='157.7' font-size='12' fill='currentColor' text-anchor='middle'>C</text><text x='27.1' y='132.6' font-size='12' fill='currentColor' text-anchor='middle'>M</text><text x='219' y='132.6' font-size='12' fill='currentColor' text-anchor='middle'>N</text></svg>"
+            },
+            {
+              "id": "s2as-10",
+              "kind": "input",
+              "statement": "În triunghiul ABC, punctele M și N se află pe laturile AB, respectiv AC, astfel încât MN ∥ BC. Dacă AM = 8 cm, AB = 12 cm și BC = 9 cm, atunci lungimea segmentului MN este:",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "MN",
+                  "unit": "cm",
+                  "answer": 6
+                }
+              ],
+              "hints": [
+                "Din MN ∥ BC rezultă că triunghiurile AMN și ABC sunt asemenea, deci AM/AB = MN/BC."
+              ],
+              "solution": [
+                "MN = AM · BC : AB = 8 · 9 : 12 = 6 cm."
+              ],
+              "grade": "Cls. VII",
+              "figure": "<svg viewBox='0 0 260 180'><polygon points='148.5,26 74.6,154 185.4,154' fill='none' stroke='currentColor' stroke-width='1.6'/><line x1='99.2' y1='111.3' x2='173.1' y2='111.3' stroke='currentColor' stroke-width='1.4'/><text x='113.4' y='66.7' font-size='10.5' fill='currentColor' text-anchor='middle'>8 cm</text><text x='130' y='170' font-size='10.5' fill='currentColor' text-anchor='middle'>9 cm</text><text x='150.3' y='17.1' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='63.9' y='165.4' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='195.3' y='166.5' font-size='12' fill='currentColor' text-anchor='middle'>C</text><text x='86.5' y='117.9' font-size='12' fill='currentColor' text-anchor='middle'>M</text><text x='185.9' y='117.9' font-size='12' fill='currentColor' text-anchor='middle'>N</text></svg>"
+            },
+            {
+              "id": "s2as-11",
+              "kind": "input",
+              "statement": "În triunghiul ABC, punctele M și N se află pe laturile AB, respectiv AC, astfel încât MN ∥ BC. Dacă AM = 4 cm, AB = 12 cm și BC = 15 cm, atunci lungimea segmentului MN este:",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "MN",
+                  "unit": "cm",
+                  "answer": 5
+                }
+              ],
+              "hints": [
+                "Din MN ∥ BC rezultă că triunghiurile AMN și ABC sunt asemenea, deci AM/AB = MN/BC."
+              ],
+              "solution": [
+                "MN = AM · BC : AB = 4 · 15 : 12 = 5 cm."
+              ],
+              "grade": "Cls. VII",
+              "figure": "<svg viewBox='0 0 260 180'><polygon points='111.5,26 37.6,154 222.4,154' fill='none' stroke='currentColor' stroke-width='1.6'/><line x1='86.9' y1='68.7' x2='148.5' y2='68.7' stroke='currentColor' stroke-width='1.4'/><text x='88.8' y='45.3' font-size='10.5' fill='currentColor' text-anchor='middle'>4 cm</text><text x='130' y='170' font-size='10.5' fill='currentColor' text-anchor='middle'>15 cm</text><text x='109.7' y='17.1' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='27' y='165.5' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='233.6' y='164.6' font-size='12' fill='currentColor' text-anchor='middle'>C</text><text x='74.1' y='75.2' font-size='12' fill='currentColor' text-anchor='middle'>M</text><text x='161.2' y='75.2' font-size='12' fill='currentColor' text-anchor='middle'>N</text></svg>"
+            },
+            {
+              "id": "s2as-12",
+              "kind": "input",
+              "statement": "În triunghiul ABC, M și N sunt mijloacele laturilor AB și AC. Dacă BC = 12 cm, atunci lungimea segmentului MN este:",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "MN",
+                  "unit": "cm",
+                  "answer": 6
+                }
+              ],
+              "hints": [
+                "Segmentul care unește mijloacele a două laturi este linie mijlocie: este paralel cu a treia latură și egal cu jumătate din ea."
+              ],
+              "solution": [
+                "MN = BC : 2 = 12 : 2 = 6 cm."
+              ],
+              "grade": "Cls. VII",
+              "figure": "<svg viewBox='0 0 260 180'><polygon points='145.9,26 36.4,154 223.6,154' fill='none' stroke='currentColor' stroke-width='1.6'/><line x1='91.2' y1='90' x2='184.7' y2='90' stroke='currentColor' stroke-width='1.4'/><text x='130' y='170' font-size='10.5' fill='currentColor' text-anchor='middle'>12 cm</text><text x='147.5' y='17.1' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='24.9' y='163.9' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='234.8' y='164.6' font-size='12' fill='currentColor' text-anchor='middle'>C</text><text x='78.4' y='96.5' font-size='12' fill='currentColor' text-anchor='middle'>M</text><text x='197.5' y='96.5' font-size='12' fill='currentColor' text-anchor='middle'>N</text></svg>"
+            },
+            {
+              "id": "s2as-13",
+              "kind": "input",
+              "statement": "În triunghiul ABC, M și N sunt mijloacele laturilor AB și AC, iar MN = 9 cm. Lungimea laturii BC este:",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "BC",
+                  "unit": "cm",
+                  "answer": 18
+                }
+              ],
+              "hints": [
+                "Linia mijlocie este jumătate din latura cu care este paralelă."
+              ],
+              "solution": [
+                "BC = 2 · MN = 2 · 9 = 18 cm."
+              ],
+              "grade": "Cls. VII",
+              "figure": "<svg viewBox='0 0 260 180'><polygon points='145.9,26 36.4,154 223.6,154' fill='none' stroke='currentColor' stroke-width='1.6'/><line x1='91.2' y1='90' x2='184.7' y2='90' stroke='currentColor' stroke-width='1.4'/><text x='138' y='82' font-size='10.5' fill='currentColor' text-anchor='middle'>9 cm</text><text x='147.5' y='17.1' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='24.9' y='163.9' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='234.8' y='164.6' font-size='12' fill='currentColor' text-anchor='middle'>C</text><text x='78.4' y='96.5' font-size='12' fill='currentColor' text-anchor='middle'>M</text><text x='197.5' y='96.5' font-size='12' fill='currentColor' text-anchor='middle'>N</text></svg>"
+            },
+            {
+              "id": "s2as-14",
+              "kind": "input",
+              "statement": "Triunghiurile ABC și DEF sunt asemenea, cu AB = 6 cm și DE = 12 cm (AB și DE sunt laturi omoloage). Dacă perimetrul triunghiului ABC este 24 cm, atunci perimetrul triunghiului DEF este:",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Perimetrul",
+                  "unit": "cm",
+                  "answer": 48
+                }
+              ],
+              "hints": [
+                "Raportul perimetrelor este egal cu raportul de asemănare."
+              ],
+              "solution": [
+                "Raportul de asemănare este DE/AB = 12/6 = 2.",
+                "P(DEF) = 2 · 24 = 48 cm."
+              ],
+              "grade": "Cls. VII"
+            },
+            {
+              "id": "s2as-15",
+              "kind": "input",
+              "statement": "Triunghiurile ABC și DEF sunt asemenea, cu AB = 3 cm și DE = 9 cm (AB și DE sunt laturi omoloage). Dacă perimetrul triunghiului ABC este 18 cm, atunci perimetrul triunghiului DEF este:",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "Perimetrul",
+                  "unit": "cm",
+                  "answer": 54
+                }
+              ],
+              "hints": [
+                "Raportul perimetrelor este egal cu raportul de asemănare."
+              ],
+              "solution": [
+                "Raportul de asemănare este DE/AB = 9/3 = 3.",
+                "P(DEF) = 3 · 18 = 54 cm."
+              ],
+              "grade": "Cls. VII"
+            },
+            {
+              "id": "s2as-16",
+              "kind": "mc",
+              "statement": "Triunghiurile ABC și DEF sunt asemenea, cu raportul de asemănare AB/DE = 2. Dacă aria triunghiului DEF este 8 cm², atunci aria triunghiului ABC este:",
+              "options": [
+                "16 cm²",
+                "64 cm²",
+                "10 cm²",
+                "32 cm²"
+              ],
+              "answer": 3,
+              "hints": [
+                "Raportul ariilor a două triunghiuri asemenea este pătratul raportului de asemănare.",
+                "Capcană: ariile <b>nu</b> se înmulțesc cu raportul de asemănare k, ci cu k²."
+              ],
+              "solution": [
+                "Raportul ariilor = 2² = 4.",
+                "Aria ABC = 4 · 8 = 32 cm²."
+              ],
+              "grade": "Cls. VII"
+            },
+            {
+              "id": "s2as-17",
+              "kind": "mc",
+              "statement": "Triunghiurile ABC și DEF sunt asemenea, cu raportul de asemănare AB/DE = 3. Dacă aria triunghiului DEF este 10 cm², atunci aria triunghiului ABC este:",
+              "options": [
+                "13 cm²",
+                "30 cm²",
+                "60 cm²",
+                "90 cm²"
+              ],
+              "answer": 3,
+              "hints": [
+                "Raportul ariilor a două triunghiuri asemenea este pătratul raportului de asemănare.",
+                "Capcană: ariile <b>nu</b> se înmulțesc cu raportul de asemănare k, ci cu k²."
+              ],
+              "solution": [
+                "Raportul ariilor = 3² = 9.",
+                "Aria ABC = 9 · 10 = 90 cm²."
+              ],
+              "grade": "Cls. VII"
+            },
+            {
+              "id": "s2as-18",
+              "kind": "input",
+              "statement": "Trapezul ABCD are bazele AB = 10 cm și CD = 5 cm, iar diagonalele AC și BD se intersectează în punctul O. Dacă OC = 3 cm, atunci lungimea segmentului AO este:",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "AO",
+                  "unit": "cm",
+                  "answer": 6
+                }
+              ],
+              "hints": [
+                "Triunghiurile OAB și OCD sunt asemenea (AB ∥ CD), deci AO/OC = AB/CD."
+              ],
+              "solution": [
+                "AO/OC = AB/CD = 10/5.",
+                "AO = OC · AB : CD = 3 · 10 : 5 = 6 cm."
+              ],
+              "grade": "Cls. VII",
+              "figure": "<svg viewBox='0 0 260 180'><polygon points='26,141.7 234,141.7 182,38.3 78,38.3' fill='none' stroke='currentColor' stroke-width='1.6'/><line x1='26' y1='141.7' x2='182' y2='38.3' stroke='currentColor' stroke-width='1.4'/><line x1='234' y1='141.7' x2='78' y2='38.3' stroke='currentColor' stroke-width='1.4'/><text x='130' y='157.7' font-size='10.5' fill='currentColor' text-anchor='middle'>10 cm</text><text x='130' y='30.3' font-size='10.5' fill='currentColor' text-anchor='middle'>5 cm</text><text x='143' y='76.8' font-size='12' fill='currentColor' text-anchor='middle'>O</text><text x='14.5' y='151.8' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='245.5' y='151.8' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='191.5' y='33.4' font-size='12' fill='currentColor' text-anchor='middle'>C</text><text x='68.5' y='33.4' font-size='12' fill='currentColor' text-anchor='middle'>D</text></svg>"
+            },
+            {
+              "id": "s2as-19",
+              "kind": "input",
+              "statement": "Trapezul ABCD are bazele AB = 9 cm și CD = 6 cm, iar diagonalele AC și BD se intersectează în punctul O. Dacă OC = 4 cm, atunci lungimea segmentului AO este:",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "AO",
+                  "unit": "cm",
+                  "answer": 6
+                }
+              ],
+              "hints": [
+                "Triunghiurile OAB și OCD sunt asemenea (AB ∥ CD), deci AO/OC = AB/CD."
+              ],
+              "solution": [
+                "AO/OC = AB/CD = 9/6.",
+                "AO = OC · AB : CD = 4 · 9 : 6 = 6 cm."
+              ],
+              "grade": "Cls. VII",
+              "figure": "<svg viewBox='0 0 260 180'><polygon points='42.9,154 217.1,154 188.1,26 71.9,26' fill='none' stroke='currentColor' stroke-width='1.6'/><line x1='42.9' y1='154' x2='188.1' y2='26' stroke='currentColor' stroke-width='1.4'/><line x1='217.1' y1='154' x2='71.9' y2='26' stroke='currentColor' stroke-width='1.4'/><text x='130' y='170' font-size='10.5' fill='currentColor' text-anchor='middle'>9 cm</text><text x='130' y='18' font-size='10.5' fill='currentColor' text-anchor='middle'>6 cm</text><text x='143' y='81.2' font-size='12' fill='currentColor' text-anchor='middle'>O</text><text x='32.6' y='165.9' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='227.4' y='165.9' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='197' y='20.6' font-size='12' fill='currentColor' text-anchor='middle'>C</text><text x='63' y='20.6' font-size='12' fill='currentColor' text-anchor='middle'>D</text></svg>"
+            },
+            {
+              "id": "s2as-20",
+              "kind": "input",
+              "statement": "În triunghiul ABC, M ∈ AB și N ∈ AC, cu AM = 3 cm, MB = 6 cm și AN = 2 cm. Ce lungime trebuie să aibă segmentul NC pentru ca dreptele MN și BC să fie paralele?",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "NC",
+                  "unit": "cm",
+                  "answer": 4
+                }
+              ],
+              "hints": [
+                "Reciproca teoremei lui Thales: dacă AM/MB = AN/NC, atunci MN ∥ BC."
+              ],
+              "solution": [
+                "AM/MB = AN/NC ⟹ 3/6 = 2/NC.",
+                "NC = 6 · 2 : 3 = 4 cm."
+              ],
+              "grade": "Cls. VII",
+              "figure": "<svg viewBox='0 0 260 180'><polygon points='191.6,26 43.8,154 216.2,154' fill='none' stroke='currentColor' stroke-width='1.6'/><line x1='142.3' y1='68.7' x2='199.8' y2='68.7' stroke='currentColor' stroke-width='1.4'/><text x='159.1' y='42.3' font-size='10.5' fill='currentColor' text-anchor='middle'>3 cm</text><text x='85.2' y='106.3' font-size='10.5' fill='currentColor' text-anchor='middle'>6 cm</text><text x='207.5' y='49.1' font-size='10.5' fill='currentColor' text-anchor='middle'>2 cm</text><text x='197.2' y='18.3' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='32.2' y='164' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='225.2' y='167.4' font-size='12' fill='currentColor' text-anchor='middle'>C</text><text x='129.6' y='75.2' font-size='12' fill='currentColor' text-anchor='middle'>M</text><text x='212.5' y='75.2' font-size='12' fill='currentColor' text-anchor='middle'>N</text></svg>"
+            }
+          ]
+        },
+        {
+          "id": "s2-trigonometrie",
+          "icon": "angle",
+          "title": "Trigonometrie în triunghiul dreptunghic",
+          "subtitle": "sin, cos, tg, ctg și valorile pentru 30°, 45°, 60°",
+          "theory": [
+            "În triunghiul ABC dreptunghic în A: sin B = cateta opusă / ipotenuză = AC/BC; cos B = cateta alăturată / ipotenuză = AB/BC.",
+            "tg B = cateta opusă / cateta alăturată = AC/AB; ctg B = cateta alăturată / cateta opusă = AB/AC.",
+            "sin 30° = cos 60° = 1/2; sin 45° = cos 45° = √2/2; sin 60° = cos 30° = √3/2.",
+            "tg 30° = √3/3, tg 45° = 1, tg 60° = √3; ctg x = 1 / tg x.",
+            "Dacă m(∠B) + m(∠C) = 90°, atunci sin B = cos C și tg B = ctg C."
+          ],
+          "problems": [
+            {
+              "id": "s2tr-01",
+              "kind": "mc",
+              "statement": "Triunghiul ABC este dreptunghic în A, cu AB = 12 cm, AC = 5 cm și BC = 13 cm. Valoarea lui sin B este:",
+              "options": [
+                "5/12",
+                "12/13",
+                "5/13",
+                "12/5"
+              ],
+              "answer": 2,
+              "hints": [
+                "sin B = cateta opusă / ipotenuză = AC/BC."
+              ],
+              "solution": [
+                "sin B = AC/BC = 5/13."
+              ],
+              "grade": "Cls. VII",
+              "figure": "<svg viewBox='0 0 260 180'><polygon points='103.3,154 103.3,26 156.7,154' fill='none' stroke='currentColor' stroke-width='1.6'/><path d='M103.3,146 L111.3,146 L111.3,154' fill='none' stroke='currentColor' stroke-width='1'/><text x='82.8' y='94' font-size='10.5' fill='currentColor' text-anchor='middle'>12 cm</text><text x='130' y='170' font-size='10.5' fill='currentColor' text-anchor='middle'>5 cm</text><text x='98.3' y='170' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='100.7' y='17.3' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='165' y='168' font-size='12' fill='currentColor' text-anchor='middle'>C</text></svg>"
+            },
+            {
+              "id": "s2tr-02",
+              "kind": "mc",
+              "statement": "Triunghiul ABC este dreptunghic în A, cu AB = 8 cm, AC = 15 cm și BC = 17 cm. Valoarea lui cos B este:",
+              "options": [
+                "8/15",
+                "15/17",
+                "15/8",
+                "8/17"
+              ],
+              "answer": 3,
+              "hints": [
+                "cos B = cateta alăturată / ipotenuză = AB/BC."
+              ],
+              "solution": [
+                "cos B = AB/BC = 8/17."
+              ],
+              "grade": "Cls. VII",
+              "figure": "<svg viewBox='0 0 260 180'><polygon points='26,145.5 26,34.5 234,145.5' fill='none' stroke='currentColor' stroke-width='1.6'/><path d='M26,137.5 L34,137.5 L34,145.5' fill='none' stroke='currentColor' stroke-width='1'/><text x='14' y='94' font-size='10.5' fill='currentColor' text-anchor='middle'>8 cm</text><text x='130' y='161.5' font-size='10.5' fill='currentColor' text-anchor='middle'>15 cm</text><text x='14.5' y='155.6' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='17.1' y='29' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='246.6' y='152.8' font-size='12' fill='currentColor' text-anchor='middle'>C</text></svg>"
+            },
+            {
+              "id": "s2tr-03",
+              "kind": "mc",
+              "statement": "Triunghiul ABC este dreptunghic în A, cu AB = 3 cm, AC = 4 cm și BC = 5 cm. Valoarea lui tg B este:",
+              "options": [
+                "3/4",
+                "4/5",
+                "4/3",
+                "3/5"
+              ],
+              "answer": 2,
+              "hints": [
+                "tg B = cateta opusă / cateta alăturată = AC/AB."
+              ],
+              "solution": [
+                "tg B = AC/AB = 4/3."
+              ],
+              "grade": "Cls. VII",
+              "figure": "<svg viewBox='0 0 260 180'><polygon points='44.7,154 44.7,26 215.3,154' fill='none' stroke='currentColor' stroke-width='1.6'/><path d='M44.7,146 L52.7,146 L52.7,154' fill='none' stroke='currentColor' stroke-width='1'/><text x='32.7' y='94' font-size='10.5' fill='currentColor' text-anchor='middle'>3 cm</text><text x='130' y='170' font-size='10.5' fill='currentColor' text-anchor='middle'>4 cm</text><text x='34.3' y='165.8' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='37.5' y='19.2' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='227.5' y='162.6' font-size='12' fill='currentColor' text-anchor='middle'>C</text></svg>"
+            },
+            {
+              "id": "s2tr-04",
+              "kind": "mc",
+              "statement": "Triunghiul ABC este dreptunghic în A, cu AB = 7 cm, AC = 24 cm și BC = 25 cm. Valoarea lui ctg B este:",
+              "options": [
+                "24/25",
+                "7/24",
+                "7/25",
+                "24/7"
+              ],
+              "answer": 1,
+              "hints": [
+                "ctg B = cateta alăturată / cateta opusă = AB/AC."
+              ],
+              "solution": [
+                "ctg B = AB/AC = 7/24."
+              ],
+              "grade": "Cls. VII",
+              "figure": "<svg viewBox='0 0 260 180'><polygon points='26,120.3 26,59.7 234,120.3' fill='none' stroke='currentColor' stroke-width='1.6'/><path d='M26,112.3 L34,112.3 L34,120.3' fill='none' stroke='currentColor' stroke-width='1'/><text x='14' y='94' font-size='10.5' fill='currentColor' text-anchor='middle'>7 cm</text><text x='130' y='136.3' font-size='10.5' fill='currentColor' text-anchor='middle'>24 cm</text><text x='13.5' y='128' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='14.8' y='57.1' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='246.9' y='126.2' font-size='12' fill='currentColor' text-anchor='middle'>C</text></svg>"
+            },
+            {
+              "id": "s2tr-05",
+              "kind": "mc",
+              "statement": "Triunghiul ABC este dreptunghic în A, cu AB = 33 cm, AC = 56 cm și BC = 65 cm. Valoarea lui sin C este:",
+              "options": [
+                "56/65",
+                "33/65",
+                "56/33",
+                "33/56"
+              ],
+              "answer": 1,
+              "hints": [
+                "sin C = cateta opusă / ipotenuză = AB/BC."
+              ],
+              "solution": [
+                "sin C = AB/BC = 33/65."
+              ],
+              "grade": "Cls. VII",
+              "figure": "<svg viewBox='0 0 260 180'><polygon points='26,151.3 26,28.7 234,151.3' fill='none' stroke='currentColor' stroke-width='1.6'/><path d='M26,143.3 L34,143.3 L34,151.3' fill='none' stroke='currentColor' stroke-width='1'/><text x='5.5' y='94' font-size='10.5' fill='currentColor' text-anchor='middle'>33 cm</text><text x='130' y='167.3' font-size='10.5' fill='currentColor' text-anchor='middle'>56 cm</text><text x='14.8' y='161.9' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='17.6' y='22.8' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='246.5' y='159' font-size='12' fill='currentColor' text-anchor='middle'>C</text></svg>"
+            },
+            {
+              "id": "s2tr-06",
+              "kind": "mc",
+              "statement": "Triunghiul ABC este dreptunghic în A, cu AB = 21 cm, AC = 20 cm și BC = 29 cm. Valoarea lui cos C este:",
+              "options": [
+                "21/29",
+                "20/21",
+                "20/29",
+                "21/20"
+              ],
+              "answer": 2,
+              "hints": [
+                "cos C = cateta alăturată / ipotenuză = AC/BC."
+              ],
+              "solution": [
+                "cos C = AC/BC = 20/29."
+              ],
+              "grade": "Cls. VII",
+              "figure": "<svg viewBox='0 0 260 180'><polygon points='69,154 69,26 191,154' fill='none' stroke='currentColor' stroke-width='1.6'/><path d='M69,146 L77,146 L77,154' fill='none' stroke='currentColor' stroke-width='1'/><text x='48.5' y='94' font-size='10.5' fill='currentColor' text-anchor='middle'>21 cm</text><text x='130' y='170' font-size='10.5' fill='currentColor' text-anchor='middle'>20 cm</text><text x='60.1' y='167.4' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='63.5' y='18.3' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='202.5' y='164' font-size='12' fill='currentColor' text-anchor='middle'>C</text></svg>"
+            },
+            {
+              "id": "s2tr-07",
+              "kind": "mc",
+              "statement": "Triunghiul ABC este dreptunghic în A, cu AB = 28 cm, AC = 45 cm și BC = 53 cm. Valoarea lui tg C este:",
+              "options": [
+                "28/53",
+                "45/28",
+                "28/45",
+                "45/53"
+              ],
+              "answer": 2,
+              "hints": [
+                "tg C = cateta opusă / cateta alăturată = AB/AC."
+              ],
+              "solution": [
+                "tg C = AB/AC = 28/45."
+              ],
+              "grade": "Cls. VII",
+              "figure": "<svg viewBox='0 0 260 180'><polygon points='27.1,154 27.1,26 232.9,154' fill='none' stroke='currentColor' stroke-width='1.6'/><path d='M27.1,146 L35.1,146 L35.1,154' fill='none' stroke='currentColor' stroke-width='1'/><text x='6.6' y='94' font-size='10.5' fill='currentColor' text-anchor='middle'>28 cm</text><text x='130' y='170' font-size='10.5' fill='currentColor' text-anchor='middle'>45 cm</text><text x='16.1' y='164.9' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='19' y='19.9' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='245.3' y='161.9' font-size='12' fill='currentColor' text-anchor='middle'>C</text></svg>"
+            },
+            {
+              "id": "s2tr-08",
+              "kind": "mc",
+              "statement": "Triunghiul ABC este dreptunghic în A, cu AB = 48 cm, AC = 55 cm și BC = 73 cm. Valoarea lui ctg C este:",
+              "options": [
+                "48/55",
+                "48/73",
+                "55/73",
+                "55/48"
+              ],
+              "answer": 3,
+              "hints": [
+                "ctg C = cateta alăturată / cateta opusă = AC/AB."
+              ],
+              "solution": [
+                "ctg C = AC/AB = 55/48."
+              ],
+              "grade": "Cls. VII",
+              "figure": "<svg viewBox='0 0 260 180'><polygon points='56.7,154 56.7,26 203.3,154' fill='none' stroke='currentColor' stroke-width='1.6'/><path d='M56.7,146 L64.7,146 L64.7,154' fill='none' stroke='currentColor' stroke-width='1'/><text x='36.2' y='94' font-size='10.5' fill='currentColor' text-anchor='middle'>48 cm</text><text x='130' y='170' font-size='10.5' fill='currentColor' text-anchor='middle'>55 cm</text><text x='46.9' y='166.5' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='50.2' y='18.7' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='215.2' y='163.2' font-size='12' fill='currentColor' text-anchor='middle'>C</text></svg>"
+            },
+            {
+              "id": "s2tr-09",
+              "kind": "mc",
+              "statement": "Valoarea expresiei sin 30° + cos 60° este:",
+              "options": [
+                "1/2",
+                "1",
+                "√3",
+                "2"
+              ],
+              "answer": 1,
+              "hints": [
+                "sin 30° = 1/2 și cos 60° = 1/2."
+              ],
+              "solution": [
+                "sin 30° + cos 60° = 1/2 + 1/2 = 1."
+              ],
+              "grade": "Cls. VII"
+            },
+            {
+              "id": "s2tr-10",
+              "kind": "mc",
+              "statement": "Valoarea expresiei tg 45° + ctg 45° este:",
+              "options": [
+                "√2",
+                "1",
+                "2",
+                "0"
+              ],
+              "answer": 2,
+              "hints": [
+                "tg 45° = ctg 45° = 1."
+              ],
+              "solution": [
+                "tg 45° + ctg 45° = 1 + 1 = 2."
+              ],
+              "grade": "Cls. VII"
+            },
+            {
+              "id": "s2tr-11",
+              "kind": "mc",
+              "statement": "Valoarea expresiei sin 60° · cos 30° este:",
+              "options": [
+                "3/2",
+                "1/2",
+                "3/4",
+                "√3/2"
+              ],
+              "answer": 2,
+              "hints": [
+                "sin 60° = cos 30° = √3/2."
+              ],
+              "solution": [
+                "sin 60° · cos 30° = √3/2 · √3/2 = 3/4."
+              ],
+              "grade": "Cls. VII"
+            },
+            {
+              "id": "s2tr-12",
+              "kind": "mc",
+              "statement": "Valoarea expresiei tg 60° · tg 30° este:",
+              "options": [
+                "1/3",
+                "3",
+                "1",
+                "√3"
+              ],
+              "answer": 2,
+              "hints": [
+                "tg 60° = √3 și tg 30° = √3/3."
+              ],
+              "solution": [
+                "tg 60° · tg 30° = √3 · √3/3 = 3/3 = 1."
+              ],
+              "grade": "Cls. VII"
+            },
+            {
+              "id": "s2tr-13",
+              "kind": "input",
+              "statement": "Triunghiul ABC este dreptunghic în A, cu m(∠B) = 30° și BC = 16 cm. Lungimea catetei AC este:",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "AC",
+                  "unit": "cm",
+                  "answer": 8
+                }
+              ],
+              "hints": [
+                "Cateta opusă unghiului de 30° este jumătate din ipotenuză (sin 30° = 1/2)."
+              ],
+              "solution": [
+                "AC = BC · sin 30° = 16 · 1/2 = 8 cm."
+              ],
+              "grade": "Cls. VII",
+              "figure": "<svg viewBox='0 0 260 180'><polygon points='93,154 93,26 167,154' fill='none' stroke='currentColor' stroke-width='1.6'/><path d='M93,146 L101,146 L101,154' fill='none' stroke='currentColor' stroke-width='1'/><path d='M100.5,39 A15,15 0 0 1 93,41' fill='none' stroke='currentColor' stroke-width='1'/><text x='100.6' y='58' font-size='10.5' fill='currentColor' text-anchor='middle'>30°</text><text x='147.8' y='83.8' font-size='10.5' fill='currentColor' text-anchor='middle'>16 cm</text><text x='86.5' y='169.3' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='89.4' y='17.5' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='176.8' y='166.5' font-size='12' fill='currentColor' text-anchor='middle'>C</text></svg>"
+            },
+            {
+              "id": "s2tr-14",
+              "kind": "input",
+              "statement": "Triunghiul ABC este dreptunghic în A, cu m(∠B) = 30° și BC = 18 cm. Lungimea catetei AC este:",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "AC",
+                  "unit": "cm",
+                  "answer": 9
+                }
+              ],
+              "hints": [
+                "Cateta opusă unghiului de 30° este jumătate din ipotenuză (sin 30° = 1/2)."
+              ],
+              "solution": [
+                "AC = BC · sin 30° = 18 · 1/2 = 9 cm."
+              ],
+              "grade": "Cls. VII",
+              "figure": "<svg viewBox='0 0 260 180'><polygon points='93,154 93,26 167,154' fill='none' stroke='currentColor' stroke-width='1.6'/><path d='M93,146 L101,146 L101,154' fill='none' stroke='currentColor' stroke-width='1'/><path d='M100.5,39 A15,15 0 0 1 93,41' fill='none' stroke='currentColor' stroke-width='1'/><text x='100.6' y='58' font-size='10.5' fill='currentColor' text-anchor='middle'>30°</text><text x='147.8' y='83.8' font-size='10.5' fill='currentColor' text-anchor='middle'>18 cm</text><text x='86.5' y='169.3' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='89.4' y='17.5' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='176.8' y='166.5' font-size='12' fill='currentColor' text-anchor='middle'>C</text></svg>"
+            },
+            {
+              "id": "s2tr-15",
+              "kind": "input",
+              "statement": "Triunghiul ABC este dreptunghic în A, cu m(∠B) = 60° și AB = 5 cm. Lungimea ipotenuzei BC este:",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "BC",
+                  "unit": "cm",
+                  "answer": 10
+                }
+              ],
+              "hints": [
+                "cos 60° = AB/BC = 1/2."
+              ],
+              "solution": [
+                "BC = AB : cos 60° = 5 : (1/2) = 10 cm."
+              ],
+              "grade": "Cls. VII",
+              "figure": "<svg viewBox='0 0 260 180'><polygon points='26,150 26,30 234,150' fill='none' stroke='currentColor' stroke-width='1.6'/><path d='M26,142 L34,142 L34,150' fill='none' stroke='currentColor' stroke-width='1'/><path d='M39,37.5 A15,15 0 0 1 26,45' fill='none' stroke='currentColor' stroke-width='1'/><text x='40.5' y='59.1' font-size='10.5' fill='currentColor' text-anchor='middle'>60°</text><text x='14' y='94' font-size='10.5' fill='currentColor' text-anchor='middle'>5 cm</text><text x='14.7' y='160.5' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='17.5' y='24.1' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='246.5' y='157.6' font-size='12' fill='currentColor' text-anchor='middle'>C</text></svg>"
+            },
+            {
+              "id": "s2tr-16",
+              "kind": "mc",
+              "statement": "Triunghiul ABC este dreptunghic în A, cu m(∠B) = 45° și AB = 8 cm. Lungimea ipotenuzei BC este:",
+              "options": [
+                "8√2 cm",
+                "8√3 cm",
+                "16 cm",
+                "8 cm"
+              ],
+              "answer": 0,
+              "hints": [
+                "Cu un unghi de 45°, triunghiul dreptunghic este isoscel: AC = AB.",
+                "Ipotenuza = cateta · √2."
+              ],
+              "solution": [
+                "AC = AB = 8 cm, deci BC = 8√2 cm."
+              ],
+              "grade": "Cls. VII",
+              "figure": "<svg viewBox='0 0 260 180'><polygon points='66,154 66,26 194,154' fill='none' stroke='currentColor' stroke-width='1.6'/><path d='M66,146 L74,146 L74,154' fill='none' stroke='currentColor' stroke-width='1'/><path d='M76.6,36.6 A15,15 0 0 1 66,41' fill='none' stroke='currentColor' stroke-width='1'/><text x='77.1' y='56.8' font-size='10.5' fill='currentColor' text-anchor='middle'>45°</text><text x='54' y='94' font-size='10.5' fill='currentColor' text-anchor='middle'>8 cm</text><text x='56.8' y='167.2' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='60.2' y='18.4' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='205.6' y='163.8' font-size='12' fill='currentColor' text-anchor='middle'>C</text></svg>"
+            },
+            {
+              "id": "s2tr-17",
+              "kind": "input",
+              "statement": "Triunghiul ABC este dreptunghic în A, cu AB = 6 cm și tg B = 1/2. Lungimea catetei AC este:",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "AC",
+                  "unit": "cm",
+                  "answer": 3
+                }
+              ],
+              "hints": [
+                "tg B = cateta opusă / cateta alăturată = AC/AB."
+              ],
+              "solution": [
+                "AC = AB · tg B = 6 · 1/2 = 3 cm."
+              ],
+              "grade": "Cls. VII",
+              "figure": "<svg viewBox='0 0 260 180'><polygon points='98,154 98,26 162,154' fill='none' stroke='currentColor' stroke-width='1.6'/><path d='M98,146 L106,146 L106,154' fill='none' stroke='currentColor' stroke-width='1'/><text x='86' y='94' font-size='10.5' fill='currentColor' text-anchor='middle'>6 cm</text><text x='92.2' y='169.6' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='94.8' y='17.4' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='171.2' y='167.2' font-size='12' fill='currentColor' text-anchor='middle'>C</text></svg>"
+            },
+            {
+              "id": "s2tr-18",
+              "kind": "input",
+              "statement": "Triunghiul ABC este dreptunghic în A, cu AB = 12 cm și tg B = 1/3. Lungimea catetei AC este:",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "AC",
+                  "unit": "cm",
+                  "answer": 4
+                }
+              ],
+              "hints": [
+                "tg B = cateta opusă / cateta alăturată = AC/AB."
+              ],
+              "solution": [
+                "AC = AB · tg B = 12 · 1/3 = 4 cm."
+              ],
+              "grade": "Cls. VII",
+              "figure": "<svg viewBox='0 0 260 180'><polygon points='108.7,154 108.7,26 151.3,154' fill='none' stroke='currentColor' stroke-width='1.6'/><path d='M108.7,146 L116.7,146 L116.7,154' fill='none' stroke='currentColor' stroke-width='1'/><text x='88.2' y='94' font-size='10.5' fill='currentColor' text-anchor='middle'>12 cm</text><text x='104.6' y='170.3' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='106.5' y='17.2' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='158.5' y='168.8' font-size='12' fill='currentColor' text-anchor='middle'>C</text></svg>"
+            },
+            {
+              "id": "s2tr-19",
+              "kind": "input",
+              "statement": "Triunghiul ABC este dreptunghic în A, cu AB = 12 cm și tg B = 3/4. Lungimea catetei AC este:",
+              "inputs": [
+                {
+                  "key": "x",
+                  "label": "AC",
+                  "unit": "cm",
+                  "answer": 9
+                }
+              ],
+              "hints": [
+                "tg B = cateta opusă / cateta alăturată = AC/AB."
+              ],
+              "solution": [
+                "AC = AB · tg B = 12 · 3/4 = 9 cm."
+              ],
+              "grade": "Cls. VII",
+              "figure": "<svg viewBox='0 0 260 180'><polygon points='82,154 82,26 178,154' fill='none' stroke='currentColor' stroke-width='1.6'/><path d='M82,146 L90,146 L90,154' fill='none' stroke='currentColor' stroke-width='1'/><text x='61.5' y='94' font-size='10.5' fill='currentColor' text-anchor='middle'>12 cm</text><text x='74.2' y='168.4' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='77.4' y='17.8' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='188.8' y='165.2' font-size='12' fill='currentColor' text-anchor='middle'>C</text></svg>"
             }
           ]
         }
@@ -17363,7 +19488,9 @@
           "theory": [
             "Raza perpendiculară pe o coardă trece prin mijlocul coardei.",
             "În triunghiul dreptunghic format: rază² = distanță² + (jumătate coardă)² (teorema lui Pitagora).",
-            "Lungimea cercului: L = 2πr. Aria cercului: A = πr²."
+            "Lungimea cercului: L = 2πr. Aria cercului: A = πr².",
+            "Poligoane regulate înscrise în cercul de rază R: triunghiul echilateral are latura ℓ = R√3, pătratul are latura ℓ = R√2.",
+            "Apotema: la pătrat a = ℓ : 2, la triunghiul echilateral a = ℓ√3/6."
           ],
           "problems": [
             {
@@ -18108,7 +20235,9 @@
           "subtitle": "Perimetru, arie, linia mijlocie",
           "theory": [
             "Perimetrul paralelogramului = 2·(a + b). Aria = bază · înălțime.",
-            "Linia mijlocie a unui triunghi unește mijloacele a două laturi și este egală cu jumătate din a treia latură."
+            "Linia mijlocie a unui triunghi unește mijloacele a două laturi și este egală cu jumătate din a treia latură.",
+            "Relațiile metrice în triunghiul ABC dreptunghic în A, cu AD ⊥ BC: AD² = BD · DC (teorema înălțimii) și AB² = BD · BC (teorema catetei).",
+            "Înălțimea corespunzătoare ipotenuzei: AD = AB · AC : BC."
           ],
           "problems": [
             {
@@ -18861,7 +20990,10 @@
           "theory": [
             "Prismă dreaptă: aria laterală = perimetrul bazei · înălțimea; volumul = aria bazei · înălțimea.",
             "Cub cu muchia l: aria totală = 6·l², volumul = l³.",
-            "Piramidă: volumul = (aria bazei · înălțimea) : 3."
+            "Piramidă: volumul = (aria bazei · înălțimea) : 3.",
+            "Distanța de la un punct la un plan se măsoară pe perpendiculara dusă din punct pe plan.",
+            "Teorema celor trei perpendiculare: dacă AB ⊥ plan, B este în plan și BC ⊥ d (d în plan, C pe d), atunci AC ⊥ d.",
+            "Tetraedrul regulat are toate muchiile egale, iar fețele lui sunt triunghiuri echilaterale."
           ],
           "problems": [
             {

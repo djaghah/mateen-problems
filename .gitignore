@@ -1,0 +1,9 @@
+# depozit PUBLIC (CDN + GitHub Pages): niciodată chei, parole sau build-uri aici
+*.keystore
+*.jks
+*.p12
+*.pem
+keystore.properties
+local.properties
+*.aab
+*.apk
