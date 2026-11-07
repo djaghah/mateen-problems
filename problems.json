@@ -1,6 +1,6 @@
 {
-  "version": "3.5.0",
-  "updated": "2026-10-22",
+  "version": "3.5.1",
+  "updated": "2026-11-07",
   "subiecte": [
     {
       "id": "p-op",
@@ -17,7 +17,7 @@
           "theory": [
             "Adunăm și scădem pe ranguri: întâi unitățile, apoi zecile, apoi sutele.",
             "Adunare cu trecere peste ordin: dacă suma pe un rang trece de 9, ducem o unitate la rangul următor.",
-            "Scădere cu împrumut: dacă nu ai destul pe un rang, iei 10 de la rangul vecin."
+            "Scădere cu împrumut: dacă nu ai destul pe un rang, iei 1 de la rangul din stânga (adică 10 pe rangul tău)."
           ],
           "problems": [
             {
@@ -52,7 +52,7 @@
               ],
               "answer": 0,
               "hints": [
-                "Scade pe ranguri; împrumută 10 când nu ai destul."
+                "Scade pe ranguri; când nu ai destul, ia 1 de la rangul din stânga (adică 10)."
               ],
               "solution": [
                 "28 − 9 = 19.",
@@ -92,7 +92,7 @@
               ],
               "answer": 3,
               "hints": [
-                "Scade pe ranguri; împrumută 10 când nu ai destul."
+                "Scade pe ranguri; când nu ai destul, ia 1 de la rangul din stânga (adică 10)."
               ],
               "solution": [
                 "49 − 48 = 1.",
@@ -132,7 +132,7 @@
               ],
               "answer": 0,
               "hints": [
-                "Scade pe ranguri; împrumută 10 când nu ai destul."
+                "Scade pe ranguri; când nu ai destul, ia 1 de la rangul din stânga (adică 10)."
               ],
               "solution": [
                 "90 − 75 = 15.",
@@ -172,7 +172,7 @@
               ],
               "answer": 2,
               "hints": [
-                "Scade pe ranguri; împrumută 10 când nu ai destul."
+                "Scade pe ranguri; când nu ai destul, ia 1 de la rangul din stânga (adică 10)."
               ],
               "solution": [
                 "65 − 44 = 21.",
@@ -212,7 +212,7 @@
               ],
               "answer": 1,
               "hints": [
-                "Scade pe ranguri; împrumută 10 când nu ai destul."
+                "Scade pe ranguri; când nu ai destul, ia 1 de la rangul din stânga (adică 10)."
               ],
               "solution": [
                 "65 − 9 = 56.",
@@ -252,7 +252,7 @@
               ],
               "answer": 2,
               "hints": [
-                "Scade pe ranguri; împrumută 10 când nu ai destul."
+                "Scade pe ranguri; când nu ai destul, ia 1 de la rangul din stânga (adică 10)."
               ],
               "solution": [
                 "824 − 603 = 221.",
@@ -292,7 +292,7 @@
               ],
               "answer": 3,
               "hints": [
-                "Scade pe ranguri; împrumută 10 când nu ai destul."
+                "Scade pe ranguri; când nu ai destul, ia 1 de la rangul din stânga (adică 10)."
               ],
               "solution": [
                 "883 − 183 = 700.",
@@ -332,7 +332,7 @@
               ],
               "answer": 1,
               "hints": [
-                "Scade pe ranguri; împrumută 10 când nu ai destul."
+                "Scade pe ranguri; când nu ai destul, ia 1 de la rangul din stânga (adică 10)."
               ],
               "solution": [
                 "9665 − 4106 = 5559.",
@@ -352,7 +352,7 @@
               ],
               "answer": 2,
               "hints": [
-                "Adună pe ranguri: unități, zeci, sute (atenție la trecerea peste ordin)."
+                "Adună pe ranguri: unități, zeci, sute, mii (atenție la trecerea peste ordin)."
               ],
               "solution": [
                 "4422 + 4533 = 8955.",
@@ -372,7 +372,7 @@
               ],
               "answer": 2,
               "hints": [
-                "Scade pe ranguri; împrumută 10 când nu ai destul."
+                "Scade pe ranguri. 7002 nu are zeci și sute, așa că împrumuți de la mii: 7002 = 6 mii, 9 sute, 9 zeci și 12 unități."
               ],
               "solution": [
                 "7002 − 697 = 6305.",
@@ -392,7 +392,7 @@
               ],
               "answer": 0,
               "hints": [
-                "Adună pe ranguri: unități, zeci, sute (atenție la trecerea peste ordin)."
+                "Adună pe ranguri: unități, zeci, sute, mii (atenție la trecerea peste ordin)."
               ],
               "solution": [
                 "3455 + 4818 = 8273.",
@@ -412,7 +412,7 @@
               ],
               "answer": 0,
               "hints": [
-                "Scade pe ranguri; împrumută 10 când nu ai destul."
+                "Scade pe ranguri; când nu ai destul, ia 1 de la rangul din stânga (adică 10)."
               ],
               "solution": [
                 "4403 − 2103 = 2300.",
@@ -1071,7 +1071,7 @@
                 "72 × 6 = 432.",
                 "Răspuns: 432."
               ],
-              "grade": "Cls. II–III"
+              "grade": "Cls. III"
             },
             {
               "id": "pm-07",
@@ -1091,7 +1091,7 @@
                 "22 × 7 = 154.",
                 "Răspuns: 154."
               ],
-              "grade": "Cls. II–III"
+              "grade": "Cls. III"
             },
             {
               "id": "pm-08",
@@ -1111,7 +1111,7 @@
                 "51 × 9 = 459.",
                 "Răspuns: 459."
               ],
-              "grade": "Cls. II–III"
+              "grade": "Cls. III"
             },
             {
               "id": "pm-09",
@@ -1131,7 +1131,7 @@
                 "27 × 6 = 162.",
                 "Răspuns: 162."
               ],
-              "grade": "Cls. II–III"
+              "grade": "Cls. III"
             },
             {
               "id": "pm-10",
@@ -1151,7 +1151,7 @@
                 "72 × 9 = 648.",
                 "Răspuns: 648."
               ],
-              "grade": "Cls. II–III"
+              "grade": "Cls. III"
             },
             {
               "id": "pm-11",
@@ -1361,7 +1361,7 @@
           "title": "Împărțire (cu rest)",
           "subtitle": "Împărțire exactă și împărțire cu rest",
           "theory": [
-            "Împărțirea arată în câte grupe egale se împarte un număr.",
+            "Împărțirea înseamnă împărțire în părți egale: aflăm câte obiecte ajung în fiecare grupă sau câte grupe egale putem face.",
             "Legătura: Deîmpărțit = Împărțitor × Cât + Rest.",
             "Restul este întotdeauna mai mic decât împărțitorul. Nu se împarte niciodată la 0."
           ],
@@ -1486,7 +1486,7 @@
                 "6 × 12 = 72; 74 − 72 = 2.",
                 "Deci 74 : 6 = 12 rest 2."
               ],
-              "grade": "Cls. II–III"
+              "grade": "Cls. III"
             },
             {
               "id": "pd-07",
@@ -1508,7 +1508,7 @@
                 "2 × 15 = 30; 31 − 30 = 1.",
                 "Deci 31 : 2 = 15 rest 1."
               ],
-              "grade": "Cls. II–III"
+              "grade": "Cls. III"
             },
             {
               "id": "pd-08",
@@ -1530,7 +1530,7 @@
                 "5 × 6 = 30; 33 − 30 = 3.",
                 "Deci 33 : 5 = 6 rest 3."
               ],
-              "grade": "Cls. II–III"
+              "grade": "Cls. III"
             },
             {
               "id": "pd-09",
@@ -1552,7 +1552,7 @@
                 "9 × 16 = 144; 145 − 144 = 1.",
                 "Deci 145 : 9 = 16 rest 1."
               ],
-              "grade": "Cls. II–III"
+              "grade": "Cls. III"
             },
             {
               "id": "pd-10",
@@ -1574,7 +1574,7 @@
                 "2 × 11 = 22; 23 − 22 = 1.",
                 "Deci 23 : 2 = 11 rest 1."
               ],
-              "grade": "Cls. II–III"
+              "grade": "Cls. III"
             },
             {
               "id": "pd-11",
@@ -1796,7 +1796,7 @@
           "title": "Ordinea operațiilor",
           "subtitle": "Paranteze, apoi × și :, apoi + și −",
           "theory": [
-            "Ordinea corectă: 1) paranteze ( ); 2) înmulțiri și împărțiri (stânga→dreapta); 3) adunări și scăderi.",
+            "Ordinea corectă: 1) paranteze ( ); 2) înmulțiri și împărțiri (stânga→dreapta); 3) adunări și scăderi (stânga→dreapta).",
             "2 + 3 × 4 = 2 + 12 = 14 (întâi înmulțirea).",
             "(2 + 3) × 4 = 5 × 4 = 20 (întâi paranteza)."
           ],
@@ -2211,7 +2211,7 @@
           "theory": [
             "Termenul necunoscut se află cu operația inversă.",
             "x + a = b → x = b − a; x − a = b → x = b + a.",
-            "a × x = b → x = b : a. Verifică mereu la final."
+            "a × x = b → x = b : a (a ≠ 0; nu împărțim la 0). Verifică mereu la final."
           ],
           "problems": [
             {
@@ -3742,7 +3742,7 @@
               ],
               "answer": 3,
               "hints": [
-                "Compară zecile numerelor."
+                "Compară întâi zecile; dacă sunt egale, compară unitățile."
               ],
               "solution": [
                 "Cel mai mic este 10."
@@ -3761,7 +3761,7 @@
               ],
               "answer": 1,
               "hints": [
-                "Compară zecile numerelor."
+                "Compară întâi zecile; dacă sunt egale, compară unitățile."
               ],
               "solution": [
                 "Cel mai mic este 11."
@@ -3780,7 +3780,7 @@
               ],
               "answer": 0,
               "hints": [
-                "Compară zecile numerelor."
+                "Compară întâi zecile; dacă sunt egale, compară unitățile."
               ],
               "solution": [
                 "Cel mai mare este 81."
@@ -3797,7 +3797,7 @@
           "theory": [
             "O fracție a/b arată a părți dintr-un întreg împărțit în b părți egale.",
             "Fracție dintr-un număr: împarte numărul la numitor, apoi înmulțește cu numărătorul.",
-            "Cu același numitor: aduni numărătorii; e mai mare fracția cu numărătorul mai mare."
+            "Cu același numitor: aduni numărătorii și păstrezi numitorul; e mai mare fracția cu numărătorul mai mare."
           ],
           "problems": [
             {
@@ -4880,7 +4880,7 @@
           "title": "Geometrie: figuri, perimetru, arie",
           "subtitle": "Figuri geometrice, pătrat și dreptunghi",
           "theory": [
-            "Figuri plane: triunghiul are 3 laturi și 3 colțuri; pătratul are 4 laturi egale; dreptunghiul are 4 laturi (două lungi, două scurte); cercul nu are colțuri.",
+            "Figuri plane: triunghiul are 3 laturi și 3 colțuri; dreptunghiul are 4 colțuri drepte și laturile opuse egale; pătratul are 4 laturi egale și 4 colțuri drepte (pătratul este un dreptunghi cu toate laturile egale); cercul nu are colțuri.",
             "Perimetrul = lungimea conturului. Pătrat: P = 4 × l. Dreptunghi: P = 2 × (L + l).",
             "Aria dreptunghiului = L × l; aria pătratului = l × l.",
             "Lungimea se măsoară în cm, aria în cm²."
@@ -4904,7 +4904,7 @@
               "solution": [
                 "P = 2 × (10 + 7) = 34 cm."
               ],
-              "grade": "Cls. I–II",
+              "grade": "Cls. III",
               "figure": "<svg viewBox='0 0 200 130'><rect x='40' y='25' width='120' height='70' fill='none' stroke='currentColor' stroke-width='2'/><text x='100' y='18' text-anchor='middle' font-size='13' fill='currentColor'>10 cm</text><text x='170' y='64' font-size='13' fill='currentColor'>7 cm</text></svg>"
             },
             {
@@ -4925,7 +4925,7 @@
               "solution": [
                 "A = 7 × 6 = 42 cm²."
               ],
-              "grade": "Cls. I–II",
+              "grade": "Cls. IV–V",
               "figure": "<svg viewBox='0 0 200 130'><rect x='40' y='25' width='120' height='70' fill='none' stroke='currentColor' stroke-width='2'/><text x='100' y='18' text-anchor='middle' font-size='13' fill='currentColor'>7 cm</text><text x='170' y='64' font-size='13' fill='currentColor'>6 cm</text></svg>"
             },
             {
@@ -4946,7 +4946,7 @@
               "solution": [
                 "P = 4 × 8 = 32 cm."
               ],
-              "grade": "Cls. I–II",
+              "grade": "Cls. III",
               "figure": "<svg viewBox='0 0 160 150'><rect x='40' y='25' width='90' height='90' fill='none' stroke='currentColor' stroke-width='2'/><text x='85' y='18' text-anchor='middle' font-size='13' fill='currentColor'>8 cm</text></svg>"
             },
             {
@@ -4967,7 +4967,7 @@
               "solution": [
                 "P = 2 × (5 + 4) = 18 cm."
               ],
-              "grade": "Cls. I–II",
+              "grade": "Cls. III",
               "figure": "<svg viewBox='0 0 200 130'><rect x='40' y='25' width='120' height='70' fill='none' stroke='currentColor' stroke-width='2'/><text x='100' y='18' text-anchor='middle' font-size='13' fill='currentColor'>5 cm</text><text x='170' y='64' font-size='13' fill='currentColor'>4 cm</text></svg>"
             },
             {
@@ -4988,7 +4988,7 @@
               "solution": [
                 "A = 7 × 5 = 35 cm²."
               ],
-              "grade": "Cls. I–II",
+              "grade": "Cls. IV–V",
               "figure": "<svg viewBox='0 0 200 130'><rect x='40' y='25' width='120' height='70' fill='none' stroke='currentColor' stroke-width='2'/><text x='100' y='18' text-anchor='middle' font-size='13' fill='currentColor'>7 cm</text><text x='170' y='64' font-size='13' fill='currentColor'>5 cm</text></svg>"
             },
             {
@@ -5009,7 +5009,7 @@
               "solution": [
                 "P = 4 × 7 = 28 cm."
               ],
-              "grade": "Cls. II–III",
+              "grade": "Cls. III",
               "figure": "<svg viewBox='0 0 160 150'><rect x='40' y='25' width='90' height='90' fill='none' stroke='currentColor' stroke-width='2'/><text x='85' y='18' text-anchor='middle' font-size='13' fill='currentColor'>7 cm</text></svg>"
             },
             {
@@ -5030,7 +5030,7 @@
               "solution": [
                 "P = 2 × (14 + 7) = 42 cm."
               ],
-              "grade": "Cls. II–III",
+              "grade": "Cls. III",
               "figure": "<svg viewBox='0 0 200 130'><rect x='40' y='25' width='120' height='70' fill='none' stroke='currentColor' stroke-width='2'/><text x='100' y='18' text-anchor='middle' font-size='13' fill='currentColor'>14 cm</text><text x='170' y='64' font-size='13' fill='currentColor'>7 cm</text></svg>"
             },
             {
@@ -5051,7 +5051,7 @@
               "solution": [
                 "A = 4 × 3 = 12 cm²."
               ],
-              "grade": "Cls. II–III",
+              "grade": "Cls. IV–V",
               "figure": "<svg viewBox='0 0 200 130'><rect x='40' y='25' width='120' height='70' fill='none' stroke='currentColor' stroke-width='2'/><text x='100' y='18' text-anchor='middle' font-size='13' fill='currentColor'>4 cm</text><text x='170' y='64' font-size='13' fill='currentColor'>3 cm</text></svg>"
             },
             {
@@ -5072,7 +5072,7 @@
               "solution": [
                 "P = 4 × 11 = 44 cm."
               ],
-              "grade": "Cls. II–III",
+              "grade": "Cls. III",
               "figure": "<svg viewBox='0 0 160 150'><rect x='40' y='25' width='90' height='90' fill='none' stroke='currentColor' stroke-width='2'/><text x='85' y='18' text-anchor='middle' font-size='13' fill='currentColor'>11 cm</text></svg>"
             },
             {
@@ -5093,7 +5093,7 @@
               "solution": [
                 "P = 2 × (7 + 6) = 26 cm."
               ],
-              "grade": "Cls. II–III",
+              "grade": "Cls. III",
               "figure": "<svg viewBox='0 0 200 130'><rect x='40' y='25' width='120' height='70' fill='none' stroke='currentColor' stroke-width='2'/><text x='100' y='18' text-anchor='middle' font-size='13' fill='currentColor'>7 cm</text><text x='170' y='64' font-size='13' fill='currentColor'>6 cm</text></svg>"
             },
             {
@@ -5114,7 +5114,7 @@
               "solution": [
                 "A = 15 × 13 = 195 cm²."
               ],
-              "grade": "Cls. III–IV",
+              "grade": "Cls. IV–V",
               "figure": "<svg viewBox='0 0 200 130'><rect x='40' y='25' width='120' height='70' fill='none' stroke='currentColor' stroke-width='2'/><text x='100' y='18' text-anchor='middle' font-size='13' fill='currentColor'>15 cm</text><text x='170' y='64' font-size='13' fill='currentColor'>13 cm</text></svg>"
             },
             {
@@ -5177,7 +5177,7 @@
               "solution": [
                 "A = 35 × 10 = 350 cm²."
               ],
-              "grade": "Cls. III–IV",
+              "grade": "Cls. IV–V",
               "figure": "<svg viewBox='0 0 200 130'><rect x='40' y='25' width='120' height='70' fill='none' stroke='currentColor' stroke-width='2'/><text x='100' y='18' text-anchor='middle' font-size='13' fill='currentColor'>35 cm</text><text x='170' y='64' font-size='13' fill='currentColor'>10 cm</text></svg>"
             },
             {
@@ -5240,7 +5240,7 @@
               "solution": [
                 "A = 24 × 8 = 192 cm²."
               ],
-              "grade": "Cls. IV",
+              "grade": "Cls. IV–V",
               "figure": "<svg viewBox='0 0 200 130'><rect x='40' y='25' width='120' height='70' fill='none' stroke='currentColor' stroke-width='2'/><text x='100' y='18' text-anchor='middle' font-size='13' fill='currentColor'>24 cm</text><text x='170' y='64' font-size='13' fill='currentColor'>8 cm</text></svg>"
             },
             {
@@ -5303,7 +5303,7 @@
               "solution": [
                 "A = 45 × 29 = 1305 cm²."
               ],
-              "grade": "Cls. IV",
+              "grade": "Cls. IV–V",
               "figure": "<svg viewBox='0 0 200 130'><rect x='40' y='25' width='120' height='70' fill='none' stroke='currentColor' stroke-width='2'/><text x='100' y='18' text-anchor='middle' font-size='13' fill='currentColor'>45 cm</text><text x='170' y='64' font-size='13' fill='currentColor'>29 cm</text></svg>"
             },
             {
@@ -6282,7 +6282,7 @@
           "subtitle": "Probleme simple (clasa I) și probleme pe metode",
           "theory": [
             "Metoda figurativă: desenăm bare/segmente ca să vedem relațiile dintre mărimi.",
-            "Metoda comparației: comparăm două situații și scădem ca să eliminăm o mărime.",
+            "Metoda comparației: aducem cele două situații la aceeași cantitate dintr-o mărime, apoi scădem ca să o eliminăm.",
             "Reducerea la unitate: aflăm întâi valoarea unei singure unități.",
             "Mersul invers: pornim de la rezultat și facem operațiile inverse, în ordine inversă."
           ],
@@ -7878,7 +7878,7 @@
               ],
               "solution": [
                 "30/150 = 1/5 = 0,2.",
-                "0,2 · 100 = 20%.",
+                "0,2 · 100 = 20 ⟹ 0,2 = 20%.",
                 "Răspuns corect: a) 20%."
               ]
             },
@@ -7956,7 +7956,7 @@
               ],
               "solution": [
                 "45/180 = 1/4 = 0,25.",
-                "0,25 · 100 = 25%.",
+                "0,25 · 100 = 25 ⟹ 0,25 = 25%.",
                 "Răspuns corect: c) 25%."
               ]
             },
@@ -8460,7 +8460,7 @@
           "theory": [
             "Opusul unui număr a este −a. Suma unui număr cu opusul său este 0: a + (−a) = 0.",
             "Modulul |a| este distanța față de 0: |5| = 5, |−5| = 5.",
-            "Numere raționale: se scriu ca fracție. Numere iraționale: ex. √2, π (zecimale infinite neperiodice).",
+            "Numere raționale: se scriu ca fracție a/b, cu a și b numere întregi, b ≠ 0. Numere iraționale: nu se pot scrie așa, ex. √2, π (zecimale infinite neperiodice).",
             "Capcană: modulul e mereu ≥ 0; opusul schimbă semnul."
           ],
           "problems": [
@@ -9094,7 +9094,7 @@
               ],
               "answer": 2,
               "hints": [
-                "Trece 11 în celălalt membru, cu semn schimbat."
+                "Adună 11 la ambii membri ai ecuației."
               ],
               "solution": [
                 "x = −14 + 11.",
@@ -9156,7 +9156,7 @@
           "subtitle": "Transformări, inclusiv fracții periodice",
           "theory": [
             "Fracție zecimală finită: 1,2 = 12/10 = 6/5 (simplifici).",
-            "Fracție periodică simplă: 0,(a) = a/9. Ex: 0,(3) = 3/9 = 1/3.",
+            "Fracție periodică simplă: la numărător scrii perioada, la numitor câte un 9 pentru fiecare cifră a perioadei. Ex: 0,(3) = 3/9 = 1/3; 0,(12) = 12/99 = 4/33.",
             "Pentru 1,(2) = 1 + 0,(2) = 1 + 2/9 = 11/9.",
             "Capcană: împarte numărătorul la numitor pentru zecimală."
           ],
@@ -9576,7 +9576,7 @@
               ],
               "answer": 1,
               "hints": [
-                "Fracție periodică mixtă: la numărător (tot numărul fără virgulă) − (partea neperiodică), la numitor câte un 9 pentru fiecare cifră din perioadă și câte un 0 pentru fiecare cifră neperiodică."
+                "Fracție periodică mixtă: la numărător, numărul scris fără virgulă cu o singură perioadă, minus numărul format din partea întreagă și partea neperiodică; la numitor câte un 9 pentru fiecare cifră din perioadă, apoi câte un 0 pentru fiecare cifră neperiodică."
               ],
               "solution": [
                 "0,3(6) = (36 − 3)/90 = 33/90.",
@@ -10273,7 +10273,7 @@
           "subtitle": "Diagrame, media aritmetică, mediană",
           "theory": [
             "Media aritmetică = (suma valorilor) : (numărul valorilor).",
-            "Mediana = valoarea din mijloc după ordonare.",
+            "Mediana = valoarea din mijloc după ordonare; dacă numărul valorilor este par, mediana este media celor două valori din mijloc.",
             "Într-o diagramă cu bare, înălțimea barei arată valoarea.",
             "Capcană: media = suma : numărul de valori."
           ],
@@ -10749,7 +10749,7 @@
               ],
               "answer": 0,
               "hints": [
-                "Media geometrică a două numere = √(produsul lor).",
+                "Media geometrică a două numere nenegative = √(produsul lor).",
                 "Produsul este un produs de conjugate: diferență de pătrate."
               ],
               "solution": [
@@ -10771,7 +10771,7 @@
               ],
               "answer": 3,
               "hints": [
-                "Media geometrică a două numere = √(produsul lor).",
+                "Media geometrică a două numere nenegative = √(produsul lor).",
                 "Produsul este un produs de conjugate: diferență de pătrate."
               ],
               "solution": [
@@ -11053,7 +11053,7 @@
               ],
               "answer": 3,
               "hints": [
-                "Media geometrică a două numere = √(produsul lor).",
+                "Media geometrică a două numere nenegative = √(produsul lor).",
                 "Produsul este un produs de conjugate: diferență de pătrate."
               ],
               "solution": [
@@ -11075,7 +11075,7 @@
               ],
               "answer": 1,
               "hints": [
-                "Media geometrică a două numere = √(produsul lor).",
+                "Media geometrică a două numere nenegative = √(produsul lor).",
                 "Produsul este un produs de conjugate: diferență de pătrate."
               ],
               "solution": [
@@ -11309,7 +11309,7 @@
               ],
               "answer": 0,
               "hints": [
-                "Introdu factorii sub radical: m√n = √(m² · n).",
+                "Introdu factorii sub radical: m√n = √(m² · n), pentru m ≥ 0.",
                 "Între doi radicali, mai mare e cel cu numărul de sub radical mai mare."
               ],
               "solution": [
@@ -11495,7 +11495,7 @@
           "theory": [
             "Mijlocul M al segmentului AB împarte segmentul în două părți egale: AM = MB = AB/2.",
             "Dacă punctele sunt coliniare în ordinea A, B, C, atunci AC = AB + BC.",
-            "Capcană: mijlocul înjumătățește; pe coliniare AC = AB + BC."
+            "Capcană: mijlocul înjumătățește; AC = AB + BC doar dacă B este între A și C."
           ],
           "problems": [
             {
@@ -12930,7 +12930,7 @@
             "Capcană: aria = bază·înălțime : 2; unghiurile dau 180°.",
             "Triunghiul dreptunghic: cateta opusă unghiului de 30° este jumătate din ipotenuză; mediana corespunzătoare ipotenuzei este jumătate din ipotenuză.",
             "Triunghiul echilateral cu latura ℓ: înălțimea h = ℓ√3/2, iar aria A = ℓ²√3/4.",
-            "În triunghiul isoscel, mediana corespunzătoare bazei este și înălțime, bisectoare și mediatoare.",
+            "În triunghiul isoscel, mediana corespunzătoare bazei este și înălțime și bisectoare, iar dreapta pe care se află este mediatoarea bazei.",
             "Măsura unui unghi exterior al unui triunghi este egală cu suma măsurilor celor două unghiuri interioare neadiacente cu el."
           ],
           "problems": [
@@ -14122,7 +14122,7 @@
             {
               "id": "en-ii4-03",
               "kind": "mc",
-              "statement": "Dreptunghiul ABCD are diagonala AC = 12 cm, iar unghiul ascuțit format de diagonale are 60°. Aria dreptunghiului este:",
+              "statement": "Dreptunghiul ABCD are diagonala AC = 12 cm. Diagonalele se intersectează în O, iar m(∠AOD) = 60°. Aria dreptunghiului este:",
               "options": [
                 "36 cm²",
                 "72√3 cm²",
@@ -15071,11 +15071,11 @@
           "subtitle": "Cub, paralelipiped, piramidă, prismă",
           "theory": [
             "Volumul cubului = l³ (l = muchia). Volumul paralelipipedului dreptunghic = L · l · h.",
-            "Volumul piramidei = (aria bazei · înălțimea) : 3.",
-            "Volumul prismei drepte = aria bazei · înălțimea.",
+            "Clasa a VIII-a: volumul piramidei = (aria bazei · înălțimea) : 3.",
+            "Clasa a VIII-a: volumul prismei drepte = aria bazei · înălțimea.",
             "Capcană: volumul cubului = muchie³.",
-            "Piramida regulată: aria laterală = perimetrul bazei · apotema piramidei : 2.",
-            "Conul circular drept (r = raza bazei, g = generatoarea, h = înălțimea): aria laterală = π · r · g; volumul = π · r² · h : 3."
+            "Clasa a VIII-a: piramida regulată are aria laterală = perimetrul bazei · apotema piramidei : 2.",
+            "Clasa a VIII-a: conul circular drept (r = raza bazei, g = generatoarea, h = înălțimea) are aria laterală = π · r · g și volumul = π · r² · h : 3."
           ],
           "problems": [
             {
@@ -15818,7 +15818,7 @@
                 "l = 36 : 6 = 6 cm.",
                 "Răspuns: 6 cm."
               ],
-              "grade": "Cls. VII",
+              "grade": "Cls. VIII",
               "figure": "<svg viewBox='0 0 260 180'><polygon points='64.4,154 195.6,154 120.5,26' fill='none' stroke='currentColor' stroke-width='1.6'/><line x1='64.4' y1='154' x2='101.6' y2='91.5' stroke='currentColor' stroke-width='1.2' stroke-dasharray='4 3'/><line x1='195.6' y1='154' x2='101.6' y2='91.5' stroke='currentColor' stroke-width='1.2' stroke-dasharray='4 3'/><line x1='101.6' y1='91.5' x2='120.5' y2='26' stroke='currentColor' stroke-width='1.2' stroke-dasharray='4 3'/><text x='55.2' y='167.2' font-size='12' fill='currentColor' text-anchor='middle'>A</text><text x='206' y='165.8' font-size='12' fill='currentColor' text-anchor='middle'>B</text><text x='89.2' y='91.6' font-size='12' fill='currentColor' text-anchor='middle'>C</text><text x='120.5' y='17' font-size='12' fill='currentColor' text-anchor='middle'>D</text></svg>"
             }
           ]
@@ -17196,7 +17196,7 @@
           "title": "Probleme cu text (sisteme)",
           "subtitle": "Se rezolvă cu ecuații / sisteme",
           "theory": [
-            "Notezi necunoscutele cu litere (x, y), scrii ecuațiile din enunț, apoi rezolvi sistemul prin substituție sau reducere.",
+            "Clasele V–VI: metoda figurativă, comparația, reducerea la unitate, mersul invers sau o ecuație cu o necunoscută. Clasele VII–VIII: notezi necunoscutele cu litere (x, y), scrii ecuațiile din enunț și rezolvi sistemul prin substituție sau reducere.",
             "La final verifici soluția în enunț.",
             "Capcană: verifică mereu soluția în enunț."
           ],
@@ -17915,7 +17915,7 @@
             {
               "id": "en-iii1-13",
               "kind": "input",
-              "statement": "Trei frați, Vlad, Elena și Teodora, împart 330 de lei. Vlad primește jumătate din cât primesc împreună ceilalți doi, iar Elena primește cu 32 de lei mai mult decât Teodora. <br>a) Câți lei primește Vlad? <br>b) Câți lei primește Teodora?",
+              "statement": "Trei frați, Vlad, Elena și Teodora, împart 330 de lei. Vlad primește jumătate din cât primesc împreună celelalte două, iar Elena primește cu 32 de lei mai mult decât Teodora. <br>a) Câți lei primește Vlad? <br>b) Câți lei primește Teodora?",
               "inputs": [
                 {
                   "key": "a",
@@ -17931,7 +17931,7 @@
                 }
               ],
               "hints": [
-                "a) Dacă ceilalți doi primesc 2 părți, Vlad primește o parte: în total 3 părți.",
+                "a) Dacă celelalte două primesc 2 părți, Vlad primește o parte: în total 3 părți.",
                 "b) Elena + Teodora = 220, iar Elena = Teodora + 32."
               ],
               "solution": [
@@ -18721,7 +18721,7 @@
           "title": "Funcții",
           "subtitle": "Funcția liniară, grafic, intersecții cu axele",
           "theory": [
-            "O funcție liniară f(x) = ax + b are graficul o dreaptă.",
+            "Funcția f: ℝ → ℝ, f(x) = ax + b are graficul o dreaptă (pe un interval graficul e un segment, iar pe o mulțime finită e format din puncte).",
             "Intersecția cu axa Ox: rezolvi f(x) = 0. Intersecția cu axa Oy: calculezi f(0) = b.",
             "f(x) se calculează înlocuind x cu valoarea dată."
           ],
@@ -19487,8 +19487,8 @@
           "subtitle": "Raza perpendiculară pe coardă, lungime, arie",
           "theory": [
             "Raza perpendiculară pe o coardă trece prin mijlocul coardei.",
-            "În triunghiul dreptunghic format: rază² = distanță² + (jumătate coardă)² (teorema lui Pitagora).",
-            "Lungimea cercului: L = 2πr. Aria cercului: A = πr².",
+            "Dacă O e centrul cercului, AB o coardă și M mijlocul ei, atunci OM este distanța de la centru la coardă și r² = OM² + (AB : 2)² (teorema lui Pitagora).",
+            "Lungimea cercului: L = 2πr. Aria discului: A = πr².",
             "Poligoane regulate înscrise în cercul de rază R: triunghiul echilateral are latura ℓ = R√3, pătratul are latura ℓ = R√2.",
             "Apotema: la pătrat a = ℓ : 2, la triunghiul echilateral a = ℓ√3/6."
           ],
@@ -19539,7 +19539,7 @@
             {
               "id": "s3c-3",
               "kind": "input",
-              "statement": "Aria unui cerc cu raza de 5 cm este de forma k·π cm². Cât este k?",
+              "statement": "Aria unui disc cu raza de 5 cm este de forma k·π cm². Cât este k?",
               "inputs": [
                 {
                   "key": "k",
@@ -20236,7 +20236,7 @@
           "theory": [
             "Perimetrul paralelogramului = 2·(a + b). Aria = bază · înălțime.",
             "Linia mijlocie a unui triunghi unește mijloacele a două laturi și este egală cu jumătate din a treia latură.",
-            "Relațiile metrice în triunghiul ABC dreptunghic în A, cu AD ⊥ BC: AD² = BD · DC (teorema înălțimii) și AB² = BD · BC (teorema catetei).",
+            "Relațiile metrice în triunghiul ABC dreptunghic în A, cu AD ⊥ BC, D ∈ BC: AD² = BD · DC (teorema înălțimii) și AB² = BD · BC (teorema catetei).",
             "Înălțimea corespunzătoare ipotenuzei: AD = AB · AC : BC."
           ],
           "problems": [
@@ -21107,7 +21107,7 @@
               "solution": [
                 "a) V = 9³ = 729 cm³.",
                 "b) V(AA′BD) = (AB · AD : 2) · AA′ : 3 = 121,5 cm³; A(A′BD) = (9√2)²√3/4 = 40,5√3 cm².",
-                "d = 3 · V : A(A′BD) = 364,5 : 40,5√3 = 9/√3 = 3√3 cm, deci k = 3.",
+                "d = 3 · V : A(A′BD) = 364,5 : (40,5√3) = 9/√3 = 3√3 cm, deci k = 3.",
                 "Răspuns: a) 729 cm³; b) k = 3."
               ],
               "grade": "Cls. VIII",
@@ -21478,7 +21478,7 @@
               "solution": [
                 "a) V = 3³ = 27 cm³.",
                 "b) V(AA′BD) = (AB · AD : 2) · AA′ : 3 = 4,5 cm³; A(A′BD) = (3√2)²√3/4 = 4,5√3 cm².",
-                "d = 3 · V : A(A′BD) = 13,5 : 4,5√3 = 3/√3 = √3 cm, deci k = 1.",
+                "d = 3 · V : A(A′BD) = 13,5 : (4,5√3) = 3/√3 = √3 cm, deci k = 1.",
                 "Răspuns: a) 27 cm³; b) k = 1."
               ],
               "grade": "Cls. VIII",
@@ -21509,7 +21509,7 @@
               "solution": [
                 "a) V = 12³ = 1728 cm³.",
                 "b) V(AA′BD) = (AB · AD : 2) · AA′ : 3 = 288 cm³; A(A′BD) = (12√2)²√3/4 = 72√3 cm².",
-                "d = 3 · V : A(A′BD) = 864 : 72√3 = 12/√3 = 4√3 cm, deci k = 4.",
+                "d = 3 · V : A(A′BD) = 864 : (72√3) = 12/√3 = 4√3 cm, deci k = 4.",
                 "Răspuns: a) 1728 cm³; b) k = 4."
               ],
               "grade": "Cls. VIII",
